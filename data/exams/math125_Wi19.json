@@ -1,0 +1,285 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 14,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "reverse_chain_rule_recognition"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\sqrt{x} \\ln(\\sqrt{x}) dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{3}x^{\\frac{3}{2}}\\ln\\sqrt{x} - \\frac{2}{9}x^{\\frac{3}{2}} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int \\frac{1}{x^4\\sqrt{x^2-4}} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{16}\\frac{\\sqrt{x^2-4}}{x} - \\frac{1}{64}\\left(\\frac{\\sqrt{x^2-4}}{x}\\right)^3 + C$"
+      }
+    ],
+    "id": "uw_math_125_wi19_p1",
+    "course": "math_125",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 14,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds",
+      "trigonometric_integrals"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int_{0}^{\\pi/4} \\frac{\\sin^4 \\theta}{\\cos^6 \\theta} d\\theta$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{5}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_{0}^{1/2} \\frac{\\sqrt{2x}}{2x-4} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1 - \\ln 3$"
+      }
+    ],
+    "id": "uw_math_125_wi19_p2",
+    "course": "math_125",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "finding_intersection_points_for_area",
+      "top_minus_bottom_setup"
+    ],
+    "stem": "Compute the area of the region that is bounded above by $y = \\sqrt{8x}$ and below by the line $y = 1$ and the curve $y = x^2$. Simplify and box your answer.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the area of the region that is bounded above by $y = \\sqrt{8x}$ and below by the line $y = 1$ and the curve $y = x^2$. Simplify and box your answer.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane with x and y axes. Three curves are shown: a parabola labeled $y = x^2$ opening upward, a horizontal line labeled $y = 1$, and a curve labeled $y = \\sqrt{8x}$ opening to the right. A shaded region (shown in purple) is bounded above by the curve $y = \\sqrt{8x}$, and below by both the line $y = 1$ (at the left) and the parabola $y = x^2$ (at the right). The region shows the intersection points where these curves meet.",
+        "final_answer": "$\\frac{49}{24}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi19_images/diagrams/p3.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi19/diagrams/p3.png"
+      }
+    ],
+    "id": "uw_math_125_wi19_p3",
+    "course": "math_125",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 4,
+    "points": 14,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "One model for air resistance predicts that a particular ball thrown straight up in the air will have velocity at $t$ seconds given by:\n\n$v(t) = ce^{-t} - 10$ meters/sec, for some constant $c$,\n\nwhere upward is considered positive velocity. Assume the ball is thrown straight upward starting from the ground with an initial velocity of 20 m/s.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the formula for the height $h(t)$ of the ball after $t$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h(t) = -30e^{-t} - 10t + 30$ meters"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the total distance traveled by the ball from $t = 0$ to $t = 2$ seconds. You may give your final answer as a decimal accurate to 3 digits after the decimal point (or leave in exact form).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$30 - 20\\ln 3 + \\frac{30}{e^2} \\approx 12.088$ meters"
+      }
+    ],
+    "id": "uw_math_125_wi19_p4",
+    "course": "math_125",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 14,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup",
+      "numerical_integration_simpsons_rule"
+    ],
+    "stem": "A particle is sliding down the curve $y = 10 - x^3$. At time $t = 0$ the particle starts at $(0, 10)$. The $x$-coordinate of the particle at time $t$ is $x(t) = \\frac{t}{3}$. Time is measured in seconds, distance in meters. Let $a(t)$ denote the arclength distance traveled by the particle along the curve in the first $t$ seconds.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up an integral expression equal to $a(t)$. Do NOT attempt to evaluate it.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a(t) = \\int_0^{t/3}\\sqrt{1+9x^4}\\,dx$ meters"
+      },
+      {
+        "label": "b",
+        "question_text": "Calculate $a'(1)$. Include units.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a'(1) = \\frac{1}{4}\\sqrt{10}$ in meters/sec"
+      },
+      {
+        "label": "c",
+        "question_text": "Use Simpson's Rule with $n = 4$ subdivisions to approximate the value of $a(1)$. Show work, and give your answer correct to 3 decimal places.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0.337$"
+      }
+    ],
+    "id": "uw_math_125_wi19_p5",
+    "course": "math_125",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "volume_with_respect_to_y",
+      "radius_from_geometry"
+    ],
+    "stem": "Let $\\mathcal{R}$ be the region in the first quadrant bounded by:\n\nthe $x$-axis, the curve $y = 3 \\arctan(x)$ and the line $x = \\sqrt{3}$.\n\nCalculate the volume of the solid of revolution generated by rotating $\\mathcal{R}$ about the $y$-axis.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Calculate the volume of the solid of revolution generated by rotating $\\mathcal{R}$ about the $y$-axis.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A coordinate plane in the first quadrant showing a shaded region $\\mathcal{R}$. The region is bounded by the $x$-axis (horizontal), a curve (the arctangent curve $y = 3\\arctan(x)$), and a vertical line at $x = \\sqrt{3}$. The shaded region appears as an area between the $x$-axis and the curve, extending from $x = 0$ to $x = \\sqrt{3}$. A curved arrow labeled with a circular motion symbol indicates rotation about the $y$-axis.",
+        "final_answer": "$4\\pi^2 - 3\\sqrt{3}\\pi$ cubic units",
+        "diagram_image_local": "uw_data/math125/math125_Wi19_images/page-6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi19/diagrams/page-6.png"
+      }
+    ],
+    "id": "uw_math_125_wi19_p6",
+    "course": "math_125",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution to the differential equation\n\n$$\\pi \\frac{dy}{dx} = \\frac{e^{x-y}}{\\sqrt{4-e^{2x}}}$$\n\nthat satisfies the initial condition $y(0) = 0$. Give your solution in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\ln\\left(\\frac{1}{\\pi}\\arcsin\\left(\\frac{e^x}{2}\\right) + \\frac{5}{6}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_wi19_p7",
+    "course": "math_125",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 14,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "mixing_or_application_modeling",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "At time $t = 0$ minutes a tank holds an initial volume $V_0 = 100$ m$^3$ of salty water, with an initial amount $S_0 = 3$ kg of salt dissolved in it.\n\nFresh water enters the tank at a rate of $10 + 2t$ m$^3$ per minute, where $t$ is the time in minutes.\n\nThe salt always remains uniformly mixed throughout the water solution in the tank, and the solution exits the tank at a constant rate of 10 m$^3$/min.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find a formula for the volume $V(t)$ of salty water solution in the tank at time $t$ minutes.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A diagram of a cylindrical tank. Fresh water enters from the top at a rate of $10 + 2t$ m$^3$/min (labeled with an arrow pointing downward into the tank). A well-mixed solution exits from the side at a constant rate of 10 m$^3$/min (labeled with an arrow pointing outward from the tank). The tank interior shows the salty water solution.",
+        "final_answer": "$V(t) = t^2 + 100$ m$^3$",
+        "diagram_image_local": "uw_data/math125/math125_Wi19_images/page-8.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi19/diagrams/page-8.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up a differential equation for $S(t)$, which is the amount (in kg) of salt in the tank at $t$ min. Do not solve it yet.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dS}{dt} = \\frac{-10S}{t^2+100}$ (kg/min)"
+      },
+      {
+        "label": "c",
+        "question_text": "Solve the differential equation in part (b) to find a formula for $S(t)$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$S(t) = 3e^{-\\arctan(t/10)}$ kg"
+      },
+      {
+        "label": "d",
+        "question_text": "How much salt is left in the tank after 10 min? Leave your answer in exact form.",
+        "depends_on": "c",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3e^{-\\pi/4}$ kg"
+      }
+    ],
+    "id": "uw_math_125_wi19_p8",
+    "course": "math_125",
+    "exam": "wi19_final"
+  }
+]

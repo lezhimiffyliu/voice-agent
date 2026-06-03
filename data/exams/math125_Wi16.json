@@ -1,0 +1,314 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "reverse_chain_rule_recognition"
+    ],
+    "stem": "Evaluate the following indefinite integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) $\\int \\sin(x) \\sqrt{\\cos(x)} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{2}{3}(\\cos(x))^{3/2} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) $\\int \\sqrt{3 - 2x - x^2} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2\\sin^{-1}\\left(\\frac{x+1}{2}\\right) + \\frac{x+1}{2}\\sqrt{3-2x-x^2} + C$"
+      }
+    ],
+    "id": "uw_math_125_wi16_p1",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "evaluation_by_antiderivatives"
+    ],
+    "stem": "Evaluate the following definite integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) $\\int_0^\\pi \\sec\\left(\\frac{x}{3}\\right) \\tan^3\\left(\\frac{x}{3}\\right) \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) $\\int_{-1}^2 \\frac{x}{x^2 + 2x + 10} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}\\ln(2) - \\frac{\\pi}{12}$"
+      }
+    ],
+    "id": "uw_math_125_wi16_p2",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Consider the region in the $xy$-plane formed by a rectangle of height 4 and width 3 and a half-disk of radius 2 centered at $(3, 0)$, as shown in the figure. Compute $\\bar{x}$, the $x$-component of the centroid of the region.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Consider the region in the $xy$-plane formed by a rectangle of height 4 and width 3 and a half-disk of radius 2 centered at $(3, 0)$, as shown in the figure. Compute $\\bar{x}$, the $x$-component of the centroid of the region.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane with $x$-axis from approximately $-2$ to $6$ and $y$-axis from approximately $-3$ to $5$. A shaded region consists of a rectangle on the left with width 3 (from $x=0$ to $x=3$) and height 4 (from $y=-2$ to $y=2$). Attached to the right side of the rectangle at $x=3$ is a half-disk of radius 2 extending from $x=3$ to $x=5$ with center at $(3,0)$. The entire region is shaded gray. Vertical dashed lines appear at $x=1$ and $x=3$ and horizontal dashed lines appear at $y=0$ and $y=2$.",
+        "final_answer": "$\\frac{35+9\\pi}{18+3\\pi}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi16_images/diagrams/p3.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi16/diagrams/p3.png"
+      }
+    ],
+    "id": "uw_math_125_wi16_p3",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "infinite_interval_integrals",
+      "vertical_asymptote_integrals",
+      "convergence_of_improper_integrals"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) Does the improper integral $\\int_1^2 \\frac{1}{\\sqrt{x-1}} \\, dx$ converge? If yes, to what?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Converges to $2$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) Does the improper integral $\\int_2^\\infty \\frac{1}{\\sqrt{x-1}} \\, dx$ converge? If yes, to what?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Diverges"
+      }
+    ],
+    "id": "uw_math_125_wi16_p4",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "pumping_liquid_work",
+      "work_integral_interpretation"
+    ],
+    "stem": "A spherical tank of radius $R$ meters is resting on the ground; so its center is located $R$ meters above ground level (see figure). The tank is initially empty, and water is pumped from ground level into the tank until the tank is half full. Find the work (in Joules) required to do this. Note: Water has a mass density of 1000 kilograms per cubic meter and the acceleration due to gravity is $9.8$ meters/sec$^2$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A spherical tank of radius $R$ meters is resting on the ground; so its center is located $R$ meters above ground level (see figure). The tank is initially empty, and water is pumped from ground level into the tank until the tank is half full. Find the work (in Joules) required to do this. Note: Water has a mass density of 1000 kilograms per cubic meter and the acceleration due to gravity is $9.8$ meters/sec$^2$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A three-dimensional illustration of a sphere resting on a tan/brown rectangular base representing the ground. The sphere is shown in a wireframe or grid pattern with shading to indicate its spherical shape. A coordinate system appears in the upper right showing $x$, $y$, and $z$ axes with the $y$-axis pointing upward.",
+        "final_answer": "$\\frac{12250}{3}\\pi R^4$ Joules",
+        "diagram_image_local": "uw_data/math125/math125_Wi16_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi16/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_wi16_p5",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup",
+      "numerical_integration_trapezoidal_rule"
+    ],
+    "stem": "Consider the curve $y = 2x^{5/2}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) Set up a definite integral for the arc length of this curve from $x = 1$ to $x = 4$. DO NOT EVALUATE THE INTEGRAL.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_{1}^{4}\\sqrt{1+25x^3}\\,dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "(6 points) Use the Trapezoid Rule with $n = 4$ subintervals to estimate the integral in part (a). Leave your answer in exact form.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{3}{8}\\left(\\sqrt{1+25} + 2\\sqrt{1+25\\cdot\\left(\\frac{7}{4}\\right)^3} + 2\\sqrt{1+25\\cdot\\left(\\frac{10}{4}\\right)^3} + 2\\sqrt{1+25\\cdot\\left(\\frac{13}{4}\\right)^3} + \\sqrt{1+25\\cdot(4)^3}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_wi16_p6",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "washer_method",
+      "volume_with_respect_to_y"
+    ],
+    "stem": "Consider the region $\\mathscr{R}$ above the $x$-axis and under the curve $y = \\sin^2 x$ for $0 \\le x \\le \\pi/2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) Find the area of this region $\\mathscr{R}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "label": "b",
+        "question_text": "(6 points) The region $\\mathscr{R}$ is rotated about the $y$-axis. Find the volume of the resulting solid.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi^3}{8} + \\frac{\\pi}{2}$"
+      }
+    ],
+    "id": "uw_math_125_wi16_p7",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "average_value_of_a_function",
+      "derivative_of_integral_function"
+    ],
+    "stem": "The graph of $f(x)$ is shown below. Use it to answer the following questions.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) Compute the average value of $f(x)$ on the interval $[4, 10]$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A coordinate plane with grid lines showing a function $f(x)$. The $x$-axis is labeled and ranges from approximately $-1$ to $11$, with marked points at $0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11$. The $y$-axis is labeled as $f(x)$ and has grid lines. The function appears to have a local minimum around $x=1$, a local maximum around $x=2$, crosses zero around $x=4$, another local maximum around $x=8$, and ends at a point around $(10, 2)$. The curve is continuous and smooth.",
+        "final_answer": "$\\frac{1}{6}(7+2\\pi)$",
+        "diagram_image_local": "uw_data/math125/math125_Wi16_images/diagrams/p8_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi16/diagrams/p8_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "(6 points) Let $g(x) = \\int_{x^2}^7 f(t) \\, dt$. Calculate $g''(2)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4$"
+      }
+    ],
+    "id": "uw_math_125_wi16_p8",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(10 points) Find the solution of the initial value problem $$\\frac{dy}{dx} = \\frac{x\\cos(x^2)}{y}, \\quad y(0) = -3.$$ Give your answer in the form $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = -\\sqrt{9+\\sin(x^2)}$"
+      }
+    ],
+    "id": "uw_math_125_wi16_p9",
+    "course": "math_125",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "logistic_differential_equation",
+      "separable_differential_equations"
+    ],
+    "stem": "Among the 30 thousand students of the University of Washington, the rate of the spread of the app $Sbreak$ is proportional to the product of the number of students $P$ (in thousands) who have the app on their phones and the number of students $30 - P$ who do not (again in thousands). That is, $$\\frac{dP}{dt} = kP(30 - P)$$ where $k$ is a positive proportionality constant, $P$ is in thousand of students and $t$ is in hours. Initially, one thousand students have the app on their phones. In 4 hours, 5 thousand students have the app on their phones. According to this model, when will half of the students have the app on their phones?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Among the 30 thousand students of the University of Washington, the rate of the spread of the app $Sbreak$ is proportional to the product of the number of students $P$ (in thousands) who have the app on their phones and the number of students $30 - P$ who do not (again in thousands). That is, $$\\frac{dP}{dt} = kP(30 - P)$$ where $k$ is a positive proportionality constant, $P$ is in thousand of students and $t$ is in hours. Initially, one thousand students have the app on their phones. In 4 hours, 5 thousand students have the app on their phones. According to this model, when will half of the students have the app on their phones?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = \\frac{4\\ln 29}{\\ln 29 - \\ln 5} \\approx 7.66$"
+      }
+    ],
+    "id": "uw_math_125_wi16_p10",
+    "course": "math_125",
+    "exam": "wi16_final"
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "dot_product",
+      "angle_between_vectors"
+    ],
+    "stem": "Each of the following multiple choice problems has one correct answer. Circle it. You do not need to show any reasoning.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Suppose $\\text{comp}_{\\mathbf{a}}\\mathbf{b} = \\frac{1}{2}|\\mathbf{b}|$. Then the angle between a and b is...",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "(iii) 60°"
+      },
+      {
+        "label": "b",
+        "question_text": "Suppose $S$ is the set of points $P$ such that the distance from $P$ to the $x$-axis is equal to 3. Then $S$ is...",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "(ii) a cylinder"
+      },
+      {
+        "label": "c",
+        "question_text": "The surface $z = x^2 + 2xy$ is tangent to the plane $z = 6x + 4y - 8$ at the point...",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "(iii) (2, 1, 8)"
+      },
+      {
+        "label": "d",
+        "question_text": "The value of $\\int_{2}^{5} \\int_{3}^{5} \\left(5 + \\sin^2(yx^2 + y^3)\\right) dy\\,dx$ is between...",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "(iv) 30 and 40"
+      },
+      {
+        "label": "e",
+        "question_text": "The Taylor series for $f(x) = \\frac{1}{2-x^2}$ centered at $b = 0$ converges on the interval...",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "(iv) $(-\\sqrt{2}, \\sqrt{2})$"
+      }
+    ],
+    "id": "uw_math_126_sp19_p1",
+    "course": "math_126",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "parametric_equations_of_lines",
+      "line_plane_intersection",
+      "perpendicular_conditions"
+    ],
+    "stem": "Let $L$ be the line of intersection of the two planes\n\n$$x + y + 2z = c \\quad \\text{and} \\quad x - cy - cz = -1$$\n\nwhere $c$ is some real number. Find a value of $c$ for which $L$ is perpendicular to the plane\n$$3x - y - z = 0.$$",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $L$ be the line of intersection of the two planes\n\n$$x + y + 2z = c \\quad \\text{and} \\quad x - cy - cz = -1$$\n\nwhere $c$ is some real number. Find a value of $c$ for which $L$ is perpendicular to the plane\n$$3x - y - z = 0.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$c = -\\frac{3}{2}$"
+      }
+    ],
+    "id": "uw_math_126_sp19_p2",
+    "course": "math_126",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "curvature",
+      "vector_valued_functions",
+      "derivatives_of_vector_functions"
+    ],
+    "stem": "Find the curvature of the ellipse\n\n$$x = 3\\cos(t), \\quad y = 4\\sin(t), \\quad z = 1,$$\n\nat the points $(3, 0, 1)$ and $(0, 4, 1)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the curvature of the ellipse\n\n$$x = 3\\cos(t), \\quad y = 4\\sin(t), \\quad z = 1,$$\n\nat the points $(3, 0, 1)$ and $(0, 4, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$k = \\frac{3}{16}$ at $(3,0,1)$ and $k = \\frac{4}{9}$ at $(0,4,1)$"
+      }
+    ],
+    "id": "uw_math_126_sp19_p3",
+    "course": "math_126",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 14,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable"
+    ],
+    "stem": "Find and classify all the critical points of $f(x, y) = 4xy - 3y + \\frac{1}{x} - \\frac{1}{4}\\ln(y)$. Clearly show your work in using the second derivative test and label your answers.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find and classify all the critical points of $f(x, y) = 4xy - 3y + \\frac{1}{x} - \\frac{1}{4}\\ln(y)$. Clearly show your work in using the second derivative test and label your answers.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$(1, \\frac{1}{4})$ gives a saddle point; $(3, \\frac{1}{36})$ gives a local minimum"
+      }
+    ],
+    "id": "uw_math_126_sp19_p4",
+    "course": "math_126",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 14,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "integration_bounds_setup"
+    ],
+    "stem": "Compute the volume of the solid between the surface $x^2 + y + z = 4$ and the $xy$-plane above the first quadrant.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the volume of the solid between the surface $x^2 + y + z = 4$ and the $xy$-plane above the first quadrant.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{128}{15}$"
+      }
+    ],
+    "id": "uw_math_126_sp19_p5",
+    "course": "math_126",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "polar_coordinates"
+    ],
+    "stem": "Compute\n\n$$\\iint_{R} e^{-(x^2+y^2)} \\, dA$$\n\nwhere $R = \\{(x, y) : x^2 + y^2 \\leq 9\\}$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute\n\n$$\\iint_{R} e^{-(x^2+y^2)} \\, dA$$\n\nwhere $R = \\{(x, y) : x^2 + y^2 \\leq 9\\}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\pi(1 - e^{-9})$"
+      }
+    ],
+    "id": "uw_math_126_sp19_p6",
+    "course": "math_126",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = 1 + x + x^2 + 3x^3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second-degree Taylor polynomial, $T_2(x)$, for $f(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$T_2(x) = 6 + 12(x-1) + 10(x-1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine an interval around $b = 1$ on which\n\n$$|T_2(x) - f(x)| < 0.024.$$",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$[0.9, 1.1]$"
+      }
+    ],
+    "id": "uw_math_126_sp19_p7",
+    "course": "math_126",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series",
+      "power_series_representation"
+    ],
+    "stem": "Let $f(x) = \\frac{x^3}{1 + x^4}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at zero. Express your answer using sigma notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} (-1)^k x^{4k+3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the Taylor series you found in (a) to find the Taylor series for\n\n$$g(x) = x^2 \\ln(1 + x^4).$$\n\nExpress your answer using sigma notation.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$x^2 \\ln(1+x^4) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{4k+6}}{k+1}$"
+      }
+    ],
+    "id": "uw_math_126_sp19_p8",
+    "course": "math_126",
+    "exam": "sp19_final"
+  }
+]

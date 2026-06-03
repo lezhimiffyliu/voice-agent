@@ -1,0 +1,321 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "dot_product",
+      "vector_projection",
+      "orthogonality",
+      "lines_and_planes",
+      "parametric_equations_of_lines",
+      "quadric_surfaces",
+      "motion_in_space"
+    ],
+    "stem": "Each of the following multiple choice problems has one correct answer. Circle it. You do not need to show any reasoning.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Suppose $\\mathbf{a} \\neq \\mathbf{0}$ and $\\text{proj}_{\\mathbf{a}}\\mathbf{b} = \\mathbf{a} \\times \\mathbf{b}$. Then...\n\n(i) $\\mathbf{b} = \\mathbf{a}$.\n(ii) $\\mathbf{b} = -\\mathbf{a}$.\n(iii) $\\mathbf{b} = \\mathbf{0}$.\n(iv) $\\mathbf{b}$ is orthogonal to $\\mathbf{a}$, but $\\mathbf{b} \\neq \\mathbf{0}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iii)"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $\\mathcal{P}$ be the plane through $(0,0,0)$, $(1,1,2)$, and $(2,0,0)$. Then $\\mathcal{P}$ also contains...\n\n(i) $(1,2,4)$.\n(ii) $(1,4,2)$.\n(iii) $(2,1,4)$.\n(iv) $(2,4,1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(i)"
+      },
+      {
+        "label": "c",
+        "question_text": "Let $\\ell$ be the line $\\mathbf{r}(t) = \\langle 4t, 2t, 2+t \\rangle$ and let $\\mathcal{P}$ be the plane $x - 3y + 2z = 4$. Then $\\ell$ is...\n\n(i) parallel to $\\mathcal{P}$.\n(ii) orthogonal to $\\mathcal{P}$.\n(iii) contained in $\\mathcal{P}$.\n(iv) none of these.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iii)"
+      },
+      {
+        "label": "d",
+        "question_text": "Suppose $S$ is the set of points $P$ such that the distance from $P$ to the $z$-axis is 1. Then $S$ is...\n\n(i) two planes.\n(ii) a cone.\n(iii) a circular paraboloid.\n(iv) a cylinder.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iv)"
+      },
+      {
+        "label": "e",
+        "question_text": "Let $\\mathbf{T}(t)$ be the unit tangent vector for $\\mathbf{r}(t)$, and suppose $|\\mathbf{r}'(0)| = \\frac{1}{2}$. Then...\n\n(i) $\\mathbf{T}(0) = 2\\mathbf{r}'(0)$.\n(ii) $\\mathbf{T}(0) = \\frac{1}{2}\\mathbf{r}'(0)$.\n(iii) $\\mathbf{T}(0) = \\mathbf{r}'(0)$.\n(iv) $\\mathbf{T}(0) = \\mathbf{0}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(i)"
+      }
+    ],
+    "id": "uw_math_126_sp18_p1",
+    "course": "math_126",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 13,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "space_curves",
+      "parametrization_of_curves",
+      "derivatives_of_vector_functions",
+      "tangent_vector",
+      "curvature"
+    ],
+    "stem": "Let $\\mathbf{r}(t) = \\langle t\\sin(\\pi t), t\\cos(\\pi t), 4 - t \\rangle$ and let $S$ be the surface $x^2 + y^2 = z^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the point where $\\mathbf{r}(t)$ intersects the surface $S$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(0, 2, 2)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Write parametric equations for the tangent line to $\\mathbf{r}(t)$ at $t = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -\\pi t, y = -1 - t, z = 3 - t$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the curvature of $\\mathbf{r}(t)$ at $t = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(0) = \\pi$"
+      }
+    ],
+    "id": "uw_math_126_sp18_p2",
+    "course": "math_126",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 15,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "higher_order_partial_derivatives",
+      "mixed_partials",
+      "implicit_partial_differentiation",
+      "tangent_planes_and_differentials"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second partial $f_{xy}$ for $f(x, y) = \\ln(y) + ye^{x^2y}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f_{xy} = 4xye^{x^2y} + 2x^3y^2e^{x^2y}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find $\\frac{\\partial z}{\\partial x}$ for $z^4 - z = x\\sin(y) + \\frac{1}{y} + x^y$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\partial z}{\\partial x} = \\frac{\\sin y + yx^{y-1}}{4z^3 - 1}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use the linear approximation to $g(x, y) = \\sqrt{10 - x^2 - 2y^2}$ at $(2, 1)$ to approximate the value of $g(2.01, 0.95)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g(2.01, 0.95) \\approx 2.04$"
+      }
+    ],
+    "id": "uw_math_126_sp18_p3",
+    "course": "math_126",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 14,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable",
+      "optimization_with_constraints"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the volume of the largest rectangular box in the first octant with three faces in the coordinate planes and one vertex in the plane $3x + 2y + z = 12$.\n\nIn order to receive full credit, you should show some work and/or write a couple of sentences explaining why your answer is indeed the maximum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{32}{3}$"
+      }
+    ],
+    "id": "uw_math_126_sp18_p4",
+    "course": "math_126",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "integration_bounds_setup"
+    ],
+    "stem": "Let $R$ be the region in the $xy$-plane bounded by the curve $y = x^{1/3}$ and the line $y = x$ in the first quadrant. Compute the double integral",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$$\\iint_R \\cos(y^2) \\, dA$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{2}\\cos(1) + \\frac{1}{2}$"
+      }
+    ],
+    "id": "uw_math_126_sp18_p5",
+    "course": "math_126",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "polar_coordinates",
+      "polar_coordinate_conversion",
+      "polar_integral_setup"
+    ],
+    "stem": "Find the volume of the solid that is under the surface",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$$z = e^{x^2 + y^2}$$\n\nand above the region\n\n$$R = \\{(x, y) \\mid x \\geq 0, x^2 + y^2 \\leq 4\\}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{2}\\left(e^4 - 1\\right)$"
+      }
+    ],
+    "id": "uw_math_126_sp18_p6",
+    "course": "math_126",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = x^{1/3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial for $f(x)$ based at $b = 8$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 2 + \\frac{1}{12}(x-8) - \\frac{1}{288}(x-8)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use Taylor's inequality to find an upper bound for the error $|f(x) - T_2(x)|$ on the interval $[7, 9]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(x) - T_2(x)| \\leq \\frac{10}{27 \\cdot 7^{8/3} \\cdot 3!}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use you answer in part (a) to estimate the cube root of 9. Give your answer as a fraction or a decimal rounded to three digits after the decimal.",
+        "depends_on": [
+          "a"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$9^{1/3} = f(9) \\approx T_2(9) = 2.080$"
+      }
+    ],
+    "id": "uw_math_126_sp18_p7",
+    "course": "math_126",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "Write down the Taylor series for the following functions.\n\nFor each,\n\n• write your answer in sigma notation;\n• write out the first three nonzero terms explicitly; and\n• give the interval on which it converges.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f(x) = \\frac{2}{4x^2 + 9}$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x) = \\sum_{k=0}^{\\infty}\\frac{(-1)^k2^{2k+1}}{9^{k+1}}x^{2k} = \\frac{2}{9} - \\frac{8}{81}x^2 + \\frac{32}{729}x^4 - \\ldots$ for $|x| < \\frac{3}{2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$f(x) = \\frac{\\cos(2x^2) - 1}{5x^4}$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x) = \\sum_{k=1}^{\\infty}\\frac{(-1)^k4}{5(2k)!}x^{4k-4} = -\\frac{2}{5} + \\frac{2}{15}x^4 - \\frac{4}{225}x^8 + \\ldots$ for $-\\infty < x < \\infty$"
+      }
+    ],
+    "id": "uw_math_126_sp18_p8",
+    "course": "math_126",
+    "exam": "sp18_final"
+  }
+]

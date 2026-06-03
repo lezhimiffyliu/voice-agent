@@ -1,0 +1,328 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "trigonometric_integrals",
+    "concepts": [
+      "powers_of_sine_and_cosine",
+      "odd_even_power_strategy"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\tan^5(x) \\sec^7(x) dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{11}\\sec^{11}(x) - \\frac{2}{9}\\sec^9(x) + \\frac{1}{7}\\sec^7(x) + c$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int \\frac{2}{(x^2 + 16)^{3/2}} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{8}\\frac{x}{\\sqrt{16+x^2}} + c$"
+      }
+    ],
+    "id": "uw_math_125_wi23_p1",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integrals_involving_inverse_trig",
+      "integration_by_parts_basic"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int_0^1 x \\tan^{-1}(x) dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi - 2}{4}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate the improper integral: $\\int_0^{\\infty} \\frac{5}{3x^2 + 6x + 6} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{5\\pi}{12}$"
+      }
+    ],
+    "id": "uw_math_125_wi23_p2",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A tomato is dropped from the top of a tall building. You do not know when it was dropped, but you see the tomato go by your window, which is 320 feet above the ground. Two seconds after it passes your window, the tomato hits the ground. (The acceleration due to gravity is 32 ft/sec$^2$.)\n\nHow tall is the building? (Use Calculus methods, and show your work.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h = 576$ feet"
+      }
+    ],
+    "id": "uw_math_125_wi23_p3",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "derivative_of_integral_function",
+      "definite_integral_as_area"
+    ],
+    "stem": "The following is the graph of a function $y = f(x)$ over the domain $[-1, 7]$. It consists of line segments and a quarter circle. Use it to answer the questions in parts (a)–(d) below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $g(x) = \\int_{-1}^{\\sqrt{x}} f(t) dt$. Find $g'(9)$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A graph of $f(x)$ on the domain $[-1, 7]$. The graph consists of: a horizontal line segment at $y = -1$ from $x = -1$ to $x = 0$; a quarter circle arc in the second quadrant from $(0, -1)$ curving upward to approximately $(2, 1)$; a line segment descending from approximately $(2, 1)$ to $(7, -2)$. The $x$-axis has tick marks at $-1, 0, 2, 4, 5, 7$. The $y$-axis has tick marks at $-3, -2, -1, 1, 2, 3$. Grid lines are shown.",
+        "final_answer": "$g'(9) = \\frac{7\\sqrt{3}}{3}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi23_images/diagrams/p4_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi23/diagrams/p4_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute $\\lim_{n \\to \\infty} \\sum_{i=1}^{n} f\\left(\\frac{3i}{n}\\right) \\frac{6}{n}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$12 + 2\\pi$"
+      },
+      {
+        "label": "c",
+        "question_text": "Evaluate $\\int_3^4 xf(x^2 - 10) dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}(11+\\pi)$"
+      },
+      {
+        "label": "d",
+        "question_text": "Find the average value of $f(x)$ on the interval $[1, 3]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2 + \\frac{\\pi}{2}$"
+      }
+    ],
+    "id": "uw_math_125_wi23_p4",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "disk_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "The region in the $xy$-plane that is above the $x$-axis, below the curve $y = \\sqrt{x}$, and between the lines $x = 1$ and $x = 4$, is rotated around the horizontal line $y = -3$ to form a solid of revolution.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Using washers, set up a definite integral for the volume of this solid, and evaluate this integral to find the volume.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{71\\pi}{2}$ cubic units"
+      },
+      {
+        "label": "b",
+        "question_text": "Using shells, set up definite integral(s) for the volume of this solid, but DO NOT EVALUATE THESE INTEGRAL(S).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$V = \\int_0^1 2\\pi(y+3)(2)dy + \\int_1^2 2\\pi(y+3)(4-y^2)dy$"
+      }
+    ],
+    "id": "uw_math_125_wi23_p5",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup",
+      "numerical_integration_simpsons_rule"
+    ],
+    "stem": "This question refers to the arc length of the curve $y = e^{x^2}$ on the interval $[1, 7]$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up an integral equal to the arc length of the curve $y = e^{x^2}$ over the interval $[1, 7]$. Do not evaluate the integral.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$L = \\int_1^7\\sqrt{1+4x^2e^{2x^2}}dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "Approximate the arc length of $y = e^{x^2}$ on the interval $[1, 7]$ via Simpson's Rule with $n = 6$ subintervals. (Please leave your answer in simplified exact form, rather than writing a decimal.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}\\left[\\sqrt{1+4e^2} + 4\\sqrt{1+16e^8} + 2\\sqrt{1+36e^{32}} + 4\\sqrt{1+64e^{32}} + 2\\sqrt{1+100e^{50}} + 4\\sqrt{1+144e^{72}} + \\sqrt{1+196e^{98}}\\right]$"
+      }
+    ],
+    "id": "uw_math_125_wi23_p6",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The region bounded by $y = x^2$, $x = 0$, and $y = 3$ is rotated about the $y$-axis to form a container. Distances are measured in feet. Initially, the container is full of a fluid that has a density of 50 lbs/ft$^3$. How much work is done (in ft-lb) to pump the top 2 feet of liquid to the top of the container?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "Two diagrams side-by-side showing a region in the $xy$-plane. Both have the $y$-axis labeled from 1 to 3 and the $x$-axis unlabeled. The left diagram labeled 'Before pumping' shows a shaded region bounded by the parabola $y = x^2$ (opening to the right), the $y$-axis ($x = 0$), and the horizontal line $y = 3$. The shaded region is between $x = 0$ and the parabola, from $y = 0$ to $y = 3$. The right diagram labeled 'After pumping' shows an unshaded region with the same boundaries but a small shaded region near the $x$-axis between $y = 0$ and $y = 1$ representing the remaining 1 foot of liquid.",
+        "final_answer": "$\\frac{500\\pi}{3}$ ft-lbs",
+        "diagram_image_local": "uw_data/math125/math125_Wi23_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi23/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_125_wi23_p7",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the $x$-coordinate ($\\bar{x}$) of the centroid of the region enclosed by: $y = \\frac{1}{9 - x^2}$, $x = 0$, $x = 2$, and the $x$-axis.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\bar{x} \\approx 1.0956$"
+      }
+    ],
+    "id": "uw_math_125_wi23_p8",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the explicit solution $y = f(x)$ of the initial value problem:\n\n$$\\frac{dy}{dx} = x \\sqrt{16 - y^2}, \\quad y(0) = 2.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 4\\sin\\left(\\frac{1}{2}x^2 + \\frac{\\pi}{6}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_wi23_p9",
+    "course": "math_125",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "If there are initially 12 bacteria and after 2 days there are 130 bacteria, what is $\\alpha$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\alpha = \\frac{1}{2}\\ln\\left(\\frac{130}{12}\\right) \\approx 1.191819$"
+      },
+      {
+        "label": "b",
+        "question_text": "The scientists now (after the first 2 days) start harvesting 100 bacteria every day, so from now on the equation $y' = \\alpha y - 100$ models the situation. If $\\alpha$ is as in part (a), how many days (after the initial time) until there are 1,000 bacteria?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\approx 4.51$ days after day 2"
+      }
+    ],
+    "id": "uw_math_125_wi23_p10",
+    "course": "math_125",
+    "exam": "wi23_final"
+  }
+]

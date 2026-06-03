@@ -1,0 +1,310 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "spheres",
+      "vectors",
+      "projections",
+      "unit_vectors",
+      "lines",
+      "planes"
+    ],
+    "stem": "(2 points each) Each of the following multiple choice problems has one correct answer. Circle it. You do not need to show any reasoning.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the radius of the sphere through $(-1, 2, 0)$ with center $(0, 0, 2)$?\n\n(i) $\\sqrt{2}$ (ii) $3$ (iii) $4$ (iv) $\\sqrt{5}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3$"
+      },
+      {
+        "label": "b",
+        "question_text": "If $\\text{proj}_{\\mathbf{a}} \\mathbf{b} = \\langle 1, 2, 3 \\rangle$, what's $\\text{proj}_{(2,4,6)} \\mathbf{b}$?\n\n(i) $\\langle 1, 2, 3 \\rangle$ (ii) $\\langle 2, 4, 6 \\rangle$ (iii) $\\langle 3, 6, 9 \\rangle$ (iv) $(\\sqrt{2}, 2\\sqrt{2}, 3\\sqrt{2})$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\langle 1, 2, 3 \\rangle$"
+      },
+      {
+        "label": "c",
+        "question_text": "If $\\mathbf{a}$ and $\\mathbf{b}$ are unit vectors, which of the following cannot equal $\\mathbf{a} \\times \\mathbf{b}$?\n\n(i) $\\langle 0, 0, 0 \\rangle$ (ii) $\\langle 0, 1, 0 \\rangle$ (iii) $\\langle 1, 0, 1 \\rangle$ (iv) $(\\frac{1}{2}, \\frac{1}{2}, \\frac{1}{2})$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1, 0, 1)$"
+      },
+      {
+        "label": "d",
+        "question_text": "Which point lies on the line through $(1, 2, 3)$ and $(2, 0, 1)$?\n\n(i) $(-1, 5, 7)$ (ii) $(0, 4, 5)$ (iii) $(2, 1, 2)$ (iv) $(3, -2, 5)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(0, 4, 5)$"
+      },
+      {
+        "label": "e",
+        "question_text": "Which of the following planes is parallel to the line $\\mathbf{r}(t) = \\langle t, 2t, 3t \\rangle$?\n\n(i) $x + y + z = 6$ (ii) $x + 2y + 3z = 1$ (iii) $2x - y + z = 4$ (iv) $x + y - z = 7$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x + y - z = 7$"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p1",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "surfaces",
+      "distance",
+      "paraboloid",
+      "cylinder",
+      "intersection",
+      "parametrization"
+    ],
+    "stem": "(6 points per part) Parts (a) and (b) are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find an equation for the surface consisting of all points $(x, y, z)$ such that the distance from $(x, y, z)$ to the $x$-axis is equal to the distance from $(x, y, z)$ to the point $(0, 0, 2)$, and give a precise name for the corresponding 3D surface.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": {
+          "equation": "$4z = x^2 + 4$",
+          "name": "parabolic cylinder"
+        }
+      },
+      {
+        "label": "b",
+        "question_text": "Find a vector function $\\mathbf{r}(t)$ whose space curve is the curve of intersection of the cylinder $y^2 + z^2 = 1$ and the hyperbolic paraboloid $x - y^2 + z^2 = 2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\langle 2 + \\cos^2 t - \\sin t, \\cos t, \\sin t \\rangle$"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p2",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 12,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_planes",
+      "partial_derivatives",
+      "linearization",
+      "surfaces"
+    ],
+    "stem": "(6 points per part) For parts (a) and (b), let $S$ be the surface $z = \\frac{y}{x} + \\sqrt{y - 2x}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation of the plane tangent to $S$ at $(2, 8, 6)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = -\\frac{5}{2}(x-2) + \\frac{3}{4}(y-8) + 6$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use linearization to estimate the $x$-coordinate of the point $(x, 7.98, 5.91)$ on $S$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x \\approx 2.03$"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p3",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 13,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "optimization",
+      "critical_points",
+      "extrema",
+      "lagrange_multipliers",
+      "constrained_optimization"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the volume of the largest rectangular box in the first octant with three faces in the coordinate planes and the vertex opposite the origin (i.e. the one marked $P$ in the picture below) on the surface $2x^2 + y + z = 90$.\n\nIn order to receive full credit, you must show that your answer really is the maximum.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A 3D coordinate system with x, y, z axes labeled. A rectangular box is drawn in the first octant with one vertex at the origin and the opposite vertex P on the surface. The box has edges along the positive x, y, and z axes. The vertex P is marked with a dot in the upper right corner of the box.",
+        "diagram_bbox": null,
+        "final_answer": "$3888$",
+        "diagram_image_local": "uw_data/math126_Spr2025_images/diag_p4_main.png"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p4",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "triple_integrals",
+      "polar_coordinates",
+      "paraboloids",
+      "volume"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Set up, but do not evaluate, an iterated integral using polar coordinates equal to the volume between the paraboloids $z = -2x + 3x^2 + 3y^2$ and $z = 2x^2 + 2y^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_{-\\pi/2}^{\\pi/2} \\int_0^{2\\cos\\theta} (2r\\cos\\theta - r^2) r \\, dr \\, d\\theta$"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p5",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 13,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "center_of_mass",
+      "double_integrals",
+      "density",
+      "polar_coordinates",
+      "lamina"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the center of mass of the lamina that occupies the quarter disk in the first quadrant bounded by $x^2 + y^2 = 4$ with density function $\\rho(x, y) = 1 + x^2 + y^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\bar{x}, \\bar{y}) = \\left(\\frac{136}{45\\pi}, \\frac{136}{45\\pi}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p6",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_polynomials",
+      "taylor_series",
+      "logarithm",
+      "error_bounds"
+    ],
+    "stem": "Let $g(x) = \\frac{1}{2} \\ln(2x - 3)$.\n\nIn this problem you will find the Taylor polynomial based at $b = 2$ (NOT at $b = 0$).",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the third Taylor polynomial, $T_3(x)$, for the function $g$ based at $b = 2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_3(x) = (x-2) - (x-2)^2 + \\frac{4}{3}(x-2)^3$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use Taylor's inequality to find an upper bound (as sharp as possible) for $|f(x) - T_3(x)|$ on the interval $[1.8, 2.2]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{81}$"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p7",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series",
+      "trigonometric_functions",
+      "derivatives",
+      "series"
+    ],
+    "stem": "Let $f(x) = x \\sin(2x^3)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at $0$.\n\nSimplify your final answer and write it in sigma notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{(-1)^k 2^{2k+1} x^{6k+4}}{(2k+1)!}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find $f^{(16)}(0)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{32 \\cdot 16!}{5!}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Give the first two nonzero terms of the Taylor series for $g(t) = \\int_0^t x \\sin(2x^3) \\, dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{5}t^5 - \\frac{4}{33}t^{11}$"
+      }
+    ],
+    "id": "uw_math_126_spr2025_p8",
+    "course": "math_126",
+    "exam": "spr2025_final"
+  }
+]

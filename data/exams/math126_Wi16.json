@@ -1,0 +1,306 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "angle_between_vectors",
+      "dot_product"
+    ],
+    "stem": "In BOTH parts, consider the three points $A(1,1,2)$, $B(3,1,5)$, and $C(1,-2,4)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find, to the nearest degree, the angle $\\angle ABC$. (That is, find the angle at the corner $B$).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\theta = \\cos^{-1}\\left(\\frac{7}{\\sqrt{13}\\sqrt{14}}\\right) \\approx 59°$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $P$ be the plane that passes through $A$, $B$, and $C$. Let $L$ be the line that passes through $(1,0,2)$ and $(6,5,7)$. Find the $(x, y, z)$ point of intersection of the line $L$ and the plane $P$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(5, 4, 6)$"
+      }
+    ],
+    "id": "uw_math_126_wi16_p1",
+    "course": "math_126",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "derivatives_of_vector_functions",
+      "tangent_vector",
+      "parametrization_of_curves"
+    ],
+    "stem": "NOTE: The two parts below are NOT related!",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find all values of $t$ at which the tangent line to the curve $x = 6 - t^3$, $y = 2t - 5t^2$ is parallel to the vector $\\langle 3,8 \\rangle$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = \\frac{1}{4}$ and $t = 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "A small bug is moving according to the vector function $\\vec{r}(t) = \\langle t \\sin(\\pi t), \\ln(t), t^2 - 4e^{-2t} \\rangle$. At time $t = 1$, the bug leaves the curve and follows the path of the tangent line. Find the $(x, y, z)$ coordinates where the bug's tangent line path would intersect the $xy$-plane.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(-\\frac{3\\pi}{10}, \\frac{3}{10}, 0\\right)$"
+      }
+    ],
+    "id": "uw_math_126_wi16_p2",
+    "course": "math_126",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_coordinate_conversion",
+      "graphing_in_polar",
+      "area_in_polar_coordinates"
+    ],
+    "stem": "Consider the polar curve given by the polar function $r = 2 + \\sin(\\theta)$. Let $P$ be the point of intersection of the polar curve with the line $y = \\frac{\\sqrt{3}}{3} x$ in the first quadrant.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find an equation of the tangent line to the curve at $P$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = -3\\sqrt{3}\\left(x - \\frac{5\\sqrt{3}}{4}\\right) + \\frac{5}{4}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the area of the region bounded by the polar curve, the line $y = \\frac{\\sqrt{3}}{3} x$ and the $x$-axis in the first quadrant.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\text{area} = 2 + \\frac{3}{8}\\pi - \\frac{17}{16}\\sqrt{3}$"
+      }
+    ],
+    "id": "uw_math_126_wi16_p3",
+    "course": "math_126",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 14,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "tangent_planes_and_differentials",
+      "multivariable_optimization"
+    ],
+    "stem": "NOTE: The parts below are NOT related!",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the partial derivatives with respect to $x$ and $y$ of the function $f(x,y) = x^y$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f_x(x,y) = yx^{y-1}$, $f_y(x,y) = x^y \\ln(x)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Calculate the tangent plane to the surface defined by the equation $xy \\sin(z) + x - y + z = 0$ at the point $(x, y, z) = (2, 2, 0)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = -\\frac{1}{5}(x-2) + \\frac{1}{5}(y-2)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find an example of a differentiable function $f(x, y)$ whose best linear approximation near $(0, 0)$ is given by the function $L(x, y) = 0$ and which has neither a local maximum nor a local minimum at $(0, 0)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x,y) = x^2 - y^2$ (There are many others.)"
+      }
+    ],
+    "id": "uw_math_126_wi16_p4",
+    "course": "math_126",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals"
+    ],
+    "stem": "NOTE: The parts below are NOT related!",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the volume of the solid above the cone $z = \\sqrt{x^2 + y^2}$ and below the sphere $x^2 + y^2 + z^2 = 18$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\text{volume} = 36\\pi(\\sqrt{2}-1)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate the integral $\\int_0^1 \\int_x^1 \\sqrt{1 + y^2} \\, dy \\, dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_0^1 \\int_x^1 \\sqrt{1+y^2} dy\\, dx = \\int_0^1 \\int_0^y \\sqrt{1+y^2} dx\\, dy = \\frac{1}{3}(2\\sqrt{2}-1)$"
+      }
+    ],
+    "id": "uw_math_126_wi16_p5",
+    "course": "math_126",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "acceleration_vector",
+      "velocity_vector",
+      "tangential_and_normal_components"
+    ],
+    "stem": "The acceleration vector of a spaceship is $\\vec{a}(t) = \\langle -2 \\cos(t) - 3 \\sin(t), -\\cos(t) + 6 \\sin(t), \\sqrt{40} \\cos(t) \\rangle$ for all $t \\geq 0$ and the specified initial velocity and position are $\\vec{v}(0) = \\langle 3, -6, 0 \\rangle$ $\\vec{r}(0) = \\langle 2, 1, 0 \\rangle$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the position function $\\vec{r}(t)$ of the spaceship.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{r}(t) = \\langle 2\\cos t + 3\\sin t, \\cos t - 6\\sin t, -\\sqrt{40}\\cos t + \\sqrt{40}\\rangle$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the normal component of the acceleration at time $t$. (Hint: The answer is a constant, simplify until you find this constant.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a_N = \\sqrt{45}$"
+      }
+    ],
+    "id": "uw_math_126_wi16_p6",
+    "course": "math_126",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "Consider the function $f(x) = \\ln(1 + 3x) + xe^{-2x} - \\frac{4x}{1 + 5x}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at $b = 0$. Write your answer using sigma $\\Sigma$ notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty}\\left[\\frac{(-1)^k 3^{k+1}}{k+1} + \\frac{(-2)^k}{k!} - 4(-5)^k\\right]x^{k+1}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval on which the series in (a) converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(-\\frac{1}{5}, \\frac{1}{5}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the third Taylor polynomial of $F(x)$ based at $b = 0$ where $F(x) = \\int_0^x f(t) \\, dt$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_3(x) = \\frac{9}{2}x^3$"
+      }
+    ],
+    "id": "uw_math_126_wi16_p7",
+    "course": "math_126",
+    "exam": "wi16_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Consider the function $f(x) = \\sin(\\pi x) + \\cos(\\pi x) + \\frac{1}{2 - x}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial $T_2(x)$ for $f(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = (1-\\pi)(x-1) + \\frac{(\\pi^2+2)}{2}(x-1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an upper bound on the error $|T_2(x) - f(x)|$ on the interval $\\left[\\frac{1}{2}, \\frac{3}{2}\\right]$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left[\\frac{1}{2}, \\frac{3}{2}\\right]$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find a smaller interval $I$ centered at $b = 1$ so that the error $|T_2(x) - f(x)|$ has an upper bound $0.001$ for all $x$ in the interval $I$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$I = [0.967, 1.033]$ (Other answers are possible.)"
+      }
+    ],
+    "id": "uw_math_126_wi16_p8",
+    "course": "math_126",
+    "exam": "wi16_final"
+  }
+]

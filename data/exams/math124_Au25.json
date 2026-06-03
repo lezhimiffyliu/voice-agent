@@ -1,0 +1,321 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "limits_at_infinity",
+      "algebraic_limit_evaluation",
+      "trig_limits"
+    ],
+    "stem": "Find the following limits or explain why the limit does not exist. Give exact answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\lim_{x \\to \\infty} x \\ln(x + 2) - x \\ln(x)$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\lim_{x \\to 0^+} x^x$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\lim_{x \\to \\frac{\\pi}{2}} \\frac{\\sin(3x) + 1 + 3\\cos(x)}{\\cos(5x) + 1 - \\sin(x)}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{3}{5}$"
+      }
+    ],
+    "id": "uw_math_124_au25_p1",
+    "course": "math_124",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "derivative_rules",
+    "concepts": [
+      "exponential_derivatives",
+      "logarithmic_differentiation",
+      "chain_rule",
+      "product_rule",
+      "quotient_rule",
+      "trig_derivatives"
+    ],
+    "stem": "Differentiate the following functions using the rules of differentiation. Do not simplify.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$f(x) = e^{-\\frac{x^2}{2}} + x^2 \\cos(x)$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = (-x) \\cdot e^{-\\frac{x^2}{2}} + (2x) \\cdot \\sin(x) + (\\cos x) \\cdot (x^2)$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$g(x) = \\left(\\sin(x^3)\\right)^{\\ln(x)}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\sin(x^3)^{\\ln(x)} \\cdot \\left(\\left(\\frac{1}{\\sin(x^3)} \\cdot \\cos(x^3) \\cdot 3x^2\\right) \\cdot (\\ln(x)) + (\\ln(\\sin(x^3))) \\cdot \\left(\\frac{1}{x}\\right)\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$h(x) = \\frac{\\arctan x}{x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(x) = \\frac{\\frac{x}{1+x^2} - \\arctan(x)}{x^2}$"
+      }
+    ],
+    "id": "uw_math_124_au25_p2",
+    "course": "math_124",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 9,
+    "topic": "linear_approximation",
+    "concepts": [
+      "linearization",
+      "tangent_line_approximation",
+      "differentials"
+    ],
+    "stem": "In this problem, we will use linear approximations to estimate the value of $(8.1)^{1/3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $dy/dx$ for $y = x^{1/3}$, and use this to give the linear approximation $L(x)$ to this function near the point $a = 8$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dx} = \\frac{1}{3} \\cdot x^{-2/3}$ and $L(x) = 2 + \\frac{1}{12}(x-8)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Using this linear approximation, estimate $(8.12)^{1/3}$. State your answer in exact form.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(8.12)^{1/3} \\approx 2.01$"
+      }
+    ],
+    "id": "uw_math_124_au25_p3",
+    "course": "math_124",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 4,
+    "points": 10,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Consider the curve defined implicitly by $$xce^y + y\\sin(x) - y^2 = -1$$ Find the equation of tangent line to the above curve at the point $(0, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y - 1 = \\frac{c+1}{2}x$"
+      }
+    ],
+    "id": "uw_math_124_au25_p4",
+    "course": "math_124",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_first_derivative",
+      "parametric_tangent_line",
+      "parametric_curve_graphing",
+      "horizontal_vertical_tangents"
+    ],
+    "stem": "Answer the following questions based on the parametric curve $$x(t) = \\cos(2t) \\quad y(t) = \\sin(3t)$$ where $-\\frac{\\pi}{2} < t < \\frac{\\pi}{2}$. Its graph is given on the right.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the coordinates of all the points on the curve where the tangent line is horizontal.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A parametric curve plotted on an xy-plane with x-axis ranging approximately from -1.5 to 1.5 and y-axis from -1.5 to 1.5. The curve appears to be a closed loop or figure-eight shape, passing through the origin and with points marked along it.",
+        "final_answer": "$(0.5, \\pm 1)$",
+        "diagram_image_local": "uw_data/math124/math124_Au25_images/page-05.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au25/diagrams/page-05.png"
+      },
+      {
+        "label": "b",
+        "question_text": "The curve intersects itself at the point $(-1/2, 0)$. Find the equations of the tangent lines at this point. Give your final answers in the form $y = mx + b$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\sqrt{3}x \\pm \\frac{\\sqrt{3}}{2}$"
+      }
+    ],
+    "id": "uw_math_124_au25_p5",
+    "course": "math_124",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "trigonometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "There are elastic ropes between points $PQ$ and $PR$. The distance $QO$ is 8 centimeters and the distance $OR$ is 5 centimeters. Point $P$ is being pulled up so it is rising at a rate of 6 centimeters per second. At what rate is the angle $\\theta$ at the corner $P$ changing when the distance $OP$ is 10 centimeters?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A triangle with vertices labeled Q, O, R on a horizontal line (base) and P above them. Point P is shown at the top with an arrow pointing upward. The angle at P is labeled θ. A vertical line is drawn from P to O on the base. The segments PQ and PR are drawn as the sides of the triangle, representing the elastic ropes.",
+        "final_answer": "$\\frac{d\\theta}{dt} = \\left(\\frac{-8}{164} + \\frac{-5}{125}\\right) \\cdot 6 = \\frac{-546}{1025}$",
+        "diagram_image_local": "uw_data/math124/math124_Au25_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au25/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_124_au25_p6",
+    "course": "math_124",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 11,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "geometric_optimization",
+      "optimization_verification"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the dimensions of the cylinder of maximum volume contained in a cone of height 6 and radius 8 units. Make sure you verify that your answer indeed gives maximum volume.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A cone with apex at the top and circular base at the bottom. A cylinder is inscribed inside the cone with its base on the cone's base and its top circular face inside the cone. The cone has height labeled as 6 and base radius as 8. The cylinder has radius and height unmarked.",
+        "final_answer": "The dimensions are $h = 2$ and $r = \\frac{16}{3}$",
+        "diagram_image_local": "uw_data/math124/math124_Au25_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au25/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_au25_p7",
+    "course": "math_124",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 19,
+    "topic": "curve_analysis",
+    "concepts": [
+      "intercepts",
+      "asymptotes",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "local_extrema",
+      "first_derivative_test",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test",
+      "curve_sketching"
+    ],
+    "stem": "Let $f(x) = \\frac{3x^2 - 1}{3x^3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Determine all $x$ and $y$-intercepts for the curve. If there are none, say so.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = \\pm \\frac{1}{\\sqrt{3}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine any vertical asymptotes and horizontal asymptotes for the curve $y = f(x)$. If there are none, say so.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Vertical asymptote: $x = 0$; Horizontal asymptote: $y = 0$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all critical numbers for $f(x)$. Find the intervals on which $f(x)$ is increasing, and the intervals on which $f(x)$ is decreasing. Determine $x$ and $y$-coordinates of all local minimum(s) and local maximum(s).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f$ is increasing on $(-1, 0)$ and $(0, 1)$ and decreasing on $(-\\infty, -1)$ and $(1, \\infty)$. Local minimum at $(-1, -\\frac{2}{3})$ and local maximum at $(1, \\frac{2}{3})$"
+      },
+      {
+        "label": "d",
+        "question_text": "Find the intervals on which $f(x)$ is concave up and concave down. Find the $x$ and $y$-coordinates of all of the inflection points.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Concave up on $(-\\sqrt{2}, 0)$ and $(0, \\sqrt{2})$; Concave down on $(-\\infty, -\\sqrt{2})$ and $(\\sqrt{2}, \\infty)$. Inflection points: $(-\\sqrt{2}, -\\frac{5\\sqrt{2}}{12})$ and $(\\sqrt{2}, \\frac{5\\sqrt{2}}{12})$"
+      },
+      {
+        "label": "e",
+        "question_text": "Sketch the curve using ALL of the information in (a)-(d). Mark any important points that came up in your computations.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A blank coordinate grid with x-axis ranging from -5 to 5 and y-axis ranging from -3 to 3, with gridlines at integer intervals.",
+        "final_answer": "See graph (odd function, symmetric about the origin)",
+        "diagram_image_local": "uw_data/math124/math124_Au25_images/page-09.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au25/diagrams/page-09.png"
+      }
+    ],
+    "id": "uw_math_124_au25_p8",
+    "course": "math_124",
+    "exam": "au25_final"
+  }
+]

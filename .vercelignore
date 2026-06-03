@@ -1,0 +1,13 @@
+# Not needed at runtime on Vercel.
+# Raw exam files are only consumed by ingest.js to build data/problems.json,
+# which is committed and served directly — so the raw set never ships.
+data/exams/
+
+# The long-running Express server and the one-time ingest script are unused on
+# Vercel (api/token.js replaces /token; static files are served directly).
+server.js
+ingest.js
+
+# Never upload secrets or local deps.
+.env
+node_modules/

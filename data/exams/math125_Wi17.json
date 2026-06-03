@@ -1,0 +1,318 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "trigonometric_integrals",
+    "concepts": [
+      "powers_of_sine_and_cosine",
+      "trig_identity_rewriting"
+    ],
+    "stem": "Evaluate the following integrals. Box your final answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\frac{\\sin^2(x) \\tan(x)}{\\sec(x)} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}\\cos^3(x) - \\cos(x) + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int \\frac{x^3 + 2x^2 + 4x + 6}{x^3 + 3x} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x + 2\\ln|x| + \\frac{1}{\\sqrt{3}}\\arctan\\left(\\frac{x}{\\sqrt{3}}\\right) + C$"
+      }
+    ],
+    "id": "uw_math_125_wi17_p1",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "evaluation_by_antiderivatives"
+    ],
+    "stem": "Evaluate the following definite integrals. Simplify your answer, but leave it in exact form.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int_1^4 \\sqrt[4]{\\sqrt{x} - 1} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{32}{15}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_{-2}^2 \\frac{x^2}{\\sqrt{16 - x^2}} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{8\\pi}{3} - 4\\sqrt{3}$"
+      }
+    ],
+    "id": "uw_math_125_wi17_p2",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "infinite_interval_integrals",
+      "convergence_of_improper_integrals"
+    ],
+    "stem": "Evaluate the following improper integral showing all the appropriate steps. If the integral diverges, then say so.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$\\int_0^{\\infty} xe^{-2x} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{4}$"
+      }
+    ],
+    "id": "uw_math_125_wi17_p3",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "area_between_curves",
+    "concepts": [
+      "finding_intersection_points_for_area",
+      "area_between_two_curves_dx"
+    ],
+    "stem": "Consider the region, $R$, bounded by the curve $y = x^3$, the vertical line $x = 2$, and the $x$-axis.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the value of the constant $a$ such that the vertical line $x = a$ divides the region $R$ into two regions of equal area.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a = \\sqrt[4]{8} = \\sqrt{2\\sqrt{2}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "A solid is obtained by rotating the region $R$ around the horizontal line $y = -1$. Set up the integrals you get for the volume of this solid using BOTH the method of cylindrical shells and the method of washers (DO NOT EVALUATE).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Shells: $\\int_0^8 2\\pi(y+1)(2-y^{1/3})dy$; Washers: $\\int_0^2 \\pi[(x^3+1)^2 - (1)^2]dx$"
+      }
+    ],
+    "id": "uw_math_125_wi17_p4",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_x",
+      "shell_method"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "b",
+        "question_text": "A solid is obtained by rotating the region $R$ around the horizontal line $y = -1$. Set up the integrals you get for the volume of this solid using BOTH the method of cylindrical shells and the method of washers (DO NOT EVALUATE).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Shells: $\\int_0^8 2\\pi(y+1)(2-y^{1/3})dy$; Washers: $\\int_0^2 \\pi[(x^3+1)^2 - (1)^2]dx$"
+      }
+    ],
+    "id": "uw_math_125_wi17_p4",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 12,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "work_integral_interpretation",
+      "distance_and_force_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A cable that weighs 2 lbs per foot is used to lift a bucket of water from a well. The bucket of water weighs 20 lbs, and it needs to be lifted 10 feet to reach the top of the well. How far is the bucket from the bottom of the well when only half of the total work was done?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$b = 20 - 5\\sqrt{10}$ ft $\\approx 4.1886$ ft"
+      }
+    ],
+    "id": "uw_math_125_wi17_p5",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Solve the differential equation: $\\frac{dy}{dx} = 2\\cos^2(x)\\cos^2(y) - \\cos^2(y)$ subject to the initial condition $y(\\pi/4) = \\pi/6$. Give your answer in the form $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\tan^{-1}\\left(\\frac{1}{2}\\sin(2x) + \\frac{1}{\\sqrt{3}} - \\frac{1}{2}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_wi17_p6",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A particle is moving along a straight line. Its acceleration at $t$ seconds is $a(t) = t$ m/s$^2$. The particle begins at the origin, and returns to the origin after 6 seconds. What is the total distance traveled by the particle during that time?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$16\\sqrt{3}$ meters"
+      }
+    ],
+    "id": "uw_math_125_wi17_p7",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions"
+    ],
+    "stem": "The graph of $f(x)$ is shown below. It consists of line segments and a half circle. Use it to answer the following questions.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the average value of $f(x)$ on the interval $[-4, 1]$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A graph of $f(x)$ on a coordinate plane with x-axis from approximately -5 to 9 and y-axis from approximately -2 to 6. The graph consists of: a horizontal line segment at $y = 2$ from $x = -5$ to $x = -3$; a line segment from $(-3, 2)$ to $(-1, -1)$; a parabolic curve or line segment from $(-1, -1)$ to approximately $(2, -1)$; a half circle (semicircle) from approximately $(2, -1)$ centered at approximately $(5, 3)$ with radius 2, creating an arc that reaches a maximum height of $y = 5$ at approximately $x = 5$; and the arc descends to $y = 3$ at approximately $x = 7$.",
+        "final_answer": "$\\frac{11}{5}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi17_images/page-08.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi17/diagrams/page-08.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute $\\int_4^6 \\sqrt{1 + [f'(x)]^2} dx$ (Hint: Think first. You don't need more space than you have here to answer this question!)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\pi$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute $\\int_4^6 xf'(x) dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$12 - \\pi$"
+      }
+    ],
+    "id": "uw_math_125_wi17_p8",
+    "course": "math_125",
+    "exam": "wi17_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "Water is flowing out of a conical container. Let $y(t)$ denote the depth (in feet) of the water in the container and let $V(t)$ denote the volume (in cubic feet) of the water at time $t$ (in minutes). It is known that: $$\\frac{dV}{dt} = -6\\sqrt{y}$$ Moreover, $V$ and $y$ are related by the equation: $$V = 5y^3$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Differentiate the second equation with respect to time $t$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A diagram of a conical container (inverted cone) with water partially filled. The depth of water is marked as $y(t)$ with an arrow indicating the vertical distance from the water surface to the base of the cone.",
+        "final_answer": "$\\frac{dV}{dt} = 15y^2\\frac{dy}{dt}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi17_images/diagrams/p9_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi17/diagrams/p9_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use your answer in part (a) to get a differential equation for $y$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dt} = -\\frac{2}{5}y^{3/2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "If the initial depth of the water in the container is 4 feet, how long does it take to empty the container?",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = 32$ minutes"
+      }
+    ],
+    "id": "uw_math_125_wi17_p9",
+    "course": "math_125",
+    "exam": "wi17_final"
+  }
+]

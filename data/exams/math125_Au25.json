@@ -1,0 +1,313 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 12,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "trigonometric_integrals",
+      "powers_of_tangent_and_secant"
+    ],
+    "stem": "Evaluate the following integrals. Show clear and complete work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\tan^2(5x) \\sec^4(5x) \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{15}(\\tan(5x)) + \\frac{1}{25}(\\tan(5x))^5 + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_1^e \\frac{3\\ln(x)}{x\\sqrt{4 + (\\ln x)^2}} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3\\sqrt{5} - 6 = 3(\\sqrt{5} - 2)$"
+      }
+    ],
+    "id": "uw_math_125_au25_p1",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 6,
+    "topic": "improper_integrals",
+    "concepts": [
+      "infinite_interval_integrals",
+      "convergence_of_improper_integrals",
+      "divergence_of_improper_integrals"
+    ],
+    "stem": "Use the Comparison Test to determine if the following integral converges or diverges. To indicate the specific comparison you used to reach your conclusion, select one correct and relevant fact from each of the two columns below. No need to justify further.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$\\int_1^\\infty \\frac{1}{\\sqrt{x + x^2}} \\, dx$\n\nThis improper integral (check one box):\n☐ Converges\n☐ Diverges\n\nBECAUSE, for all $x \\geq 1$:\n☐ $\\frac{1}{\\sqrt{x + x^2}} < \\frac{1}{\\sqrt{x}}$\n☐ $\\frac{1}{\\sqrt{x + x^2}} < \\frac{1}{x^2}$\n☐ $\\frac{1}{\\sqrt{x + x^2}} > \\frac{1}{\\sqrt{x}}$\n☐ $\\frac{1}{\\sqrt{x + x^2}} > \\frac{1}{x^2}$\n\nAND:\n☐ $\\int_1^\\infty \\frac{1}{\\sqrt{x}} \\, dx$ converges\n☐ $\\int_1^\\infty \\frac{1}{\\sqrt{x}} \\, dx$ diverges\n☐ $\\int_1^\\infty \\frac{1}{x^2} \\, dx$ converges\n☐ $\\int_1^\\infty \\frac{1}{x^2} \\, dx$ diverges",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Converges"
+      }
+    ],
+    "id": "uw_math_125_au25_p2",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup",
+      "work_integral_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A car is traveling at a constant velocity of 27 m/s when its driver notices a road block ahead. The driver takes 0.5 seconds to react and start braking, and then brakes with a deceleration\n\n$$a(t) = -3t^2 \\text{ m/s}^2,$$\n\nwhere $t$ is the number of seconds since it started braking, until the car comes to a full stop. How many meters will the car travel from the first moment when the driver noticed the road block until the car comes to a full stop?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$74.25$ meters"
+      }
+    ],
+    "id": "uw_math_125_au25_p3",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_x",
+      "radius_from_geometry",
+      "inner_outer_radius_setup"
+    ],
+    "stem": "Let $\\mathcal{R}$ be the shaded region shown. It is bounded above by curve:\n\n$$y = 1 + \\sqrt{1 - x^2}, \\text{ for } 0 \\leq x \\leq 1,$$\n\nand it is bounded below by the lines $y = 1/2$ and $y = x$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Set up, but do not evaluate, an integral (or a sum of integrals) equal to the volume of the solid of revolution obtained by revolving $\\mathcal{R}$ around the vertical line $x = -1$.\n\nIndicate which method you are using, and show some work. Box your final answer.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A shaded region in the first quadrant. The region is bounded above by a circular arc $y = 1 + \\sqrt{1 - x^2}$ from $(0,1)$ to $(1,1)$, creating a semicircular shape. The region is bounded below by the line $y = 1/2$ (horizontal) and the line $y = x$ (diagonal). The shaded region appears to be the area enclosed between these curves in the first quadrant, roughly from $x = 0$ to $x = 1$. The vertical axis is labeled $y$ and the horizontal axis is labeled $x$.",
+        "final_answer": "$\\int_0^{1/2} 2\\pi(x+1)(1+\\sqrt{1-x^2}-\\frac{1}{2})dx + \\int_{1/2}^1 2\\pi(x+1)(1+\\sqrt{1-x^2}-x)dx$",
+        "diagram_image_local": "uw_data/math125/math125_Au25_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au25/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_125_au25_p4",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "derivative_of_integral_function",
+      "evaluation_by_antiderivatives"
+    ],
+    "stem": "Below is shown the graph of a function $y = f(t)$ defined on $0 \\leq x \\leq 5$.\n\nIn addition, you know that: $\\int_0^2 f(x) \\, dx = 0.6$, $\\int_1^2 f(x) \\, dx = 0.9$, and $\\int_2^4 f(x) \\, dx = 1.3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Calculate $\\int_0^2 |f(x)| \\, dx$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A graph of $y = f(t)$ on the domain $0 \\leq x \\leq 5$. The function appears to: start near $y = -1$ at $x = 0$, increase to a local maximum of about $y = 2$ around $x = 1$, decrease to a local minimum of about $y = -2$ around $x = 2.5$, then increase to a constant value of about $y = 4$ from $x \\approx 3.5$ to $x = 5$. The curve is continuous and smooth. Grid lines are visible. The $y$-axis ranges from approximately $-2$ to $6$, and the $x$-axis from $0$ to $5$.",
+        "final_answer": "$1.2$",
+        "diagram_image_local": "uw_data/math125/math125_Au25_images/diagrams/p5_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au25/diagrams/p5_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Calculate $\\int_0^2 xf(x^2) \\, dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0.95$"
+      },
+      {
+        "label": "c",
+        "question_text": "Let $F(x) = \\int_1^{ex} f(t) \\, dt$, with $f$ as in the graph above.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "POSITIVE"
+      },
+      {
+        "label": "c.i",
+        "question_text": "Circle the correct answer (no need to justify): $F(0)$ is\n\nPOSITIVE          NEGATIVE          ZERO",
+        "depends_on": "c",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "c.ii",
+        "question_text": "Circle the correct answer (no need to justify): $F'(1.5)$ is\n\nPOSITIVE          NEGATIVE          ZERO",
+        "depends_on": "c",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au25_p5",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup",
+      "work_integral_interpretation"
+    ],
+    "stem": "The electric force $F$ (in Newtons) acting on a charged particle $B$ as a result of the presence of a second charged particle $A$ is given by Coulomb's Law:\n\n$$F = k \\frac{q_A q_B}{r^2},$$\n\nwhere $k = 9 \\times 10^9$ is a constant, $q_A$ and $q_B$ are the charges of the particles $A$ and $B$, in Coulombs, and $r$ is the distance (in meters) between the particles.\n\nAssume that two particles $A$ and $B$ have charges $q_A = 1$ and $q_B = -1$ Coulomb. (The force acting on them is negative, indicating that the particles are attracting each other.) Assume that particle $A$ is kept fixed, while particle $B$ is being moved away from $A$ by applying a force of equal magnitude and opposite sign to the force by which $A$ attracts $B$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the work done to move particle $B$ from an initial position of 1 meter away from particle $A$, to a position 2 meters away from $A$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(4.5) \\times 10^9$ Joules"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the work done to move particle $B$ from an initial position of 1 meter away from $A$, to an infinite distance away from particle $A$. If that work is infinite, say so and justify your claim.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$9 \\times 10^9$ Joules"
+      }
+    ],
+    "id": "uw_math_125_au25_p6",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 16,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments",
+      "area_between_curves_dx"
+    ],
+    "stem": "Let $R$ be the portion of the disk of radius 3 centered at the origin for $-3 \\leq x \\leq 1.5$, as shown below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the area of this region $R$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A coordinate plane with a disk of radius 3 centered at the origin. The shaded region $R$ is the portion of this disk bounded vertically between $x = -3$ and $x = 1.5$. The region appears as a slice of the disk. Grid lines are visible, with tick marks visible on the axes. The $x$-axis extends from approximately $-3$ to $3$, and the $y$-axis from approximately $-4$ to $4$.",
+        "final_answer": "$\\frac{24\\pi + 9\\sqrt{3}}{4} \\approx 22.7466$",
+        "diagram_image_local": "uw_data/math125/math125_Au25_images/diagrams/p7_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au25/diagrams/p7_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the coordinates $(\\bar{x}, \\bar{y})$ for the center of mass of a thin lamina of uniform area density $\\rho = 1$ occupying this region $R$. Round to nearest two decimal digits.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-0.51, 0)$"
+      }
+    ],
+    "id": "uw_math_125_au25_p7",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution of the differential equation that satisfies the given initial condition:\n\n$$\\frac{dy}{dx} = xe^{2x+y}, \\quad y(0) = 1$$\n\nFor full credit, show all steps and write your answer in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = -\\ln\\left(\\frac{1}{4}e^{2x} - \\frac{1}{2}xe^{2x} + \\frac{1}{e} - \\frac{1}{4}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_au25_p8",
+    "course": "math_125",
+    "exam": "au25_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 16,
+    "topic": "differential_equations",
+    "concepts": [
+      "differential_equation_terminology",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations",
+      "logistic_differential_equation"
+    ],
+    "stem": "A population of yeast cells in certain container is found to satisfy the differential equation:\n\n$$\\frac{dP}{dt} = 3P - \\frac{P^2}{1000}$$\n\nwhere $P(t)$ is the number of yeast cells in the container after $t$ hours.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What are all the equilibrium solutions ($P =$ a constant) for this differential equation?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$P = 0$ & $P = 3000$"
+      },
+      {
+        "label": "b",
+        "question_text": "Solve the given differential equation and determine the number of yeast cells after 2 hours if the population started with 1000 cells. Show clear and complete work; use additional pages if needed. Give your answer in exact form.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$P(2) = \\frac{3000e^c}{2 + e^c}$ where answer (rounded to nearest whole number of cells) = $2985$"
+      }
+    ],
+    "id": "uw_math_125_au25_p9",
+    "course": "math_125",
+    "exam": "au25_final"
+  }
+]

@@ -1,0 +1,279 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "direction_vectors",
+      "vector_projection"
+    ],
+    "stem": "Use the three points $P(1, 2, 1)$, $Q(3, 2, 2)$ and $R(-1, 0, -1)$ to answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give the parametric equations for the line that passes through the points $P$ and $Q$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "x(t) = 3 + 2t, y(t) = 2, z(t) = 2 + t"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute $\\text{proj}_{\\overrightarrow{PQ}} \\overrightarrow{PR}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "\\text{proj}_{\\vec{PQ}} \\vec{PR} = \\left\\langle -\\frac{12}{5}, 0, -\\frac{6}{5} \\right\\rangle"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute the point on the line given in part (a) that is closest to the point $R(-1, 0, -1)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "\\left(-\\frac{7}{5}, 2, -\\frac{1}{5}\\right)"
+      }
+    ],
+    "id": "uw_math_126_wi18_p1",
+    "course": "math_126",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "derivatives_of_vector_functions",
+      "tangent_vector",
+      "curvature"
+    ],
+    "stem": "Consider the curve given by the vector function $\\mathbf{r}(t) = \\left\\langle t^2 - 1, 2t, \\frac{t^3}{3} \\right\\rangle$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\mathbf{r}'(t)$ and $\\mathbf{r}''(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "\\mathbf{r}'(t) = \\langle 2t, 2, t^2 \\rangle, \\mathbf{r}''(t) = \\langle 2, 0, 2t \\rangle"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute a parametric equation for the tangent line to this curve when $t = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "x(t) = 2t, y(t) = 2 + 2t, z(t) = \\frac{1}{3} + t"
+      },
+      {
+        "label": "c",
+        "question_text": "What is the curvature of $\\mathbf{r}(t)$ at $t = 1$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "\\kappa(1) = \\frac{2}{9}"
+      }
+    ],
+    "id": "uw_math_126_wi18_p2",
+    "course": "math_126",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 13,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation",
+      "implicit_partial_differentiation"
+    ],
+    "stem": "Consider the implicitly defined surface $2xyz + xy + z^2 + 2 = xz^2 + x + y + 2z$ in $\\mathbb{R}^3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the two points of intersection of the surface with the line through the origin and in direction $\\mathbf{j} + \\mathbf{k}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(0, 1, 1) \\text{ and } (0, 2, 2)"
+      },
+      {
+        "label": "b",
+        "question_text": "Write the equation of the tangent plane to the surface at the point $(0, 5, 3)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "z - 3 = -\\frac{25}{4}(x - 0) + \\frac{1}{4}(y - 5)"
+      }
+    ],
+    "id": "uw_math_126_wi18_p3",
+    "course": "math_126",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 13,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Find the absolute maximum and minimum values of $f(x, y) = x + y + \\sqrt{1 - x^2 - y^2}$ on the quarter disc $\\{(x, y) \\mid x \\geq 0, y \\geq 0, x^2 + y^2 \\leq 1\\}$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the absolute maximum and minimum values of $f(x, y) = x + y + \\sqrt{1 - x^2 - y^2}$ on the quarter disc $\\{(x, y) \\mid x \\geq 0, y \\geq 0, x^2 + y^2 \\leq 1\\}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "\\max = \\sqrt{3} \\text{ at the critical point } \\left(\\frac{1}{\\sqrt{3}}, \\frac{1}{\\sqrt{3}}\\right); \\min = 1 \\text{ at each of the ``corners'': } (0,0), (1,0), \\text{ and } (1,0)"
+      }
+    ],
+    "id": "uw_math_126_wi18_p4",
+    "course": "math_126",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 13,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_rectangles",
+      "integration_bounds_setup"
+    ],
+    "stem": "Let $S$ be the solid beneath $z = 12xy^2$ and above $z = 0$, over the rectangle $[0,1] \\times [0,1]$. Find the value of $m > 1$ so that the plane $y = mx$ divides $S$ into two pieces with equal volume.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $S$ be the solid beneath $z = 12xy^2$ and above $z = 0$, over the rectangle $[0,1] \\times [0,1]$. Find the value of $m > 1$ so that the plane $y = mx$ divides $S$ into two pieces with equal volume.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "m = \\sqrt{\\frac{6}{5}}"
+      }
+    ],
+    "id": "uw_math_126_wi18_p5",
+    "course": "math_126",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute $\\int_{0}^{\\sqrt{2}} \\int_{x}^{\\sqrt{4-x^2}} (x^3 + xy^2) \\, dy \\, dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "\\frac{16}{3}(2 - \\sqrt{2})"
+      }
+    ],
+    "id": "uw_math_126_wi18_p6",
+    "course": "math_126",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "higher_order_taylor_polynomial",
+      "taylor_series_definition",
+      "power_series_representation"
+    ],
+    "stem": "Let $f(x) = x^2 \\sin(x^3) + \\frac{1}{8 - x^3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $T_6(x)$, the sixth Taylor polynomial for $f(x)$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T_6(x) = \\frac{1}{8} + \\frac{x^3}{8^2} + x^5 + \\frac{x^6}{8^3}"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the largest open interval on which the Taylor series for $f(x)$ based at $b = 0$ converges.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "-2 < x < 2"
+      }
+    ],
+    "id": "uw_math_126_wi18_p7",
+    "course": "math_126",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 13,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "first_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $g(x) = \\sqrt{3 + x^2}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $T_1(x)$, the first Taylor polynomial for $g(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T_1(x) = 2 + \\frac{1}{2}(x - 1)"
+      },
+      {
+        "label": "b",
+        "question_text": "Use your answer to (a) to approximate the value of $\\sqrt{3.25}$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "\\sqrt{3.25} \\approx g(0.5) \\approx T_1(0.5) = 1.75"
+      },
+      {
+        "label": "c",
+        "question_text": "Use Taylor's inequality to find an upper bound for the error in your approximation in part (b).",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "|f(0.5) - T_1(0.5)| \\leq \\frac{1}{8}"
+      }
+    ],
+    "id": "uw_math_126_wi18_p8",
+    "course": "math_126",
+    "exam": "wi18_final"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 12,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "reverse_chain_rule_recognition"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\frac{x}{\\sqrt{x^2 + 2x + 10}} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\sin(4x)\\cos(2x) dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p1",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "evaluation_by_antiderivatives",
+      "improper_integrals"
+    ],
+    "stem": "Evaluate the following integrals. Show all work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_0^1 x\\tan^{-1}(x) dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_0^{\\infty} \\frac{1}{2x^2 + 7x + 3} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p2",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations",
+      "exponential_growth_and_decay"
+    ],
+    "stem": "The velocity of a particle is given by $$v(t) = 9(t-1)e^{3t}$$ in feet/sec, where $t$ is in seconds",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Assume the initial position of the particle is $s(0) = 0$. Find the function $s(t)$ for the position of the particle at time $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "Find the total distance traveled by the particle from $t = 0$ to $t = 2$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p3",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the arc length of the curve $$y = \\frac{2}{3}(x^2 + 1)^{3/2}$$ from $x = -1$ to $x = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p4",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work",
+      "variable_force_work",
+      "work_integral_interpretation"
+    ],
+    "stem": "The spherical tank shown has a radius of $r = 1$ ft and a spout at the top of tank of height $h = 1$ ft. The tank is half full of oil that has a density of 60 lbs/ft³.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the work required to pump the oil out of the spout.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A sphere with radius $r = 1$ ft marked with a dashed line from center to edge. A vertical spout of height $h = 1$ ft extends upward from the top of the sphere. The sphere is filled with blue-shaded oil representing the lower half of the sphere.",
+        "diagram_image_local": "uw_data/math125/math125_Au23_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au23/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_au23_p5",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "finding_intersection_points_for_area",
+      "volumes",
+      "disk_method",
+      "washer_method"
+    ],
+    "stem": "Consider the region $R$ bounded by the curve $y = x^4$, the line $x = 2$, and the x-axis.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the value of $a$ such that the line $x = a$ would divide the region $R$ into two regions of equal area.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A coordinate plane showing a curve (the fourth-degree polynomial $y = x^4$) starting at the origin and curving upward. A vertical line at $x = 2$ is drawn. The region bounded by the curve $y = x^4$, the vertical line $x = 2$, and the x-axis is shaded in gray.",
+        "diagram_image_local": "uw_data/math125/math125_Au23_images/diagrams/p6_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au23/diagrams/p6_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "A solid is obtained by rotating the region $R$ around the horizontal line $y = -3$. SET UP two integrals which are equal to the volume of this solid, the first integral by applying the cylindrical shells method, and the second one by the washers methods. (DO NOT EVALUATE)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p6",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "washer_method",
+      "volume_with_respect_to_x",
+      "volume_with_respect_to_y"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "SHELLS",
+        "question_text": "[Space for student to write the cylindrical shells integral setup]",
+        "depends_on": "6b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "WASHERS",
+        "question_text": "[Space for student to write the washers method integral setup]",
+        "depends_on": "6b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p6",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 12,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the center of mass of the quarter-ellipse region in the first quadrant bounded by $$y = \\sqrt{1 - \\left(\\frac{x}{2}\\right)^2}$$, the x-axis, and the y-axis.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p7",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution of the following initial value problem. $$y' = (y^2 - 3y + 2)\\cos(x), \\quad y(0) = 3.$$ For full credit, write your answer in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p8",
+    "course": "math_125",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 12,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "A radioactive material decays at a rate proportional to the amount present (so if $y(t)$ is the amount, $y'(t) = -\\alpha y(t)$ for some positive number $\\alpha$.)",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "On day 0 there are 10 kg of material present. On day 3, there are 8 kg of material present. After how many days will there only be 2 kg?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "Suppose the scientists start on day 0 with 12 kg of the same material, and remove 0.5 kg every day, so the new differential equation is $y' = -\\alpha y - 0.5$ (with the same $\\alpha$ as before.) After how many days will there be only 2 kg left?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au23_p9",
+    "course": "math_125",
+    "exam": "au23_final"
+  }
+]

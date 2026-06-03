@@ -1,0 +1,352 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "angle_between_vectors",
+      "line_plane_intersection",
+      "parametric_equations_of_lines"
+    ],
+    "stem": "Let $\\mathcal{P}$ be the plane $8x - 4y + z = 3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the acute angle between $\\mathcal{P}$ and the plane $x = 4$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\theta = \\cos^{-1}\\left(\\frac{8}{9}\\right) \\approx 0.176 \\text{ rad} \\approx 27.3°$"
+      },
+      {
+        "label": "b",
+        "question_text": "Write parametric equations for the line of intersection between $\\mathcal{P}$ and the $xz$-plane.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = t$, $y = 0$, $z = 3 - 8t$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the point on the plane $\\mathcal{P}$ that is closest to $(26, -7, 10)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(2, 5, 7)$"
+      }
+    ],
+    "id": "uw_math_126_au22_p1",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 9,
+    "topic": "motion_in_space",
+    "concepts": [
+      "acceleration_vector",
+      "velocity_vector",
+      "speed",
+      "integrals_of_vector_functions"
+    ],
+    "stem": "The acceleration of a particle at time $t$ is given by the vector function $\\mathbf{a}(t) = \\langle 2t, 4, 4\\sqrt{t} \\rangle \\, \\text{m/s}^2$. The particle is in the same position at time $t = 1$ as it is at time $t = 4$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "What is the speed of the particle at time $t = 0$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt{15525} \\text{ m/s} \\approx 124.6 \\text{ m/s}$"
+      }
+    ],
+    "id": "uw_math_126_au22_p2",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 11,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "partial_derivatives",
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Let $f(x, y) = 2x^2 - 2xy + y^2 - 3y$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find and classify the critical points of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Only one CP: $\\left(\\frac{3}{2}, 5\\right)$, local minimum"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the global minimum and global maximum of $f$ on the square $0 \\le x \\le 4, 0 \\le y \\le 4$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Global maximum: $32$ at $(4, 4)$; Global minimum: $-\\frac{7}{2} - 4 + 5 = -\\frac{3}{2}$ at $\\left(\\frac{3}{2}, 5\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "You do not need to explain your work on this part.\n\nDoes $f$ have a global minimum on $\\mathbb{R}^2$? \\quad Yes \\quad No\n\nDoes $f$ have a global maximum on $\\mathbb{R}^2$? \\quad Yes \\quad No",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Does f have a global minimum on $\\mathbb{R}^2$? Yes; Does f have a global maximum on $\\mathbb{R}^2$? No"
+      }
+    ],
+    "id": "uw_math_126_au22_p3",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "polar_coordinates",
+      "polar_integral_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate the following double integral: $\\displaystyle \\int_0^1 \\int_0^{\\arctan(x)} \\frac{1}{1 - \\tan(y)} \\, dy \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate the following double integral: $\\displaystyle \\iint_D \\cos\\left(\\sqrt{x^2 + y^2}\\right) dA$, where $D$ is the region in the $xy$-plane given by $x^2 + y^2 \\le 4, x \\ge 0$, and $y \\ge 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{2}\\left[2\\sin 2 + \\cos 2 - 1\\right] \\approx 0.063$"
+      }
+    ],
+    "id": "uw_math_126_au22_p4",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "mass_from_density_2d",
+      "center_of_mass_2d",
+      "double_integrals_over_general_regions",
+      "polar_coordinates"
+    ],
+    "stem": "In this problem, $a$ denotes a positive constant. A flat plate occupies the part of the disk $x^2 + y^2 \\le a^2$ that lies in the first quadrant. The plate has density $\\rho(x, y) = xy^2$. The $y$-coordinate of the center of mass of the plate is $\\bar{y} = 1$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find $a$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a = \\frac{8}{\\sqrt{5}}$"
+      }
+    ],
+    "id": "uw_math_126_au22_p5",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 8,
+    "topic": "double_integrals",
+    "concepts": [
+      "polar_coordinates",
+      "integration_bounds_setup",
+      "changing_order_of_integration"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\displaystyle \\int_0^{10} \\int_0^{\\pi/4} r \\, d\\theta \\, dr$ matches region: _____",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "Six regions labeled A–F. Region A: a half-disk or crescent shape in the left portion of a 10×10 square. Region B: a triangular region in the first quadrant of a 10×10 square, bounded by the x-axis, y-axis, and a diagonal line. Region C: a quarter-disk (circular sector) in the first quadrant of a 10×10 square. Region D: a triangular region in the first quadrant of a 10×10 square. Region E: a roughly rectangular or trapezoidal region in the upper portion of a 10×10 square. Region F: a triangular region spanning much of the 10×10 square.",
+        "final_answer": "B",
+        "diagram_image_local": "uw_data/math126/math126_Au22_images/page-06.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au22/diagrams/page-06.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\displaystyle \\int_0^{10} \\int_0^{y} dx \\, dy$ matches region: _____",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\displaystyle \\int_0^{\\pi/2} \\int_{(20/\\pi)\\theta}^{10} r \\, dr \\, d\\theta$ matches region: _____",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "C"
+      },
+      {
+        "label": "d",
+        "question_text": "$\\displaystyle \\int_0^{10} \\int_x^{10} dy \\, dx$ matches region: _____",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "E"
+      }
+    ],
+    "id": "uw_math_126_au22_p6",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "For both part (a) and (b), let $f(x) = \\sqrt{(x-1)^5} - \\cos(x-2)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial, $T_2(x)$, for $f(x)$ based at $b = 2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = \\frac{5}{2}(x-2) + \\frac{19}{8}(x-2)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use Taylor's inequality to find an upper bound (as sharp as possible) for $|f(x) - T_2(x)|$ on the interval $[1.8, 2.2]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|T_2(x) - f(x)| \\leq \\frac{1}{6}(2.295)|0.2|^3 \\approx 0.00306$"
+      }
+    ],
+    "id": "uw_math_126_au22_p7",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "For this problem, you may use the following basic Taylor series: $\\displaystyle \\frac{1}{1-x} = \\sum_{k=0}^{\\infty} x^k$, $\\displaystyle e^x = \\sum_{k=0}^{\\infty} \\frac{x^k}{k!}$, $\\displaystyle \\sin x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k+1}}{(2k+1)!}$, $\\displaystyle \\cos x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k}}{(2k)!}$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x) = \\displaystyle \\frac{x}{5 + x^2}$ based at $b = 0$. Express your answer using $\\sum$–notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{(-1)^k}{5^{k+1}} x^{2k+1}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval of convergence for the series you found in (a).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\sqrt{5} \\leq x \\leq \\sqrt{5}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use the Taylor series you found in (a) to find the Taylor series for $g(x) = \\ln(5 + x^2)$ based at $b = 0$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g(x) = \\ln 5 + \\sum_{k=0}^{\\infty} \\frac{(-1)^k}{(k+1)5^{k+1}} x^{2k+2}$"
+      }
+    ],
+    "id": "uw_math_126_au22_p8",
+    "course": "math_126",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 10,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation",
+      "normal_vector_to_plane",
+      "partial_derivatives"
+    ],
+    "stem": "Let $f(x, y) = 100 - x^2 - y^2 + xy$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find a normal vector to the tangent plane to the surface $z = f(x, y)$ at the point $(x_0, y_0, f(x_0, y_0))$. (Your answer will depend on $x_0$ and $y_0$.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\vec{n} = \\langle -2x_0 + y_0, -2y_0 + x_0, -1 \\rangle$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find a point $P$ on the portion of the graph of $f$ above the region $-2 < x \\le 2, -2 < y \\le 2$ where the tangent plane at $P$ intersects the $xy$-plane at the largest possible (acute) angle.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-2, 2, 88)$ or $(2, -2, 88)$"
+      }
+    ],
+    "id": "uw_math_126_au22_p9",
+    "course": "math_126",
+    "exam": "au22_final"
+  }
+]

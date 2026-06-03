@@ -1,0 +1,311 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "normal_vector_to_plane"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation for the plane containing the points $(0,0,1)$, $(1,2,3)$, $(2,4,5)$, and $(4,8,11)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2x - y = 0$"
+      },
+      {
+        "label": "b",
+        "question_text": "Consider the tangent plane to the surface $z = x^2 + xy - 3y$ at the point $(2, 3, 1)$. Compute the angle of intersection between this plane and the plane from part (a).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos^{-1}\\left(\\frac{15}{\\sqrt{5}\\sqrt{51}}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_sp16_p1",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "quadric_surfaces",
+    "concepts": [
+      "surface_identification",
+      "traces_of_surfaces"
+    ],
+    "stem": "Consider the surface $S$ defined by the equation $xy = z$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "True or False: the traces of $S$ parallel to the $xy$-plane are lines.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "FALSE"
+      },
+      {
+        "label": "b",
+        "question_text": "True or False: the traces of $S$ parallel to the $yz$-plane are lines.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "TRUE"
+      },
+      {
+        "label": "c",
+        "question_text": "True or False: the traces of $S$ parallel to the $xz$-plane are lines.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "TRUE"
+      },
+      {
+        "label": "d",
+        "question_text": "Find all points $(x, y, z)$ at which the curve $\\langle x(t), y(t), z(t) \\rangle = (\\sin(t), \\cos(t), \\sin(2t))$ intersects $S$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(0,1,0), (0,-1,0), (1,0,0), (-1,0,0)$"
+      }
+    ],
+    "id": "uw_math_126_sp16_p2",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "parametrization_of_curves"
+    ],
+    "stem": "Two particles travel along the space curves\n$$\\mathbf{r}_1(t) = \\langle t, t^2, t^3 \\rangle, \\quad \\mathbf{r}_2(t) = \\langle 1 + 4t, 1 + 16t, 1 + 52t \\rangle.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the points $(x, y, z)$ at which their paths intersect (if any such points exist).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The paths intersect at $(1,1,1)$ and $(3,9,27)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Do these particles ever collide? Explain.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "the particles do not collide"
+      }
+    ],
+    "id": "uw_math_126_sp16_p3",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "tangent_vector",
+      "osculating_plane"
+    ],
+    "stem": "The osculating plane at every point on the curve\n$$\\mathbf{r}(t) = \\left\\langle t + 2, 1 - t, \\frac{t^2}{2} \\right\\rangle$$\nis the same plane. Find an equation for it.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The osculating plane at every point on the curve\n$$\\mathbf{r}(t) = \\left\\langle t + 2, 1 - t, \\frac{t^2}{2} \\right\\rangle$$\nis the same plane. Find an equation for it.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x + y = 3$"
+      }
+    ],
+    "id": "uw_math_126_sp16_p4",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Find the absolute maximum and minimum values of the function\n$$f(x,y) = xy^2 - y^2 - x$$\non the region $D$ where\n$$D = \\{(x, y) \\mid x \\geq 0, y \\geq 0, x^2 + y^2 \\leq 9\\}.$$",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the absolute maximum and minimum values of the function\n$$f(x,y) = xy^2 - y^2 - x$$\non the region $D$ where\n$$D = \\{(x, y) \\mid x \\geq 0, y \\geq 0, x^2 + y^2 \\leq 9\\}.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Max value is $3$ (occurs at the point $(2, \\sqrt{5})$). Min value is $-9$ (occurs at the point $(0,3)$)"
+      }
+    ],
+    "id": "uw_math_126_sp16_p5",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "changing_order_of_integration"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Evaluate the following double integral\n$$\\int_0^1 \\int_0^{\\arctan y} \\frac{\\sin x}{1 + y^2} \\, dx \\, dy.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{4} - \\frac{\\sqrt{2}}{2}$"
+      }
+    ],
+    "id": "uw_math_126_sp16_p6",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "center_of_mass_2d",
+      "mass_from_density_2d"
+    ],
+    "stem": "A lamina occupies the region $D$ in the first quadrant bounded by the circles $x^2 + y^2 = 1$, $x^2 + y^2 = 3$, and the $x$-axis and the $y$-axis. Find the $y$-coordinate of the center of mass of the lamina if the density at any point in $D$ is given by\n$$\\rho(x, y) = \\frac{x}{x^2 + y^2 + 1}.$$",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A lamina occupies the region $D$ in the first quadrant bounded by the circles $x^2 + y^2 = 1$, $x^2 + y^2 = 3$, and the $x$-axis and the $y$-axis. Find the $y$-coordinate of the center of mass of the lamina if the density at any point in $D$ is given by\n$$\\rho(x, y) = \\frac{x}{x^2 + y^2 + 1}.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\bar{y} = \\frac{6 - 3\\ln 2}{12\\sqrt{3} - 12 - \\pi}$"
+      }
+    ],
+    "id": "uw_math_126_sp16_p7",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = e^{x^2}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial $T_2(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = c + 2c(x-1) + 3c(x-1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an upper bound for $|T_2(x) - f(x)|$ on the interval $[0, 2]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "On $[0,2]$, $|f'''(x)| = (8x^3 + 12x)e^{x^2} \\leq 88e^4$. Using $M = 88e^4$, $|T_2(x) - f(x)| \\leq \\frac{44}{3}e^4$. (Other correct answers are possible.)"
+      },
+      {
+        "label": "c",
+        "question_text": "What is the smallest value of $|T_2(x) - f(x)|$ on the interval $[0, 2]$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "At $x = b$, there is no error. So, the smallest value of $|T_2(x) - f(x)|$ is $0$."
+      }
+    ],
+    "id": "uw_math_126_sp16_p8",
+    "course": "math_126",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "Let $F(x) = \\int_0^x \\frac{t^3}{9 + t^2} \\, dt$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write the Taylor series for the function $F(x)$ based at $b = 0$. (Use $\\Sigma$-notation.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k+4}}{(2k+4)9^{k+1}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval on which the series in part (a) converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-3,3)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $F^{(10)}(0)$. Give an exact answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$F^{(10)}(0) = \\frac{-10!}{10 \\cdot 9^4}$"
+      }
+    ],
+    "id": "uw_math_126_sp16_p9",
+    "course": "math_126",
+    "exam": "sp16_final"
+  }
+]

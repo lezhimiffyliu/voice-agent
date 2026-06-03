@@ -1,0 +1,256 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "parametric_equations_of_lines",
+      "line_plane_intersection"
+    ],
+    "stem": "Let $P$ be the plane that goes through the points $A(1,3,2)$, $B(2,3,0)$, and $C(0,5,3)$. Let $\\ell$ be the line through the point $Q(1,2,0)$ and parallel to the line $x = 5$, $y = 3-t$, $z = 6+2t$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the $(x, y, z)$ point of intersection of the line $\\ell$ and the plane $P$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(x, y, z) = \\left(1, \\frac{1}{3}, \\frac{10}{3}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p1",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "motion_in_space",
+    "concepts": [
+      "acceleration_vector",
+      "velocity_vector",
+      "integrals_of_vector_functions"
+    ],
+    "stem": "At time $t = 0$, a small object is thrown. The acceleration is given by $\\mathbf{a}(t) = \\langle 2e^{-t}, 0, -10 \\rangle$. The initial velocity and positions are by $\\mathbf{v}(0) = \\langle 0, 3, 10 \\rangle$ and $\\mathbf{r}(0) = \\langle 0, 0, 0 \\rangle$, respectively.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the point $(x, y, z)$ at the time $t > 0$ at which the object intersects the $xy$-plane.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(x, y, z) = (2e^{-2} + 2, 6, 0)$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p2",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "implicit_partial_differentiation",
+      "partial_derivative_definition"
+    ],
+    "stem": "Let $z = f(x, y)$ be a function determined by the equation $-z + e^{yz-2} + (x - 1)y = 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Use implicit differentiation to find $\\frac{\\partial z}{\\partial x}$ and $\\frac{\\partial z}{\\partial y}$ at the point $(x, y, z) = (1.2, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "at $(1, 2, 1)$, $\\frac{\\partial z}{\\partial x} = -4$ and $\\frac{\\partial z}{\\partial y} = -1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use linear approximation to estimate the value of $f(1.01, 1.99)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(1.01, 1.99) \\approx -4(1.01 - 1) - (1.99 - 2) + 1 = 0.97$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p3",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "local_extrema_multivariable"
+    ],
+    "stem": "Find two points on the surface $(z - 1)^2 = x^2 - xy + y^2 + 1$ that are closest to the point $(5, -5, 1)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find two points on the surface $(z - 1)^2 = x^2 - xy + y^2 + 1$ that are closest to the point $(5, -5, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(2, -2, 1 + \\sqrt{13})$ and $(2, -2, 1 - \\sqrt{13})$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p4",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 12,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_integral_setup",
+      "area_in_polar_coordinates"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Set up and evaluate a double integral in polar coordinates to calculate the area enclosed by the curve $r = 2 + \\sin(3\\theta)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{9\\pi}{2}$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p5",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "integration_bounds_setup"
+    ],
+    "stem": "Let $R$ be the region in the plane bounded by the curves $y = 3 - x^2$ and $y = 2x$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute $\\iint_R 4x \\, dA$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{128}{3}$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p6",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "iterated_integrals",
+      "changing_order_of_integration"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Evaluate the following integral. $$\\int_0^2 \\int_{y^2}^4 y \\sin(x^2) \\, dx \\, dy$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{4} - \\frac{1}{4}\\cos(16)$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p7",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $g(x) = \\frac{1}{3 + 4x}$ based at $b = 0$. Give your answer using sigma notation and list the first three non-zero terms.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k 4^k x^k}{3^{k+1}} = \\frac{1}{3} - \\frac{4x}{3^2} + \\frac{4^2 x^2}{3^3} + \\ldots$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the Taylor series for $h(x) = \\ln(3 + 4x)$ based at $b = 0$. Give your answer using sigma notation and list the first four non-zero terms.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h(x) = \\ln(3) + \\sum_{k=0}^{\\infty} \\frac{(-1)^k 4^{k+1} x^{k+1}}{3^{k+1}(k+1)} = \\ln(3) + \\frac{4x}{3} - \\frac{4^2 x^2}{3^2(2)} + \\frac{4^3 x^3}{3^3(3)} - \\ldots$"
+      },
+      {
+        "label": "c",
+        "question_text": "Give the largest open interval on which the series you found in part (b) converges.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(-\\frac{3}{4}, \\frac{3}{4}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_sp17_p8",
+    "course": "math_126",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 10,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "error_estimation_taylor",
+      "higher_order_taylor_polynomial"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $T_n(x)$ be the $n^{th}$ Taylor polynomial for $f(x) = e^{3x}$ based at $b = 0$. Find a value of $n$ such that $$|f(x) - T_n(x)| < 0.01$$ for all $x$ in the interval $\\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$. As always, show all work and justify your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "For $k = 0, 1, 2, \\ldots, f^{(k)}(x) = 3^k e^{3x}$. So, for all $t$ in the interval $\\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$, $|f^{(n+1)}(t)| = |3^{n+1} e^{3t}| \\leq 3^{n+1} e < 3^{n+2}$. This means that, for all $x$ in the interval $\\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$, $|f(x) - T_n(x)| \\leq \\frac{3^{n+2}}{(n+1)!} |x|^{n+1} \\leq \\frac{3^{n+1}}{(n+1)!} \\cdot \\frac{1}{3^{n+1}} = \\frac{3}{(n+1)!}$. We therefore need $n$ so that $\\frac{3}{(n+1)!} < \\frac{1}{100}$. $n = 5$ is sufficient."
+      }
+    ],
+    "id": "uw_math_126_sp17_p9",
+    "course": "math_126",
+    "exam": "sp17_final"
+  }
+]

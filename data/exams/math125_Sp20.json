@@ -1,0 +1,398 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "mass_from_density",
+      "moments"
+    ],
+    "stem": "Find the center of mass $(\\bar{x}, \\bar{y})$ of a metal plate bounded by the graph of the function $f(x) = \\frac{1}{\\sqrt{1+x^2}}$ on the top, the x-axis on the bottom, the y-axis on the left and the line $x = 1$ on the right.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the center of mass $(\\bar{x}, \\bar{y})$ of a metal plate bounded by the graph of the function $f(x) = \\frac{1}{\\sqrt{1+x^2}}$ on the top, the x-axis on the bottom, the y-axis on the left and the line $x = 1$ on the right.\n\nShow all work and box your answer.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 2,
+        "diagram_description": "A shaded region in the first quadrant bounded above by a decreasing curve (the function $f(x) = \\frac{1}{\\sqrt{1+x^2}}$), below by the x-axis, on the left by the y-axis, and on the right by a vertical line at $x=1$. The y-axis ranges from 0 to approximately 1.2, and the x-axis ranges from 0 to 1.",
+        "diagram_bbox": null,
+        "final_answer": "$(\\bar{x}, \\bar{y}) = \\left(\\frac{\\sqrt{2}-1}{\\ln(1+\\sqrt{2})}, \\frac{\\pi}{8\\ln(1+\\sqrt{2})}\\right)$",
+        "diagram_image_local": "uw_data/math125/math125_Sp20_images/diagrams/p1.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp20/diagrams/p1.png"
+      }
+    ],
+    "id": "uw_math_125_sp20_p1",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup"
+    ],
+    "stem": "While staying home in quarantine, you decide to build yourself a skateboard ramp. The top of the ramp is in the shape of the function $y = (4/3)x^{3/2}$, where $x$ is the horizontal distance along the base of the ramp, in meters.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "If you want the top of the ramp to have an arclength $L = 2$ meters, how long will the base $b$ have to be?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 3,
+        "diagram_description": "A coordinate system with origin at (0,0). A curved ramp is shown in the first quadrant, with the curve rising from the origin. The curve is labeled with length $L$ along its arc. The base of the ramp extends along the positive x-axis to a point labeled $b$. The height of the ramp is labeled on the y-axis. The region under the curve is shaded gray and labeled 'RAMP'.",
+        "diagram_bbox": null,
+        "final_answer": "$b = \\frac{13^{2/3}-1}{4} \\approx 1.32$ meters",
+        "diagram_image_local": "uw_data/math125/math125_Sp20_images/diagrams/p2.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp20/diagrams/p2.png"
+      }
+    ],
+    "id": "uw_math_125_sp20_p2",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "area_between_two_curves_dy",
+      "finding_intersection_points_for_area",
+      "top_minus_bottom_setup",
+      "right_minus_left_setup"
+    ],
+    "stem": "The shaded region shown is bounded on its top by the line $y = 0.75x$, and on its bottom by $y = -5$ for $0 \\le x \\le 10$ and by some non-linear function $y = f(x)$ (with inverse $x = g(y)$) for $10 \\le x \\le 20$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up an integral expression in x equal to the area of this region. Your answer will include $f(x)$. Do not simplify or compute, and no need to justify.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A shaded region on a coordinate plane. The region is bounded above by the line $y = 0.75x$ and below by the line $y = -5$ for $0 \\le x \\le 10$. For $10 \\le x \\le 20$, the region is bounded above by $y = 0.75x$ and below by a non-linear curve labeled $y = f(x)$ or $x = g(y)$. Key points are marked: the line and bottom intersect at approximately $(0, 0)$ and $(10, 7.5)$; the non-linear curve is shown as a curved boundary from $(10, 7.5)$ to $(20, 15)$. Grid lines are visible. The x-axis ranges from 0 to 20, and the y-axis ranges from -5 to 15.",
+        "diagram_bbox": null,
+        "final_answer": "$A = \\int_0^{10}(0.75x-(-5))dx + \\int_{10}^{20}(0.75x-f(x))dx = 87.5 + \\int_{10}^{20}(0.75x-f(x))dx$",
+        "diagram_image_local": "uw_data/math125/math125_Sp20_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp20/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up an integral expression in y equal to the area of this region. Your answer will include $g(y)$. Do not simplify or compute, and no need to justify.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$A = \\int_{-5}^0 g(y)dy + \\int_0^{4/5}\\left(g(y)-\\frac{4}{3}y\\right)dy$"
+      }
+    ],
+    "id": "uw_math_125_sp20_p3",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "Archeologists found an ancient circular mound created by soil dug up from the center of the structure. The mound is a solid of revolution obtained by rotating the shaded area shown below around the line at the center. Measurements show that the top of the shaded section of the mound is approximately given by the function:\n\n$$f(x) = 2\\sin^2\\left(\\frac{\\pi x^2}{100}\\right), \\quad 10 \\le x \\le 10\\sqrt{2}$$\n\nwhere all dimensions are in meters, and $x$ is the distance from the center.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the volume of the mound. Show all work and leave your answer in exact simplified form.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A cross-section view of a mound shown as a solid of revolution. The x-axis is horizontal with markings at $-10\\sqrt{2}$, $-10$, $0$ (center, marked with a small circle), $10$, and $10\\sqrt{2}$. The y-axis is vertical. Two symmetric shaded regions are shown above the x-axis, one on each side of the center. The boundary of each shaded region follows the curve $y = f(x)$ which appears as a bell-shaped or sinusoidal curve. The regions are symmetric about the y-axis, demonstrating the circular mound structure.",
+        "diagram_bbox": null,
+        "final_answer": "$100\\pi$ m$^3$",
+        "diagram_image_local": "uw_data/math125/math125_Sp20_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp20/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_125_sp20_p4",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup",
+      "work_integral_interpretation"
+    ],
+    "stem": "A leaky bucket weighs 2 kg and initially contains 20 kg of water. It is being pulled up on a rope at the speed of 2 m/s while losing 1 kg of water per second. Ignore the weight of the rope and assume that the gravitational acceleration is 9.8 $m/s^2$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The work done to lift the bucket to the height $h$ above the initial level was 823.2 Joules. Find the height $h$.\n\nShow all your work and box the final answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$h = 4$ meters"
+      }
+    ],
+    "id": "uw_math_125_sp20_p5",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations",
+      "exponential_growth_and_decay"
+    ],
+    "stem": "In the year 2020 (which we take to be $t = 0$) there are 5000 wolves in a certain forest. In the absence of hunting, the wolf population would increase at the rate of 1% per year. However, hunters are killing wolves at the steady rate of 100 wolves per year.\n\nLet $W(t)$ represent the wolf population in this forest, $t$ years after 2020.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write a differential equation that $W(t)$ satisfies.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{dW}{dt} = 0.01W - 100 = 0.01(W - 10000)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Solve this differential equation to find a formula for $W(t)$ in terms of $t$. Show all steps.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$W = 10,000 - 5000e^{0.01t}$"
+      },
+      {
+        "label": "c",
+        "question_text": "In what year will the entire wolf population be exterminated from this forest area? Round your answer to the nearest year. Your answer should be some year in this century.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "2089"
+      }
+    ],
+    "id": "uw_math_125_sp20_p6",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "derivative_of_integral_function",
+      "evaluation_by_antiderivatives",
+      "accumulation_functions"
+    ],
+    "stem": "The following picture shows the graphs of three functions, labeled A, B, and C.",
+    "parts": [
+      {
+        "label": "i",
+        "question_text": "Which of A-C could be the graph of an antiderivative of Graph A?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "Three curves are displayed on the same coordinate system. Graph A (solid line) appears to be a bell-shaped or single-humped curve with a peak labeled 'Graph A' in the upper middle. Graph B (solid line, appears similar) is below Graph A, also with one hump. Graph C (solid line) is shown below, appearing to dip below the x-axis and form a U-shape or valley, labeled 'Graph C'. All three curves pass through or near a common region, and the curves are continuous.",
+        "diagram_bbox": null,
+        "final_answer": "Graph B",
+        "diagram_image_local": "uw_data/math125/math125_Sp20_images/diagrams/p7_i.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp20/diagrams/p7_i.png"
+      },
+      {
+        "label": "ii",
+        "question_text": "Which of A-C could be the graph of an antiderivative of Graph B?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "Graph C"
+      },
+      {
+        "label": "iii",
+        "question_text": "Which of A-C could be graph of an antiderivative of Graph C?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "none"
+      }
+    ],
+    "id": "uw_math_125_sp20_p7",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "derivative_of_integral_function",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "Which of the following expressions $y = f(x)$ are solutions of the differential equation: $\\frac{dy}{dx} = e^{x^2}$ satisfying $f(1) = 2$?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Circle the correct ones, and cross out the incorrect ones. For the ones that you crossed out, show which of the conditions it fails to satisfy: $\\frac{dy}{dx} = e^{x^2}$, $f(1) = 2$, or both.\n\n(A) $y = \\int_1^x e^t dt$\n\n(B) $y = \\int_1^x e^t dt + 2$\n\n(C) $y = \\int_1^{x^2} e^t dt$\n\n(D) $y = \\int_1^x (e^{t^2} + 2) dt$\n\n(E) $y = \\frac{1}{2x} e^{x^2} - \\frac{1}{2}e + 2$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null
+      }
+    ],
+    "id": "uw_math_125_sp20_p7",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "trigonometric_substitution",
+    "concepts": [
+      "sqrt_a2_plus_x2_substitution",
+      "trigonometric_substitution_setup",
+      "triangle_back_substitution"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Evaluate the following integral. Show all steps and use the methods of this class. Credit will depend on clarity and completeness of the solution steps shown.\n\n$$\\int \\operatorname{arcsec}\\left(\\sqrt{x^2 + 4x + 5}\\right) dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$(x+2)\\arctan(x+1) - \\ln\\sqrt{x^2+4x+5} + C$"
+      }
+    ],
+    "id": "uw_math_125_sp20_p8",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "convergence_of_improper_integrals",
+      "divergence_of_improper_integrals"
+    ],
+    "stem": "Consider the graphs below, depicting four positive, continuous, and decreasing functions. The functions cross only at the point (1, 1).",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Use the graph and the Comparison Test to determine whether the following improper integral converges or diverges. Circle the appropriate answer. If there is not enough information to determine convergence or divergence, circle \"not enough information\". **Justify your answers.**\n\n$$\\int_1^{\\infty} g(x)dx$$\n\nCONVERGES          DIVERGES          NOT ENOUGH INFORMATION",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A coordinate plane showing four curves in the first quadrant. All curves pass through the point (1,1). The curves are:\n- $y = 1/x$ (solid line, labeled 'y = 1/x')\n- $y = f(x)$ (dashed line, labeled 'y = f(x)')\n- $y = 1/x^2$ (dotted line, labeled 'y = 1/x^2')\n- $y = g(x)$ (solid line, labeled 'y = g(x)')\nAll four functions are positive, continuous, and decreasing. The graph extends along the positive x-axis to the right. The functions appear to approach the x-axis asymptotically as $x \\to \\infty$. The relative ordering from top to bottom (after $x=1$) appears to be: $1/x$, then $f(x)$, then $1/x^2$, then $g(x)$.",
+        "diagram_bbox": null,
+        "final_answer": "CONVERGES",
+        "diagram_image_local": "uw_data/math125/math125_Sp20_images/diagrams/p9_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp20/diagrams/p9_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the graph and the Comparison Test to determine whether the following improper integral converges or diverges. Circle the appropriate answer. If there is not enough information to determine convergence or divergence, circle \"not enough information\". **Justify your answers.**\n\n$$\\int_1^{\\infty} \\frac{1}{g(x)} dx$$\n\nCONVERGES          DIVERGES          NOT ENOUGH INFORMATION",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "DIVERGES"
+      },
+      {
+        "label": "c",
+        "question_text": "Use the graph and the Comparison Test to determine whether the following improper integral converges or diverges. Circle the appropriate answer. If there is not enough information to determine convergence or divergence, circle \"not enough information\". **Justify your answers.**\n\n$$\\int_1^{\\infty} \\sqrt{f(x)} dx$$\n\nCONVERGES          DIVERGES          NOT ENOUGH INFORMATION",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "DIVERGES"
+      }
+    ],
+    "id": "uw_math_125_sp20_p9",
+    "course": "math_125",
+    "exam": "sp20_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 11,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "In a 2-second laboratory experiment, a particle moves in a straight line, while its acceleration is manipulated by a force field. The resulting acceleration function (in $m/s^2$) is a multi-part function, whose expression and graph are shown below.\n\n$$a(t) = \\begin{cases} 60(1-t) & 0 \\le t < 1 \\\\ 60(t-2) & 1 \\le t \\le 2 \\end{cases}$$\n\nAssume that the particle begins at rest at $t = 0$ seconds.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the expression in terms of $t$ for the **velocity** of the particle from $t = 0$ to $t = 1$ seconds.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 11,
+        "diagram_description": "A graph titled 'Graph of a(t)' on a coordinate plane. The horizontal axis is labeled $t$ with markings at 0, 1, and 2. The vertical axis is labeled with values including 0, 20, 40, and 60 (positive direction) and -20, -40, -60 (negative direction). The graph shows a piecewise linear function:\n- From $t=0$ to $t=1$: a downward-sloping line starting at approximately (0, 60) and ending at (1, 0).\n- From $t=1$ to $t=2$: a downward-sloping line starting at (1, 0) and extending to approximately (2, -60).\nThe two line segments meet at the point (1, 0).",
+        "diagram_bbox": null,
+        "final_answer": "$v(t) = 60t - 30t^2$ on $[0,1]$",
+        "diagram_image_local": "uw_data/math125/math125_Sp20_images/diagrams/p10_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp20/diagrams/p10_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the expression in terms of $t$ for the **velocity** of the particle from $t = 1$ to $t = 2$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$v_2(t) = 30t^2 - 120t + 120$ on $[1,2]$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute the **average velocity** at which the particle was moving from $t = 0$ to $t = 2$ seconds. Show work.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$15$ m/s"
+      }
+    ],
+    "id": "uw_math_125_sp20_p10",
+    "course": "math_125",
+    "exam": "sp20_final"
+  }
+]

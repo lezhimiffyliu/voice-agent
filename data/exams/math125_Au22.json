@@ -1,0 +1,302 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "reverse_chain_rule_recognition"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int x^2(1+x)^{2022} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2025}(1+x)^{2025} - \\frac{2}{2024}(1+x)^{2024} + \\frac{1}{2023}(1+x)^{2023} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int \\frac{x}{\\sqrt{x^2 - 6x + 10}} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt{x^2-6x+10} + 3\\ln|\\sqrt{x^2-6x+10} + x - 3| + C$"
+      }
+    ],
+    "id": "uw_math_125_au22_p1",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds",
+      "definite_integral_substitution",
+      "integration_by_parts"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int_0^{\\sqrt{\\pi}} x^3 e^{x^2} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}(\\pi - 1)e^{\\pi} + 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_{(\\pi/6)^{10}}^{(\\pi/3)^{10}} \\frac{(1 + \\tan^2(x^{0.1}))^{1/2}}{x^{0.9}} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$10\\ln\\left|\\frac{2}{\\sqrt{3}}+1\\right| \\approx 7.67652$"
+      }
+    ],
+    "id": "uw_math_125_au22_p2",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "derivative_of_integral_function"
+    ],
+    "stem": "In this question, you do not need to show work or to justify your answers. Parts (a) and (b) below are not related.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Suppose $f(x)$ is a continuous function defined for all real numbers $x$, and $A(x) = \\int_0^x f(t) dt$. \n\ni. For what values of $x$ is the graph of the curve $y = A(x)$ increasing? Choose one of the following:\n\n$\\square$ where $f(x) > 0$\n\n$\\square$ where $f'(x) > 0$\n\n$\\square$ where $f''(x) > 0$\n\nii. For what values of $x$ is the graph of the curve $y = A(x)$ concave up? Choose one of the following:\n\n$\\square$ where $f(x) > 0$\n\n$\\square$ where $f'(x) > 0$\n\n$\\square$ where $f''(x) > 0$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "A particle is moving along a line with velocity $v(t) = t^2 - 8t + 15$. During which of the following time intervals is the displacement of the particle during that interval equal to the total distance traveled during that time interval? Choose all that apply.\n\n$\\square$ $1 \\le t \\le 3$\n\n$\\square$ $2 \\le t \\le 4$\n\n$\\square$ $4 \\le t \\le 6$\n\n$\\square$ $5 \\le t \\le 7$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1 \\leq t \\leq 3$ and $5 \\leq t \\leq 7$"
+      }
+    ],
+    "id": "uw_math_125_au22_p3",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_y",
+      "radius_from_geometry"
+    ],
+    "stem": "A region is bounded by the function",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$x = y\\ln(y + 1)$, the $x$-axis and the line $x = \\ln 2$. Note that when $y = 1$, $x = \\ln 2$. Find the volume of the solid of revolution obtained by rotating the region about the $x$-axis. Give the answer in exact form or as a decimal number with 5 significant digits.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A curve in the first quadrant showing $x = y\\ln(y+1)$. The curve starts near the origin and increases as y increases. The region is bounded by this curve on the left, the x-axis on the bottom, and the vertical line $x = \\ln 2$ on the right. The curve passes through the point where $y = 1$ and $x = \\ln 2$. Axes are labeled with tick marks at regular intervals.",
+        "final_answer": "$\\pi\\ln 2 - \\frac{4}{3}\\pi\\ln 2 + \\frac{5\\pi}{9} = \\pi\\left(\\frac{5}{9} - \\frac{1}{3}\\ln 2\\right) \\approx 1.01947$",
+        "diagram_image_local": "uw_data/math125/math125_Au22_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au22/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_125_au22_p4",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Suppose $A$ is the annulus with inner radius 1 and outer radius 2, centered at $(0, 0)$. Let $B$ be the part of $A$ in the first quadrant, as shown in the picture.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the center of mass of $B$, assuming constant density. Give your answer in exact form or in the decimal form with at least 5 significant digits. Hint: It is OK to use symmetry.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A diagram showing an annulus (ring) in the first quadrant. The inner circle has radius 1 and the outer circle has radius 2, both centered at the origin. The shaded region B represents the portion of the annulus in the first quadrant, spanning from 0 to π/2 radians. The region is bounded by the x-axis below, the y-axis on the left, the inner circle (radius 1) on the inside, and the outer circle (radius 2) on the outside.",
+        "final_answer": "$\\left(\\frac{28}{9\\pi}, \\frac{28}{9\\pi}\\right) \\approx (0.990297, 0.990297)$",
+        "diagram_image_local": "uw_data/math125/math125_Au22_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au22/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_au22_p5",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "work_integral_interpretation"
+    ],
+    "stem": "A rope weighing 0.3 pounds per foot was tied to a robot and it was used to lower the robot into a 30-foot deep well.\n\nThe robot will get out of the well by climbing up the rope at a constant speed, with the end of the rope still tied to the robot.\n\nAt the beginning of the climb, the robot weighs 20 pounds, including fuel, but it will burn fuel at a constant rate and will lose 3 pounds of fuel during the climb.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the work that the robot will do in climbing up to the top of the well.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$622.5$ ft-lbs"
+      }
+    ],
+    "id": "uw_math_125_au22_p6",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "finding_intersection_points_for_area"
+    ],
+    "stem": "Let $R$ be the region in the first quadrant below the parabola $y = -x^2 + 4x$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the value of $c > 0$ for which the graph of the parabola $y = cx^2$ divides the region $R$ into two subregions of equal area. Hint: Draw a picture and find the intersection points.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$c = \\sqrt{2} - 1$"
+      }
+    ],
+    "id": "uw_math_125_au22_p7",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup",
+      "applications_of_integration"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up a definite integral for the arclength of the curve $y = 3x^3$ for $0 \\le x \\le 1$. DO NOT EVALUATE THIS INTEGRAL.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_0^1 \\sqrt{1 + 81x^4} \\, dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "Approximate the integral in part (a) using the Trapezoid Rule with $n = 3$ subintervals. Give your answer in exact form (in terms of square roots, not decimals).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{6}\\left(1 + 2\\sqrt{2} + 2\\sqrt{17} + \\sqrt{82}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_au22_p8",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution to the differential equation $y' = xy(y - 1)$ that satisfies the initial condition $y(0) = -1$. Give your solution in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\frac{1}{1 - 2e^{x^2/2}}$"
+      }
+    ],
+    "id": "uw_math_125_au22_p9",
+    "course": "math_125",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling"
+    ],
+    "stem": "A large vat initially contains 2000 liters of milk with 2% milk fat (by volume). Milk with 4% fat is pumped into the vat at a rate of 20 liters per minute. The milk in the vat is kept thoroughly mixed, and is pumped out of the vat, also at a rate of 20 liters per minute.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the percentage of milk fat in the vat after 20 minutes?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1.8625385\\%$"
+      },
+      {
+        "label": "b",
+        "question_text": "How many minutes after the initial time is the percentage of milk fat in the vat equal to 3%?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$69.314718$ minutes"
+      }
+    ],
+    "id": "uw_math_125_au22_p10",
+    "course": "math_125",
+    "exam": "au22_final"
+  }
+]

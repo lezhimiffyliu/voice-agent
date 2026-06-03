@@ -1,0 +1,325 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 14,
+    "topic": "trigonometric_integrals",
+    "concepts": [
+      "powers_of_sine_and_cosine",
+      "odd_even_power_strategy"
+    ],
+    "stem": "Evaluate the following integrals. Show your work, and box your final answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(7 points) $\\int \\sin^3(4y) \\cos^7(4y) dy$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{40}\\cos^5(4y) - \\frac{1}{32}\\cos^5(4y) + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "(7 points) $\\int \\frac{6x^2}{x^2 - 3x + 2} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$6x - 6\\ln|x-1| + 24\\ln|x-2| + C$"
+      }
+    ],
+    "id": "uw_math_125_au18_p1",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(6 points) Evaluate the integral: $\\int \\sin(\\sqrt{x}) dx$. Show your work, and box your final answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-2\\sqrt{x}\\cos\\sqrt{x} + 2\\sin\\sqrt{x} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "(6 points) Does the improper integral $\\int_0^{\\infty} \\frac{1}{\\sqrt{2 + x^2}} dx$ converge or diverge? Fully justify your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Diverges"
+      }
+    ],
+    "id": "uw_math_125_au18_p2",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "derivative_of_integral_function"
+    ],
+    "stem": "The questions on this page are all short answers. No need to justify, except for the very last one.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Circle the correct equality or inequality signs:\n\ni. (2 points) $\\int_{\\pi}^{2\\pi} \\frac{\\sin(x)}{x} dx$ ___ $0$. (Choose from: >, =, <)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "a",
+        "question_text": "ii. (2 points) $\\int_{\\pi}^{\\pi} \\frac{\\sin(x)}{x} dx$ ___ $0$. (Choose from: >, =, <)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "The rest of the questions below both refer to a function $g(x)$, which is defined for $0 \\leq x \\leq 12$ as: $g(x) = \\int_0^x f(t) dt$, where $f(t)$ is the function whose graph is shown.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A graph of the function f(t) on the interval [-2, 12] with values on the y-axis ranging from -6 to 6. The curve starts near 0 at t=-2, increases slightly to a local maximum of approximately 1.5 around t=2, decreases to a local minimum of approximately -2.5 around t=5, increases to a local maximum of approximately 4 around t=8, and then decreases to approximately -5 at t=12. The curve is labeled 'Graph of f'.",
+        "diagram_image_local": "uw_data/math125/math125_Au18_images/diagrams/p3_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au18/diagrams/p3_b.png"
+      },
+      {
+        "label": "b",
+        "question_text": "i. (2 points) At what value of $x$ in the interval $[0, 12]$ does $g(x)$ reach its absolute maximum?",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "ii. (4 points) Let $h(x) = g(3x^2 - 5)$. Determine $h'(2)$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au18_p3",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(10 points) Find the $x$-coordinate for the center of mass of a thin plate with constant density that occupies the region: $0 \\leq x \\leq \\pi/4$, $0 \\leq y \\leq 2\\sec^2(x)$. Give your answer $\\bar{x}$ as an exact number.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate system with the x-axis horizontal and y-axis vertical. A shaded region (colored purple/blue) is shown in the first quadrant, bounded below by the x-axis (y=0), bounded on the left by the y-axis (x=0), bounded on the right by a vertical line at x=π/4, and bounded above by a curve labeled y = sec²(x) that curves upward from left to right. The region extends from x=0 to approximately x=0.8 and reaches a height of approximately 2 at the right edge.",
+        "final_answer": "$\\frac{\\pi}{4} - \\frac{1}{2}\\ln 2$",
+        "diagram_image_local": "uw_data/math125/math125_Au18_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au18/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_125_au18_p4",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "work_integral_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(10 points) A 1000-kg elevator is suspended by a 60 m cable that weighs 5 kg/m. Compute the work, in Joules, required to raise the elevator from the basement to the third floor, a distance of 10 m. Recall that $g = 9.8 \\text{ m/s}^2$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "Two diagrams showing the elevator setup. The left diagram labeled 'Before' shows a cable of length 60 m hanging down from a fixed pulley, with a small square (representing the elevator) at the bottom. The right diagram labeled 'After' shows the same setup but with the elevator raised by 10 m. The 60 m cable length and 10 m distance are labeled.",
+        "final_answer": "$124,950$ Joules",
+        "diagram_image_local": "uw_data/math125/math125_Au18_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au18/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_au18_p5",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 6,
+    "topic": "volumes",
+    "concepts": [
+      "cross_sections"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(6 points) Compute the volume of the solid shown below. The solid has right triangular cross sections perpendicular to the $x$-axis, for $0 \\leq x \\leq 2$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A three-dimensional drawing showing a solid with triangular cross-sections. The x-axis is horizontal pointing right, the y-axis is vertical pointing up, and there is a z-axis (not explicitly labeled but implied). The solid extends from x=0 to x=2. At each x-position, the cross-section perpendicular to the x-axis is a right triangle. The parabola y = x² is shown in the xy-plane, and the height of the triangular cross-section at position x is related to this parabola. One triangular cross-section is shown shaded in gray at an intermediate position. The region under y = x² and up to y = 4 is visible, with markings at x=0, x=1 (unlabeled), and x=2 on the x-axis, and markings at y=2 and y=4 on the y-axis.",
+        "final_answer": "$\\frac{16}{3}$",
+        "diagram_image_local": "uw_data/math125/math125_Au18_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au18/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_125_au18_p6",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 8,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(8 points) SET UP only (do not compute) an integral equal to the volume of the solid obtained by rotating about the $x$-axis the region inside the ellipse: $\\frac{x^2}{4} + (y - 2)^2 = 1$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A coordinate system with horizontal x-axis and vertical y-axis. An ellipse is drawn and shaded in light red/pink. The ellipse is centered at (0, 2), with semi-major axis of length 1 in the vertical direction and semi-minor axis of length 2 in the horizontal direction. The ellipse is symmetric about both the x=0 vertical line and the y=2 horizontal line. No specific coordinates or grid lines are marked, but the overall shape and position of the ellipse is clear.",
+        "final_answer": "$V = \\int_{-2}^{3}\\pi(2+\\sqrt{1-x^2/4})^2 - \\pi(2-\\sqrt{1-x^2/4})^2 dx$ or $V = 2\\int_{0}^{2}\\pi(2\\sqrt{1-x^2/4})^2 - \\pi(2-\\sqrt{1-x^2/4})^2 dx$",
+        "diagram_image_local": "uw_data/math125/math125_Au18_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au18/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_125_au18_p7",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(10 points) Find the solution of the differential equation $y' + \\frac{x}{y - 1} = 0$ that satisfies the initial condition $y(0) = -1$. Give your solution in explicit form, as $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 1 - \\sqrt{4-x^2}$"
+      }
+    ],
+    "id": "uw_math_125_au18_p8",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "logistic_differential_equation"
+    ],
+    "stem": "The change in a population $P = P(t)$ is modeled by the differential equation: $\\frac{dP}{dt} = 2P\\left(1 - \\frac{P}{5000}\\right)$. Being a population, you may assume the values of $P$ to be non-negative.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) For what values of $P$ does the population decrease? Justify.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$P > 5000$"
+      },
+      {
+        "label": "b",
+        "question_text": "(6 points) Which of the following functions are solutions for the given differential equation? Circle all that apply and justify your answer by SHOWING YOUR WORK.\n\ni. $P(t) = 2000$\n\nii. $P(t) = 5000e^{2t}$\n\niii. $P(t) = \\frac{1000}{1 + e^{-2t}}$\n\niv. None of the above",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "iv. None of the above"
+      }
+    ],
+    "id": "uw_math_125_au18_p9",
+    "course": "math_125",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 10,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) Set up an integral equal to the arc length of the logarithmic curve $y = \\ln x$, from $(1, 0)$ to $(2, \\ln 2)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$L = \\int_{1}^{2}\\frac{\\sqrt{x^2+1}}{x}dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "(6 points) Evaluate the arc length integral from part (a). (Hint: integration by parts may help in a later step)",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt{5} - \\ln\\left(\\frac{5+1}{2}\\right) + \\ln(\\sqrt{2}+1) \\approx 1.222$"
+      }
+    ],
+    "id": "uw_math_125_au18_p10",
+    "course": "math_125",
+    "exam": "au18_final"
+  }
+]

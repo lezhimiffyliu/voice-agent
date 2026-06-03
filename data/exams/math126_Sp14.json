@@ -1,0 +1,306 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "taylor_series_definition",
+      "error_estimation_taylor"
+    ],
+    "stem": "Consider $f(x) = 5\\ln(x) - x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial, $T_2(x)$, for $f(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = -1 + 4(x-1) - \\frac{5}{2}(x-1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $a$ be a real number such that $0 < a < 1$ and let $J$ be the closed interval $[1-a, 1+a]$. Use the Quadratic Approximation Error Bound to find an upper bound for the error $|f(x) - T_2(x)|$ on the interval $J$. (Your answer will be in terms of $a$).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(x) - T_2(x)| \\leq \\frac{5}{3}\\left(\\frac{a}{1-a}\\right)^3$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find a value of $a$ such that $0 < a < 1$ and $|f(x)-T_2(x)| \\leq 0.36$ for all $x$ in $J = [1-a, 1+a]$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "any $a$ such that $a \\leq 0.375$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p1",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "Consider $g(x) = xe^{x^3} + \\frac{2x}{2 - x^3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $g(x)$ based at $b = 0$. Write the series using one $\\Sigma$ sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty}\\left(\\frac{1}{k!} + \\frac{1}{2^k}\\right)x^{3k+1}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval on which the series in (a) converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-2^{1/3} < x < 2^{1/3}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use the first three nonzero terms of the Taylor series in part (a) to approximate the value of the integral $$\\int_0^1 xe^{x^3} + \\frac{2x}{2 - x^3} dx.$$",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1 + \\frac{3}{10} + \\frac{3}{32} = 1.39375$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p2",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "mass_from_density_2d",
+      "double_integrals_over_general_regions"
+    ],
+    "stem": "A lamina occupies the part of the disk $x^2 + y^2 \\leq 1$ that lies in the first quadrant. Compute the mass of the lamina if the density function is $\\rho(x, y) = x + y^2$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A lamina occupies the part of the disk $x^2 + y^2 \\leq 1$ that lies in the first quadrant. Compute the mass of the lamina if the density function is $\\rho(x, y) = x + y^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3} + \\frac{\\pi}{16}$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p3",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals"
+    ],
+    "stem": "Calculate the value of the multiple integral",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Calculate the value of the multiple integral $$\\int \\int_D \\frac{1}{1 + x^2} dA,$$ where $D$ is the closed triangular region with vertices $(0, 0)$, $(1, 1)$, and $(0, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{4} - \\frac{\\ln(2)}{2}$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p4",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 8,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "linear_approximation_multivariable",
+      "tangent_plane_equation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the linear approximation of the function $f(x, y) = x\\sin(5x - 3y)$ at $(3, 5)$ and use it to approximate $f(3.02, 4.9)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T(x,y) = 15(x-3) - 9(y-5)$, $f(3.02, 4.9) \\approx T(3.02, 4.9) = 1.2$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p5",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Let $T$ be the triangular region in the $xy$-plane with vertices $(0, 0)$, $(3, 0)$ and $(3, 6)$. Calculate the global maximum value of the function $F(x, y) = 2x^2 - x^2y + y^2$ on the region $T$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $T$ be the triangular region in the $xy$-plane with vertices $(0, 0)$, $(3, 0)$ and $(3, 6)$. Calculate the global maximum value of the function $F(x, y) = 2x^2 - x^2y + y^2$ on the region $T$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$18$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p6",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "tangent_vector",
+      "parametrization_of_curves",
+      "binormal_vector",
+      "normal_plane"
+    ],
+    "stem": "Consider the surface $S$ determined by the equation $$x^2 + 2y^2 - 2z^2 = 1$$ and the path in $\\mathbb{R}^3$ given by the vector function $$\\mathbf{r}(t) = \\left( \\sqrt{3}\\sin(t), \\frac{\\sqrt{3}}{\\sqrt{2}}\\cos(t), 1 \\right).$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the tangent plane to $S$ at the point $(1, 1, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = \\frac{1}{2}(x-1) + (y-1) + 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Does the path $\\mathbf{r}(t)$ lie in the surface $S$? (As always, you must justify your answer.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Yes. At every value of $t$, $(\\sqrt{3}\\sin(t))^2 + 2\\left(\\frac{\\sqrt{3}}{\\sqrt{2}}\\cos(t)\\right)^2 - 2(1)^2 = 3\\sin^2(t) + 3\\cos^2(t) - 2 = 1$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $\\mathbf{B}(t)$, the binormal vector for $\\mathbf{r}(t)$. (HINT: Do this by thinking about what the curve $\\textit{looks like}$ rather than doing a lengthy computation.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{B}(t) = (0, 0, -1)$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p7",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "speed",
+      "acceleration_vector"
+    ],
+    "stem": "Luke and Leia are participating in a space race. At $t = 0$ (when the race begins), their ship is at the origin, traveling with speed 1 in the direction of the positive $z$-axis. Their acceleration at time $t$ is given by $\\mathbf{a}(t) = (\\cos(t), \\sin(2t), 8)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the position $\\mathbf{r}(t)$ that their ship has at any given time $t$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{r}(t) = \\langle 1 - \\cos(t), \\frac{3}{2}t - \\frac{1}{4}\\sin(2t), t + 4t^2 \\rangle$"
+      },
+      {
+        "label": "b",
+        "question_text": "What is the speed of the space ship when they pass through the plane $z = \\pi\\left(\\pi + \\frac{1}{2}\\right)$?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|\\mathbf{r}'(\\pi/2)| = \\sqrt{16\\pi^2 + 8\\pi + 3}$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p8",
+    "course": "math_126",
+    "exam": "sp14_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "curvature",
+      "tangent_vector",
+      "normal_vector"
+    ],
+    "stem": "A particle follows the curve $\\mathbf{r}(t) = \\left\\langle \\frac{4}{t+1}, t^3, t^4 + 1 \\right\\rangle$ for time $t \\geq 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the curvature at $t = 1$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(1) = \\frac{\\sqrt{37}}{26\\sqrt{2}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the point $P(x, y, z)$ on the curve such that the normal plane to the curve at $P$ is parallel to the plane $$-\\frac{1}{9}x + 3y + 8z = 0.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$P\\left(\\frac{4}{3}, 8, 17\\right)$"
+      }
+    ],
+    "id": "uw_math_126_sp14_p9",
+    "course": "math_126",
+    "exam": "sp14_final"
+  }
+]

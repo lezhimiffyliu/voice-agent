@@ -1,0 +1,446 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 8,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "three_dimensional_geometry",
+      "parallel_planes",
+      "skew_lines",
+      "vector_operations",
+      "cross_product",
+      "taylor_series",
+      "multiple_integrals"
+    ],
+    "stem": "Indicate whether each of the following is true (T) or false (F). Circle your answer. No justification for your answer is needed.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Two planes that are not parallel must intersect in space.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "b",
+        "question_text": "Two lines that are not parallel must intersect in space.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "c",
+        "question_text": "For any two vectors $\\mathbf{v}$ and $\\mathbf{w}$, we always have $\\mathbf{v} \\times \\mathbf{w} = \\mathbf{w} \\times \\mathbf{v}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "d",
+        "question_text": "If the curvature of a curve in space is constant, then the curve must be a circle.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "e",
+        "question_text": "For any function $f(x, y)$, $$\\int_0^3 \\int_{3x} f(x, y) \\, dy \\, dx = \\int_0^3 \\int_{3y} f(x, y) \\, dx \\, dy.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "f",
+        "question_text": "For all real values of $x$, the function $\\frac{1}{1-x}$ is equal to its Taylor series based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "g",
+        "question_text": "Every function $f(x)$ has a Taylor series based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "h",
+        "question_text": "If $f(x, y)$ is a nonzero continuous function over a region $R$, then $$\\iint_R |f(x, y) - 1| \\, dA \\leq \\iint_R (|f(x, y)| - 1) \\, dA.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      }
+    ],
+    "id": "uw_math_126_wi14_p1",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 2,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "vector_representation",
+      "cross_product",
+      "area_of_parallelogram",
+      "intersection_of_diagonals"
+    ],
+    "stem": "In the parallelogram below, we know the points $A(2, 1, 2)$ and $B(4, 2, 3)$ and the vector $\\vec{AD} = \\langle 3, 0, 4 \\rangle$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the area of the parallelogram.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 2,
+        "diagram_description": "A parallelogram with vertices labeled A (bottom-left), B (top-left), C (top-right), and D (bottom-right). Two diagonals are drawn from B to D and from A to C, intersecting at point E in the center. The parallelogram is a 2D representation showing the standard shape.",
+        "final_answer": "$5\\sqrt{2}$",
+        "diagram_image_local": "uw_data/math126/math126_Wi14_images/page-02.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Wi14/diagrams/page-02.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the coordinates of the intersection point $E$ of the two diagonals.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\frac{3}{2}, \\frac{3}{2}, \\frac{9}{2})$"
+      }
+    ],
+    "id": "uw_math_126_wi14_p2",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 3,
+    "points": 10,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "parametric_equations_of_lines",
+      "direction_vectors",
+      "perpendicular_conditions"
+    ],
+    "stem": "Given the point $P(2, 4, 0)$ and the line $l$ given by parametric equations $x = 1 - 2t$, $y = 2 - t$, $z = 3t$, answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation of the plane that contains the point $P$ and the line $l$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2x - y + z = 0$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the parametric equations of the line through the point $P$ that intersects and is perpendicular to the line $l$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 2 + t, y = 4 + 4t, z = 2t$"
+      }
+    ],
+    "id": "uw_math_126_wi14_p3",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 4,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "speed",
+      "acceleration_vector",
+      "tangential_and_normal_components",
+      "curvature",
+      "tangent_vector"
+    ],
+    "stem": "Consider the vector function $$\\mathbf{r}(t) = \\langle 1 + 13 \\sin t, 12 \\cos t, 1 - 5 \\cos t \\rangle.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the speed and the normal and tangential components of acceleration at time $t$ of the particle whose position is given by $\\mathbf{r}(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$v(t) = 13; a_T = 0; a_N = 13$"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the curvature at time $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(t) = \\frac{1}{13}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the equation of the line tangent to the curve at $t = \\pi$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 1 + t, y = -12, z = 6$"
+      }
+    ],
+    "id": "uw_math_126_wi14_p4",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 10,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Consider the function $f(x, y) = \\sin(x) \\cos(y)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $R = \\{(x, y) : 0 \\leq x \\leq \\pi \\text{ and } 0 \\leq y \\leq \\pi\\}$. Find all critical points of $f$ that lie in the region $R$ and classify them according to type (max, min, saddle, other).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "f has saddle points at $(0, \\frac{\\pi}{2})$ and $(\\pi, \\frac{\\pi}{2})$, a local maximum at $(\\frac{\\pi}{2}, 0)$, and a local minimum at $(\\frac{\\pi}{2}, \\pi)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $D$ be the triangular region bounded by the lines $x = \\frac{\\pi}{2}$, $y = \\frac{\\pi}{2}$, and $y = \\frac{\\pi}{2} - x$. Find the locations of the absolute max and min of $f$ on $D$. (You may find the identity $\\cos\\left(\\frac{\\pi}{2} - x\\right) = \\sin(x)$ useful.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The absolute maximum value of f on D is $f(\\frac{\\pi}{2}, 0) = 1$ and the absolute minimum is $f(x, \\frac{\\pi}{2}) = 0$, where x is any value in the interval $0 \\le x \\le \\frac{\\pi}{2}$."
+      }
+    ],
+    "id": "uw_math_126_wi14_p5",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "partial_derivatives",
+      "tangent_plane_equation",
+      "linear_approximation_multivariable"
+    ],
+    "stem": "Let $f(x, y) = x^y + y^x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Calculate the partial derivatives $f_x$ and $f_y$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f_x(x, y) = yx^{y-1} + \\ln(y)y^x, f_y(x, y) = \\ln(x)x^y + xy^{x-1}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the tangent plane to the surface $z = f(x, y)$ in $\\mathbb{R}^3$ at the point $(1, 1, 2)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = x + y$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use linear approximation to estimate the value of $f(1.01, 0.99)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(1.01, 0.99) \\approx 2$"
+      }
+    ],
+    "id": "uw_math_126_wi14_p6",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 6,
+    "topic": "quadric_surfaces",
+    "concepts": [
+      "surface_identification",
+      "tangent_plane_equation",
+      "traces_of_surfaces"
+    ],
+    "stem": "Consider the surface $S$ in $\\mathbb{R}^3$ given by $$x^3 + y^3 + z^3 = 0.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the tangent plane to $S$ at the point $(1, 0, -1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = -x$"
+      },
+      {
+        "label": "b",
+        "question_text": "Describe the shape of the intersection of $S$ and the plane $z = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "the line $y = -x$"
+      }
+    ],
+    "id": "uw_math_126_wi14_p7",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 10,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "mass_from_density_2d",
+      "center_of_mass_2d",
+      "polar_coordinates",
+      "integration_bounds_setup"
+    ],
+    "stem": "Find the center of mass of the lamina that occupies the region $$D = \\{(x, y) : 4 \\leq x^2 + y^2 \\leq 16 \\text{ and } y \\geq |x|\\}$$ with density function $\\rho(x, y) = y + e^{\\sqrt{x^2 + y^2}}$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the center of mass of the lamina that occupies the region $$D = \\{(x, y) : 4 \\leq x^2 + y^2 \\leq 16 \\text{ and } y \\geq |x|\\}$$ with density function $\\rho(x, y) = y + e^{\\sqrt{x^2 + y^2}}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(0, \\frac{15\\pi + 30 + (10e^4 - 2e^2)\\sqrt{2}}{\\frac{56}{5}\\sqrt{2} + (3e^4 - e^2)\\frac{\\pi}{2}}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_wi14_p8",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series",
+      "first_order_taylor_polynomial"
+    ],
+    "stem": "Consider the function $f(x) = \\ln(x^2 + 3x)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at $b = 1$. Write your answer using sigma notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Taylor series for f(x): $\\ln(4) + \\sum_{k=1}^{\\infty} \\frac{(-1)^{k+1}(1 + \\frac{1}{k^4})}{k}(x-1)^k$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the Taylor series based at $b = 1$ for $$F(x) = \\int_1^x f(t) \\, dt.$$ Write your answer using sigma notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Taylor series for F(x): $\\ln(4)(x - 1) + \\sum_{k=1}^{\\infty} \\frac{(-1)^{k+1}(1 + \\frac{1}{x^k})}{k(k+1)}(x-1)^{k+1}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the 5th Taylor polynomial of $F(x)$ based at $b = 1$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_5(x) = \\ln(4)(x-1)+\\frac{(1 + \\frac{1}{4})}{2}(x-1)^2-\\frac{(1 + \\frac{1}{32})}{6}(x-1)^3+\\frac{(1 + \\frac{1}{43})}{12}(x-1)^4-\\frac{(1 + \\frac{1}{35})}{20}(x-1)^5$"
+      }
+    ],
+    "id": "uw_math_126_wi14_p9",
+    "course": "math_126",
+    "exam": "wi14_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 10,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Consider the function $f(x) = 2x - x^2 + e^{2x^2 - x}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial $T_2(x)$ for $f(x)$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 1 + x + \\frac{3}{2}x^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an upper bound on the error $|T_2(x) - f(x)|$ on the interval $[-1, 1]$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(x) - T_2(x)| \\le \\frac{185e^3}{6}$ (other reasonable answers accepted)"
+      },
+      {
+        "label": "c",
+        "question_text": "What is the smallest value of $|T_2(x) - f(x)|$ on the interval $[-1, 1]$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "0"
+      }
+    ],
+    "id": "uw_math_126_wi14_p10",
+    "course": "math_126",
+    "exam": "wi14_final"
+  }
+]

@@ -1,0 +1,375 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 8,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "dot_product",
+      "vector_operations",
+      "magnitude_and_direction"
+    ],
+    "stem": "Let $\\mathbf{u}$, $\\mathbf{v}$, and $\\mathbf{w}$ be three-dimensional head-to-tail **unit vectors** in the $xy$-plane, forming an equilateral triangle, as pictured. Compute the following:\n\n(There is enough information provided to compute a specific value or vector as an answer to each of these questions.)",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\mathbf{u} \\cdot \\mathbf{u} =$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 2,
+        "diagram_description": "An equilateral triangle with three vectors labeled $\\mathbf{u}$, $\\mathbf{v}$, and $\\mathbf{w}$ forming the head-to-tail sides. Vector $\\mathbf{u}$ points from bottom-left to top-right, vector $\\mathbf{v}$ points downward from the top-right vertex, and vector $\\mathbf{w}$ points from the bottom vertex back to the bottom-left vertex, forming a closed triangle.",
+        "diagram_bbox": null,
+        "final_answer": "$|\\mathbf{u}|^2 = 1$",
+        "diagram_image_local": "uw_data/math126/math126_Au18_images/diagrams/p1_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au18/diagrams/p1_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\mathbf{u} \\cdot \\mathbf{v} =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\mathbf{u} \\cdot \\mathbf{v} = -\\frac{1}{2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\mathbf{u} + \\mathbf{v} + \\mathbf{w} =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\mathbf{u} + \\mathbf{v} + \\mathbf{w} = \\mathbf{0}$"
+      },
+      {
+        "label": "d",
+        "question_text": "$|\\mathbf{u} \\times (\\mathbf{v} \\times \\mathbf{w})| =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$|\\mathbf{u} \\times (\\mathbf{v} \\times \\mathbf{w})| = \\frac{\\sqrt{3}}{2}$"
+      }
+    ],
+    "id": "uw_math_126_au18_p1",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 2,
+    "points": 6,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "parallel_and_perpendicular_conditions"
+    ],
+    "stem": "Answer the following (unrelated) questions. No need to justify your answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give an example of the equation of a plane that is perpendicular to the plane $z = x - y$. Write your answer in the form $Ax + By + Cz = D$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$x + y = 0$"
+      },
+      {
+        "label": "b",
+        "question_text": "Which of the following is a level curve (i.e. a trace when $z = k$, a constant) for the surface $x^2 - y^2 + z = 0$? Circle all that apply.\n\nELLIPSE / PARABOLA / HYPERBOLA / PAIR OF LINES.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "HYPERBOLA, PAIR OF LINES"
+      },
+      {
+        "label": "c",
+        "question_text": "One of these is the graph of $r = 5\\cos(\\theta) - \\cos(5\\theta)$. Circle it.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 2,
+        "diagram_description": "Three polar graphs displayed side by side. First graph (left): a figure-eight or heart-shaped curve symmetric about the x-axis, extending roughly from $x = -2$ to $x = 2$. Second graph (middle): an elongated oval or petal-shaped curve symmetric about both axes. Third graph (right): a multi-petaled flower-like curve with approximately 6-8 petals radiating from the origin, symmetric about both axes. Each graph has an $x$-axis and $y$-axis labeled, with the origin marked.",
+        "diagram_bbox": null,
+        "final_answer": "First graph (left)",
+        "diagram_image_local": "uw_data/math126/math126_Au18_images/diagrams/p2_c.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au18/diagrams/p2_c.png"
+      }
+    ],
+    "id": "uw_math_126_au18_p2",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 3,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "parametrization_of_curves",
+      "tangent_vector",
+      "arc_length_parameterization",
+      "curvature"
+    ],
+    "stem": "Consider the helix-like curve $\\mathbf{r}(t) = \\left\\langle \\cos(t), \\sin(t), \\frac{2t^{3/2}}{3} \\right\\rangle$, $t \\geq 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write a Cartesian equation for a surface that contains this curve.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$x^2 + y^2 = 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the arc length of this curve from $t = 0$ to $t = a$, where $a$ is an arbitrary positive constant.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{2}{3}\\left((a+1)^{3/2} - 1\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute the curvature $\\kappa(t)$ of this curve, and determine $\\lim_{t \\to \\infty} \\kappa(t)$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 3,
+        "diagram_description": "A 3D graph showing a helix-like curve. The curve starts at the origin, spirals upward around a central axis, and becomes increasingly elongated vertically. The $x$, $y$, and $z$ axes are labeled, with the $z$-axis pointing upward. The curve is drawn in blue/purple and shows the characteristic shape of a helix with increasing vertical stretch. A portion of the curve in red near the origin and portions in green further along are highlighted, suggesting points along the trajectory.",
+        "diagram_bbox": null,
+        "final_answer": "$\\kappa(t) = \\frac{1}{(t+1)^{3/2}}$, $\\lim_{t \\to \\infty} \\kappa(t) = 0$",
+        "diagram_image_local": "uw_data/math126/math126_Au18_images/diagrams/p3_c.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au18/diagrams/p3_c.png"
+      }
+    ],
+    "id": "uw_math_126_au18_p3",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 3,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find and classify all critical points of the function $f(x, y) = 4x^3 - 2x + 2xy - y^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "Saddle point @ $\\left(\\frac{1}{3}, \\frac{1}{3}\\right)$, Local max @ $\\left(-\\frac{1}{2}, -\\frac{1}{2}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_au18_p4",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 4,
+    "points": 12,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "implicit_partial_differentiation",
+      "linear_approximation_multivariable"
+    ],
+    "stem": "Let $z = f(x, y)$ be the function defined by the implicit equation\n$$z\\sqrt{x^2 + y^2 + e^{z+1}} + y = 0.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\frac{\\partial z}{\\partial x}$ and $\\frac{\\partial z}{\\partial y}$ at the point $(3, 4, -1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{\\partial z}{\\partial x} = \\frac{1}{10}$, $\\frac{\\partial z}{\\partial y} = -\\frac{1}{30}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use linear approximation to estimate the value of $f(3.07, 4.12)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$f(3.07, 4.12) \\approx -0.917$"
+      }
+    ],
+    "id": "uw_math_126_au18_p5",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 5,
+    "points": 13,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "changing_order_of_integration",
+      "integration_bounds_setup"
+    ],
+    "stem": "Suppose $f(x, y)$ is continuous and $D$ is a region in the $xy$-plane such that\n$$\\iint_D f(x, y) \\, dA = \\int_0^1 \\int_{y-2}^{-\\sqrt{y}} f(x, y) \\, dx \\, dy.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Sketch $D$ and reverse the order of integration.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\int_{-1}^{-1} \\int_{0}^{x^2} f(x,y) \\, dy \\, dx + \\int_{-1}^{0} \\int_{0}^{x^2} f(x,y) \\, dy \\, dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $D$ be the region described above and suppose a lamina in the shape of $D$ has variable density $\\rho(x, y) = -12x$. Compute the mass of the lamina.\n\n(You do not need to use the same setup from part (a) to compute this.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$11$"
+      }
+    ],
+    "id": "uw_math_126_au18_p6",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 6,
+    "points": 12,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_coordinate_conversion",
+      "polar_integral_setup",
+      "area_in_polar_coordinates"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Use polar coordinates to find the volume of the solid below the cone $\\sqrt{x^2 + y^2} = 5z$, above the $xy$-plane, and inside the cylinder $x^2 + y^2 = 10y$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{800}{9}$"
+      }
+    ],
+    "id": "uw_math_126_au18_p7",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 7,
+    "points": 13,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series",
+      "power_series_representation",
+      "error_estimation_taylor"
+    ],
+    "stem": "For **ALL** parts below, let $f(x) = \\frac{4x}{2x + 1} - xe^{6x}$ and $b = 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give the Taylor series for $f(x)$ based at $b$. Give your final answer in Sigma notation using one Sigma sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\left(4(-2)^k - \\frac{6^k}{k!}\\right) x^k$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the open interval of convergence for your answer in part (a).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\left(-\\frac{1}{2}, \\frac{1}{3}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use the first three nonzero terms of the Taylor series to estimate the value of $f\\left(\\frac{1}{10}\\right)$. Give your final answer to three digits after the decimal.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$0.158$"
+      }
+    ],
+    "id": "uw_math_126_au18_p8",
+    "course": "math_126",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "first_order_taylor_polynomial",
+      "second_order_taylor_polynomial",
+      "higher_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "For **ALL** parts below, consider Taylor polynomials for $g(x) = e^{x/2}$ based at $b = 1$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the third Taylor polynomial, $T_3(x)$, for $g(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$T_3(x) = \\sqrt{e} + \\frac{1}{2}\\sqrt{e}(x-1) + \\frac{1}{8}\\sqrt{e}(x-1)^2 + \\frac{1}{16}\\sqrt{e}(x-1)^3$"
+      },
+      {
+        "label": "b",
+        "question_text": "On the interval $I = [0, 2]$, for which of the values of $n$ below does Taylor's inequality guarantee that $|f(x) - T_n(x)| < 0.001$? You **must show enough error bound calculations** to justify your answer.\n\nCircle **ALL** that apply:      $n = 2$     $n = 3$     $n = 4$     $n = 5$     $n = 6$",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$n = 4, n = 5, n = 6$"
+      }
+    ],
+    "id": "uw_math_126_au18_p9",
+    "course": "math_126",
+    "exam": "au18_final"
+  }
+]

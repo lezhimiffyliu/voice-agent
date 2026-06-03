@@ -1,0 +1,399 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "trig_limits",
+      "limits_at_infinity"
+    ],
+    "stem": "Find the following limits or explain why the limit does not exist. Give exact answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\lim_{t \\to 2} \\frac{3t - 9}{t - 2}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$9\\ln 3$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\lim_{x \\to \\infty} \\frac{\\sqrt{x^2 + x + 1}}{\\sqrt{7x^2 + 3}}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{\\sqrt{7}}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\lim_{x \\to 0} \\frac{\\sin(5x)}{\\tan(3x)}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{5}{3}$"
+      }
+    ],
+    "id": "uw_math_124_wi25_p1",
+    "course": "math_124",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "product_rule",
+      "quotient_rule",
+      "exponential_derivatives",
+      "logarithmic_derivatives"
+    ],
+    "stem": "Compute the first derivatives of the following functions. You do not need to simplify.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$f(x) = x \\arctan(x^2 + 1)$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\arctan(x^2 + 1) + x \\cdot \\frac{2x}{1 + (x^2 + 1)^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$g(x) = \\frac{e^{x^x}}{\\ln x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\frac{e^{x^x} \\cdot e^x \\ln x - \\frac{e^{x^x}}{x}}{(\\ln x)^2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$h(x) = x^{\\sqrt{x+1}}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = \\left(\\frac{\\ln x}{2\\sqrt{x}} + \\frac{\\sqrt{x} + 1}{x}\\right) x^{\\sqrt{x}+1}$"
+      }
+    ],
+    "id": "uw_math_124_wi25_p2",
+    "course": "math_124",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 9,
+    "topic": "curve_analysis",
+    "concepts": [
+      "increasing_decreasing_intervals",
+      "critical_points",
+      "concavity",
+      "inflection_points",
+      "first_derivative_test"
+    ],
+    "stem": "For this problem, you do not need to show your work. Answer the following questions based on the graph of the derivative $y = f'(x)$ below. For questions involving limits, if the limit is infinite, write $\\infty$ or $-\\infty$. If the limit does not exist, write DNE. Assume $f(x)$ is continuous on its domain $-2 < x < 4$.\n\nThe graph below is a line for $x < 1$; an upper-semicircle for $1 < x < 3$; and a line for $3 < x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$f'(2) =$$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A graph of $y = f'(x)$ on a coordinate plane with x-range approximately $[-2, 4]$ and y-range approximately $[-2, 2]$. For $x < 1$, the graph is a straight line with negative slope passing through approximately $(0, 0)$ and $(-1, 1)$. For $1 < x < 3$, the graph is the upper half of a circle centered at approximately $(2, -1)$ with radius 1, creating a semicircular arc that starts near $(1, -1)$, peaks at approximately $(2, 0)$, and ends near $(3, -1)$. For $x > 3$, the graph is a straight line with positive slope starting from near $(3, -1)$ and extending upward to the right. Grid lines are shown.",
+        "final_answer": "$f'(2) = 1$",
+        "diagram_image_local": "uw_data/math124/math124_Wi25_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi25/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$$f''(0) =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f''(0) = -1$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\lim_{x \\to 0} \\frac{f(x) - f(0)}{x} =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to 0} \\frac{f(x) - f(0)}{x} = f'(0) = 0$"
+      },
+      {
+        "label": "d",
+        "question_text": "$$\\lim_{h \\to 0} \\frac{f(2 + h) - f(2)}{h} =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{h \\to 0} \\frac{f(2 + h) - f(2)}{h} = f'(2) = 1$"
+      },
+      {
+        "label": "e",
+        "question_text": "$$\\lim_{x \\to 3^+} \\frac{f'(x)}{x - 3} =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to 3^+} \\frac{f'(x)}{x - 3} = \\lim_{x \\to 3^+} \\frac{f'(x) - f'(3)}{x - 3} = 2$"
+      },
+      {
+        "label": "f",
+        "question_text": "List the interval(s) where $y = f(x)$ is increasing.\n\nYour answer: \\underline{\\hspace{3cm}}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-2, 0) \\cup (1, 4)$"
+      },
+      {
+        "label": "g",
+        "question_text": "List the $x$-values that are the critical numbers for $y = f(x)$.\n\nYour answer: \\underline{\\hspace{3cm}}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 0, 1, 3$"
+      },
+      {
+        "label": "h",
+        "question_text": "List the interval(s) where $y = f(x)$ is concave up.\n\nYour answer: \\underline{\\hspace{3cm}}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1, 2) \\cup (3, 4)$"
+      },
+      {
+        "label": "i",
+        "question_text": "List the $x$-values of the inflection points for $y = f(x)$.\n\nYour answer: \\underline{\\hspace{3cm}}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 1, 2, 3$"
+      }
+    ],
+    "id": "uw_math_124_wi25_p3",
+    "course": "math_124",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "linear_approximation",
+    "concepts": [
+      "linearization",
+      "tangent_line_approximation"
+    ],
+    "stem": "For a certain item you are producing, the price $p$ of the item and the number $q$ of items sold are related by the equation\n\n$$(p - 20)^3 + pq + q^3 = 801.$$\n\nAccording to this equation, if the price of one item is $p = 5$ dollars, the number of items sold is $q = 16$. Use linear approximation to estimate what the price of one item should be if you want to sell 17 items. Round your answer to the nearest cent.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "For a certain item you are producing, the price $p$ of the item and the number $q$ of items sold are related by the equation\n\n$$(p - 20)^3 + pq + q^3 = 801.$$\n\nAccording to this equation, if the price of one item is $p = 5$ dollars, the number of items sold is $q = 16$. Use linear approximation to estimate what the price of one item should be if you want to sell 17 items. Round your answer to the nearest cent.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$p \\approx 3.88$"
+      }
+    ],
+    "id": "uw_math_124_wi25_p4",
+    "course": "math_124",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_motion",
+      "parametric_first_derivative",
+      "parametric_tangent_line"
+    ],
+    "stem": "The location of a particle moving in the plane at time $t$ seconds is given by these parametric equations:\n\n$$x = (t - 2)^2 \\quad y = (t - 2)^3 - 3(t - 2).$$\n\nThe path is graphed on the right for $0 \\le t \\le 4$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find all of the times when the particle crosses the $x$-axis.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A parametric curve plotted on a coordinate plane. The curve appears to form a closed-loop shape on the left side of the y-axis, with the loop roughly elliptical or figure-eight-like, and extends to the right with a straight line-like segment. The curve is symmetric about a horizontal axis. Grid is not shown; the diagram appears to be a sketch illustration of the parametric path.",
+        "final_answer": "$t = 2$ or $t = 2 \\pm \\sqrt{3}$",
+        "diagram_image_local": "uw_data/math124/math124_Wi25_images/diagrams/p5_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi25/diagrams/p5_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the equation of the tangent line to the path the first time the particle crosses the $x$-axis.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = -\\sqrt{3}(x - 3)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the equation of the tangent line to the path the last time the particle crosses the $x$ axis.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\sqrt{3}(x - 3)$"
+      }
+    ],
+    "id": "uw_math_124_wi25_p5",
+    "course": "math_124",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "An inverted conical tank, having a circular top 4 m in diameter and 6 m tall, is being filled with water at a rate of 5 m³/min (see the figure below). Meanwhile, a hole at the bottom of the tank causes water to leak out of the tank at a rate of 3 m³/min. Find the rate of change of the height of the water in the tank when the water is 3 m high.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "An inverted conical tank, having a circular top 4 m in diameter and 6 m tall, is being filled with water at a rate of 5 m³/min (see the figure below). Meanwhile, a hole at the bottom of the tank causes water to leak out of the tank at a rate of 3 m³/min. Find the rate of change of the height of the water in the tank when the water is 3 m high.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "An inverted cone (apex pointing downward) is shown in perspective view. The cone appears shaded in gray. The circular top opening is shown with a dashed line to indicate it is at the back. The cone is roughly proportioned to be wider at the top (opening) than its height, consistent with a 4 m diameter top and 6 m height.",
+        "final_answer": "$\\frac{dh}{dt} = \\frac{2}{\\pi}$ meters per minute",
+        "diagram_image_local": "uw_data/math124/math124_Wi25_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi25/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_124_wi25_p6",
+    "course": "math_124",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 13,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "distance_optimization",
+      "applied_optimization",
+      "optimization_verification"
+    ],
+    "stem": "You want to connect two poles by a wire that is also connected to the ground. The first pole is 20 feet tall and the second pole is 40 feet tall. There is a distance of 60 feet between the two poles. What is the minimum amount of wire needed? Round your answer to one digit after the decimal.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "You want to connect two poles by a wire that is also connected to the ground. The first pole is 20 feet tall and the second pole is 40 feet tall. There is a distance of 60 feet between the two poles. What is the minimum amount of wire needed? Round your answer to one digit after the decimal.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A diagram showing two vertical poles of different heights connected by a wire that touches the ground between them. The left pole is labeled \"20 ft\" and is shorter. The right pole is labeled \"40 ft\" and is taller. The horizontal distance between the poles is labeled \"60 ft\" at the bottom. The wire is shown as a path that goes from the top of the left pole down to a point on the ground between the poles, then up to the top of the right pole. Two dashed lines show the geometry of the wire path.",
+        "final_answer": "approximately $84.9$ meters",
+        "diagram_image_local": "uw_data/math124/math124_Wi25_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi25/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_wi25_p7",
+    "course": "math_124",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 19,
+    "topic": "curve_analysis",
+    "concepts": [
+      "intercepts",
+      "asymptotes",
+      "critical_points",
+      "first_derivative_test",
+      "local_extrema",
+      "increasing_decreasing_intervals",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test",
+      "curve_sketching"
+    ],
+    "stem": "Let $y = f(x) = e^x(x - 1)^2$ on the domain of all real numbers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Determine all $x$ and $y$-intercepts for the curve.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "x-intercept at $x = 1$, y-intercept at $y = 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine any vertical asymptotes and horizontal asymptotes for the curve $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 0$ is the horizontal asymptote"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all critical numbers for $f(x)$. Find the intervals on which $f(x)$ is increasing, and the intervals on which $f(x)$ is decreasing. Determine $x$ and $y$-coordinates of all local minimum(s) and local maximum(s).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "increasing on $(-\\infty, -1) \\cup (1, \\infty)$, decreasing on $(-1, 1)$, local max at $x = -1$, local min at $x = 1$"
+      },
+      {
+        "label": "d",
+        "question_text": "Find the intervals on which $f(x)$ is concave up and concave down. Find the $x$ and $y$-coordinates of all of the inflection. points.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "inflection points at $x = -1 \\pm \\sqrt{2}$"
+      },
+      {
+        "label": "e",
+        "question_text": "Sketch the curve using ALL of the information in (a)-(e). Mark any important points that came up in your computations.",
+        "depends_on": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A blank coordinate grid for sketching $y = e^x(x - 1)^2$. The grid shows x-axis ranging from approximately $-6$ to $6$ and y-axis ranging from approximately $-2$ to $6$. Grid lines are shown at regular intervals. The equation $y = e^x(x-1)^2$ is written above the grid.",
+        "final_answer": "[Graph showing the described features]",
+        "diagram_image_local": "uw_data/math124/math124_Wi25_images/diagrams/p8_e.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi25/diagrams/p8_e.png"
+      }
+    ],
+    "id": "uw_math_124_wi25_p8",
+    "course": "math_124",
+    "exam": "wi25_final"
+  }
+]

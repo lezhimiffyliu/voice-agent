@@ -1,0 +1,372 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 14,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "trigonometric_integrals"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_0^{2\\pi} \\sin^2 \\theta \\, d\\theta$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\pi$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\frac{1}{x^3 + x^2 + x} \\, dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln|x| - \\frac{1}{2}\\ln(x^2+x+1) - \\frac{1}{\\sqrt{3}}\\arctan\\left(\\frac{2x+1}{\\sqrt{3}}\\right) + C$"
+      }
+    ],
+    "id": "uw_math_125_au21_p1",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "definite_integral_as_area",
+      "average_value_of_a_function"
+    ],
+    "stem": "The graph of $y = f(x)$ on $[0, 10]$ is shown below. It consists of two line segments and a half circle. Use it to answer the following questions. Show your steps.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the average value of $f$ on the interval $[0, 3]$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane with x-axis from -1 to 10 and y-axis from -4 to 5. The graph consists of: (1) a line segment from approximately (0, -4) to (2, 0); (2) a half circle (semicircle) centered at (4, 2) with radius 2, with the curve going from (2, 2) through (4, 4) to (6, 2); (3) a horizontal line segment from (6, 2) to (10, 2). A solid dot marks the endpoint at (10, 2).",
+        "final_answer": "$-1$",
+        "diagram_image_local": "uw_data/math125/math125_Au21_images/diagrams/p2_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au21/diagrams/p2_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the graph and areas to compute $\\int_0^{10} |f(x)| \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$19 + 2\\pi$"
+      },
+      {
+        "label": "c",
+        "question_text": "Define $F(t) = \\int_0^t f(x) \\, dx$. Evaluate $F'(5)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4$"
+      },
+      {
+        "label": "d",
+        "question_text": "Evaluate $\\int_3^7 \\sqrt{1 + [f'(x)]^2} \\, dx$. (Hint: There is a quick way to answer this question!)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2\\pi$"
+      }
+    ],
+    "id": "uw_math_125_au21_p2",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 5,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "volume_with_respect_to_y"
+    ],
+    "stem": "A \"bead\" is formed by drilling a hole of radius $r = 1$ cm through the center of a sphere of radius $R = 2$ cm. Set up an integral equal to the volume of the resulting bead. Do not compute the integral.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A \"bead\" is formed by drilling a hole of radius $r = 1$ cm through the center of a sphere of radius $R = 2$ cm. Set up an integral equal to the volume of the resulting bead. Do not compute the integral.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "Two diagrams showing a sphere with a cylindrical hole drilled through it. The left diagram shows a cross-section view of the sphere (circle) with center O at origin, showing the radius 2 marked on the x-axis from 0 to 2, and a vertical hole of radius 1 marked with dashed lines at x=1. The right diagram shows a 3D perspective view of the same bead, illustrating the cylindrical hole through the center with dashed lines indicating the hidden parts of the hole.",
+        "final_answer": "$\\pi\\int_{-\\sqrt{3}}^{\\sqrt{3}}(3-y^2)dy$",
+        "diagram_image_local": "uw_data/math125/math125_Au21_images/diagrams/p3.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au21/diagrams/p3.png"
+      }
+    ],
+    "id": "uw_math_125_au21_p3",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 5,
+    "topic": "improper_integrals",
+    "concepts": [
+      "convergence_of_improper_integrals",
+      "divergence_of_improper_integrals"
+    ],
+    "stem": "Suppose all we know about some continuous function $g(x)$ is that\n$$\\frac{1}{x^2} \\le g(x) \\text{ for all } x \\ge 1.$$\n\nCircle which of the following statements MUST be true, based on the provided information, and justify the statement(s) that you circled.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_1^\\infty g(x) \\, dx \\text{ diverges}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_1^\\infty xg(x) \\, dx \\text{ diverges}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\int_1^\\infty \\frac{g(x)}{x} \\, dx \\text{ converges}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "d",
+        "question_text": "$$\\int_1^\\infty g(x) \\, dx \\text{ converges}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "e",
+        "question_text": "None of the above",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au21_p4",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "pumping_liquid_work"
+    ],
+    "stem": "A rope is 10 m long, has a total mass of 20 kg, and hangs over the edge of a tall building. Recall that $g = 9.8 m/s^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the work required to pull the entire rope to the top of the building. Include units.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$980$ Joules"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the work required to pull just half the rope to the top of the building.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$735$ Joules"
+      }
+    ],
+    "id": "uw_math_125_au21_p5",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 16,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "area_between_curves",
+      "center_of_mass_two_dimensional"
+    ],
+    "stem": "Consider the region R in the first quadrant bounded by the y-axis and by the ellipse\n$$x^2 + \\frac{(y-2)^2}{4} = 1$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the area of this region.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A coordinate plane with a shaded region in the first quadrant. The region is bounded on the left by the y-axis (vertical line through x=0) and on the right by an ellipse. The ellipse equation is $x^2 + \\frac{(y-2)^2}{4} = 1$, which is centered at (0, 2) with semi-major axis of length 2 along the y-direction and semi-minor axis of length 1 along the x-direction. The shaded region shows the right half of the ellipse in the first quadrant.",
+        "final_answer": "$\\pi$",
+        "diagram_image_local": "uw_data/math125/math125_Au21_images/diagrams/p6_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au21/diagrams/p6_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the coordinates $(\\bar{x}, \\bar{y})$ of the centroid of this same region.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(\\frac{4}{3\\pi}, 2\\right)$"
+      }
+    ],
+    "id": "uw_math_125_au21_p6",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 8,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx"
+    ],
+    "stem": "Compute the arc length of the curve",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the arc length of the curve\n$$y = \\frac{e^x + e^{-x}}{2}$$\nover the interval $0 \\le x \\le 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{e^2-1}{2e}$"
+      }
+    ],
+    "id": "uw_math_125_au21_p7",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "The following two differential equations may appear similar but have very different solutions. Solve both, subject to the same initial condition, as indicated. Show your steps and give your final answers in explicit form, $y = y(x)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\frac{dy}{dx} = x, \\text{ with } y(1) = 2.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\frac{1}{2}x^2 + \\frac{3}{2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\frac{dy}{dx} = y, \\text{ with } y(1) = 2.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 2e^{x-1}$"
+      }
+    ],
+    "id": "uw_math_125_au21_p8",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "exponential_growth_and_decay",
+      "mixing_or_application_modeling"
+    ],
+    "stem": "A container has 75 gallons of liquid in it. At noon, liquid starts being poured into the container at a constant rate of 2 gallons/min. At the same time, liquid starts leaking out of the container through a hole on the bottom, at a rate out that is proportional to the current volume of liquid in the container.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $V(t)$ denote the volume of liquid in the container, in gallons, at $t$ minutes past noon. Write down the differential equation and initial value satisfied by $V(t)$. Use $k$ for the constant of proportionality.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dV}{dt} = 2 - kV$, $V(0) = 75$ gal"
+      },
+      {
+        "label": "b",
+        "question_text": "Assume the constant of proportionality is $k = 0.2$. Solve the differential equation from part (a) to obtain an explicit expression for $V = V(t)$, and then determine what happens to the volume of the liquid in the container as time goes on (i.e. as $t \\to \\infty$).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$V = 10 + 65e^{-0.2t}$, $\\lim_{t\\to\\infty}V(t) = 10$ gallons"
+      }
+    ],
+    "id": "uw_math_125_au21_p9",
+    "course": "math_125",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 11,
+    "points": 12,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integration_by_parts_basic",
+      "repeated_integration_by_parts",
+      "integrals_involving_logs"
+    ],
+    "stem": "Recall that $\\int \\ln(x) \\, dx = x \\ln(x) - x + C$. You may use this without further justification.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\int (\\ln x)^2 \\, dx$ and $\\int (\\ln x)^3 \\, dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int(\\ln x)^2dx = x(\\ln x)^2 - 2x\\ln x + 2x + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $k$ be any positive integer. Show that:\n$$\\int (\\ln x)^k \\, dx = x(\\ln x)^k - k \\int (\\ln x)^{k-1} \\, dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int(\\ln x)^k dx = x(\\ln x)^k - k\\int(\\ln x)^{k-1}dx$"
+      }
+    ],
+    "id": "uw_math_125_au21_p10",
+    "course": "math_125",
+    "exam": "au21_final"
+  }
+]

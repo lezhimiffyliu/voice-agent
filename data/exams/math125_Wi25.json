@@ -1,0 +1,475 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 6,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds"
+    ],
+    "stem": "Evaluate the following integrals. Show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_0^1 \\frac{x}{x^2+3x+2} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2\\ln 3 - 3\\ln 2$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p1",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 6,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds"
+    ],
+    "stem": "Evaluate the following integrals. Show your work.",
+    "parts": [
+      {
+        "label": "b",
+        "question_text": "$$\\int_0^2 \\frac{x}{x^4+2x^2+2} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}\\arctan 5 - \\frac{\\pi}{8}$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p1",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 6,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic"
+    ],
+    "stem": "Evaluate the following integrals. Show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\frac{e^x}{\\sqrt{4+e^{2x}}} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln(e^x + \\sqrt{4+e^{2x}}) + C$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p2",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 6,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integration_by_parts_basic",
+      "choosing_u_and_dv"
+    ],
+    "stem": "Evaluate the following integrals. Show your work.",
+    "parts": [
+      {
+        "label": "b",
+        "question_text": "$$\\int \\sec^3(x) dx$$ (hint: try integration by parts)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}(\\tan x \\sec x + \\ln|\\tan x + \\sec x|) + C$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p2",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 8,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "trigonometric_substitution_setup",
+      "integration_by_parts_basic",
+      "partial_fractions"
+    ],
+    "stem": "For each integral below, state which method applies best. Your answer should be in one of the following forms: u-substitution, with $u = ...$ (specify the substitution); integration by parts, with $u = ...$, and $dv = ...$ (specify the parts); trigonometric substitution, with $x = ...$ (specify the trig sub); partial fractions, with fractions: $\\frac{A}{(...)}+ ...$ (specify the fractions, do not calculate A, etc). No need to justify or compute anything – and do not evaluate the integrals!",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\sin(x)\\cos^2(x) dx$$ Method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "u-substitution, with $u = \\cos \\theta$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p3",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 8,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "choosing_u_and_dv"
+    ],
+    "stem": "For each integral below, state which method applies best. Your answer should be in one of the following forms: u-substitution, with $u = ...$ (specify the substitution); integration by parts, with $u = ...$, and $dv = ...$ (specify the parts); trigonometric substitution, with $x = ...$ (specify the trig sub); partial fractions, with fractions: $\\frac{A}{(...)}+ ...$ (specify the fractions, do not calculate A, etc). No need to justify or compute anything – and do not evaluate the integrals!",
+    "parts": [
+      {
+        "label": "b",
+        "question_text": "$$\\int x\\sec^2(x) dx$$ Method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "integration by parts, with $u = x$, $dv = \\sec^2 x\\,dx$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p3",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 8,
+    "topic": "partial_fractions",
+    "concepts": [
+      "partial_fractions"
+    ],
+    "stem": "For each integral below, state which method applies best. Your answer should be in one of the following forms: u-substitution, with $u = ...$ (specify the substitution); integration by parts, with $u = ...$, and $dv = ...$ (specify the parts); trigonometric substitution, with $x = ...$ (specify the trig sub); partial fractions, with fractions: $\\frac{A}{(...)}+ ...$ (specify the fractions, do not calculate A, etc). No need to justify or compute anything – and do not evaluate the integrals!",
+    "parts": [
+      {
+        "label": "c",
+        "question_text": "$$\\int \\frac{2x+1}{x^4+x^3+x^2} dx$$ Method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Partial fractions, with $\\frac{A}{x} + \\frac{B}{x^2} + \\frac{Cx+D}{x^2+x+1}$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p3",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 8,
+    "topic": "trigonometric_substitution",
+    "concepts": [
+      "trigonometric_substitution_setup"
+    ],
+    "stem": "For each integral below, state which method applies best. Your answer should be in one of the following forms: u-substitution, with $u = ...$ (specify the substitution); integration by parts, with $u = ...$, and $dv = ...$ (specify the parts); trigonometric substitution, with $x = ...$ (specify the trig sub); partial fractions, with fractions: $\\frac{A}{(...)}+ ...$ (specify the fractions, do not calculate A, etc). No need to justify or compute anything – and do not evaluate the integrals!",
+    "parts": [
+      {
+        "label": "d",
+        "question_text": "$$\\int \\frac{x^2}{(x^2-4)^{3/2}} dx$$ Method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Trigonometric substitution, with $x = 2\\sec\\theta$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p3",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 5,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "A drone starts from a height of 2 m above the ground at $t = 0$, and flies straight up, with velocity at $t$ seconds, $0 \\le t \\le 10$, given by $v_1(t) = 0.3t^2$ m/s. At $t = 10$ seconds, its battery fails, so from that time on the acceleration acting on the drone is $a_2(t) = -9.8$ m/s$^2$, causing it to eventually fall down and crash on the ground.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the drone's height above ground at the moment when its battery fails?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$102$ meters"
+      }
+    ],
+    "id": "uw_math_125_wi25_p4",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 5,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "A drone starts from a height of 2 m above the ground at $t = 0$, and flies straight up, with velocity at $t$ seconds, $0 \\le t \\le 10$, given by $v_1(t) = 0.3t^2$ m/s. At $t = 10$ seconds, its battery fails, so from that time on the acceleration acting on the drone is $a_2(t) = -9.8$ m/s$^2$, causing it to eventually fall down and crash on the ground.",
+    "parts": [
+      {
+        "label": "b",
+        "question_text": "How long does the drone take to crash on the ground, from the time its battery fails? Round your answer to the nearest tenth of a second.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$8.6$ seconds"
+      }
+    ],
+    "id": "uw_math_125_wi25_p4",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 8,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx"
+    ],
+    "stem": "Find the area bounded by the curves:",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$y = \\sin x$ and $y = \\sin^2 x$, for $0 \\le x \\le \\pi/2$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A coordinate plane with x-axis ranging from approximately $-\\pi/4$ to $\\pi/2$ and y-axis from 0 to 2. Two curves are drawn: $y = \\sin x$ (upper curve) and $y = \\sin^2 x$ (lower curve). The region between these curves from $x = 0$ to $x = \\pi/2$ is shaded. Key points labeled on x-axis include $-\\pi/4$, $0$, $\\pi/4$, and $\\pi/2$. The y-axis shows tick marks at 1 and 2.",
+        "final_answer": "Area $= 1 - \\frac{\\pi}{4} = \\frac{4-\\pi}{4}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi25_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi25/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_wi25_p5",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 5,
+    "topic": "volumes",
+    "concepts": [
+      "volume_with_respect_to_y",
+      "cylindrical_shells_method"
+    ],
+    "stem": "Let $R$ be the region in the $xy$-plane bounded by the curves: $y = e^{\\sqrt{x}}, x = 0, x = 2$ and $y = 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up, but do not evaluate, an integral (or a sum of integrals) equal to the volume of the solid of revolution obtained by revolving $R$ about the vertical line $x = 3$ using the method of cylindrical shells.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A coordinate plane (picture not to scale) showing a shaded region $R$ bounded by the exponential curve $y = e^{\\sqrt{x}}$ (increasing curve in the first quadrant), the vertical line $x = 0$ (y-axis), the vertical line $x = 2$, and the horizontal line $y = 0$ (x-axis). The region forms an area in the first quadrant with the curve as the upper boundary.",
+        "final_answer": "$\\int_0^2 2\\pi(3-x)e^{\\sqrt{x}}\\,dx$",
+        "diagram_image_local": "uw_data/math125/math125_Wi25_images/diagrams/p6_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi25/diagrams/p6_a.png"
+      }
+    ],
+    "id": "uw_math_125_wi25_p6",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 5,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "washer_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "Let $R$ be the region in the $xy$-plane bounded by the curves: $y = e^{\\sqrt{x}}, x = 0, x = 2$ and $y = 0$.",
+    "parts": [
+      {
+        "label": "b",
+        "question_text": "Set up, but do not evaluate, an integral (or a sum of integrals) equal to the volume of the solid of revolution obtained by revolving $R$ about the vertical line $x = -1$ using the method of disks and washers.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_0^1 \\pi(3)^2 - \\pi(t+1)^2\\,dy + \\int_1^{e^2} \\pi(3)^2 - \\pi(\\ln y + 1)^2\\,dy$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p6",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work",
+      "variable_force_work",
+      "work_integral_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the mass of an empty leaky bucket given the following information:\n\n• The bucket held 10 liters of water at the ground level and was lifted to the height of 16 meters.\n• While being lifted, water leaked out of the bucket at the rate of 1/8 liters per meter.\n• The total work done was 1960 J.\n\nAssume that the mass of the rope used to lift the bucket was negligible and can be ignored. The mass of 1 liter of water is 1 kilogram, and the acceleration due to gravity is 9.8 meters/sec$^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3.5$ kg"
+      }
+    ],
+    "id": "uw_math_125_wi25_p7",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Consider the region in the first quadrant bounded below by the $x$-axis, bounded on the left by the $y$-axis, bounded above by the graph of $y = 2 - x^2$ for $0 \\le x \\le 1$, and bounded above by the graph of $y = \\sqrt{2-x}$ for $1 \\le x \\le 2$. See the picture. Find the center of mass. Give the answer in the exact form.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Note: You can use symmetry but to get full credit, you have to provide a computation supporting the use of symmetry. Saying that the picture looks symmetric is not enough.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A coordinate plane with x-axis from 0 to 2.0 and y-axis from 0 to 2.0. The region is shaded light blue. From $x=0$ to $x=1$, the upper boundary is the parabola $y = 2 - x^2$ (curving downward). From $x=1$ to $x=2$, the upper boundary is the curve $y = \\sqrt{2-x}$ (decreasing). The lower boundary is the x-axis ($y=0$), and the left boundary is the y-axis ($x=0$). The region is in the first quadrant only.",
+        "final_answer": "$(\\bar{x}, \\bar{y}) = \\left(\\frac{101}{140}, \\frac{101}{140}\\right)$",
+        "diagram_image_local": "uw_data/math125/math125_Wi25_images/diagrams/p8.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi25/diagrams/p8.png"
+      }
+    ],
+    "id": "uw_math_125_wi25_p8",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution of the differential equation that satisfies the given initial condition: $$\\frac{dy}{dt} = 1 + t^2 + y^2 + t^2 y^2, \\quad y(0) = 1.$$ For full credit, write your answer in explicit form, $y = f(t)$, and simplify it.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\tan\\left(t + \\frac{1}{3}t^3 + \\frac{\\pi}{4}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p9",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 3,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay"
+    ],
+    "stem": "A pan of lasagna has an internal temperature of $40°$ F at the time when it is placed in an oven whose temperature is kept constant at $380°$ F.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Newton's Law of Cooling states that the rate of cooling (or heating) of an object is proportional to the temperature difference between the object and its surroundings. Use this to write a differential equation and an initial condition for the internal temperature $y(t)$ of the lasagna at $t$ hours after it was placed in the oven. Your equation should involve an unknown proportionality constant $k$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dt} = k(y-380)$ and $y(0) = 40$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p10",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 5,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay"
+    ],
+    "stem": "A pan of lasagna has an internal temperature of $40°$ F at the time when it is placed in an oven whose temperature is kept constant at $380°$ F.",
+    "parts": [
+      {
+        "label": "b",
+        "question_text": "After a half hour in the oven, the internal temperature of the lasagna reaches $140°$ F. Compute the constant $k$ and find the temperature $y$ as a function of time $t$, in hours.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y(t) = 380 - 340e^{2\\ln(12/17)t}$"
+      }
+    ],
+    "id": "uw_math_125_wi25_p10",
+    "course": "math_125",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 2,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay"
+    ],
+    "stem": "A pan of lasagna has an internal temperature of $40°$ F at the time when it is placed in an oven whose temperature is kept constant at $380°$ F.",
+    "parts": [
+      {
+        "label": "c",
+        "question_text": "The lasagna is finished baking when its internal temperature reaches $165°$ F. When will this happen?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "At $t = 0.66$ hours"
+      }
+    ],
+    "id": "uw_math_125_wi25_p10",
+    "course": "math_125",
+    "exam": "wi25_final"
+  }
+]

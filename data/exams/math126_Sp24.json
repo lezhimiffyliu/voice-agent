@@ -1,0 +1,272 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "line_plane_intersection",
+      "parametric_equations_of_lines"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the equation for the plane that passes through the point $(1,2,4)$ and contains the line given by $x = 2t$, $y = 3 - t$, $z = 2 + 5t$. And give the $x$-intercept of this plane.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Plane Equation: $3x + y - z = 1$; $x$-intercept: $(x, y, z) = (\\frac{1}{3}, 0, 0)$"
+      }
+    ],
+    "id": "uw_math_126_sp24_p1",
+    "course": "math_126",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "curvature",
+      "space_curves",
+      "vector_valued_functions"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let a curve $\\gamma$ be the intersection of the plane $y + z = 1$ and the cylinder $x^2 + y^2 = 1$. Find the points where $\\gamma$ has maximum curvature.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Points: $(x, y, z) = (0, 1, 0)$ & $(0, -1, 2)$"
+      }
+    ],
+    "id": "uw_math_126_sp24_p2",
+    "course": "math_126",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 12,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "implicit_partial_differentiation",
+      "tangent_planes_and_differentials"
+    ],
+    "stem": "Parts (a) and (b), consider the surface implicitly defined by the equation\n\n$$z(\\cos(z) + 2) = x^2 - y^2.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $\\frac{\\partial z}{\\partial x}$ and $\\frac{\\partial z}{\\partial y}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\partial z}{\\partial x} = \\frac{2x}{\\cos z + 2 - 2\\sin z}$; $\\frac{\\partial z}{\\partial y} = \\frac{-2y}{\\cos z + 2 - 2\\sin z}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the linear approximation, i.e. tangent plane, to the surface at the point where $(x, y) = (1, 1)$. And use this approximation to estimate the $z$-coordinate of a point on the surface where $(x, y) = (1.01, 0.98)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Linearization: $L(x, y) = \\frac{2}{3}(x-1) - \\frac{2}{3}(y-1)$; $z \\approx 0.02$"
+      }
+    ],
+    "id": "uw_math_126_sp24_p3",
+    "course": "math_126",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the dimensions of a rectangular tent of maximum volume such that the sum of the lengths of its 8 posts (above the ground) is 36 m.\n\nTo receive full credit, you must justify that your answer is indeed the maximum.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A 3D rectangular tent (rectangular prism/box shape) with dimensions labeled as $x$, $y$, and $z$ (height). The tent has 8 vertical posts at each corner. The figure shows a perspective view of the rectangular tent with edges and vertices indicated.",
+        "diagram_bbox": null,
+        "final_answer": "Dimensions: $x = 6$ m, $y = 6$ m, $z = 3$ m",
+        "diagram_image_local": "uw_data/math126/math126_Sp24_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Sp24/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_126_sp24_p4",
+    "course": "math_126",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "changing_order_of_integration",
+      "polar_coordinates",
+      "integration_bounds_setup"
+    ],
+    "stem": "For the following problems, set up an iterated integral as described.\n\n**You do not have to evaluate the integrals. Just set them up.**",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Reverse the order of integration of $\\int_{0}^{2} \\int_{2(3-x)}^{8-3x} \\sin(x^2) \\, dy \\, dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_{2}^{8} \\int_{3-\\log_4 y}^{\\frac{8-y}{3}} \\sin(x^2) dx dy$"
+      },
+      {
+        "label": "b",
+        "question_text": "Write a double integral for the volume below the cone $z = \\sqrt{x^2 + y^2}$ and above the paraboloid $z = x^2 - x + y^2$.\n\n(Hint: convert to polar!)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_{0}^{2\\pi} \\int_{0}^{1+\\cos\\theta} (r - r^2 + r\\cos\\theta) r dr d\\theta$"
+      }
+    ],
+    "id": "uw_math_126_sp24_p5",
+    "course": "math_126",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "mass_from_density_2d",
+      "center_of_mass_2d",
+      "moments_2d"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $\\mathcal{L}$ be the lamina whose shape is the triangular region with vertices $(0,0)$, $(0,2)$, and $(1,2)$, and whose density at any point is proportional to its distance to the $y$-axis.\n\nFind the center of mass of $\\mathcal{L}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\bar{x}, \\bar{y}) = (\\frac{1}{2}, \\frac{3}{2})$"
+      }
+    ],
+    "id": "uw_math_126_sp24_p6",
+    "course": "math_126",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "taylor_series_definition",
+      "error_estimation_taylor",
+      "taylor_polynomials_and_series"
+    ],
+    "stem": "For this problem, let $g(x) = (3 + x)^{3/2}$ and consider the Taylor polynomials based at $b = 1$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial, $T_2(x)$, for the function $g$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 8 + 3(x-1) + \\frac{3}{16}(x-1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use $T_2(x)$ to approximate the value of $\\sqrt{4.4^3}$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt{4.4^3} \\approx 9.23$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use Taylor's inequality to find an upper bound for the error in your approximation in part (b).",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Upper bound: $0.0005$"
+      }
+    ],
+    "id": "uw_math_126_sp24_p7",
+    "course": "math_126",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "For this problem, let $f(x) = \\frac{16}{4 - x^2} + 6\\cos(2x)$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give the Taylor series for $f$ based at $b = 0$ using one sigma sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\left(\\frac{1}{4^{k+1}} + \\frac{6(-1)^k 2^{2k}}{(2k)!}\\right) x^{2k}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the largest open interval on which this Taylor series converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "interval: $(-2, 2)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $T_3(x)$, the third Taylor polynomial for $f$ based at $b = 0$, then estimate the value of $\\int_{0}^{1} f(x) \\, dx$ by replacing $f(x)$ with $T_3(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_{0}^{1} f(x) dx \\approx \\frac{19}{3}$"
+      }
+    ],
+    "id": "uw_math_126_sp24_p8",
+    "course": "math_126",
+    "exam": "sp24_final"
+  }
+]

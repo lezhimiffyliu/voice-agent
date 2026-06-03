@@ -1,0 +1,322 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds",
+      "reverse_chain_rule_recognition"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int_{0}^{\\pi/4} y\\sin(y) dy$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\sqrt{2}}{2}(1 - \\frac{\\pi}{4})$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_{0}^{\\pi/6} 16\\cos^2(2x)\\sin^2(2x) dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{3} + \\frac{\\sqrt{3}}{8}$"
+      }
+    ],
+    "id": "uw_math_125_au19_p1",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 14,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integration_by_parts_basic",
+      "integrals_involving_logs"
+    ],
+    "stem": "Answer the following two unrelated questions. Show your work and box your answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate the integral: $\\int \\ln(x^2 + 1) dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x \\ln(x^2+1) - 2x + 2 \\arctan(x) + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "The acceleration and the initial velocity of an object moving on a straight line are given by: $a(t) = 2t + 6\\ m/s^2$ and $v(0) = -7\\ m/s$. Find the **total distance** travelled by the particle from $t = 0$ to $t = 2$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$8 \\text{ meters}$"
+      }
+    ],
+    "id": "uw_math_125_au19_p2",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 8,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_y"
+    ],
+    "stem": "Consider the region enclosed by the graphs $y = 9x - x^3$, $y = 2x$, $x = 0$, and $x = 2$ pictured below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up an integral that represents the volume of the solid formed by rotating this region about the y-axis. (Do not compute the volume).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A graph showing a region in the first quadrant bounded by the curves $y = 9x - x^3$ and $y = 2x$, with vertical lines at $x = 0$ and $x = 2$. The region is shaded in gray. The axes are labeled with the horizontal axis extending to the right and the vertical axis extending upward.",
+        "final_answer": "$V_1 = \\int_0^2 2\\pi x(3x - x^3) dx$",
+        "diagram_image_local": "uw_data/math125/math125_Au19_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au19/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up an integral that represents the volume of the solid formed by rotating this region about the line $y = -5$. (Do not compute the volume).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "The same region as in part (a), shown with the shaded region bounded by $y = 9x - x^3$ and $y = 2x$ between $x = 0$ and $x = 2$. The axes are labeled with the horizontal axis extending to the right and the vertical axis extending upward.",
+        "final_answer": "$V_2 = \\int_0^2 \\pi[(9x - x^2 + 5)^2 - (2x + 5)^2] dx$",
+        "diagram_image_local": "uw_data/math125/math125_Au19_images/diagrams/p3_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au19/diagrams/p3_b.png"
+      }
+    ],
+    "id": "uw_math_125_au19_p3",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 7,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "numerical_integration_simpsons_rule",
+      "average_value_of_a_function"
+    ],
+    "stem": "The graph below shows the instantaneous velocity $v(t)$ (in meters per second) of an object moving along a straight line, as a function of time $t$ (in seconds).",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Use Simpsons Rule with $n = 6$ subintervals to approximate the **average velocity** $v_{ave}$ of the object from $t = 0$ to $t = 6$ seconds.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A smooth curve showing velocity $v(t)$ in m/s on the vertical axis (ranging from 0 to 35) and time $t$ in seconds on the horizontal axis (ranging from 0 to 6). The curve starts at approximately 5 m/s at $t=0$, increases to a maximum of approximately 35 m/s around $t=4$, and then decreases to approximately 3 m/s at $t=6$. The curve is smooth and continuous with a parabolic shape.",
+        "final_answer": "$22 \\text{ m/s}$",
+        "diagram_image_local": "uw_data/math125/math125_Au19_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au19/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_125_au19_p4",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 21,
+    "topic": "improper_integrals",
+    "concepts": [
+      "vertical_asymptote_integrals",
+      "convergence_of_improper_integrals",
+      "divergence_of_improper_integrals"
+    ],
+    "stem": "Let $\\mathcal{R}$ be the region in the first quadrant which is shown below, and it is described by: $0 \\le y \\le \\frac{x}{\\sqrt{4-x^2}}$, $0 \\le x < 2$. Note that $f(x) = \\frac{x}{\\sqrt{4-x^2}}$ has a vertical asymptote; use limits for improper integrals as needed, and determine if they converge or diverge.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the area of this region $\\mathcal{R}$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A graph in the first quadrant showing a region bounded above by the curve $y = \\frac{x}{\\sqrt{4-x^2}}$. The horizontal axis extends from 0 to approximately 4, and the vertical axis extends from 0 to approximately 4. The curve starts near the origin and increases, approaching a vertical asymptote as it approaches $x = 2$. The region is shaded in blue.",
+        "final_answer": "$2$",
+        "diagram_image_local": "uw_data/math125/math125_Au19_images/diagrams/p5_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au19/diagrams/p5_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the x-coordinate, $\\bar{x}$, of its centroid (center of mass).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Recall the region $\\mathcal{R}$ from the previous page, bounded above by $y = \\frac{x}{\\sqrt{4-x^2}}$, for $0 \\le x < 2$. Use limits for improper integrals as needed, and determine if they converge or diverge. Compute the y-coordinate, $\\bar{y}$, of the centroid of $\\mathcal{R}$.",
+        "depends_on": "a",
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "The same region as shown on the previous page: a graph in the first quadrant with a curve $y = \\frac{x}{\\sqrt{4-x^2}}$ that has a vertical asymptote at $x = 2$. The region is shaded in gray. The horizontal axis extends from 0 to approximately 4, and the vertical axis extends from 0 to approximately 4.",
+        "final_answer": "DIVERGES",
+        "diagram_image_local": "uw_data/math125/math125_Au19_images/diagrams/p5_c.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au19/diagrams/p5_c.png"
+      }
+    ],
+    "id": "uw_math_125_au19_p5",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 8,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work",
+      "work_integral_interpretation"
+    ],
+    "stem": "A tank of the shape shown in the picture, with height=7m, length=10m, and width=5m, is full of water. Water weighs 1000 kg/m³, and the gravitational acceleration is $g = 9.8\\ m/s^2$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Set up (do not evaluate) an integral equal to the work required to pump all the water out of the tank through a spout that is 1 m above the top of the tank. Specify the meaning of your variable of integration, either in words or on the picture.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A three-dimensional diagram of a triangular prism tank oriented horizontally. The tank has a trapezoidal or triangular cross-section when viewed from the side. Labels indicate 'height' (vertical dimension), 'width' (horizontal dimension perpendicular to the length), and 'length' (the longest horizontal dimension). A spout is shown extending 1 m above the top of the tank. A small blue section at the top indicates a slice of water being lifted.",
+        "final_answer": "$W = \\int_0^7 9800(8-y)\\frac{50}{7}(7-y) dy$",
+        "diagram_image_local": "uw_data/math125/math125_Au19_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au19/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_125_au19_p6",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 8,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write down an integral equal to the **arclength** $L(t)$ of the portion of the curve: $y = e^{x^2}$, from $x = 0$ to $x = t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$L(t) = \\int_0^t \\sqrt{1 + 4x^2 e^{2x^2}} dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "At what rate is $L(t)$ increasing when $t = 1$?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$L'(1) = \\sqrt{1 + 4e^2}$"
+      }
+    ],
+    "id": "uw_math_125_au19_p7",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution to the differential equation $$\\frac{dy}{dx} = \\frac{xy + y}{2\\ln(y)}$$ that satisfies the initial condition $y(1) = e^2$. Give your solution in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = e^{\\frac{x^2}{2} + x + \\frac{7}{2}}$"
+      }
+    ],
+    "id": "uw_math_125_au19_p8",
+    "course": "math_125",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 12,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "A 2000 L tank is full of a mixture of water and salt, with 500 grams of salt initial dissolved in the tank. Fresh water (with NO salt) is pumped into the tank at a rate of 20 L/s. The mixture is kept stirred and is pumped out at a rate of 40 L/s. (This means the tank is losing volume at a rate of 20 - 40 = -20 L/s).",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give the linear function $V(t) = at + b$ for the volume in liters after $t$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$V(t) = -20t + 2000$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $y(t)$ be the amount of salt in grams in the tank after $t$ seconds. Write down the differential equation AND initial condition satisfied by $y(t)$. Do not solve anything yet.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dt} = \\frac{2y}{t - 100}$, $y(0) = 500$"
+      },
+      {
+        "label": "c",
+        "question_text": "Solve the differential equation to find $y(t)$. Show work. Simplify and box your answer.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\frac{1}{20}|t - 100|^2$"
+      },
+      {
+        "label": "d",
+        "question_text": "How many grams of salt are left in the tank after 60 seconds? Simplify your answer.",
+        "depends_on": "c",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$80 \\text{ grams}$"
+      }
+    ],
+    "id": "uw_math_125_au19_p9",
+    "course": "math_125",
+    "exam": "au19_final"
+  }
+]

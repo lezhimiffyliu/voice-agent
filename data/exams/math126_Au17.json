@@ -1,0 +1,287 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "parallel_and_perpendicular_conditions",
+      "line_plane_intersection"
+    ],
+    "stem": "Below are a series of multiple choice questions. Circle the correct answer. You do not need to show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $\\mathcal{P}$ be the plane given by the equation $2x + y - z = 5$. Choose the sentence that best describes the plane $\\mathcal{Q}$ given by the equation $2x + y - z = 10$.\n\na. $\\mathcal{Q}$ is parallel to $\\mathcal{P}$.\n\nb. $\\mathcal{Q}$ is equal to $\\mathcal{P}$.\n\nc. $\\mathcal{Q}$ intersects $\\mathcal{P}$ in a line.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "a"
+      },
+      {
+        "label": "b",
+        "question_text": "Consider the set of points $C$ whose distance to the origin is twice the distance to the $x$-axis. Which of the following best describes $C$?\n\na. a cone\n\nb. an elliptic paraboloid\n\nc. a hyperboloid of two sheets\n\nd. none of these",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "b"
+      },
+      {
+        "label": "c",
+        "question_text": "Suppose $|\\mathbf{a} \\times \\mathbf{b}| = |\\mathbf{a}||\\mathbf{b}| > 0$. Then $\\mathbf{a}$ and $\\mathbf{b}$ are\n\na. parallel.\n\nb. perpendicular.\n\nc. both the zero vector.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "b"
+      },
+      {
+        "label": "d",
+        "question_text": "Which of the following surfaces does the curve $\\mathbf{r}(t) = \\langle t, t, 2t^2 \\rangle$ lie on?\n\na. $x^2 + y^2 = z^2$\n\nb. $x = 0$\n\nc. $x^2 + y^2 = z$\n\nd. all of these\n\ne. none of these",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "e"
+      }
+    ],
+    "id": "uw_math_126_au17_p1",
+    "course": "math_126",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "speed",
+      "tangent_vector",
+      "arc_length_parameterization",
+      "curvature"
+    ],
+    "stem": "Consider the vector function $\\mathbf{r}(t) = \\langle t, \\cos(t), \\sin(t) \\rangle$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the velocity vector $\\mathbf{v}(t)$ and the unit tangent vector $\\mathbf{T}(t).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{T}(t) = \\left\\langle \\frac{1}{\\sqrt{2}}, \\frac{-\\sin t}{\\sqrt{2}}, \\frac{\\cos t}{\\sqrt{2}}\\right\\rangle$"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the unit normal vector $\\mathbf{N}(t).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{N}(t) = \\langle 0, -\\cos t, -\\sin t \\rangle$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute the curvature of $\\mathbf{r}(t)$ at the point $t = 1209.17$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(t) = \\frac{1}{2}$"
+      }
+    ],
+    "id": "uw_math_126_au17_p2",
+    "course": "math_126",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable"
+    ],
+    "stem": "Find and classify all critical points of",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$$f(x, y) = 2x^3 + 9xy^2 + 15x^2 + 27y^2.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x, y)$ has a local min at $(0, 0)$, a local max at $(-5, 0)$, and saddle points at $(-3, 2)$ and $(-3, -2)$"
+      }
+    ],
+    "id": "uw_math_126_au17_p3",
+    "course": "math_126",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 11,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation"
+    ],
+    "stem": "Suppose you need to know an equation of the plane tangent to a surface $S$ at the point $P(-7, 4, -33)$. You don't have an equation for $S$ but you know that the following curves lie on $S$:",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$$\\mathbf{r}_1(t) = \\langle 2t - 9, 5 - t, -3t^2 + 26t - 56 \\rangle \\text{ and } \\mathbf{r}_2(u) = \\langle -\\sqrt{u}, \\sqrt{u - 33}, -33 \\rangle.$$\n\nFind the equation of the plane tangent to $S$ at $P$.\nSimplify your final answer to the form $z = Ax + By + C$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = 14x + 8y + 33$"
+      }
+    ],
+    "id": "uw_math_126_au17_p4",
+    "course": "math_126",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals"
+    ],
+    "stem": "Evaluate the definite integral",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$$\\int_0^1 \\int_{e^y}^e \\frac{\\sqrt{1 + (\\ln x)^2}}{x} \\, dx \\, dy.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}(2\\sqrt{2} - 1)$"
+      }
+    ],
+    "id": "uw_math_126_au17_p5",
+    "course": "math_126",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 14,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "polar_coordinates"
+    ],
+    "stem": "Find the volume of the solid that is above the $xy$-plane, within the sphere $x^2 + y^2 + z^2 = 1$, and below the cone $z = \\sqrt{x^2 + y^2}$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi\\sqrt{2}}{3}$"
+      }
+    ],
+    "id": "uw_math_126_au17_p6",
+    "course": "math_126",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 15,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = \\sqrt[3]{x}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial $T_2(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 1 + \\frac{3}{2}(x - 1) + \\frac{3}{8}(x - 1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an upper bound for $|T_2(x) - f(x)|$ on the interval $[1 - a, 1 + a]$.\nAssume $0 < a < 1$. Your answer should be in terms of $a$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|T_2(x) - f(x)| \\leq \\frac{1}{16}\\left(\\frac{a}{\\sqrt{1-a}}\\right)^3$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find a value of $a$ such that $0 < a < 1$ and $|T_2(x) - f(x)| \\leq 0.004$ for all $x$ in $[1 - a, 1 + a]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "HINT: Solve $\\frac{1}{16}\\left(\\frac{a}{\\sqrt{1-a}}\\right)^3 = 0.004$; $a \\approx 0.3279$. One acceptable answer is $a = 0.32$."
+      }
+    ],
+    "id": "uw_math_126_au17_p7",
+    "course": "math_126",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "building_new_series_from_known_series",
+      "power_series_representation"
+    ],
+    "stem": "The Basic Taylor Series are:\n\n$$\\sin(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k+1}}{(2k+1)!}, \\quad \\cos(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k}}{(2k)!}, \\quad e^x = \\sum_{k=0}^{\\infty} \\frac{x^k}{k!}, \\quad \\frac{1}{1-x} = \\sum_{k=0}^{\\infty} x^k.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Use the list of Basic Taylor Series to find the Taylor series for $f(x) = x^4 \\arctan(x^3)$ based at $b = 0$. (Use $\\Sigma$-notation.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{6k+7}}{2k + 1}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval on which the series in part (a) converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-1 < x < 1$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $f^{(2017)}(0)$. (That is, the 2017th derivative of $f$ at 0.) Give an exact answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f^{(2017)}(0) = -\\frac{2017!}{671}$"
+      }
+    ],
+    "id": "uw_math_126_au17_p8",
+    "course": "math_126",
+    "exam": "au17_final"
+  }
+]

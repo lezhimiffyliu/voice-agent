@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Claire — Voice Math Tutor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f1115;
+        --panel: #1a1d24;
+        --border: #2a2e38;
+        --text: #e6e8ed;
+        --muted: #9aa0ab;
+        --accent: #5b8cff;
+        --user: #2b3550;
+        --agent: #243b2f;
+        --danger: #ff5b5b;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      main {
+        width: 100%;
+        max-width: 760px;
+        padding: 24px 20px 48px;
+      }
+      h1 { font-size: 1.4rem; margin: 0 0 4px; }
+      .sub { color: var(--muted); font-size: 0.9rem; margin: 0 0 20px; }
+      .controls { display: flex; gap: 12px; margin-bottom: 16px; }
+      button {
+        flex: 1;
+        padding: 12px 16px;
+        font-size: 1rem;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: var(--accent);
+        color: #fff;
+        cursor: pointer;
+        transition: opacity 0.15s;
+      }
+      button.secondary { background: var(--panel); color: var(--text); }
+      button:disabled { opacity: 0.4; cursor: not-allowed; }
+      .status {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-bottom: 16px;
+        min-height: 20px;
+      }
+      .dot {
+        width: 10px; height: 10px; border-radius: 50%;
+        background: var(--muted); flex: 0 0 auto;
+      }
+      .dot.live { background: #3ddc84; box-shadow: 0 0 8px #3ddc84; }
+      .dot.error { background: var(--danger); }
+      .dot.connecting { background: #ffb53d; }
+      #log {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 12px;
+        min-height: 260px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        overflow-y: auto;
+        max-height: 56vh;
+      }
+      .msg {
+        padding: 9px 12px;
+        border-radius: 10px;
+        font-size: 0.95rem;
+        line-height: 1.35;
+        max-width: 85%;
+        word-wrap: break-word;
+      }
+      .msg.user { background: var(--user); align-self: flex-end; }
+      .msg.agent { background: var(--agent); align-self: flex-start; }
+      .msg .who {
+        display: block;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin-bottom: 2px;
+      }
+      .msg.system {
+        background: transparent;
+        color: var(--muted);
+        font-size: 0.8rem;
+        align-self: center;
+        text-align: center;
+        max-width: 100%;
+      }
+      .msg.error { color: var(--danger); }
+
+      /* --- Problem-picker dashboard --- */
+      .dashboard {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 14px;
+        margin-bottom: 16px;
+      }
+      .dashboard h2 {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted);
+        margin: 0 0 10px;
+      }
+      .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; align-items: center; }
+      .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+      .filters select, .filters input {
+        background: var(--bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-size: 0.85rem;
+      }
+      .filters input { flex: 1 1 160px; min-width: 120px; }
+      .result-count { font-size: 0.75rem; color: var(--muted); margin-bottom: 8px; }
+      .chip {
+        padding: 5px 11px;
+        font-size: 0.8rem;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: transparent;
+        color: var(--muted);
+        cursor: pointer;
+        flex: 0 0 auto;
+      }
+      .chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+      .problem-list { display: grid; gap: 8px; max-height: 62vh; overflow-y: auto; }
+      .problem-card {
+        text-align: left;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 10px 12px;
+        cursor: pointer;
+        color: var(--text);
+        display: block;
+        width: 100%;
+      }
+      .problem-card:hover { border-color: var(--accent); }
+      .problem-card.selected { border-color: var(--accent); background: #1d2640; }
+      .problem-card .meta {
+        display: flex; gap: 8px; align-items: center; margin-bottom: 4px;
+      }
+      .problem-card .tag {
+        font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.05em;
+        color: var(--muted); border: 1px solid var(--border);
+        border-radius: 4px; padding: 1px 6px;
+      }
+      .problem-card .prompt { font-size: 0.92rem; line-height: 1.35; }
+      .stem { color: var(--muted); font-size: 0.85rem; margin-bottom: 6px; line-height: 1.35; }
+      .part { margin: 4px 0; }
+      .part-label { color: var(--accent); font-weight: 600; }
+      .current-problem {
+        background: var(--agent);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 10px 12px;
+        margin-bottom: 16px;
+        font-size: 0.95rem;
+      }
+      .current-problem .label {
+        display: block; font-size: 0.68rem; text-transform: uppercase;
+        letter-spacing: 0.06em; color: var(--muted); margin-bottom: 3px;
+      }
+
+      /* --- Two-view layout: library <-> problem working page --- */
+      .working-view {
+        width: 100%;
+        max-width: 1120px;
+        padding: 24px 20px 48px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 340px;
+        gap: 20px;
+        align-items: start;
+      }
+      .work-main { min-width: 0; }
+      .work-sidebar { position: sticky; top: 24px; }
+      .back-btn {
+        width: auto;
+        flex: 0 0 auto;
+        align-self: flex-start;
+        background: transparent;
+        color: var(--muted);
+        border: 1px solid var(--border);
+        padding: 7px 12px;
+        font-size: 0.85rem;
+        margin-bottom: 14px;
+      }
+      .back-btn:hover { color: var(--text); border-color: var(--accent); }
+      @media (max-width: 860px) {
+        .working-view { grid-template-columns: 1fr; }
+        .work-sidebar { position: static; }
+      }
+
+      /* --- Learning dashboard --- */
+      .learning-dashboard {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px;
+      }
+      .learning-dashboard h2 {
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted);
+        margin: 0 0 16px;
+      }
+      .metric { margin-bottom: 14px; }
+      .metric:last-child { margin-bottom: 0; }
+      .metric .k {
+        display: block;
+        font-size: 0.66rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted);
+        margin-bottom: 4px;
+      }
+      .metric .v { font-size: 1rem; font-weight: 600; }
+      .metric-row { display: flex; gap: 14px; }
+      .metric-row .metric { flex: 1; }
+      .badge {
+        display: inline-block;
+        padding: 2px 11px;
+        border-radius: 999px;
+        font-size: 0.82rem;
+        font-weight: 600;
+      }
+      .badge.easy { background: #1f3d2b; color: #5fe39b; }
+      .badge.medium { background: #3a341c; color: #ffce5b; }
+      .badge.hard { background: #3d2330; color: #ff7ba0; }
+      .confbar {
+        height: 8px;
+        border-radius: 999px;
+        background: var(--bg);
+        overflow: hidden;
+        margin-top: 7px;
+      }
+      .confbar > span {
+        display: block;
+        height: 100%;
+        width: 0;
+        background: linear-gradient(90deg, #5b8cff, #3ddc84);
+        transition: width 0.4s ease;
+      }
+      .weak-areas { display: flex; flex-wrap: wrap; gap: 6px; }
+      .weak-areas .wtag {
+        font-size: 0.78rem;
+        padding: 3px 9px;
+        border-radius: 999px;
+        background: #3a2330;
+        color: #ff9bb5;
+        border: 1px solid #5a3346;
+      }
+      .weak-areas .wtag.none {
+        background: #1f3d2b;
+        color: #5fe39b;
+        border-color: #2f5c43;
+      }
+      .next-topic { display: flex; align-items: center; gap: 8px; }
+      .next-topic .arrow { color: var(--accent); font-weight: 700; }
+      .hint-btn {
+        width: 100%;
+        background: var(--bg);
+        color: var(--text);
+        border: 1px solid var(--border);
+        font-size: 0.85rem;
+        padding: 9px;
+      }
+      .hint-btn:hover { border-color: var(--accent); }
+      .divider { height: 1px; background: var(--border); margin: 14px 0; }
+    </style>
+  </head>
+  <body>
+    <!-- VIEW 1: problem library / picker -->
+    <main id="libraryView">
+      <h1>Claire — Voice Math Tutor</h1>
+      <p class="sub">Pick a problem to open it, then talk it through with Claire — your personal math tutor.</p>
+
+      <div class="dashboard">
+        <h2>Choose a problem</h2>
+        <div class="filters">
+          <div class="chips" id="courseChips"></div>
+          <select id="topicSelect" aria-label="Filter by topic"></select>
+          <input id="search" type="search" placeholder="Search problems…" />
+        </div>
+        <div class="result-count" id="resultCount"></div>
+        <div class="problem-list" id="problemList"></div>
+      </div>
+    </main>
+
+    <!-- VIEW 2: problem working page (voice session + learning dashboard) -->
+    <div id="workingView" class="working-view" style="display: none">
+      <section class="work-main">
+        <button id="backBtn" class="secondary back-btn">← All problems</button>
+
+        <div class="current-problem" id="currentProblem">
+          <span class="label">Working on</span>
+          <span id="currentProblemText"></span>
+        </div>
+
+        <div class="controls">
+          <button id="startBtn">Start</button>
+          <button id="stopBtn" class="secondary" disabled>Stop</button>
+        </div>
+
+        <div class="status">
+          <span id="statusDot" class="dot"></span>
+          <span id="statusText">Idle — press Start and allow microphone access.</span>
+        </div>
+
+        <div id="log"></div>
+      </section>
+
+      <aside class="work-sidebar">
+        <div class="learning-dashboard" id="learningDashboard">
+          <h2>Learning dashboard</h2>
+
+          <div class="metric">
+            <span class="k">Current topic</span>
+            <span class="v" id="dbTopic">—</span>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric">
+              <span class="k">Difficulty</span>
+              <span class="v"><span class="badge medium" id="dbDifficulty">—</span></span>
+            </div>
+            <div class="metric">
+              <span class="k">Confidence</span>
+              <span class="v" id="dbConfidence">—</span>
+              <div class="confbar"><span id="dbConfidenceBar"></span></div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric">
+              <span class="k">Problems attempted</span>
+              <span class="v" id="dbAttempted">0</span>
+            </div>
+            <div class="metric">
+              <span class="k">Hints used</span>
+              <span class="v" id="dbHints">0</span>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="metric">
+            <span class="k">Weak areas</span>
+            <div class="weak-areas" id="dbWeakAreas"></div>
+          </div>
+
+          <div class="metric">
+            <span class="k">Recommended next topic</span>
+            <span class="v next-topic"><span class="arrow">→</span><span id="dbNextTopic">—</span></span>
+          </div>
+
+          <div class="divider"></div>
+
+          <button class="hint-btn" id="hintBtn">I used a hint</button>
+        </div>
+      </aside>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

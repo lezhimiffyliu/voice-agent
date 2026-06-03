@@ -1,0 +1,300 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "direction_vectors"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find an equation for the plane containing the point $(1, 1, 1)$ and the line $(x, y, z) = (1 + 2t, 3 - t, t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x - 2y - 4z = -5$"
+      }
+    ],
+    "id": "uw_math_126_wi15_p1",
+    "course": "math_126",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "quadric_surfaces",
+    "concepts": [
+      "traces_of_surfaces",
+      "surface_identification",
+      "ellipsoid",
+      "hyperboloid_of_one_sheet",
+      "hyperboloid_of_two_sheets"
+    ],
+    "stem": "Consider surfaces of the form $x^2 + by^2 + cz^2 = 0$, where $b$ and $c$ real numbers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Describe the horizontal traces (slices by planes parallel to the $xy$-plane) of these surfaces:\n\ni. when $b > 0$ and $c < 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "i. If $z = 0$, then the trace is $x^2 + by^2 = 0$, which is a single point $(0,0)$. Otherwise, since $z^2 > 0$, the traces have the form $x^2 + by^2 = d$, with $b, d > 0$. These are all ellipses.\n\nii. If $z = 0$, then the trace is $x^2 + by^2 = 0$, which is a pair of lines. Otherwise, since $z^2 > 0$, the traces have the form $x^2 + by^2 = d$, where $b < 0$ and $d > 0$. These are all hyperbolas that do not intersect the $x$-axis."
+      },
+      {
+        "label": "a",
+        "question_text": "ii. when $b < 0$ is negative and $c > 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "i. If $z = 0$, then the trace is $x^2 + by^2 = 0$, which is a single point $(0,0)$. Otherwise, since $z^2 > 0$, the traces have the form $x^2 + by^2 = d$, with $b, d > 0$. These are all ellipses.\n\nii. If $z = 0$, then the trace is $x^2 + by^2 = 0$, which is a pair of lines. Otherwise, since $z^2 > 0$, the traces have the form $x^2 + by^2 = d$, where $b < 0$ and $d > 0$. These are all hyperbolas that do not intersect the $x$-axis."
+      },
+      {
+        "label": "b",
+        "question_text": "Describe all pairs of numbers $(b, c)$ such that the surface $x^2 + by^2 + cz^2 = 0$ contains the line $(x, y, z) = (4t, 2t, t)$. Your answer should include an equation that relates $b$ and $c$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "In order to contain the line, the equation $16t^2 + 4bt^2 + ct^2 = 0$ must hold for all $t$, which means that $16 + 4b + c = 0$."
+      },
+      {
+        "label": "c",
+        "question_text": "Consider the horizontal trace $z = 1$ in the surfaces of part (b) (i.e., those that contain the given line). For which values of $b$ and $c$ is the horizontal trace a circle?",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The trace in question has equation $x^2 + by^2 = 16 + 4b$. This is a circle precisely when $b = 1$."
+      }
+    ],
+    "id": "uw_math_126_wi15_p2",
+    "course": "math_126",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 13,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "speed",
+      "acceleration_vector",
+      "tangential_and_normal_components",
+      "tangent_vector"
+    ],
+    "stem": "On a very windy day, a math student launches a small water balloon into the air (towards an instructor). At time $t = 0$, the balloon is at the origin. The velocity vector for the balloon at time $t$ seconds is given by $\\mathbf{r}'(t) = (6 + 2t, 4, 15 - 10t)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the speed of the balloon at the positive time, $t$, when it hits the $xy$-plane.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The balloon hits the $xy$-plane at $t = 3$. Speed at $t = 3$ is $\\sqrt{385}$."
+      },
+      {
+        "label": "b",
+        "question_text": "Find the time at which the tangential component of acceleration for the balloon is zero.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = \\frac{138}{104}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Determine if each of the following is true or false at the time you found in part (b). No work is needed to answer this question. Circle your answer.\n\n**T   F**        The acceleration $\\mathbf{a}$ is orthogonal to the unit tangent vector $\\mathbf{T}$.\n\n**T   F**        The acceleration $\\mathbf{a}$ is orthogonal to the principal unit normal vector $\\mathbf{N}$.\n\n**T   F**        The acceleration $\\mathbf{a}$ is orthogonal to the binormal vector $\\mathbf{B}$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T; F; T"
+      }
+    ],
+    "id": "uw_math_126_wi15_p3",
+    "course": "math_126",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 14,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "parametrization_of_curves",
+      "tangent_vector",
+      "symmetric_equations_of_lines",
+      "direction_vectors"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Consider the curve $\\mathbf{r}_1(t) = \\langle t, 4 - t, 25 - t^2 \\rangle$.\n\nFind the point $(x, y, z)$ where the tangent line to the curve $\\mathbf{r}_1(t)$ at $t = 2$ intersects the plane $2x - 3y + z = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-17, 21, 97)$"
+      },
+      {
+        "label": "b",
+        "question_text": "A second curve is given by $\\mathbf{r}_2(s) = (4, \\sin(5s), 9 - 3s)$. The two curves $\\mathbf{r}_1(t)$ and $\\mathbf{r}_2(s)$ have one point of intersection. Find the angle of intersection $\\theta$ correct to the degree.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$66°$"
+      }
+    ],
+    "id": "uw_math_126_wi15_p4",
+    "course": "math_126",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "partial_derivatives",
+      "optimization_with_constraints"
+    ],
+    "stem": "The equation $2x + y - z = 2$ defines a plane in $\\mathbb{R}^3$. Find all points on that plane at which the following function has a local minimum:\n\n$$f(x, y, z) = x^2 + xz + 2y^2 - 2xy.$$\n\nUse the Second Derivative Test to show that the point you found does indeed give a local minimum.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The equation $2x + y - z = 2$ defines a plane in $\\mathbb{R}^3$. Find all points on that plane at which the following function has a local minimum:\n\n$$f(x, y, z) = x^2 + xz + 2y^2 - 2xy.$$\n\nUse the Second Derivative Test to show that the point you found does indeed give a local minimum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(\\frac{8}{23}, \\frac{2}{23}, -\\frac{28}{23}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_wi15_p5",
+    "course": "math_126",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the integral\n\n$$\\int_{0}^{1} \\int_{\\sqrt{y}}^{1} ye^{-2x^2} \\, dx \\, dy$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{28}(e^{-2} - 1)$"
+      }
+    ],
+    "id": "uw_math_126_wi15_p6",
+    "course": "math_126",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "first_order_taylor_polynomial",
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor",
+      "taylor_series_definition"
+    ],
+    "stem": "Let $A(x) = \\int_{0}^{x} e^{-t^2} dt$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the first Taylor polynomial (linear approximation) $T_1(x)$ and the second Taylor polynomial $T_2(x)$ for $A(x)$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_1(x) = T_2(x) = x$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the $T_2(x)$ you found to approximate $A\\left(\\frac{1}{2}\\right) = \\int_{0}^{1/2} e^{-t^2} dt$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$A\\left(\\frac{1}{2}\\right) \\approx T_2\\left(\\frac{1}{2}\\right) = \\frac{1}{2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find an upper bound on the error $\\left|T_2\\left(\\frac{1}{2}\\right) - A\\left(\\frac{1}{2}\\right)\\right|$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "One possible answer: error $\\leq \\frac{1}{24}$"
+      }
+    ],
+    "id": "uw_math_126_wi15_p7",
+    "course": "math_126",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 13,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "Let $f(x) = x \\arctan x - \\frac{1}{2} \\ln(1 + x^2)$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at $b = 0$. Express your answer using one sigma sign (\\(\\Sigma\\)) and write out the first three non-zero terms of the series.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x) = \\sum_{k=0}^{\\infty} (-1)^k \\frac{x^{2k+2}}{(2k+1)(2k+2)} = \\frac{1}{2}x^2 - \\frac{1}{12}x^4 + \\frac{1}{30}x^6 - \\ldots$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval where the Taylor series in (a) converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-1, 1)$"
+      }
+    ],
+    "id": "uw_math_126_wi15_p8",
+    "course": "math_126",
+    "exam": "wi15_final"
+  }
+]

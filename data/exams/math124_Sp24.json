@@ -1,0 +1,449 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "limits_at_infinity",
+      "algebraic_limit_evaluation",
+      "infinite_limits"
+    ],
+    "stem": "Determine the limits. Your answer should be a number (no rounding), ∞, −∞ or DNE, whatever fits best. Put a box around your final answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to -\\infty} \\frac{2x^3 - 4x^2 + 6x + 8}{8x^3 - 6x^2 + 8x + 1}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{8} - \\frac{1}{4}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\lim_{x \\to 1} \\frac{x^2 - 1}{\\sqrt{x^2 + 3} - 2}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4$"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\lim_{x \\to 0^+} \\arctan(\\ln(x))$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{\\pi}{2}$"
+      },
+      {
+        "label": "d",
+        "question_text": "$\\lim_{x \\to 1} \\left(\\frac{e^{x-1} - 1}{x - 1}\\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1$"
+      }
+    ],
+    "id": "uw_math_124_sp24_p1",
+    "course": "math_124",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "derivative_rules",
+    "concepts": [
+      "quotient_rule",
+      "chain_rule",
+      "logarithmic_derivatives",
+      "exponential_derivatives",
+      "trig_derivatives"
+    ],
+    "stem": "Find the derivative of the following functions. Do not simplify! Put a box around your final answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f(x) = \\frac{\\ln(3x)}{xe^x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{e^x - (xe^x + e^x) \\ln(3x)}{(xe^x)^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$g(x) = \\sqrt{\\sin(x^2 + \\sqrt{x})}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\frac{(2x + \\frac{1}{2\\sqrt{x}}) \\cos(x^2 + \\sqrt{x})}{2\\sqrt{\\sin(x^2 + \\sqrt{x})}}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$h(x) = x^{2x} + x^2 + 2^x$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(x) = (2 \\ln x + 2)x^{2x} + 2x + \\ln 2 \\cdot 2^x$"
+      },
+      {
+        "label": "d",
+        "question_text": "$k(x) = \\arctan(4x^2)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$k'(x) = \\frac{8x}{1 + 16x^4}$"
+      }
+    ],
+    "id": "uw_math_124_sp24_p2",
+    "course": "math_124",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "local_extrema",
+      "absolute_extrema",
+      "concavity",
+      "inflection_points",
+      "increasing_decreasing_intervals",
+      "asymptotes"
+    ],
+    "stem": "For this problem, you do not need to show your work. Answer the questions based on the following graph of the derivative of a function $f(x)$. The domain of the $f(x)$ is $(−\\infty, \\infty)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f'(-5) =$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane showing a graph of $f'(x)$ with x-axis from -6 to 6 and y-axis from -5 to 2. The curve starts from the lower left, increases and reaches a local maximum around $x = -3$ with value approximately 1.5, then decreases through a local minimum around $x = 1$ with value approximately -2, and then increases again toward the right. Key points marked on the curve include endpoints and turning points. The curve is continuous across the domain shown.",
+        "final_answer": "$f'(-5) = -1$",
+        "diagram_image_local": "uw_data/math124/math124_Sp24_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp24/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$f'(-1) =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(-1) = -1$"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\lim_{x \\to -3} f''(x) =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to -3} f'(x) = 1$"
+      },
+      {
+        "label": "d",
+        "question_text": "$\\lim_{x \\to \\infty} f(x) =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to \\infty} f(x) = -\\infty$"
+      },
+      {
+        "label": "e",
+        "question_text": "$\\lim_{x \\to \\infty} f'(x) =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to \\infty} f'(x) = -1$"
+      },
+      {
+        "label": "f",
+        "question_text": "List all $x$-values where $f$ is not differentiable.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1$"
+      },
+      {
+        "label": "g",
+        "question_text": "List all critical values of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-4.5, -1.5, 1, 2$"
+      },
+      {
+        "label": "h",
+        "question_text": "List all $x$-values where $f$ has a local maximum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-1.5, 2$"
+      },
+      {
+        "label": "i",
+        "question_text": "Find the $x$-value in $[2, 5]$ where $f$ has an absolute minimum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$5$"
+      },
+      {
+        "label": "j",
+        "question_text": "List all intervals where $f$ is concave up.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-\\infty, -3), (0, 1)$"
+      }
+    ],
+    "id": "uw_math_124_sp24_p3",
+    "course": "math_124",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "trigonometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "Consider a right triangle in which the lengths of the two legs $a$ and $b$, as shown in the sketch, change. The length of the leg opposite the angle $\\theta$ is 110cm at the beginning and decreases by 5cm per minute in length. The length of the adjacent leg of $\\theta$ is 10cm at the beginning and increases by 15cm per minute in length. How does the angle $\\theta$ change when the triangle is isosceles? Do not round.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Consider a right triangle in which the lengths of the two legs $a$ and $b$, as shown in the sketch, change. The length of the leg opposite the angle $\\theta$ is 110cm at the beginning and decreases by 5cm per minute in length. The length of the adjacent leg of $\\theta$ is 10cm at the beginning and increases by 15cm per minute in length. How does the angle $\\theta$ change when the triangle is isosceles? Do not round.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A right triangle with the right angle marked by a small square in the bottom-right corner. The vertical leg is labeled $a$, the horizontal leg is labeled $b$, and the angle $\\theta$ is marked at the bottom-left vertex. The hypotenuse connects the top of the vertical leg to the right end of the horizontal leg.",
+        "final_answer": "$-\\frac{2}{17}$ radians per minute",
+        "diagram_image_local": "uw_data/math124/math124_Sp24_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp24/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_124_sp24_p4",
+    "course": "math_124",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "geometric_optimization",
+      "absolute_extrema",
+      "optimization_verification"
+    ],
+    "stem": "You are tasked to build a box of metal with a square base and an open top whose volume is 4m³. Find the dimensions of the box in meters that minimize the amount of material used. Justify that your answer is indeed an absolute minimum.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "You are tasked to build a box of metal with a square base and an open top whose volume is 4m³. Find the dimensions of the box in meters that minimize the amount of material used. Justify that your answer is indeed an absolute minimum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a = 2$ and $h = 1$"
+      }
+    ],
+    "id": "uw_math_124_sp24_p5",
+    "course": "math_124",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_curve_graphing",
+      "parametric_first_derivative",
+      "parametric_tangent_line",
+      "parametric_motion"
+    ],
+    "stem": "Consider the curve defined by the parametric equations $x(t) = \\cos(t)$ and $y(t) = \\sin(2t)$, where $0 \\le t \\le 2\\pi$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What points on the curve have a horizontal tangent line?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = \\pm\\frac{\\pi}{4} + \\pi k$ and the four points $(\\pm\\frac{\\sqrt{2}}{2}, \\pm 1)$"
+      },
+      {
+        "label": "b",
+        "question_text": "The time $t = \\pi/3$ gives rise to a point $P$ on the curve. Which of the following options resembles the given curve around $P$ most?\n\n[Four curve sketches labeled Option A, Option B, Option C, Option D are shown]",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "Four small curve sketches arranged in a 2x2 grid, each showing a portion of a curve around a point labeled P. Option A (top-left): a curve bending downward from upper-left to lower-right. Option B (top-right): a curve bending upward from lower-left to upper-right. Option C (bottom-left): a curve bending downward from upper-left to lower-right with concavity downward. Option D (bottom-right): a curve bending upward from lower-left to upper-right with concavity upward.",
+        "final_answer": "B",
+        "diagram_image_local": "uw_data/math124/math124_Sp24_images/diagrams/p6_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp24/diagrams/p6_b.png"
+      }
+    ],
+    "id": "uw_math_124_sp24_p6",
+    "course": "math_124",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 12,
+    "topic": "linear_approximation",
+    "concepts": [
+      "linearization",
+      "tangent_line_approximation",
+      "error_estimation"
+    ],
+    "stem": "Consider the implicitly defined curve $\\ln(y) + y + xy^2 = 5$ and the point $(4, 1)$ on the curve.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Through linearization find an approximation of the $y$-coordinate of point $(4.1, y)$ on the curve.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y \\approx 0.99$"
+      },
+      {
+        "label": "b",
+        "question_text": "Is it an over- or under-estimate? Justify your answer.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "an underestimate"
+      }
+    ],
+    "id": "uw_math_124_sp24_p7",
+    "course": "math_124",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 18,
+    "topic": "curve_analysis",
+    "concepts": [
+      "intercepts",
+      "asymptotes",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "local_extrema",
+      "concavity",
+      "inflection_points",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = \\frac{x}{x^2 + 1}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the $y$-intercept of the function.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(0, 0)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the asymptote(s) of the function if any.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 0$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all critical numbers of $f(x)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = \\pm 1$"
+      },
+      {
+        "label": "d",
+        "question_text": "List all intervals where $f$ is increasing and all intervals where $f$ is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Increasing on $(-1, 1)$, decreasing on $(-\\infty, -1)$ and $(1, \\infty)$"
+      },
+      {
+        "label": "e",
+        "question_text": "Determine all points $P(x, y)$ ($x$ and $y$-coordinates!) where $f$ has a local maximum or a local minimum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Local maximum at $(1, \\frac{1}{2})$ and local minimum at $(-1, -\\frac{1}{2})$"
+      },
+      {
+        "label": "f",
+        "question_text": "List all intervals, where $f$ is concave up and all intervals where $f$ is concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 0$ and $x = \\pm\\sqrt{3}$"
+      },
+      {
+        "label": "g",
+        "question_text": "Determine all points $Q(x, y)$ that are inflection points of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-\\sqrt{3}, -\\frac{\\sqrt{3}}{4}), (0, 0), (\\sqrt{3}, \\frac{\\sqrt{3}}{4})$"
+      },
+      {
+        "label": "h",
+        "question_text": "Graph the function in the given coordinate system. All results (a)-(g) must be used in your graph.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 11,
+        "diagram_description": "A blank coordinate plane with x-axis ranging from -4 to 4 and y-axis ranging from -1 to 1. Grid lines are shown at regular intervals. The axes intersect at the origin (0, 0).",
+        "diagram_image_local": "uw_data/math124/math124_Sp24_images/diagrams/p8_h.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp24/diagrams/p8_h.png"
+      }
+    ],
+    "id": "uw_math_124_sp24_p8",
+    "course": "math_124",
+    "exam": "sp24_final"
+  }
+]

@@ -1,0 +1,379 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "limit_laws"
+    ],
+    "stem": "Answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate $\\lim_{t \\to 0} \\left( \\frac{1}{\\sqrt{4+t}} - \\frac{1}{2t} \\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{16}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate $\\lim_{x \\to 0} \\frac{1 - \\cos x}{3 \\sin^2 x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{6}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use the limit definition of the derivative to find $\\frac{d}{dx} \\left( \\frac{x}{x-3} \\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = -\\frac{3}{(x-3)^2}$"
+      }
+    ],
+    "id": "uw_math_124_au21_p1",
+    "course": "math_124",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "derivative_rules",
+    "concepts": [
+      "quotient_rule",
+      "chain_rule",
+      "logarithmic_derivatives",
+      "exponential_derivatives",
+      "trig_derivatives"
+    ],
+    "stem": "Find the derivatives of the following functions. You do not need to simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f(x) = \\frac{x^3 - x^2 + 1}{e^{3x-1}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{(3x^2 - 2x)e^{3x-1} - (x^3 - x^2 + 1) \\cdot e^{3x-1} \\cdot 3}{(e^{3x-1})^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$f(x) = \\ln(\\sin(\\ln(x)))$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{\\cos(\\ln x)}{x \\cdot \\sin(\\ln x)}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$f(x) = \\sqrt{x^3} + 3^{\\sqrt{x}} + 3 \\left( \\sqrt{x} \\right)^{\\sqrt{x}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = \\left(\\frac{\\ln\\sqrt{x}}{2\\sqrt{x}} + \\frac{1}{2\\sqrt{x}}\\right)\\sqrt{x^{\\sqrt{x}}}$"
+      }
+    ],
+    "id": "uw_math_124_au21_p2",
+    "course": "math_124",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 16,
+    "topic": "curve_analysis",
+    "concepts": [
+      "limits_at_infinity",
+      "one_sided_limits",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "concavity",
+      "inflection_points",
+      "derivative_as_rate_of_change"
+    ],
+    "stem": "The function whose graph is shown below has domain all real numbers except $x = -10$ and the value $f(-7) = -3$. For limit questions your answer must be a number, $-\\infty$, $\\infty$, or DNE. Make your best estimate in the case you cannot clearly read the numbers from the graph. You do not have to show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to -7} f(x) =$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A graph titled 'The Graph of y = f(x)' with x-axis ranging from approximately -16 to 12 and y-axis ranging from approximately -6 to 6. The graph shows multiple curves with discontinuities. There is a vertical asymptote at x = -10. The curve approaches a local minimum around x = -12, then increases toward the asymptote at x = -10 from the left. From the right of x = -10, the curve shows behavior around x = -7 where f(-7) = -3. The graph continues with additional local extrema and varying concavity across the domain. Key features include arrows indicating the direction of the curve and smooth curved sections indicating differentiability in those regions.",
+        "final_answer": "DNE",
+        "diagram_image_local": "uw_data/math124/math124_Au21_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au21/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\lim_{x \\to -5} f(x) =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-3$"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\lim_{x \\to -10^-} f(x) =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\infty$"
+      },
+      {
+        "label": "d",
+        "question_text": "$\\lim_{x \\to 0} \\frac{f(x)}{x} =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{3}{5}$"
+      },
+      {
+        "label": "e",
+        "question_text": "List all critical numbers of $f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-11, -8, -7, -5, 4, 8$"
+      },
+      {
+        "label": "f",
+        "question_text": "List the intervals where $f'(x) > 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-11, -10), (-10, -8), (-5, 4)$"
+      },
+      {
+        "label": "g",
+        "question_text": "List the intervals where $f''(x) < 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-10, -7), (2, 8)$"
+      },
+      {
+        "label": "h",
+        "question_text": "$\\lim_{h \\to 0} \\frac{f(-6+h) + 1}{h} =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-2$"
+      }
+    ],
+    "id": "uw_math_124_au21_p3",
+    "course": "math_124",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 11,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "linear_approximation"
+    ],
+    "stem": "The point $(1, 1)$ lies on the implicitly defined curve $x^4 + xy^2 = 2y^3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Use linearization to approximate the coordinates $(x, y)$ on the curve when $x = 1.01$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1.0125$"
+      },
+      {
+        "label": "b",
+        "question_text": "Is the approximation for $y$ an over-estimate or an under-estimate? Justify your answer.",
+        "depends_on": [
+          "a"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y'' > 0$, it is concave up and increasing so LA gives an underestimate"
+      }
+    ],
+    "id": "uw_math_124_au21_p4",
+    "course": "math_124",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_tangent_line",
+      "parametric_curve_graphing"
+    ],
+    "stem": "In the picture shown, the line is tangent to the parametric curve $x = t^3 + 4t^2 + 7t + 3$ and $y = t^2 + 4t + 8$ at the point $(3, 8)$. Find the coordinates of the point $P$, where the tangent line intersects the curve again.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "In the picture shown, the line is tangent to the parametric curve $x = t^3 + 4t^2 + 7t + 3$ and $y = t^2 + 4t + 8$ at the point $(3, 8)$. Find the coordinates of the point $P$, where the tangent line intersects the curve again.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A coordinate plane with x-axis ranging from approximately 5 to 10 and y-axis ranging from approximately 0 to 18. A smooth parametric curve is drawn, and a straight tangent line touches the curve at the point marked (3, 8). The tangent line has positive slope and intersects the curve at a second point labeled P. The diagram shows the curve's behavior and the geometric relationship between the tangent line and the curve.",
+        "final_answer": "$\\left(-\\frac{249}{64}, \\frac{65}{16}\\right)$",
+        "diagram_image_local": "uw_data/math124/math124_Au21_images/page-06.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au21/diagrams/page-06.png"
+      }
+    ],
+    "id": "uw_math_124_au21_p5",
+    "course": "math_124",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "trigonometric_related_rates"
+    ],
+    "stem": "Label the sides of an isosceles triangle as pictured. The side $w$ is increasing at a rate of 3 ft/min while the sides $\\ell$ are decreasing at a rate of 2 ft/min. Find how fast the angles shown are changing when $w = 10$ feet and $\\theta = \\frac{\\pi}{4}$ radians.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Label the sides of an isosceles triangle as pictured. The side $w$ is increasing at a rate of 3 ft/min while the sides $\\ell$ are decreasing at a rate of 2 ft/min. Find how fast the angles shown are changing when $w = 10$ feet and $\\theta = \\frac{\\pi}{4}$ radians.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "An isosceles triangle with two equal sides labeled $\\ell$ on the left and right, and a base labeled $w$ at the bottom. The two base angles are each labeled $\\theta$. A vertical dashed line from the apex to the base represents the height of the triangle. The angles $\\theta$ are marked at the bottom left and bottom right corners of the triangle.",
+        "final_answer": "$\\frac{d\\theta}{dt} = -\\frac{3 + 2\\sqrt{2}}{10}$",
+        "diagram_image_local": "uw_data/math124/math124_Au21_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au21/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_124_au21_p6",
+    "course": "math_124",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 10,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "geometric_optimization",
+      "optimization_verification"
+    ],
+    "stem": "You have a circular sheet of paper, measuring 6 inches in diameter. From it, you want to make a conical drinking cup by folding together two radial lines of the circle. What is the maximum volume of a cone you can make in this way? Recall that the volume of a cone of radius $r$ and height $h$ is $V = \\frac{1}{3}\\pi r^2 h$. Make sure to justify that you have maximized the volume.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "You have a circular sheet of paper, measuring 6 inches in diameter. From it, you want to make a conical drinking cup by folding together two radial lines of the circle. What is the maximum volume of a cone you can make in this way? Recall that the volume of a cone of radius $r$ and height $h$ is $V = \\frac{1}{3}\\pi r^2 h$. Make sure to justify that you have maximized the volume.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "Two diagrams side by side showing the process of making a cone from a circular sheet. The left diagram shows a circle with diameter marked as 3 inches (radius = 3 in) with two radial lines drawn from the center to the edge, indicated by dashed lines, representing the two edges that will be joined together. The right diagram shows the resulting cone formed after folding, with the base radius labeled $r$, the height labeled $h$, and the slant height labeled as 3 in (the radius of the original circle). The apex angle at the top of the cone is marked.",
+        "final_answer": "$2\\pi\\sqrt{3}$ cubic inches",
+        "diagram_image_local": "uw_data/math124/math124_Au21_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au21/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_au21_p7",
+    "course": "math_124",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 17,
+    "topic": "curve_analysis",
+    "concepts": [
+      "intercepts",
+      "asymptotes",
+      "critical_points",
+      "local_extrema",
+      "second_derivative_test",
+      "inflection_points",
+      "concavity",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = 3 - \\frac{12x}{x^2 + 3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the $x$ and $y$ intercepts of the graph of $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(0,3)$ is the $y$-intercept. $(1,0)$ and $(3,0)$ are the $x$-intercepts."
+      },
+      {
+        "label": "b",
+        "question_text": "Find the vertical and horizontal asymptotes, if any.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "There are no vertical asymptotes. The line $y = 3$ is a horizontal asymptote in both the positive and negative directions."
+      },
+      {
+        "label": "c",
+        "question_text": "Find the critical numbers for $f(x)$ and determine if each gives a local minimum, a local maximum, or neither.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -\\sqrt{3}$ gives a local minimum. $x = \\sqrt{3}$ gives a local maximum."
+      },
+      {
+        "label": "d",
+        "question_text": "Find the inflection point(s) of $y = f(x)$. In which interval(s) is the graph concave down?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The inflection points are $(-3,6), (0,3)$, and $(3,0)$. The graph is concave down on the intervals $(-3,0)$ and $(3,\\infty)$."
+      },
+      {
+        "label": "e",
+        "question_text": "Sketch the graph of $y = f(x)$ on the axes provided below. Mark the coordinates of any local maximum, local minimum or inflection points. Make sure your picture matches the information you provided in parts (a)-(d).",
+        "depends_on": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A blank coordinate plane with x-axis ranging from -8 to 8 and y-axis ranging from -1 to 7. Grid lines are present. The student is expected to sketch the curve of $f(x) = 3 - \\frac{12x}{x^2 + 3}$ based on the analysis from previous parts.",
+        "final_answer": "Graph with labeled points",
+        "diagram_image_local": "uw_data/math124/math124_Au21_images/page-10.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au21/diagrams/page-10.png"
+      }
+    ],
+    "id": "uw_math_124_au21_p8",
+    "course": "math_124",
+    "exam": "au21_final"
+  }
+]

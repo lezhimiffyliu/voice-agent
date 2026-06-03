@@ -1,0 +1,297 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "motion_in_space",
+    "concepts": [
+      "curvature",
+      "vector_valued_functions",
+      "derivatives_of_vector_functions"
+    ],
+    "stem": "Consider the vector function $\\mathbf{r}(t) = (6t, 8t, 5t^2)$. Find the coordinates of the points where the graph has curvature equal to $\\frac{1}{50}$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Consider the vector function $\\mathbf{r}(t) = (6t, 8t, 5t^2)$. Find the coordinates of the points where the graph has curvature equal to $\\frac{1}{50}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(6\\sqrt{3}, 8\\sqrt{3}, 15)$ and $(-6\\sqrt{3}, -8\\sqrt{3}, 15)$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p1",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "direction_vectors",
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "line_plane_intersection",
+      "parallel_and_perpendicular_conditions"
+    ],
+    "stem": "Let $\\ell$ be the line of intersection of the planes $x + y = 0$ and $x - y + z = 1$. Find the equation of the plane that contains $\\ell$ and is perpendicular to the line",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $\\ell$ be the line of intersection of the planes $x + y = 0$ and $x - y + z = 1$. Find the equation of the plane that contains $\\ell$ and is perpendicular to the line $$\\frac{x-1}{7} = 2-y = \\frac{z-3}{4}.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$7x - y + 4z = 4$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p2",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "vector_functions_definition",
+      "space_curves",
+      "tangent_vector",
+      "parametrization_of_curves"
+    ],
+    "stem": "Find the point of intersection of the lines tangent to the curve given by $$\\mathbf{r}(t) = (\\sin \\pi t, 2 \\sin \\pi t, 5 \\cos \\pi t)$$ at the points where $t = 0$ and $t = \\frac{1}{2}$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the point of intersection of the lines tangent to the curve given by $$\\mathbf{r}(t) = (\\sin \\pi t, 2 \\sin \\pi t, 5 \\cos \\pi t)$$ at the points where $t = 0$ and $t = \\frac{1}{2}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1, 2, 5)$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p3",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 4,
+    "points": 12,
+    "topic": "multivariable_functions",
+    "concepts": [
+      "functions_of_two_variables",
+      "domain_in_r2",
+      "visualization_of_surfaces"
+    ],
+    "stem": "Let $z = f(x, y) = \\frac{\\sqrt{4-x^2}}{\\sqrt{y^2-9}}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find and sketch the domain of $f(x, y)$ on the axes below.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane with x-axis labeled from -6 to 6 and y-axis labeled from -6 to 6. Grid lines are present. The axes are unlabeled at the origin. This is where the student should sketch the domain.",
+        "diagram_bbox": null,
+        "final_answer": "$D = \\{(x,y) : -2 \\leq x \\leq 2 \\text{ and } y > 3 \\text{ or } y < -3\\}$",
+        "diagram_image_local": "uw_data/math126/math126_Sp13_images/page-04.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Sp13/diagrams/page-04.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the total differential to approximate the change in $z$ if $x$ changes from $0$ to $0.1$ and $y$ changes from $5$ to $5.2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$dz = -\\frac{1}{32}$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p4",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Evaluate the double integral $$\\int_0^{\\sqrt{2}} \\int_{y^2}^2 y^3 e^{x^2} \\, dx \\, dy$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{12}(e^8 - 1)$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p5",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $R$ be the region in the $xy$-plane which lies in the second quadrant (that is, $x \\le 0$ and $y \\ge 0$) and is inside the circle $x^2 + y^2 = 4$. Find the volume of the solid above $R$ and below the surface $z = x^2 + y^2 + y$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{6\\pi + 8}{3}$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p6",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "partial_derivatives"
+    ],
+    "stem": "You are standing on a surface where the height is given by $$f(x, y) = 50 + xy - 3x - \\frac{1}{4}y^4.$$ Assume the postive $x$-axis points east and the positive $y$-axis points north.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find and classify all critical points of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(27, 3)$ is a saddle point"
+      },
+      {
+        "label": "b",
+        "question_text": "You are standing at a particular point $(x_0, y_0, z_0)$ on the surface. At this point, if you face due EAST the slope is -1 and if you face due NORTH the slope is 2. Find the equation for the tangent plane to the surface at the point.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = 36 - (x - 10) + 2(y - 2)$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p7",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series",
+      "higher_order_taylor_polynomial"
+    ],
+    "stem": "Consider the function $f(x) = x^2 \\sin(x)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at $b = 0$. Write your answer using sigma notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{n=0}^{\\infty} \\frac{(-1)^n}{(2n+1)!} x^{2n+3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the Taylor series based at $b = 0$ for $$F(x) = \\int_0^x f(t) \\, dt.$$ Write your answer using sigma notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{n=0}^{\\infty} \\frac{(-1)^n}{(2n+1)!(2n+4)} x^{2n+4}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the sixth Taylor polynomial of $F(x)$ based at $b = 0$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_6(x) = \\frac{1}{4}x^4 - \\frac{1}{36}x^6$"
+      }
+    ],
+    "id": "uw_math_126_sp13_p8",
+    "course": "math_126",
+    "exam": "sp13_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Consider the function $f(x) = \\ln\\left(\\frac{x+2}{5}\\right) + x^3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial $T_2(x)$ for $f(x)$ based at $b = 3$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 27 + \\frac{136}{5}(x-3) + \\frac{449}{50}(x-3)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an upper bound on the error $|T_2(x) - f(x)|$ on the interval $[1, 5]$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|T_2(x) - f(x)| \\leq \\frac{1}{6} \\cdot \\frac{164}{27} \\cdot 8$"
+      },
+      {
+        "label": "c",
+        "question_text": "What is the smallest value of $|T_2(x) - f(x)|$ on the interval $[1, 5]$?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "At $x = 3$, the error is $0$."
+      }
+    ],
+    "id": "uw_math_126_sp13_p9",
+    "course": "math_126",
+    "exam": "sp13_final"
+  }
+]

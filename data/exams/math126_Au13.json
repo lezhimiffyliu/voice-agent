@@ -1,0 +1,338 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "acceleration_vector",
+      "tangential_and_normal_components",
+      "arc_length_parameterization"
+    ],
+    "stem": "The acceleration of a particle is given by $\\vec{a}(t) = \\langle 2(1+t)^{-1/2}, 0, 2t-5 \\rangle$, and its initial velocity is $\\vec{v}(0) = \\langle 4, 1, 0 \\rangle$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Determine the velocity $\\vec{v}(t)$ of the particle at any time $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\vec{v}(t) = (4\\sqrt{1+t}, 1, t^2 - 5t)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the tangential and normal components of the acceleration at $t = 3$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a_T = \\frac{2}{\\sqrt{101}}, a_N = \\frac{\\sqrt{198}}{\\sqrt{101}}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Set up (but DO NOT EVALUATE) the integral that gives the distance travelled by the particle from $t = 0$ to $t = 3$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_0^3 \\sqrt{16(1+t) + 1 + (t^2-5t)^2} dt$"
+      }
+    ],
+    "id": "uw_math_126_au13_p1",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "tangent_vector",
+      "angle_between_vectors",
+      "normal_vector_to_plane"
+    ],
+    "stem": "Consider two curves with the following parametric equations: $\\vec{r}_1(t) = \\langle t + 4, t + 2, t^2 - 23 \\rangle$ and $\\vec{r}_2(s) = \\langle s^2, 4s - 5, 2\\sqrt{s - 2} \\rangle$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "These curves intersect at a point $P$. Find this point.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$P(9,7,2)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the angle between the tangent lines to the curves at the point $P$. (Give the angle in degrees, rounding your answer to two digits after the decimal.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos^{-1}\\left(\\frac{20}{\\sqrt{102\\sqrt{53}}}\\right) = 74.22°$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the equation of the normal plane to $\\vec{r}_1(t)$ at the point $P$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x + y + 10z = 36$"
+      }
+    ],
+    "id": "uw_math_126_au13_p2",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "direction_vectors",
+      "equations_of_planes",
+      "line_plane_intersection"
+    ],
+    "stem": "Let $\\ell$ be the line through the point $Q(1, 2, 0)$ and orthogonal to the plane $x - y + 2z = 10$. Let $\\mathcal{P}$ be the plane that goes through the points $A(1, 3, 2)$, $B(-1, 3, 0)$, and $C(0, -1, 4)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the point of intersection of the line $\\ell$ and the plane $\\mathcal{P}$ or show that no such point exists.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(12, -9, 22)$"
+      }
+    ],
+    "id": "uw_math_126_au13_p3",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_coordinate_conversion",
+      "graphing_in_polar",
+      "area_in_polar_coordinates",
+      "polar_integral_setup"
+    ],
+    "stem": "Consider the cardioid given by the polar function $r = 2 - 2\\sin(\\theta)$ (shown below).",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation for the tangent line at the negative $x$-intercept.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A cardioid curve in polar coordinates. The curve is shown with the x-axis horizontal and y-axis vertical. The cardioid has a cusp pointing to the right along the positive x-axis, and bulges to the left. The curve is labeled with axes arrows pointing right (x) and up (y).",
+        "final_answer": "$y = x + 2$",
+        "diagram_image_local": "uw_data/math126/math126_Au13_images/diagrams/p4_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au13/diagrams/p4_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up (but DO NOT EVALUATE) a double integral in polar coordinates that represents the area inside this cardioid and outside the circle centered at the origin with radius 2.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_{\\pi}^{2\\pi} \\int_2^{2-2\\sin\\theta} r \\, dr \\, d\\theta$"
+      }
+    ],
+    "id": "uw_math_126_au13_p4",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 14,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Consider the function $f(x, y) = \\sin(x^2 + y^2)$. Let $D$ be the unit disk: $D = \\{(x, y) : x^2 + y^2 \\leq 1\\}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find all critical points of $f(x, y)$ in $D$ and classify each as a local maximum, a local minimum, or a saddle point.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(0,0)$ gives a local min"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the absolute maximum and minimum values of $f$ on $D$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "absolute min is 0, absolute max is $\\sin(1)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Evaluate the integral $\\iint_{D} f(x, y) \\, dA$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\pi(1 - \\cos(1))$"
+      }
+    ],
+    "id": "uw_math_126_au13_p5",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_rectangles",
+      "iterated_integrals",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Evaluate the integral $\\int_{0}^{1} \\int_{e^y}^{e} \\sin(x \\ln x - x) \\, dx \\, dy$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos(1) - 1$"
+      }
+    ],
+    "id": "uw_math_126_au13_p6",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 8,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the equation of the plane tangent to the surface $x^3 + y^4 + z^2 = 0$ at the point $(-1, 0, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z - 1 = -\\frac{3}{2}(x+1)$"
+      }
+    ],
+    "id": "uw_math_126_au13_p7",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = e^{-2x} - 3x^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial for $f(x)$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 1 - 2x - x^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give an upper bound for the error $|T_2(x) - f(x)|$ on the interval $[-1, 1]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|T_2(x) - f(x)| \\leq \\frac{4e^2}{3} \\approx 9.8521$ (any reasonable larger bound is OK)"
+      },
+      {
+        "label": "c",
+        "question_text": "There is a positive value of $x$ near $0$ that satisfies the equation $e^{-2x} = 3x^2$. Use your answer to part (a) to approximate this value of $x$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x \\approx \\sqrt{2} - 1$"
+      }
+    ],
+    "id": "uw_math_126_au13_p8",
+    "course": "math_126",
+    "exam": "au13_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write out the first four non-zero terms of the Taylor series for $\\cos(2x)$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos(2x) = 1 - \\frac{2^2x^2}{2!} + \\frac{2^4x^4}{4!} - \\frac{2^6x^6}{6!} + \\ldots$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use part (a) and the identity $\\cos^2(x) = \\frac{1}{2}(1 + \\cos(2x))$ to write out the first four non-zero terms of the Taylor series for $\\cos^2(x)$ based at $b = 0$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos^2(x) = \\frac{1}{2}(1+\\cos(2x)) = \\frac{1}{2}\\left(2 - \\frac{2^2x^2}{2!} + \\frac{2^4x^4}{4!} - \\frac{2^6x^6}{6!} + \\ldots\\right) = 1 - x^2 + \\frac{2^3x^4}{4!} - \\frac{2^5x^6}{6!} + \\ldots$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use your answer to part (b) to compute $\\lim_{x \\to 0} \\frac{\\cos^2 x - (1 - x^2)}{x^4}$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}$"
+      }
+    ],
+    "id": "uw_math_126_au13_p9",
+    "course": "math_126",
+    "exam": "au13_final"
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "trigonometric_integrals"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\cos^3(t) + \\tan^2(t)\\sec^4(t) \\, dt$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sin t - \\frac{1}{3}(\\sin t)^3 + \\frac{1}{3}(\\tan t)^5 + \\frac{1}{5}(\\tan t)^5 + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_e^{e^2} \\frac{1}{x(\\ln(x))^2} \\, dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}$"
+      }
+    ],
+    "id": "uw_math_125_sp22_p1",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "integration_by_parts",
+      "trigonometric_substitution",
+      "partial_fractions"
+    ],
+    "stem": "For each of the following integrals, choose the method that will work best on that integral. No need to justify or to compute anything. Just shade one (and only one) square next to your answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\cos^4(x)\\,dx$$\n\n☐ substitution with $u = \\cos^2(x)$\n☐ replace $\\cos^2(x)$ with $1 - \\sin^2(x)$, then substitution with $u = \\sin(x)$\n☐ apply the half-angle formula twice\n☐ substitution with $u = \\cos(x)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "apply the half-angle formula twice"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\frac{2x - 6}{x^2 - 6x + 12}\\,dx$$\n\n☐ substitution with $u = x^2 - 6x + 12$\n☐ factor the denominator and use partial fractions\n☐ integration by parts\n☐ inverse trig substitution with $x - 3 = \\sec(\\theta)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "substitution with $u = x^2 - 6x + 12$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\int \\frac{2}{(x^2-1)^{1/2}}\\,dx$$\n\n☐ substitution with $u = x^2 - 1$\n☐ inverse trig substitution with $x = \\sin(\\theta)$\n☐ factor the denominator and use partial fractions\n☐ inverse trig substitution with $x = \\sec(\\theta)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "inverse trig substitution with $x = \\sec(\\theta)$"
+      },
+      {
+        "label": "d",
+        "question_text": "$$\\int e^{\\sqrt{x}} \\,dx$$\n\n☐ substitution with $u = \\sqrt{x}$, then integration by parts\n☐ integration by parts with $u = e^{\\sqrt{x}}$ and $dv = dx$\n☐ substitution with $u = x$\n☐ integration by parts with $u = 1$ and $dv = e^{\\sqrt{x}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "substitution with $u = \\sqrt{x}$, then integration by parts"
+      },
+      {
+        "label": "e",
+        "question_text": "$$\\int \\frac{2x}{x^2 - 9x + 2}\\,dx$$\n\n☐ substitution with $u = x^2 - 9x + 2$\n☐ integration by parts\n☐ factor the denominator and use partial fractions\n☐ substitution with $u = x$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "factor the denominator and use partial fractions"
+      }
+    ],
+    "id": "uw_math_125_sp22_p2",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integration_by_parts_basic",
+      "integrals_involving_inverse_trig"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(6 points) Evaluate $\\int x\\arctan(x)\\,dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}(x^2 \\arctan x - x + \\arctan x) + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "(4 points) Is the improper integral $\\int_0^{\\infty} x\\arctan(x)\\,dx$ convergent or divergent? If it is divergent, justify by showing all limit calculations. If it is convergent, find the value to which it converges.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "DIVERGES"
+      }
+    ],
+    "id": "uw_math_125_sp22_p3",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "average_value_of_a_function",
+      "numerical_integration_simpsons_rule",
+      "arc_length_integrand_setup",
+      "numerical_integration_midpoint_rule"
+    ],
+    "stem": "You have the following data about the values of a function $y = f(x)$ and its derivative $\\frac{dy}{dx} = f'(x)$ at certain values of $x$ in the interval $[0, 2]$. Use this table to answer the questions below. Show your setup and your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) Estimate the average value of $f$ over the given interval $[0,2]$ using **Simpson's Rule** with $n = 8$ subintervals. Round your answer to the nearest 3 digits.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0.208$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) Set up an integral equal to the arc length of $y = f(x)$ over the same interval $[0,2]$, then estimate that integral using the **Midpoint Rule** with $n = 4$ subintervals. Simplify your answer but leave it in exact form.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}[\\sqrt{1.09} + \\sqrt{3.89} + \\sqrt{3.25} + \\sqrt{10}]$"
+      }
+    ],
+    "id": "uw_math_125_sp22_p4",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "evaluation_by_antiderivatives",
+      "derivative_of_integral_function",
+      "total_change_theorem"
+    ],
+    "stem": "You have the following data about the values of a function $y = f(x)$ and its derivative $f'(x)$ at certain values of $x$ in the interval $[0, 2]$. Use this table to answer the questions below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(3 points) Evaluate $\\int_0^{0.75} f'(x)\\,dx$. Do not approximate, find the exact value of this integral.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-0.5$"
+      },
+      {
+        "label": "b",
+        "question_text": "(4 points) Define $F(x) = \\int_0^{f(x)} e^{t^2} \\, dt$. Evaluate $F'(0.75)$. Do not approximate, find the exact value of this derivative.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$e^{0.5625} \\cdot (-1.7) \\approx -2.18$"
+      },
+      {
+        "label": "c",
+        "question_text": "(3 points) Compute $\\int_0^1 xf''(x)\\,dx$. Do not approximate, calculate the exact value of this integral.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-1$"
+      }
+    ],
+    "id": "uw_math_125_sp22_p5",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup",
+      "work_integral_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A leaky bucket was raised 7 meters. Water was leaking at a constant rate and the bucket was being lifted at a constant speed. At the start, the total mass of the bucket and water was 20 kg. At the top, the mass of the bucket and water was 6 kg. Find the total amount of work that was done.\n\nThe mass of the rope was negligibly small, so ignore the rope. Use $g = 9.8 \\, \\text{m/s}^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$891.8$ joules"
+      }
+    ],
+    "id": "uw_math_125_sp22_p6",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "washer_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "A solid of revolution is obtained by rotating the region shown below about the horizontal line $y = -2$. The region is above the $x$-axis, and below the graph of $y = 1 + e^x$, between $x = 0$ and $x = 1$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Use the method of disks/washers to set up an integral expression equal to the volume of this solid. Do not compute or simplify the integral(s).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A coordinate system with $x$-axis from 0 to 1 and $y$-axis from approximately $-4$ to $4$. The curve $y = 1 + e^x$ is drawn from $x=0$ (where $y \\approx 2$) to $x=1$ (where $y \\approx 3.7$). The region between this curve and the $x$-axis is shaded gray. A horizontal dashed line at $y = -2$ is shown below the shaded region, indicating the axis of rotation.",
+        "final_answer": "$V = \\int_0^1 \\pi[(e^x + 3)^2 - 4\\pi] dx = \\int_0^1 \\pi(e^{2x} + 3) - 4\\pi dx$",
+        "diagram_image_local": "uw_data/math125/math125_Sp22_images/diagrams/p7_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp22/diagrams/p7_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the method of cylindrical shells to set up an integral expression for the volume of the same solid. Do not compute or simplify the integral(s).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A coordinate system with $x$-axis from 0 to 1 and $y$-axis from approximately $-4$ to $4$. The curve $y = 1 + e^x$ is drawn from $x=0$ (where $y \\approx 2$) to $x=1$ (where $y \\approx 3.7$). The region between this curve and the $x$-axis is shaded gray. A horizontal dashed line at $y = -2$ is shown below the shaded region, indicating the axis of rotation.",
+        "final_answer": "$V = \\int_0^2 2\\pi(y+2)(2) dy + \\int_2^{1+e} 2\\pi(y+2)(1 - \\ln(y-1)) dy$",
+        "diagram_image_local": "uw_data/math125/math125_Sp22_images/diagrams/p7_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp22/diagrams/p7_b.png"
+      }
+    ],
+    "id": "uw_math_125_sp22_p7",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Find the coordinates $(\\bar{x}, \\bar{y})$ of the center of mass of a flat plate occupying the shown shaded area in the $xy$-plane. The region is described by:\n\n$$\\sqrt{4 - x^2} \\leq y \\leq 2\\sqrt{4 - x^2}$$\n\nYou must justify your answers with computations or an explanation.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find $(\\bar{x}, \\bar{y})$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A coordinate system with gridlines. The $x$-axis ranges from $-3$ to $3$, and the $y$-axis ranges from $-2$ to $5$. Two semicircular curves are drawn: the inner semicircle $y = \\sqrt{4-x^2}$ with radius 2 centered at the origin, and the outer semicircle $y = 2\\sqrt{4-x^2}$ with radius 4 centered at the origin. Both curves are the upper halves of circles. The region between these two curves (above the inner curve and below the outer curve) is shaded gray. The region extends from $x = -2$ to $x = 2$ (the $x$-intercepts of the inner circle).",
+        "final_answer": "$\\text{Center: }(\\bar{x}, \\bar{y}) = (0, \\frac{8}{\\pi})$",
+        "diagram_image_local": "uw_data/math125/math125_Sp22_images/diagrams/p8.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp22/diagrams/p8.png"
+      }
+    ],
+    "id": "uw_math_125_sp22_p8",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Solve the initial value problem. Give your answer in explicit form, $y = f(x)$.\n\n$$\\frac{dy}{dx} = \\frac{1}{(\\tan^2(y) + 1)\\left(\\frac{1}{x} + 1\\right)} \\quad y(0) = \\frac{\\pi}{4}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\arctan(x - \\ln|x+1| + 1)$"
+      }
+    ],
+    "id": "uw_math_125_sp22_p9",
+    "course": "math_125",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "exponential_growth_and_decay",
+      "logistic_differential_equation"
+    ],
+    "stem": "A population of mountain goats in a certain region satisfies the differential equation:\n\n$$\\frac{dP}{dt} = 3P - \\frac{P^2}{1000}$$\n\nwhere $P = P(t)$ is the number of goats in the region after $t$ years.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(2 points) Find the carrying capacity of the region.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$K = 3000$ goats"
+      },
+      {
+        "label": "b",
+        "question_text": "(8 points) Solve the differential equation and determine the number of goats in the region after 2 years if the initial population was 1000 goats. Round your answer to the nearest whole number of goats.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$P \\approx 2,985$ goats"
+      }
+    ],
+    "id": "uw_math_125_sp22_p10",
+    "course": "math_125",
+    "exam": "sp22_final"
+  }
+]

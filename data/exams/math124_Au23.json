@@ -1,0 +1,345 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "limit_laws"
+    ],
+    "stem": "Compute each of the following limits showing complete work or justification for your answer. If there is no finite limit, write $\\infty$, $-\\infty$, or DNE, whichever applies.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\lim_{x \\to 2} \\frac{\\sqrt{x^2 + 5} - 3}{x^2 - 2x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\lim_{x \\to \\pi/2} \\frac{1 - \\sin x}{x - \\pi/2}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\lim_{x \\to 0^+} (\\sin x)^{\\tan x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to 0^+} y = e^0 = 1$"
+      }
+    ],
+    "id": "uw_math_124_au23_p1",
+    "course": "math_124",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "derivative_rules",
+    "concepts": [
+      "product_rule",
+      "quotient_rule",
+      "chain_rule",
+      "exponential_derivatives",
+      "trig_derivatives",
+      "logarithmic_derivatives"
+    ],
+    "stem": "Find the derivatives of the following functions. Do not simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$f(x) = \\frac{x \\sin(x^3)}{1 + e^{4x}}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{(\\sin(x^3) + x \\cdot 3x^2 \\cdot \\cos(x^3))(1 + e^{4x}) - (x\\sin(x^3))(4e^{4x})}{(1 + e^{4x})^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$g(x) = \\tan(a + \\ln(b + ce^x))$$ where $a, b, c$ are constants.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\sec^2(a + \\ln(b + e^{cx})) \\cdot \\frac{ce^{cx}}{b + e^{cx}}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$k(x) = \\arctan\\left(\\frac{2x - 1}{4 + 7x}\\right)$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$k'(x) = \\frac{1}{1 + \\left(\\frac{2x-1}{4+7x}\\right)^2} \\cdot \\left(\\frac{2(4 + 7x) - 4(2x-1)}{(4 + 7x)^2}\\right)$"
+      }
+    ],
+    "id": "uw_math_124_au23_p2",
+    "course": "math_124",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "curve_analysis",
+    "concepts": [
+      "derivative_as_slope",
+      "chain_rule",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "concavity"
+    ],
+    "stem": "The following shows the graphs of $y = f(x)$ (thick lines) and $y = g(x)$ (thin lines). Both functions are defined for all real numbers, $f(x)$ is continuous, but $g(x)$ has a discontinuity at $x = 5$ with $g(5) = 6$. Let $$u(x) = g(f(x)), \\quad v(x) = (f(x))^2, \\quad w(x) = f(x)g(x).$$ Answer the following questions in the boxes provided. You do not have to show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f'(0) = $",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane with two curves plotted. The thick line represents $f(x)$ and the thin line represents $g(x)$. The $x$-axis ranges from approximately $-3$ to $8$, and the $y$-axis ranges from approximately $-4$ to $7$. The function $f(x)$ appears to be a piecewise function with a corner at approximately $x = 4$. It starts from the upper left around $(-2, 3.5)$, decreases to a minimum around $(4, -2)$, then increases to the upper right around $(7, 6)$. The function $g(x)$ appears to be a line with a discontinuity at $x = 5$. For $x < 5$, it appears to go from approximately $(-3, 0)$ to $(5, 6)$ (with an open circle at $x=5$). For $x > 5$, it continues as a line from approximately $(5, 1)$ to $(8, 1)$ (with a filled circle at $x=5$ showing $g(5)=6$). Both curves pass through or near the point $(0, 0)$ or $(0, 1)$ region.",
+        "final_answer": "$f'(0) = -1$",
+        "diagram_image_local": "uw_data/math124/math124_Au23_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au23/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$u'(7) = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$w'(7) = -8$"
+      },
+      {
+        "label": "c",
+        "question_text": "$u'(0) = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$u'(0) = -\\frac{4}{5}$"
+      },
+      {
+        "label": "d",
+        "question_text": "List all values of $x$ where $u(x)$ is not differentiable.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 3, -4.6.5$"
+      },
+      {
+        "label": "e",
+        "question_text": "List all intervals where the graph of $v(x)$ is increasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1,3)$ and $(4, \\infty)$"
+      }
+    ],
+    "id": "uw_math_124_au23_p3",
+    "course": "math_124",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "horizontal_vertical_tangents"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A curve is given implicitly by the equation $$2(x^2 + y^2)^2 = 25(x^2 - y^2).$$ Find the points on the curve with $x \\neq 0$ where the tangent line is vertical.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\pm\\sqrt{5/2}, 0)$"
+      }
+    ],
+    "id": "uw_math_124_au23_p4",
+    "course": "math_124",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_first_derivative",
+      "parametric_second_derivative",
+      "horizontal_vertical_tangents",
+      "concavity"
+    ],
+    "stem": "Consider the parametric curve defined by the following equations: $$x(t) = e^t + t$$ $$y(t) = t^3 + 4t^2 + 1$$ for $-\\infty < t < \\infty$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the values of $t$ for which the tangent line to the curve is either horizontal or vertical, making sure you specify which values correspond to which type of tangent.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "horizontal tangent at $t = 0$ or $t = -8/3$; tangent is never vertical"
+      },
+      {
+        "label": "b",
+        "question_text": "At the times $t$ for which that tangent line is horizontal or vertical, determine whether the curve is concave up or concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "concave up at $t = 0$ and concave down at $t = -8/3$"
+      }
+    ],
+    "id": "uw_math_124_au23_p5",
+    "course": "math_124",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "trigonometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "You are located 5 miles directly south of an island when you see a ship heading away from the island, sailing due east. At the moment when you see the ship, the angle $\\theta$ measured clockwise from directly north of you to the ship is $\\frac{\\pi}{6}$ radians, and it's increasing at a rate of $5/4$ radians per hour. What is the speed of the ship? Include units. Figure below is not to scale.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A diagram showing the geometric setup. There is an island labeled \"ISLAND\" in the upper portion. Below and to the left is a figure labeled \"YOU\" representing the observer. To the right of the island is a ship labeled \"SHIP\". The diagram shows the relative positions of the three points but is noted as not to scale.",
+        "final_answer": "$\\frac{25}{3}$ miles per hour",
+        "diagram_image_local": "uw_data/math124/math124_Au23_images/page-06.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au23/diagrams/page-06.png"
+      }
+    ],
+    "id": "uw_math_124_au23_p6",
+    "course": "math_124",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 13,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "geometric_optimization",
+      "critical_points",
+      "second_derivative_test",
+      "optimization_verification"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A right triangle is formed in the first quadrant by the $x$ and the $y$-axes, and by a line passing through the point with coordinates $(1, 2)$. Find the $x$ and $y$-intercepts $a$ and $b$ of the line such that the area of the triangle formed is minimal. Check that the values you found correspond to a minimum.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A coordinate plane showing the first quadrant. The $y$-axis is labeled with a point $(0, b)$ at the top. The $x$-axis is labeled with a point $(a, 0)$ to the right. A line passes through both intercepts, forming a right triangle with the two axes. The point $(1, 2)$ is marked on the line with a filled dot. The triangular region is shaded in light blue. The axes are labeled $x$ and $y$ with arrows indicating positive directions.",
+        "final_answer": "$a = 2$, $b = 4$",
+        "diagram_image_local": "uw_data/math124/math124_Au23_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au23/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_au23_p7",
+    "course": "math_124",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 14,
+    "topic": "curve_analysis",
+    "concepts": [
+      "limits_at_infinity",
+      "asymptotes",
+      "derivative_rules",
+      "increasing_decreasing_intervals",
+      "concavity",
+      "inflection_points",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $$f(x) = \\frac{e^x}{x}$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\lim_{x \\to 0^-} f(x)$ and $\\lim_{x \\to 0^+} f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to 0^-} \\frac{e^x}{x} = -\\infty$ and $\\lim_{x \\to 0^+} \\frac{e^x}{x} = \\infty$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the horizontal asymptotes of $y = f(x)$, if there are any. Justify your answer via limit calculations.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to \\infty} \\frac{e^x}{x} = \\infty$ and $\\lim_{x \\to -\\infty} \\frac{e^x}{x} = 0$; $y = 0$ is a horizontal asymptote on the left as $x \\to -\\infty$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute $f'(x)$. Determine all intervals where $y = f(x)$ is increasing or decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "decreasing on $(-\\infty, 0)$ and $(0, 1)$"
+      },
+      {
+        "label": "d",
+        "question_text": "Recall that the function is: $f(x) = \\frac{e^x}{x}$. Determine all the intervals where the function is concave down or concave up.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "concave up for $x > 0$ and concave down for $x < 0$"
+      },
+      {
+        "label": "e",
+        "question_text": "Sketch the graph of $y = f(x)$ on the grid provided below. Be sure to include any asymptotes in your picture, and to mark the coordinates of all local maxima, local minima, and inflection points (if any exist).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A blank coordinate grid with the $x$-axis ranging from approximately $-7$ to $6$ and the $y$-axis ranging from approximately $-6$ to $7$. The grid has evenly spaced horizontal and vertical lines. No curves are drawn on this grid; it is provided for the student to sketch the graph of $f(x) = \\frac{e^x}{x}$.",
+        "diagram_image_local": "uw_data/math124/math124_Au23_images/page-09.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au23/diagrams/page-09.png"
+      }
+    ],
+    "id": "uw_math_124_au23_p8",
+    "course": "math_124",
+    "exam": "au23_final"
+  }
+]

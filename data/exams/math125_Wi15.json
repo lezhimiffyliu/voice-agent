@@ -1,0 +1,287 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "indefinite_integrals"
+    ],
+    "stem": "Evaluate the following indefinite integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\left(1 + \\tan^2 \\theta\\right)^2 d\\theta$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\frac{x}{(x^2 + 4x + 13)^{3/2}} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p1",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "evaluation_by_antiderivatives"
+    ],
+    "stem": "Evaluate the following definite integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_3^4 x\\sqrt{4 - x} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_0^2 \\frac{4 - 2x}{x^2 + 4x + 3} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p2",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "infinite_interval_integrals",
+      "convergence_of_improper_integrals",
+      "divergence_of_improper_integrals"
+    ],
+    "stem": "Consider the improper integral $$\\int_0^{\\infty} x e^{px} dx,$$ where $p$ is a constant.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the values of $p$ for which the improper integral converges.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate the integral for those values of $p$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p3",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 4,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "A region is bounded on the top by the curve $y = \\sqrt{6 + \\cos(x)}$ and on the bottom by the $x$-axis. On the left it is bounded by a vertical barrier which at a given instant is at $x = -\\pi$ and is moving to the left at $\\alpha$ units/sec. On the right it is bounded by a vertical barrier which at that instant is at $x = \\pi$ and is moving to the right at $\\beta$ units/sec. Find the instantaneous rate (in units$^2$/sec) at which area is being uncovered at that instant. Your answer should involve $\\alpha$ and $\\beta$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the instantaneous rate (in units$^2$/sec) at which area is being uncovered at that instant. Your answer should involve $\\alpha$ and $\\beta$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p4",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "A particle is moving along the $x$-axis. For time $t \\geq 0$ seconds, its acceleration is given by $$a(t) = 2t - 3 \\text{ m/sec}^2,$$ and its initial velocity is $v(0) = -4$ m/sec. What is the \\textbf{total distance} that the particle has travelled from time $t = 0$ to the time two seconds after the positive time when the particle reverses direction?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "What is the total distance that the particle has travelled from time $t = 0$ to the time two seconds after the positive time when the particle reverses direction?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p5",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "cross_sections"
+    ],
+    "stem": "The goal of this problem is to compute the volume of the container pictured below on the left. The top rim of the container is an ellipse with the dimensions indicated in the picture on the right. Cross-sections of the container perpendicular to the long axis of the elliptical rim are squares (a representative cross-section is shown). Recall that the equation of an ellipse centered at the origin, symmetric with respect to both the $x$- and $y$-axes, and with $x$-intercepts $x = \\pm a$ and $y$-intercepts $y = \\pm b$, is $$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Express the volume of the container as a definite integral.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "Two diagrams shown: (1) A 3D container shaped like a hemisphere with a flat elliptical opening at the top, with vertical shading lines indicating cross-sections. The container depth is labeled as 2b meters. (2) A top view diagram showing an ellipse with semi-major axis labeled as a meters (extending left-right) and semi-minor axis labeled as b meters (extending up-down). The diagram also shows an x-y coordinate system with the ellipse centered at the origin, with $x$-intercepts at $\\pm a$ and $y$-intercepts at $\\pm b$.",
+        "diagram_image_local": "uw_data/math125/math125_Wi15_images/page-06.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi15/diagrams/page-06.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate the definite integral to compute the volume of the container. Your answer should involve $a$ and $b$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p6",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "numerical_integration_trapezoidal_rule"
+    ],
+    "stem": "Let $f(x)$ be a continuous function defined on the closed interval $[-2, 7]$. Use the Trapezoidal rule with $n = 3$ to find an approximate expression for the integral $$\\int_{-2}^7 \\frac{1}{1 + (f(x))^2} dx.$$ Your answer will involve some specific values of the function $f(x)$. If, for example, you need the value of $f(x)$ at $x = 4$, write \"$f(4)$\" in your answer.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Use the Trapezoidal rule with $n = 3$ to find an approximate expression for the integral $$\\int_{-2}^7 \\frac{1}{1 + (f(x))^2} dx.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p7",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_one_dimensional"
+    ],
+    "stem": "Find the $x$-coordinate $\\bar{x}$ of the center of mass of the uniform flat plate of density $\\rho = 1$ bounded by the curve $y = \\frac{\\ln(x)}{x^2}$ and the $x$-axis, and between $x = 1$ and $x = e$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the $x$-coordinate $\\bar{x}$ of the center of mass of the uniform flat plate of density $\\rho = 1$ bounded by the curve $y = \\frac{\\ln(x)}{x^2}$ and the $x$-axis, and between $x = 1$ and $x = e$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p8",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "Find the solution of the initial value problem $$\\frac{dy}{dt} = (y + 2\\sqrt{y}) \\cos^2(t), \\quad y(0) = 1.$$ Give your answer in the form $y = f(t)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution of the initial value problem $$\\frac{dy}{dt} = (y + 2\\sqrt{y}) \\cos^2(t), \\quad y(0) = 1.$$ Give your answer in the form $y = f(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p9",
+    "course": "math_125",
+    "exam": "wi15_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "At time $t = 0$, a 20-liter container filled with water has 400 gm of salt dissolved in it. Salt is being poured in at the top at the rate of 4 gm/min. In addition, water having a salt concentration of 3 gm/liter is entering the container at 2 liters/min, and the mixed water/salt solution leaves the container at the same rate of 2 liters/min. Assume that the salt is immediately well mixed in the water. Let $y = y(t)$ denote the amount of salt (in grams) in the container at time $t$ (in minutes).",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up a differential equation for $y(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "Solve the differential equation in part (a), using the initial condition. Please show all your steps carefully. You should end up with a formula for $y(t)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "c",
+        "question_text": "Find $\\lim_{t \\to \\infty} y(t)$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_wi15_p10",
+    "course": "math_125",
+    "exam": "wi15_final"
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 14,
+    "topic": "limits",
+    "concepts": [
+      "one_sided_limits",
+      "limit_laws",
+      "algebraic_limit_evaluation"
+    ],
+    "stem": "Answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\lim_{x \\to 0^+} (x \\ln x)$ and $\\lim_{x \\to 0^+} \\left(\\frac{1}{x} + \\frac{1}{\\ln x}\\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to 0^+} (x \\ln x) = 0$ and $\\lim_{x \\to 0^+} \\left(\\frac{1}{x} + \\frac{1}{\\ln x}\\right) = \\infty$"
+      },
+      {
+        "label": "b",
+        "question_text": "Leibniz computed $\\lim_{x \\to 2} \\frac{x^2 - 4}{9 - (f(x))^2} = 5$ using L'Hôpital's Rule. What is $f(2)$? What is $f'(2)$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(2) = \\pm 2/15$"
+      },
+      {
+        "label": "c",
+        "question_text": "Determine if the following are True or False. Circle the correct answer.\n\n(i) If $\\lim_{x \\to 3} f(x) = 5$ and $\\lim_{x \\to 3} g(x) = 0$, then $\\lim_{x \\to 3} \\frac{f(x)}{g(x)} = \\infty$.\n\nTrue    False\n\n(ii) If $\\lim_{x \\to a} f(x) = \\lim_{x \\to a} g(x)$, then $\\lim_{x \\to a} f'(x) = \\lim_{x \\to a} g'(x)$.\n\nTrue    False\n\n(iii) If $f'(x) = g'(x)$ for all $x$, then $f(x) = g(x)$ for all $x$.\n\nTrue    False\n\n(iv) If $\\lim_{x \\to 4^+} f(x) = \\infty$, then $x = 4$ is a vertical asymptote for the graph $y = f(x)$.\n\nTrue    False\n\n(v) If $f'(x) = \\frac{3x^2 + e^x}{\\cos x}$, then $f(x) = \\frac{x^3 + e^x}{\\sin x}$.\n\nTrue    False",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "False/False/False/True/False"
+      }
+    ],
+    "id": "uw_math_124_sp23_p1",
+    "course": "math_124",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "product_rule",
+      "exponential_derivatives",
+      "trig_derivatives",
+      "logarithmic_differentiation"
+    ],
+    "stem": "Find the derivatives of the following functions. You do not have to simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$h(x) = \\sqrt{2\\sin^2(x) + 1}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(x) = \\frac{4 \\sin(x) \\cos(x)}{2\\sqrt{2 \\sin^2(x) + 1}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$g(x) = (ax^2 + b)e^{-cx}$ where $a, b, c$ are constants.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = (2ax)e^{-cx} - c(ax^2 + b)e^{-cx}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$y = (\\cos(x))^{x^2}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = \\left(2x \\ln(\\cos x) - \\frac{x^2 \\sin x}{\\cos x}\\right)(\\cos x)^{x^2}$"
+      }
+    ],
+    "id": "uw_math_124_sp23_p2",
+    "course": "math_124",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "local_extrema",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test",
+      "higher_order_derivatives"
+    ],
+    "stem": "The function $f(x)$ is differentiable everywhere and $f(0) = 0$. Answer the questions based on the graph of $y = f'(x)$, the derivative of $f(x)$, shown below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to 0} \\frac{f(x)}{x} = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to 0} \\frac{f(x)}{x} = 2$"
+      },
+      {
+        "label": "b",
+        "question_text": "$f''(11) = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f''(11) = \\frac{2}{3}$"
+      },
+      {
+        "label": "c",
+        "question_text": "List all values of $x$ where the graph of $y = f(x)$ has a local minimum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-3$ and $12$"
+      },
+      {
+        "label": "d",
+        "question_text": "List all intervals where the graph of $y = f(x)$ is concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(3, 9)$ and $(15, \\infty)$"
+      },
+      {
+        "label": "e",
+        "question_text": "If $g(x) = f(f(x))$, what is $g'(0)$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(0) = f'(f(0)) \\cdot f'(0) = f'(0) \\cdot f'(0) = 4$"
+      }
+    ],
+    "id": "uw_math_124_sp23_p3",
+    "course": "math_124",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line",
+      "implicit_second_derivative"
+    ],
+    "stem": "One point on the curve defined by $x^4 + 3xy + y^4 = 5$ is $P = (1, 1)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the formula for the implicit derivative $\\frac{dy}{dx}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = -\\frac{4x^3 + 3y}{3x + 4y^3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Write the equation of the tangent line at $P$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = -x + 2$"
+      },
+      {
+        "label": "c",
+        "question_text": "Is the curve defined by the equation concave up or concave down at the point $P$? Explain.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y'' = -\\frac{18}{7} < 0$, so the curve is concave down at that point"
+      }
+    ],
+    "id": "uw_math_124_sp23_p4",
+    "course": "math_124",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "linear_approximation",
+    "concepts": [
+      "linearization",
+      "tangent_line_approximation",
+      "error_estimation"
+    ],
+    "stem": "A pizza delivery chain has found that the number of veggy pizzas it can sell on a Friday night is closely modeled by the function $N(x) = 1000 - 240 \\ln(x/12) - 20x$, where $x$ is the cost of the pizza in dollars. The current price is $\\$12$. The pizza chain want to have their sales on Friday night increase by 50 pizzas. Use linear approximation to estimate the required new pizza price.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A pizza delivery chain has found that the number of veggy pizzas it can sell on a Friday night is closely modeled by the function $N(x) = 1000 - 240 \\ln(x/12) - 20x$, where $x$ is the cost of the pizza in dollars. The current price is $\\$12$. The pizza chain want to have their sales on Friday night increase by 50 pizzas. Use linear approximation to estimate the required new pizza price.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x \\approx 10.75$"
+      }
+    ],
+    "id": "uw_math_124_sp23_p5",
+    "course": "math_124",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "A balloon is at a height of 40 meters, and is rising at the constant rate of 8m/sec. At that instant a bicycle passes beneath it, traveling in a straight line at the constant speed of 10m/sec. How fast is the distance between them increasing 3 seconds later? The picture below is not to scale.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A balloon is at a height of 40 meters, and is rising at the constant rate of 8m/sec. At that instant a bicycle passes beneath it, traveling in a straight line at the constant speed of 10m/sec. How fast is the distance between them increasing 3 seconds later? The picture below is not to scale. [Diagram showing a balloon above and a bicycle below with a horizontal line between them]",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A simple diagram showing a purple dot labeled as the balloon in the upper portion of the image, and below it a drawing of a bicycle with a rider on a horizontal line. The diagram is illustrative and not to scale, intended to represent the relative positions of the balloon and bicycle as they move.",
+        "final_answer": "$\\frac{dz}{dt} = \\frac{406}{\\sqrt{1249}} \\approx 11.5$ meters per second",
+        "diagram_image_local": "uw_data/math124/math124_Sp23_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp23/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_124_sp23_p6",
+    "course": "math_124",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 13,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "distance_optimization",
+      "applied_optimization"
+    ],
+    "stem": "A tourist group is going to see the ruins across the channel of water. The ruins are at a 100 kilometer horizontal distance from the hotel at a point 10 kilometers across a body of water as shown on the diagram. They can take a bus to drive them by the shore and then they can get on a boat at any point on the shore to get to the other side. The bus travels at 45 kilometers per hour and the boat at 30 kilometers per hour. What is the shortest amount of time in which they can make it to the ruins? Assume that there is no current and the boat can go straight to the ruins. The drawing is not to scale.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A tourist group is going to see the ruins across the channel of water. The ruins are at a 100 kilometer horizontal distance from the hotel at a point 10 kilometers across a body of water as shown on the diagram. They can take a bus to drive them by the shore and then they can get on a boat at any point on the shore to get to the other side. The bus travels at 45 kilometers per hour and the boat at 30 kilometers per hour. What is the shortest amount of time in which they can make it to the ruins? Assume that there is no current and the boat can go straight to the ruins. The drawing is not to scale. [Diagram showing hotel on left shore, ruins on opposite shore 10 km away, with 100 km horizontal distance marked]",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A diagram of an optimization problem. On the left is a hotel symbol. A horizontal line extends from the hotel 100 km to the right along the shore. Above, perpendicular to the shore, are ruins marked with a building symbol, located 10 km across a body of water (shown in light blue). A vertical dashed line connects the ruins to a point on the shore, indicating the 10 km distance across the water. The diagram shows the geometric layout for the bus-and-boat problem.",
+        "final_answer": "The shortest time is about $2.47$ hours",
+        "diagram_image_local": "uw_data/math124/math124_Sp23_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp23/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_sp23_p7",
+    "course": "math_124",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 15,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "first_derivative_test",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test",
+      "absolute_extrema",
+      "closed_interval_method",
+      "curve_sketching"
+    ],
+    "stem": "Let $f(x) = 0.5x^2 e^{-0.1x}$ be defined on the domain $D = [-5, 50]$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Determine the sub-intervals of $D$ where $f(x)$ is increasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = e^{-0.1x}(1 - 0.05x)$, increasing on $(0, 20)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine the sub-intervals of $D$ where the graph of $y = f(x)$ is concave up.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f''(x) = 0.01e^{-0.1x}(0.5x^2 - 20x + 100)$, concave up on $(20 - 10\\sqrt{2}, 20 + 10\\sqrt{2})$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the inflection points on the graph, if any. You can give your answer in decimals rounded to one digit after the decimal.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Approximately $(34.14, 19.17)$ and $(5.86, 9.56)$"
+      },
+      {
+        "label": "d",
+        "question_text": "Find the absolute maximum and absolute minimum values of the function on $D$. You can give your answer in decimals rounded to one digit after the decimal.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(-5) \\approx 20.61$, $f(50) \\approx 8.42$, $f(0) = 0$ (min), $f(20) \\approx 27.07$ (max)"
+      },
+      {
+        "label": "e",
+        "question_text": "Sketch the graph $y = f(x)$ using the grid below. Clearly label the $(x, y)$ coordinates of endpoints, all critical points, and points of inflection. Make sure your graph matches with the information you provided above.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A rectangular coordinate grid with x-axis ranging from -10 to 55 and y-axis ranging from 0 to 30. The grid has light gray lines marking unit squares. The grid is blank and ready for the student to sketch the curve $y = f(x) = 0.5x^2 e^{-0.1x}$.",
+        "final_answer": "Graph with minimum at $(0,0)$, maximum at $(20, 27.07)$, inflection points at $(5.86, 9.56)$ and $(34.14, 19.17)$",
+        "diagram_image_local": "uw_data/math124/math124_Sp23_images/diagrams/p8_e.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp23/diagrams/p8_e.png"
+      }
+    ],
+    "id": "uw_math_124_sp23_p8",
+    "course": "math_124",
+    "exam": "sp23_final"
+  }
+]

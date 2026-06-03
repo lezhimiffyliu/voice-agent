@@ -1,0 +1,267 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 14,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "partial_fractions"
+    ],
+    "stem": "Evaluate the following indefinite integrals. Show work and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\frac{x^2 + 1}{x^2 - 2x - 3} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x + \\frac{5}{2}\\ln|x-3| - \\frac{1}{2}\\ln|x+1| + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int y^2 (\\ln y)^2 dy$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}y^3(\\ln y)^2 - \\frac{2}{9}y^3\\ln y + \\frac{2}{27}y^3 + C$"
+      }
+    ],
+    "id": "uw_math_125_sp19_p1",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 14,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds",
+      "trigonometric_integrals"
+    ],
+    "stem": "Evaluate the following integrals. Simplify but leave your answers in exact form.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int_0^4 e^{\\sqrt{2t+1}} dt$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2e^3$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_0^{\\pi} \\sin^3 \\theta \\cos^2 \\theta d\\theta$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{4}{15}$"
+      }
+    ],
+    "id": "uw_math_125_sp19_p2",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "Consider the area bounded by the curves:\n\n$$y = x^3 - 2x + 2, \\quad x = 0, \\quad x = 1, \\quad \\text{and} \\ y = 0.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up (do not evaluate) an integral equal to the volume swept out by rotating this area about the y-axis.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate plane with a shaded region. The curve $y = x^3 - 2x + 2$ is drawn from approximately $x=0$ to $x=1$. The region is bounded below by $y=0$ (the x-axis), on the left by $x=0$, and on the right by $x=1$. The curve peaks around $(0,2)$ and decreases slightly toward $x=1$ where it reaches approximately $y=1$. The shaded region represents the area to be rotated about the y-axis.",
+        "final_answer": "$V_1 = \\int_0^1 2\\pi(x)(x^3 - 2x + 2)\\,dx$",
+        "diagram_image_local": "uw_data/math125/math125_Sp19_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp19/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up (do not evaluate) an integral equal to the volume swept out by rotating this area around the horizontal line $y = 2$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate plane with the same shaded region as part (a). A horizontal dashed line is drawn at $y=2$, indicating the axis of rotation.",
+        "final_answer": "$V_2 = \\int_0^1 \\pi\\left[2^2 - \\pi(2-(x^3-2x+2))^2\\right]\\,dx = \\pi\\int_0^1 4 - (-x^3 + 2x)^2\\,dx$",
+        "diagram_image_local": "uw_data/math125/math125_Sp19_images/diagrams/p3_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp19/diagrams/p3_b.png"
+      }
+    ],
+    "id": "uw_math_125_sp19_p3",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "variable_force_work",
+      "net_change_from_integral"
+    ],
+    "stem": "A particle moves along a line, with acceleration at $t$ seconds given by:\n\n$$a(t) = \\frac{1}{2\\sqrt{t}}$$\n\nwhere the acceleration is measured in m/sec$^2$. The particle has velocity $v(0) = -2$ m/sec at time $t = 0$ seconds. Find the total distance travelled by the particle during the time interval $0 \\le t \\le 9$ seconds.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{16}{3}$ meters"
+      }
+    ],
+    "id": "uw_math_125_sp19_p4",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "infinite_interval_integrals",
+      "convergence_of_improper_integrals"
+    ],
+    "stem": "Determine whether the integral $\\int_0^{\\infty} \\frac{1}{(x^2 + 2x + 2)^{3/2}} dx$ is convergent or divergent. If it converges, evaluate it.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Integral converges to $1 - \\frac{1}{\\sqrt{2}}$"
+      }
+    ],
+    "id": "uw_math_125_sp19_p5",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "pumping_liquid_work",
+      "numerical_integration_simpsons_rule"
+    ],
+    "stem": "The portion of the graph of\n\n$$x = \\left(\\arcsin\\left(\\frac{y}{4}\\right)\\right)^{(1/4)}$$\n\nbetween $y = 0$ and $y = 4$ meters is rotated around the y-axis to form a container with depth of 4 meters, as shown. The container is filled with water. The density of water is $1000 \\text{ kg/m}^3$ and the gravitational acceleration is $9.8 \\text{ m/sec}^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(8 points) Find an integral that gives the work required to pump all the water out over the side. Do not attempt to evaluate the integral – just set it up.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A three-dimensional illustration of a container formed by rotating the curve around the y-axis. The container is shown in blue/filled to indicate water. The y-axis is vertical with markings at 0 and 4 meters. The container has a wider opening at the top ($y=4$) and narrows toward the bottom ($y=0$). The shape is approximately cylindrical but with curved sides, representing the surface of revolution of the given curve.",
+        "final_answer": "$W = \\int_0^4 9800\\pi(4-y)\\arcsin\\left(\\frac{y}{4}\\right)\\,dy$",
+        "diagram_image_local": "uw_data/math125/math125_Sp19_images/diagrams/p6_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp19/diagrams/p6_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "(4 points) Estimate the value of the integral from part (a) using Simpson's Rule with $n = 4$ subintervals. Show work and round your answer to the nearest Joule.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$129,412$ Joules"
+      }
+    ],
+    "id": "uw_math_125_sp19_p6",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay"
+    ],
+    "stem": "A hot cube of metal is removed from an oven and left to stand in a cold room. The cube is losing heat in such a way that the rate of change of its temperature is proportional to the difference between the temperature of the metal and the temperature of the room.\n\nSuppose that the room has a constant temperature of $47°$ F. Initially the cube's temperature is $443°$ F. Ten minutes after being removed from the oven, the cube's temperature is $380°$ F.\n\nWhat will the cube's temperature be 20 minutes after being removed from the oven? Round your answer to two decimal digits.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$327.02°F$"
+      }
+    ],
+    "id": "uw_math_125_sp19_p7",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional"
+    ],
+    "stem": "Consider the region in the first quadrant bounded by:\n\n$$y = x^k, \\quad x = 1, \\quad \\text{and the x-axis,}$$\n\nwhere $k > 0$ is some fixed positive number. If the center of mass of this region lies on the line $y = 0.26$, what is the value of $k$?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$k = 12$"
+      }
+    ],
+    "id": "uw_math_125_sp19_p8",
+    "course": "math_125",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "Find the solution to the differential equation\n\n$$\\frac{dy}{dx} = \\frac{\\ln x}{xy}$$\n\nthat satisfies the initial condition $y(1) = 2$. Give your solution in explicit form, $y = f(x)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\sqrt{(\\ln x)^2 + 4}$"
+      }
+    ],
+    "id": "uw_math_125_sp19_p9",
+    "course": "math_125",
+    "exam": "sp19_final"
+  }
+]

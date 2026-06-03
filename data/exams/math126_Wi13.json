@@ -1,0 +1,344 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "three_dimensional_coordinate_system",
+      "vector_operations",
+      "dot_product",
+      "orthogonality"
+    ],
+    "stem": "Consider the four points $(2,2,2)$, $(1,0,0)$, $(2,3,7)$, and $(5,5,5)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Do all four points lie in a common plane? Justify your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "No. One possible justification is: the plane through $(2,2,2)$, $(1,0,0)$, and $(2,3,7)$ is $8x - 5y + z = 8$ and $8(5) - 5(5) + 5 \\neq 8$."
+      },
+      {
+        "label": "b",
+        "question_text": "Let $\\mathbf{v} = (4,5,6)$ and $\\mathbf{n}$ be a vector orthogonal to the plane containing the points $(2,2,2)$, $(1,0,0)$, and $(2,3,7)$. Find the vector projection of $\\mathbf{v}$ along $\\mathbf{n}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{13}{90}(8, -5, 1) = \\left(\\frac{52}{45}, -\\frac{13}{18}, \\frac{13}{90}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_wi13_p1",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "vector_functions_definition",
+      "derivatives_of_vector_functions",
+      "tangent_vector",
+      "curvature",
+      "normal_plane"
+    ],
+    "stem": "Consider the vector function $\\mathbf{r}(t) = \\left( 2t, \\frac{1}{2}t^2, \\frac{4}{3}t^{3/2} \\right)$, for $t \\geq 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Calculate the unit tangent vector $\\mathbf{T}(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{T}(t) = \\left(\\frac{2}{t+2}, \\frac{t}{t+2}, \\frac{2t^{1/2}}{t+2}\\right)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the equation of the normal plane at $t = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2(x-2) + (y-\\frac{1}{2}) + 2(z-\\frac{4}{3}) = 0$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute the curvature $\\kappa(t)$ and $\\lim_{t \\to \\infty} \\kappa(t)$. Explain briefly what this limit means about the curve.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(t) = \\frac{1}{\\sqrt{t}(t+2)^2}$ and $\\lim_{t \\to \\infty} \\kappa(t) = 0$. The curve gets \"straighter\" as $t \\to \\infty$."
+      }
+    ],
+    "id": "uw_math_126_wi13_p2",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 9,
+    "topic": "quadric_surfaces",
+    "concepts": [
+      "surface_identification",
+      "traces_of_surfaces"
+    ],
+    "stem": "Let $X$ be the surface in $\\mathbb{R}^3$ determined by the equation $z^2 = x^2 - 2y^2$. You are not required to show any work for the following questions.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Identify the traces of $X$ in the indicated plane.\ni. The trace in the plane $x = 0$ is a(n):\n_____ circle\n_____ hyperbola\n_____ point\n_____ ellipse\n_____ parabola\n_____ pair of lines\n\nii. The trace in the plane $x = k$ ($k \\neq 0$) is a(n):\n_____ circle\n_____ hyperbola\n_____ point\n_____ ellipse\n_____ parabola\n_____ pair of lines\n\niii. The trace in the plane $y = 0$ is a(n):\n_____ circle\n_____ hyperbola\n_____ point\n_____ ellipse\n_____ parabola\n_____ pair of lines\n\niv. The trace in the plane $y = k$ ($k \\neq 0$) is a(n):\n_____ circle\n_____ hyperbola\n_____ point\n_____ ellipse\n_____ parabola\n_____ pair of lines\n\nv. The trace in the plane $z = 0$ is a(n):\n_____ circle\n_____ hyperbola\n_____ point\n_____ ellipse\n_____ parabola\n_____ pair of lines\n\nvi. The trace in the plane $z = k$ ($k \\neq 0$) is a(n):\n_____ circle\n_____ hyperbola\n_____ point\n_____ ellipse\n_____ parabola\n_____ pair of lines",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "i. point; ii. ellipse; iii. pair of lines; iv. hyperbola; v. pair of lines; vi. hyperbola."
+      },
+      {
+        "label": "b",
+        "question_text": "Identify the surface $X$.\n_____ cone\n_____ elliptic paraboloid\n_____ hyperboloid of one sheet\n_____ ellipsoid\n_____ hyperbolic paraboloid\n_____ hyperboloid of two sheets",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "cone"
+      },
+      {
+        "label": "c",
+        "question_text": "True or False?\n\n_____ The path described by the vector function $\\mathbf{r}(t) = \\left( t, \\frac{1}{2}t, \\frac{1}{\\sqrt{2}}t \\right)$ lies on $X$.\n\n_____ Every line that lies on $X$ intersects the path described by $\\mathbf{r}(t) = \\left( t, \\frac{1}{2}t, \\frac{1}{\\sqrt{2}}t \\right)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T, T"
+      }
+    ],
+    "id": "uw_math_126_wi13_p3",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "line_plane_intersection",
+      "parallel_and_perpendicular_conditions"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find an equation of the plane that contains the line of intersection of the planes $x - z = 1$ and $y + 2z = 2$ and is perpendicular to the plane $x + y - 2z = 3$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x + y + z = 3$"
+      }
+    ],
+    "id": "uw_math_126_wi13_p4",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation",
+      "linear_approximation_multivariable",
+      "partial_derivatives"
+    ],
+    "stem": "Let $f(x,y) = y^3 \\cos(x - y) + xe^{4-xy} - 16$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the tangent plane to the surface at the point $(2,2)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = -3(x-2) + 8(y-2) - 6$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use part (a) to approximate $f(2.01, 1.95)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-6.43$"
+      }
+    ],
+    "id": "uw_math_126_wi13_p5",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A package in the shape of a rectangular box can be mailed by the US Postal Service if the sum of its length and girth (the perimeter of a cross-section perpendicular to the length) is at most 108 in. Find the dimensions of the package with largest volume that can be mailed. (For full credit, you must indicate how you know that these dimensions give the maximum volume.)",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A rectangular box shown in 3D perspective. The length of the box is labeled as \"length\" along one edge. The cross-section perpendicular to the length is shaded in gray/darker color and labeled \"girth=perimeter of shaded rectangle\". The diagram shows a typical rectangular prism with emphasis on the length dimension and a perpendicular rectangular face.",
+        "final_answer": "18 inches by 18 inches by 36 inches",
+        "diagram_image_local": "uw_data/math126/math126_Wi13_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Wi13/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_126_wi13_p6",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_rectangles",
+      "iterated_integrals",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\displaystyle \\int_0^1 \\int_{\\sqrt{y}}^1 \\cos x^3 \\, dx \\, dy$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}\\sin 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the volume of the solid bounded above by the sphere $x^2 + y^2 + z^2 = 100$ and below by the cone $z = \\sqrt{x^2 + y^2}$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A 3D diagram showing a sphere labeled \"$x^2 + y^2 + z^2 = 100$\" at the top and a cone labeled \"$z = \\sqrt{x^2 + y^2}$\" at the bottom. The z-axis is vertical pointing upward, the y-axis points to the right, and the x-axis points to the left-front. The sphere appears as a circular outline at the top of the diagram, and the cone appears as a V-shaped surface meeting at the origin at the bottom. The shaded region between them represents the solid being described.",
+        "final_answer": "$2\\pi\\left[\\frac{1000 - 2(50)^{3/2}}{3}\\right]$",
+        "diagram_image_local": "uw_data/math126/math126_Wi13_images/diagrams/p7_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Wi13/diagrams/p7_b.png"
+      }
+    ],
+    "id": "uw_math_126_wi13_p7",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "first_order_taylor_polynomial",
+      "second_order_taylor_polynomial",
+      "higher_order_taylor_polynomial",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "Let $f(x) = x^3 e^{x^2}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at $b = 0$. Write the series using a single $\\Sigma$ sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x^3 e^{x^2} = \\sum_{k=0}^{\\infty} \\frac{x^{2k+3}}{k!}$ for all real $x$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the fifth Taylor polynomial for $f(x)$ based at $b = 0$, $T_5(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_5(x) = x^3 + x^5$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the Taylor series based at $b = 0$ for $$g(x) = \\int_0^x f(t) \\, dt.$$ Write the series using a single $\\Sigma$ sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g(x) = \\sum_{k=0}^{\\infty} \\frac{x^{2k+4}}{(2k+4)k!}$ for all real $x$"
+      }
+    ],
+    "id": "uw_math_126_wi13_p8",
+    "course": "math_126",
+    "exam": "wi13_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $h(x) = x^{1/3}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $T_2(x)$, the second Taylor polynomial for $h(x)$ based at $b = 8$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 2 + \\frac{1}{12}(x-8) - \\frac{1}{288}(x-8)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the Quadratic Approximation Error Bound to find an upper bound for the error $|f(x) - T_2(x)|$ on the interval $[7, 9]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(x) - T_2(x)| \\leq \\frac{10}{6·27.8^{8/3}} \\approx 0.0003443$ (Larger bounds accepted.)"
+      },
+      {
+        "label": "c",
+        "question_text": "Use your answer to part (a) to approximate $\\sqrt[3]{9}$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt[3]{9} \\approx \\frac{599}{288} \\approx 2.07986$"
+      }
+    ],
+    "id": "uw_math_126_wi13_p9",
+    "course": "math_126",
+    "exam": "wi13_final"
+  }
+]

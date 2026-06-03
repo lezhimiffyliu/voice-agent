@@ -1,0 +1,384 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "derivative_rules",
+    "concepts": [
+      "quotient_rule",
+      "chain_rule",
+      "trig_derivatives",
+      "exponential_derivatives",
+      "power_rule",
+      "logarithmic_derivatives"
+    ],
+    "stem": "Calculate the derivatives of the following functions. You do not need to simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$g(x) = \\frac{\\sin(x^2)}{1 + e^{x^3}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\frac{\\cos(x^2) \\cdot 2x \\cdot (1 + e^{x^3}) - \\sin(x^2) \\cdot 3x^2 \\cdot e^{x^3}}{(1 + e^{x^3})^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$f(t) = \\ln(2t)\\sqrt{e^{\\sin t} + 1}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(t) = \\frac{\\sqrt{e^{\\sin t} + 1}}{t} + \\frac{\\ln(2t) \\cdot \\cos t \\cdot e^{\\sin t}}{2\\sqrt{e^{\\sin t} + 1}}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$y = (2x + 1)^{\\sqrt{x}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dx} = (2x+1)^{\\sqrt{x}} \\cdot \\left[\\frac{\\ln(2x+1)}{3\\sqrt[3]{x^2}} + \\frac{2\\sqrt[3]{x}}{2x+1}\\right]$"
+      }
+    ],
+    "id": "uw_math_124_sp19_p1",
+    "course": "math_124",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "limits_at_infinity",
+      "indeterminate_zero_over_zero",
+      "indeterminate_infinity_over_infinity"
+    ],
+    "stem": "Evaluate the following limits. Show the algebra work where applicable. If the limit does not exist, explain why not.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to 1} \\frac{x^3 - x}{x^3 - 2x^2 - 3x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "0"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\lim_{x \\to \\infty} \\left(\\sqrt{16x^2 + 4x} - 4x\\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\lim_{x \\to \\infty} e^{-\\frac{\\sin(1/x)}{x}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "1"
+      }
+    ],
+    "id": "uw_math_124_sp19_p2",
+    "course": "math_124",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "geometric_optimization",
+      "critical_points",
+      "absolute_extrema"
+    ],
+    "stem": "From a square piece of cardboard paper of area size $9 \\text{ m}^2$, squares of the same size are cut off from each corner of the paper. This allows for folding the paper to a box without a top. What values for the lengths of the squares only make sense? How do we have to choose the length of the squares to maximize the volume of the box? Verify that your answer is indeed a maximum.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A square piece of paper is shown with dashed lines indicating squares cut from each of the four corners. The corners are marked with small squares, and dashed lines extend from the corners toward the center, showing how the paper will be folded into a box.",
+        "diagram_bbox": null,
+        "final_answer": "$x = \\frac{1}{2}$m gives a global maximum for volume",
+        "diagram_image_local": "uw_data/math124/math124_Sp19_images/diagrams/p3.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp19/diagrams/p3.png"
+      }
+    ],
+    "id": "uw_math_124_sp19_p3",
+    "course": "math_124",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "A balloon is being filled with air. After $t$ seconds, air is being pumped into the balloon at a rate of $2t + 10$ cm$^3$/sec. Suppose that after 10 seconds, the volume of the balloon is 100 cm$^3$. What is the rate that the surface area of the balloon is changing at $t = 10$ seconds?\n\n(Recall the formulae for the volume and surface area of a sphere: $V = \\frac{4}{3}\\pi r^3$ and $A = 4\\pi r^2$.)",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dA}{dt} = 2\\left(\\frac{300}{4\\pi}\\right)^{-\\frac{1}{3}} \\cdot 30$ cm$^2$/sec"
+      }
+    ],
+    "id": "uw_math_124_sp19_p4",
+    "course": "math_124",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 13,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line",
+      "horizontal_vertical_tangents"
+    ],
+    "stem": "Consider the curve with equation $y^2 = x^3 + 3x^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "With implicit differentiation, find the equation of the tangent line to this curve at the point $(1, -2)$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A curve showing the graph of $y^2 = x^3 + 3x^2$. The curve has a characteristic shape with a loop or self-intersection point visible in the upper left quadrant. A tangent line is drawn passing through a point on the curve.",
+        "diagram_bbox": null,
+        "final_answer": "$y = -\\frac{9}{4}(x-1) - 2$",
+        "diagram_image_local": "uw_data/math124/math124_Sp19_images/page-05.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp19/diagrams/page-05.png"
+      },
+      {
+        "label": "b",
+        "question_text": "At which points $(a, b)$ does the curve have a horizontal tangent?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-2, 2)$ and $(-2, -2)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Are there any vertical tangents? Explain your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "vertical tangent at $(-3, 0)$"
+      }
+    ],
+    "id": "uw_math_124_sp19_p5",
+    "course": "math_124",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "first_derivative_test",
+      "local_extrema",
+      "concavity",
+      "inflection_points",
+      "linear_approximation"
+    ],
+    "stem": "The following graph is the graph of the derivative of a function $f$. The domain of $f$ is the interval $[-9, 10]$. Answer the following questions:",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "List all intervals where $f$ is increasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-1.7, 4)$ and $(5.5, 9)$"
+      },
+      {
+        "label": "b",
+        "question_text": "At which values is $f$ differentiable?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-9, 2)$ and $(2, 9)$"
+      },
+      {
+        "label": "c",
+        "question_text": "List the critical numbers of $f$ and identify them as a local minimum, maximum or neither.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -1.7, 5.5$ minima, $x = 4$ maximum, $x = 2$ neither"
+      },
+      {
+        "label": "d",
+        "question_text": "List all intervals on which the graph of $y = f(x)$ is concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1, 5)$"
+      },
+      {
+        "label": "e",
+        "question_text": "Determine $\\lim_{h \\to 0} \\frac{f'(4 + h) - f'(4)}{h}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-1$"
+      },
+      {
+        "label": "f",
+        "question_text": "If $f(-2) = -1$, use the tangent line approximation to estimate $f(-2.1)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(-2.1) \\approx -0.9$"
+      }
+    ],
+    "id": "uw_math_124_sp19_p6",
+    "course": "math_124",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_motion",
+      "parametric_first_derivative",
+      "parametric_tangent_line"
+    ],
+    "stem": "An ant crawls according to the equations\n\n$$x(t) = e^{t^2 - t}\\cos(\\pi t^3) \\quad \\text{and} \\quad y(t) = e^{t^2 - t}\\sin(\\pi t^2)$$\n\nbeginning at $t = 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "At what times $t$ in the interval $[0, 2]$ does the ant cross the x-axis?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = 0, 0.1, \\sqrt{2}, \\sqrt{3}, 2$"
+      },
+      {
+        "label": "b",
+        "question_text": "What is the ant's speed at $t = 1$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "speed $= \\sqrt{4\\pi^2 + 1}$"
+      },
+      {
+        "label": "c",
+        "question_text": "What is the equation of the line tangent to the ant's path at $t = 1$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 2\\pi(x + 1)$"
+      }
+    ],
+    "id": "uw_math_124_sp19_p7",
+    "course": "math_124",
+    "exam": "sp19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 15,
+    "topic": "curve_analysis",
+    "concepts": [
+      "asymptotes",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "concavity",
+      "inflection_points",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = \\frac{x^3 - 1}{x^3 + 1}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find all horizontal and vertical asymptotes of $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The vertical asymptote is $x = -1$. The horizontal asymptote is $y = 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine the critical numbers of $f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 0$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the intervals where $f(x)$ is increasing and the intervals where $f(x)$ is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The function is increasing on $(-\\infty, -1) \\cup (-1, \\infty)$"
+      },
+      {
+        "label": "d",
+        "question_text": "Determine the inflection points of $f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The inflection points are $(0, -1)$ and $\\left(\\sqrt[3]{1/2}, -1/3\\right)$"
+      },
+      {
+        "label": "e",
+        "question_text": "Sketch the graph of $y = f(x)$ on the axis provided below. Be sure to include asymptotes in your picture as well as to mark the coordinates of critical and inflection points.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A coordinate plane with x-axis ranging from -3 to 3 and y-axis ranging from -2 to 2. The grid is unmarked except for axis labels. The plane is provided for the student to sketch the curve of $y = f(x) = \\frac{x^3 - 1}{x^3 + 1}$.",
+        "diagram_bbox": null,
+        "diagram_image_local": "uw_data/math124/math124_Sp19_images/diagrams/p8_e.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp19/diagrams/p8_e.png"
+      }
+    ],
+    "id": "uw_math_124_sp19_p8",
+    "course": "math_124",
+    "exam": "sp19_final"
+  }
+]

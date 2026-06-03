@@ -1,0 +1,313 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 14,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "trigonometric_substitution_setup"
+    ],
+    "stem": "Evaluate the following integrals. Show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\frac{x}{\\sqrt{x^2 - 2x - 8}} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt{x^2-2x-8} + \\ln|x-1+\\sqrt{x^2-2x-8}|+C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\ln(1 + x^2) dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x\\ln(1+x^2)-2x+2\\tan^{-1}(x)+C$"
+      }
+    ],
+    "id": "uw_math_125_au24_p1",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 14,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds",
+      "definite_integral_substitution",
+      "partial_fractions"
+    ],
+    "stem": "Evaluate the following integrals. Show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_1^2 \\frac{2}{x^3 + x} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln(8/5)$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_0^2 xe^{x^2} + x\\sqrt{2} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}(e^4-1)+\\frac{1}{\\sqrt{2+1}}2^{\\sqrt{2+1}}$"
+      }
+    ],
+    "id": "uw_math_125_au24_p2",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "derivative_of_integral_function",
+      "definite_integral_as_area"
+    ],
+    "stem": "Consider the graph of the function $f$ given below consisting of several line segments. Notice that the grid lines are in multiples of 5.\n\nUse the graph to answer the questions below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $$\\int_{10}^{25} f(t) dt$$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A graph with a piecewise linear function $f$ on a grid with coordinate axes labeled $t$ (horizontal) and $y$ (vertical). Grid lines are in multiples of 5. The function starts at approximately $(5, 10)$, increases linearly to a peak at approximately $(10, 20)$, then decreases linearly, crossing the $t$-axis around $t=18$, continues to a valley at approximately $(25, -5)$, and then increases again. The region from $t=10$ to $t=25$ is bounded by the curve and the $t$-axis.",
+        "final_answer": "$0$",
+        "diagram_image_local": "uw_data/math125/math125_Au24_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au24/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate $$\\lim_{n \\to \\infty} \\sum_{i=1}^{n} f\\left(\\frac{5i}{n}\\right) \\cdot \\left(\\frac{5}{n}\\right)$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$50$"
+      },
+      {
+        "label": "c",
+        "question_text": "If $$g(x) = \\int_0^x f(t) dt$$, at what value of $x$ is $g(x)$ maximum?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x=15$"
+      },
+      {
+        "label": "d",
+        "question_text": "If $$g(x) = \\int_0^x f(t) dt$$, then find $g''(7)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2$"
+      }
+    ],
+    "id": "uw_math_125_au24_p3",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "finding_intersection_points_for_area"
+    ],
+    "stem": "Let $g(x) = x^2$ and $h(x) = 2x^2$. Assume $f(x) = ax^2$, for some constant $0 < a < 1$.\n\nA vertical line is drawn at some positive number $x = t$ and a horizontal line is drawn through the point where $x = t$ intersects $g(x)$ (as shown). Let $A$ and $B$ be the regions as shown.\n\nIf the areas of $A$ and $B$ are the same for all positive values of $t$, what is the value of $a$?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $g(x) = x^2$ and $h(x) = 2x^2$. Assume $f(x) = ax^2$, for some constant $0 < a < 1$.\n\nA vertical line is drawn at some positive number $x = t$ and a horizontal line is drawn through the point where $x = t$ intersects $g(x)$ (as shown). Let $A$ and $B$ be the regions as shown.\n\nIf the areas of $A$ and $B$ are the same for all positive values of $t$, what is the value of $a$?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A coordinate plane showing three parabolic curves: $f(x) = ax^2$ (lowest), $g(x) = x^2$ (middle), and $h(x) = 2x^2$ (highest). A vertical line is drawn at $x = t$ intersecting all three parabolas. A horizontal line passes through the point where the vertical line meets $g(x)$ at height $t^2$. Region $B$ is the area between $f(x)$ and $g(x)$ from $0$ to $t$, bounded on the right by the vertical line at $x=t$. Region $A$ is the area between $g(x)$ and $h(x)$ from $0$ to $t$, bounded on the right by the vertical line at $x=t$, and on top by the horizontal line at $y=t^2$.",
+        "final_answer": "$a=\\sqrt{2}-1$",
+        "diagram_image_local": "uw_data/math125/math125_Au24_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au24/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_125_au24_p4",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work",
+      "variable_force_work",
+      "distance_and_force_setup"
+    ],
+    "stem": "The tank shown below is full of water. Find the work (in ft-lb) required to pump the water out of the spout which is at the top of the tank. Use the fact that water weighs 62.5 lb/ft³.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The tank shown below is full of water. Find the work (in ft-lb) required to pump the water out of the spout which is at the top of the tank. Use the fact that water weighs 62.5 lb/ft³.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A 3D diagram of a rectangular tank with dimensions labeled. The tank has a width of 4 ft at the base, a length of 5 ft at the top, and a height of 3 ft. A spout is shown at the top of the tank, extending 5 ft horizontally. The tank appears to be a truncated rectangular pyramid or wedge shape, with the base narrower than the top.",
+        "final_answer": "$1875$ ft-lbs",
+        "diagram_image_local": "uw_data/math125/math125_Au24_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au24/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_au24_p5",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "vertical_asymptote_integrals",
+      "convergence_of_improper_integrals"
+    ],
+    "stem": "Consider the region $\\mathcal{R}$, bounded by the line $x = 1$, the $x$-axis between 1 and 2, and the curve $y = \\frac{1}{x-1}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Does $\\mathcal{R}$ have finite area? Justify your answer by computing an improper integral.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A coordinate plane showing a vertical asymptote at $x = 1$ and a hyperbolic curve $y = \\frac{1}{x-1}$ for $x > 1$. The region $\\mathcal{R}$ is shaded between the curve and the $x$-axis from $x = 1$ to $x = 2$. The curve is decreasing from positive infinity as $x$ increases from 1.",
+        "final_answer": "$\\infty$",
+        "diagram_image_local": "uw_data/math125/math125_Au24_images/diagrams/p6_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au24/diagrams/p6_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "The solid you obtain by rotating the region $\\mathcal{R}$ around the line $x = 1$ has finite volume. Compute it.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2\\pi$"
+      }
+    ],
+    "id": "uw_math_125_au24_p6",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Find the $y$-coordinate $\\bar{y}$ of the centroid of the shaded region below.\n\nThe boundary of the region consists of: the $y$-axis from 0 to 1, the line $y = 1$ from $x = 0$ to $x = \\frac{\\pi}{2}$, the curve $y = \\sin x$ from $x = \\frac{\\pi}{2}$ to $x = \\pi$, and the $x$ axis from 0 to $\\pi$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the $y$-coordinate $\\bar{y}$ of the centroid of the shaded region below.\n\nThe boundary of the region consists of: the $y$-axis from 0 to 1, the line $y = 1$ from $x = 0$ to $x = \\frac{\\pi}{2}$, the curve $y = \\sin x$ from $x = \\frac{\\pi}{2}$ to $x = \\pi$, and the $x$ axis from 0 to $\\pi$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A coordinate plane with a shaded region. The region is bounded by: a vertical line segment on the $y$-axis from $y=0$ to $y=1$; a horizontal line segment $y=1$ extending from $x=0$ to $x=\\frac{\\pi}{2}$; a curve $y = \\sin x$ from $x = \\frac{\\pi}{2}$ to $x = \\pi$ (decreasing from 1 to 0); and the $x$-axis from $x=0$ to $x=\\pi$. The region forms a shape that is rectangular on the left and curved on the right.",
+        "final_answer": "$\\bar{y}=\\frac{3\\pi}{4\\pi+8}$",
+        "diagram_image_local": "uw_data/math125/math125_Au24_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au24/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_125_au24_p7",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "Find the solution of the differential equation that satisfies the given initial condition:\n\n$$\\frac{dy}{dx} = \\frac{\\cos^3 x}{2y}, \\quad y(\\pi) = -4$$\n\nFor full credit, write your answer in explicit form, $y = f(x)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution of the differential equation that satisfies the given initial condition:\n\n$$\\frac{dy}{dx} = \\frac{\\cos^3 x}{2y}, \\quad y(\\pi) = -4$$\n\nFor full credit, write your answer in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y=-\\sqrt{\\sin(x)-\\frac{1}{3}\\sin^3(x)+16}$"
+      }
+    ],
+    "id": "uw_math_125_au24_p8",
+    "course": "math_125",
+    "exam": "au24_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 12,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "A tank initially contains 1,000 L of saltwater, with 100 kg of dissolved salt in it. Saltwater containing 0.5 kg/L of dissolved salt comes into the tank at a rate of 4 L/sec. The solution is kept thoroughly mixed and drains from the tank at the same rate of 4 L/sec.\n\nLet $y = y(t)$ be the amount of salt (in kg) in the tank after $t$ seconds.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write the differential equation for $y = y(t)$ and initial condition.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dt}=2-\\frac{y}{250}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Solve the differential equation and give $y(t)$, including finding all constants of integration.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y(t)=500-400e^{-t/250}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $\\lim_{t \\to \\infty} y(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{t\\to\\infty}y(t)=500$ kg"
+      }
+    ],
+    "id": "uw_math_125_au24_p9",
+    "course": "math_125",
+    "exam": "au24_final"
+  }
+]

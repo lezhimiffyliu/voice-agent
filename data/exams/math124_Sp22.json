@@ -1,0 +1,434 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 15,
+    "topic": "lhopitals_rule",
+    "concepts": [
+      "lhopitals_rule_application",
+      "indeterminate_zero_over_zero",
+      "algebraic_limit_evaluation",
+      "trig_limits"
+    ],
+    "stem": "Answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate $$\\lim_{\\theta \\to \\pi/2} \\frac{\\sin^2 \\theta - 5 \\sin \\theta + 4}{\\sin^2 \\theta - 1}$$ using two different methods, neither of which is guessing the answer from a table of values.\n\nUsing first method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{3}{2}$"
+      },
+      {
+        "label": null,
+        "question_text": "Using second method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate $\\lim_{x \\to 3}\\left(\\frac{1}{\\sqrt{x+1}} - \\frac{1}{2}\\right)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the values of $a$ and $c$ so that $f(x)$ is continuous $x = 0$.\n$$f(x) = \\begin{cases}\n\\frac{e^{ax} - 1}{x} & x > 0 \\\\\nc & x = 0 \\\\\n\\frac{\\sin(3x)}{x} & x < 0\n\\end{cases}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a = c = 3$"
+      }
+    ],
+    "id": "uw_math_124_sp22_p1",
+    "course": "math_124",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 18,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "product_rule",
+      "exponential_derivatives",
+      "trig_derivatives",
+      "quotient_rule",
+      "logarithmic_differentiation"
+    ],
+    "stem": "Find the derivatives of the following functions. You do not have to simplify.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f(x) = 3^{\\tan(4x)}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\ln 3 \\cdot (4\\sec^2(4x))3^{\\tan(4x)}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$h(x) = \\sin(x^2) \\cos^2(3x)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(x) = 2x\\cos(x^2)\\cos^2(3x) - 6\\sin(x^2)\\cos(3x)\\sin(3x)$"
+      },
+      {
+        "label": "c",
+        "question_text": "$y(x) = x^{e^x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = e^x\\left(\\ln x + \\frac{1}{x}\\right)x^{e^x}$"
+      },
+      {
+        "label": "d",
+        "question_text": "$g(x) = \\frac{4xe^x}{\\sqrt{x^4 + 5}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\frac{(4e^x + 4xe^x)(\\sqrt{x^4+5}) + 4xe^x\\left(\\frac{4x^3}{2\\sqrt{x^4+5}}\\right)}{x^4+5}$"
+      }
+    ],
+    "id": "uw_math_124_sp22_p2",
+    "course": "math_124",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "curve_analysis",
+    "concepts": [
+      "limits",
+      "one_sided_limits",
+      "derivative_as_slope",
+      "critical_points",
+      "chain_rule"
+    ],
+    "stem": "The function $f(x)$ whose graph is given below has domain all numbers except for $x = 5$. Answer the questions based on the graph below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to 5} f(x) =$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane with x-axis ranging from -12 to 12 and y-axis ranging from -6 to 10. The curve shows: a continuous section from approximately x = -12 to x = -2, starting at around y = 6, decreasing to a minimum around y = -1 at approximately x = -8, then increasing back. At x = 0, there is a filled dot at approximately (0, 0). The curve continues with a jump discontinuity near x = -2. For x > -2, there is a continuous increasing curve starting from around (-2, -3), passing through approximately (1, 2), (2, 3), (3, 4), reaching local maximum around (4, 5.5), then sharply increasing with two vertical asymptotes appearing near x = 5, with the function approaching positive infinity from both sides. The curve approaches infinity at x = 5, indicated by upward arrows.",
+        "final_answer": "$\\lim_{x \\to 9} f(x) = \\infty$",
+        "diagram_image_local": "uw_data/math124/math124_Sp22_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp22/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\lim_{x \\to 3^+} f(x) =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\lim_{x \\to -3^+} f(x) = -4$"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\lim_{h \\to 0} \\frac{f(h) - f(0)}{h} =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(0) = 2$"
+      },
+      {
+        "label": "d",
+        "question_text": "Give your best estimate for $f(1.85)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(1.85) = 5.7$"
+      },
+      {
+        "label": "e",
+        "question_text": "Let $g(x) = (f(x))^2$. Find all values of $x$ where $g'(x) = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -9.5, 5, -1$ or $x = -8, -5, 3$"
+      },
+      {
+        "label": "f",
+        "question_text": "Let $h(x) = f(f(x))$. Compute $h'(3)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(3) = 0$"
+      }
+    ],
+    "id": "uw_math_124_sp22_p3",
+    "course": "math_124",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line",
+      "linear_approximation"
+    ],
+    "stem": "A curve is given implicitly by the equation $$x^3 + y^3 = 2xy.$$ A graph is shown on the right to help you visualize.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation of the tangent line to the curve at the point $(1,1)$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate plane showing a curve with a distinctive loop. The curve appears to be symmetric about the line y = x. There is a loop in the first quadrant reaching approximately (0.5, 0.5) to (1.5, 1.5), with a cusp-like feature. The curve extends into the third quadrant as well. A point labeled P is marked on the loop in the first quadrant.",
+        "final_answer": "$y = -x + 2$",
+        "diagram_image_local": "uw_data/math124/math124_Sp22_images/diagrams/p4_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp22/diagrams/p4_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use linear approximation to find the value of $x$ when $y = 0.93$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x \\approx 1.07$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the coordinates of the point $P$ on the curve where the tangent line is horizontal.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(\\frac{2^{4/3}}{3}, \\frac{2^{5/3}}{3}\\right)$"
+      }
+    ],
+    "id": "uw_math_124_sp22_p4",
+    "course": "math_124",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_motion",
+      "parametric_tangent_line",
+      "parametric_first_derivative"
+    ],
+    "stem": "An object is moving in the $xy$-plane according to the parametric equations:\n$$x(t) = 5\\cos(\\pi t)$$\n$$y(t) = 4\\sin(\\pi t)$$\n\nWhen $0 < t < \\frac{1}{2}$, the location $P(t) = (x(t), y(t))$ of the object will be in the first quadrant, as pictured below. Let $\\ell$ be the normal line to the trajectory at $P(t)$ and $x_N$ the $x$-intercept of $\\ell$. (The normal line $\\ell$ is perpendicular to the tangent line through $P(t)$.)",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write the equation of the normal line $\\ell$ through $P(t)$, assuming $0 < t < \\frac{1}{2}$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A coordinate plane with x-axis and y-axis labeled. A curve labeled 'object trajectory' is drawn in the first quadrant, appearing to be an elliptical arc. A point labeled P(t) is marked on the curve. From P(t), two lines are shown: a tangent line labeled 'ℓ' and labeled j, going upward to the right, and another line going downward to the left toward the x-axis at point N, labeled x-intercept.",
+        "final_answer": "$y - 4\\sin(\\pi t) = \\frac{5\\sin(\\pi t)}{4\\cos(\\pi t)}(x - 5\\cos(\\pi t))$",
+        "diagram_image_local": "uw_data/math124/math124_Sp22_images/diagrams/p5_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp22/diagrams/p5_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an expression for $x_N$ as a function of $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x_N = \\frac{9}{5}\\cos(\\pi t)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute $\\lim_{t \\to 0^+} x_N =$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{9}{5}$"
+      }
+    ],
+    "id": "uw_math_124_sp22_p5",
+    "course": "math_124",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "The dimensions of a rectangular box with square bottom are changing. The length of the side of the base is increasing at a constant rate of 3 ft/min and the height is decreasing at a constant rate of 5 ft/min.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the rate of change of the volume of the box when the length of the side of the base is 4 ft and the height is 3 ft?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A three-dimensional rectangular box with a square base. The base edges are labeled 'b' and the height is labeled 'h'. The box is drawn in isometric perspective showing three visible faces.",
+        "final_answer": "$\\frac{dV}{dt} = -8$",
+        "diagram_image_local": "uw_data/math124/math124_Sp22_images/diagrams/p6_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp22/diagrams/p6_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Is the rate of change of the volume of the box increasing or decreasing when the length of the side of the base is 4 ft and the height is 3 ft? Explain.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The rate of change is decreasing"
+      }
+    ],
+    "id": "uw_math_124_sp22_p6",
+    "course": "math_124",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 11,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "geometric_optimization",
+      "critical_points"
+    ],
+    "stem": "A rectangle is inscribed in the ellipse $$\\frac{x^2}{400} + \\frac{y^2}{225} = 1$$ with sides parallel to the axes, as pictured. Find the dimensions of the rectangle of maximum perimeter which can be so inscribed.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A rectangle is inscribed in the ellipse $$\\frac{x^2}{400} + \\frac{y^2}{225} = 1$$ with sides parallel to the axes, as pictured. Find the dimensions of the rectangle of maximum perimeter which can be so inscribed.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "An ellipse centered at the origin with horizontal major axis and vertical minor axis. A rectangle is inscribed in the ellipse with sides parallel to the coordinate axes. The rectangle is symmetric about both axes, with one corner in each quadrant.",
+        "final_answer": "$32$ by $18$",
+        "diagram_image_local": "uw_data/math124/math124_Sp22_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp22/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_sp22_p7",
+    "course": "math_124",
+    "exam": "sp22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 15,
+    "topic": "curve_analysis",
+    "concepts": [
+      "intercepts",
+      "asymptotes",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "first_derivative_test",
+      "local_extrema",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = \\frac{8}{x^2 + 4}$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What are the $x$- and $y$-intercepts of the graph of $f$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "There are no $x$-intercepts; $y$-intercept is $2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine the horizontal asymptotes of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 0$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all critical numbers of $f(x)$ and determine the intervals in which $f$ is increasing and in which it is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Increasing on $(-\\infty, 0)$; decreasing on $(0, \\infty)$"
+      },
+      {
+        "label": "d",
+        "question_text": "Determine the local minima and local maxima of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Local max at $x = 0$; no local min"
+      },
+      {
+        "label": "e",
+        "question_text": "Using $f''(x)$, find the intervals where $f$ is concave up and where it is concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Concave up on $(-\\infty, -\\frac{1}{2})$ and $(\\frac{1}{2}, \\infty)$; concave down on $(-\\frac{1}{2}, \\frac{1}{2})$"
+      },
+      {
+        "label": "f",
+        "question_text": "List the inflection points on the graph of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Inflection points at $(\\frac{1}{2}, \\frac{32}{17})$ and $(-\\frac{1}{2}, \\frac{32}{17})$"
+      },
+      {
+        "label": "g",
+        "question_text": "Using all of the above information, sketch the graph of $f$ in the provided coordinate system. Mark any important points that came up in your computations.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A blank coordinate plane with x-axis ranging from -6 to 6 and y-axis ranging from -3 to 3. Grid lines are present. The student is expected to sketch the graph of f(x) = 8/(x^2 + 4) with marked important points.",
+        "diagram_image_local": "uw_data/math124/math124_Sp22_images/diagrams/p8_g.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp22/diagrams/p8_g.png"
+      }
+    ],
+    "id": "uw_math_124_sp22_p8",
+    "course": "math_124",
+    "exam": "sp22_final"
+  }
+]

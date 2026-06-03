@@ -1,0 +1,285 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "direction_vectors",
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "line_plane_intersection",
+      "angle_between_vectors"
+    ],
+    "stem": "For parts (a)–(c), consider the plane $\\mathcal{P}: 2x + y + 3z = 2$ and the line $L: x = 1 - 4t, y = 2t, z = 5 + t$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the acute angle between the line $L$ and the line $y = 2, z = 6$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\theta = \\pi - \\cos^{-1}\\left(\\frac{-4}{\\sqrt{21}}\\right)$ or $\\cos^{-1}\\left(\\frac{4}{\\sqrt{21}}\\right)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the equation of the plane that contains the line $L$ and is perpendicular to the plane $\\mathcal{P}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$5(x-1) + 14(y-0) - 8(z-5) = 0$ (answer not unique)"
+      },
+      {
+        "label": "c",
+        "question_text": "Find two points $A$ and $B$ on the plane $\\mathcal{P}$ such that the vector $\\overrightarrow{AB}$ is perpendicular to the line $L$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$A(1, 0, 0)$ and $B(6, 14, -8)$ (answer not unique)"
+      }
+    ],
+    "id": "uw_math_126_wi23_p1",
+    "course": "math_126",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "speed",
+      "acceleration_vector",
+      "derivatives_of_vector_functions",
+      "integrals_of_vector_functions",
+      "curvature"
+    ],
+    "stem": "For parts (a)–(c), a particle is moving along a space curve with initial position vector $\\mathbf{r}(0) = 2\\mathbf{i} + \\mathbf{j} - \\mathbf{k}$. The velocity vector of the particle is\n$$\\mathbf{v}(t) = 3\\cos(t)\\mathbf{i} + 4t\\mathbf{j} + \\sin(t)\\mathbf{k}$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the position vector function $\\mathbf{r}(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{r}(t) = \\langle 3\\sin(t) + 2, 2t^2 + 1, -\\cos(t) \\rangle$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the equation of a surface that contains the space curve $\\mathbf{r}(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(\\frac{x-2}{3}\\right)^2 + z^2 = 1$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the curvature of the space curve $\\mathbf{r}(t)$ at $t = \\pi$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(\\pi) = \\frac{\\sqrt{153 + 16\\pi^2}}{(9 + 16\\pi^2)^{3/2}}$"
+      }
+    ],
+    "id": "uw_math_126_wi23_p2",
+    "course": "math_126",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Let $f$ be the function given by:\n$$f(x,y) = x^2 - y^2 - 2xy + 4y,$$\nand let $A$, $B$, and $C$ be the points $(0,0)$, $(0,4)$ and $(4,0)$. Find the global minimum and maximum of $f$ in the filled triangle $ABC$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $f$ be the function given by:\n$$f(x,y) = x^2 - y^2 - 2xy + 4y,$$\nand let $A$, $B$, and $C$ be the points $(0,0)$, $(0,4)$ and $(4,0)$. Find the global minimum and maximum of $f$ in the filled triangle $ABC$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Global maximum: $f(4, 0) = 16$, Global minimum: $f(1, 1) = -2$"
+      }
+    ],
+    "id": "uw_math_126_wi23_p3",
+    "course": "math_126",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 12,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find a point on the surface of equation $z = x^2 - y^2$ whose tangent plane is perpendicular to the line of equation\n$$x = t$$\n$$y = 3t$$\n$$z = -2t.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(\\frac{1}{4}, -\\frac{3}{4}, -\\frac{1}{2}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_wi23_p4",
+    "course": "math_126",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "polar_coordinates",
+      "applications_of_double_integrals"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the volume of the solid below the surface\n$$z = \\frac{2x + y + 1}{\\sqrt{x^2 + y^2}}$$\nand above the region in the $xy$-plane\n$$D = \\{(x, y) | x \\geq 0, y \\geq 0, 1 \\leq x^2 + y^2 \\leq 4\\}.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{9 + \\pi}{2}$"
+      }
+    ],
+    "id": "uw_math_126_wi23_p5",
+    "course": "math_126",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "changing_order_of_integration"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Evaluate the integral\n$$\\int_0^1 \\int_{\\arcsin y}^{\\pi/2} \\cos x\\sqrt{1 + \\cos^2 x} \\, dx \\, dy.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2\\sqrt{2} - 1}{3}$"
+      }
+    ],
+    "id": "uw_math_126_wi23_p6",
+    "course": "math_126",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "For parts (a)–(c), let $f(x) = \\int_2^x \\cos(\\pi t^2) dt$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial, $T_2(x)$, for $f(x)$ based at $b = 2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = (x - 2)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use your answer to part (a) to approximate $\\int_2^{2.1} \\cos(\\pi t^2) dt$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0.1$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find an upper bound on the error for your answer from part (b).\n\n(Note: For full credit, you do not need to find a tight upper bound, but you must justify your answer with Taylor's inequality.)",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left|T_3(x) - f(x)\\right| \\leq \\frac{1}{6}\\left(2\\pi + 17.6\\pi^3\\right)(0.1)^3 \\approx 0.03006$"
+      }
+    ],
+    "id": "uw_math_126_wi23_p7",
+    "course": "math_126",
+    "exam": "wi23_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "For this problem, you may use the following basic Taylor series:\n$$\\frac{1}{1-x} = \\sum_{k=0}^\\infty x^k, \\quad e^x = \\sum_{k=0}^\\infty \\frac{x^k}{k!}, \\quad \\sin x = \\sum_{k=0}^\\infty \\frac{(-1)^k x^{2k+1}}{(2k+1)!}, \\quad \\cos x = \\sum_{k=0}^\\infty \\frac{(-1)^k x^{2k}}{(2k)!}$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x) = \\frac{x^3}{1 + x^4} - 3x\\sin(x^2)$ based at $b = 0$. Express your answer using $\\sum$–notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} (-1)^k \\left(1 - \\frac{3}{(2k+1)!}\\right) x^{4k+3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval of convergence for the series you found in (a).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-1, 1)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $f^{(2023)}(0)$, i.e. the 2023rd derivative of $f$ at 0.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f^{(2023)}(0) = -\\left(\\left(1 - \\frac{3}{101!}\\right)(2023)!\\right)$"
+      }
+    ],
+    "id": "uw_math_126_wi23_p8",
+    "course": "math_126",
+    "exam": "wi23_final"
+  }
+]

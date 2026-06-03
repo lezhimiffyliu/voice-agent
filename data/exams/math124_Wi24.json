@@ -1,0 +1,397 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "limit_laws"
+    ],
+    "stem": "Compute each of the following limits showing complete work or justification for your answer. If there is no finite limit, write $\\infty$, $-\\infty$, or DNE, whichever applies.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\lim_{x \\to 1}\\left(\\frac{1}{x-1} + \\frac{1}{x^2-3x+2}\\right)$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-1$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\lim_{y \\to 4}\\frac{\\sqrt{y}}{(y-4)^6}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\infty$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\lim_{x \\to 1}\\frac{\\ln x}{\\tan(\\pi x)}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{\\pi}$"
+      }
+    ],
+    "id": "uw_math_124_wi24_p1",
+    "course": "math_124",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "product_rule",
+      "quotient_rule",
+      "trig_derivatives",
+      "exponential_derivatives",
+      "logarithmic_derivatives"
+    ],
+    "stem": "Find the derivatives of the following functions. Do not simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$f(x) = \\sin(\\sqrt{3x}) + \\sqrt{\\sin(3x)}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\cos(\\sqrt{3x}) \\cdot \\frac{\\sqrt{3}}{2\\sqrt{x}} + \\frac{1}{2\\sqrt{\\sin(3x)}} \\cdot 3\\cos(3x)$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$f(x) = \\frac{\\ln(1+3x)(\\arcsin(7x))}{e^{2x}+x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{\\left(\\frac{3\\arcsin(7x)}{1+3x} + \\frac{7\\ln(1+3x)}{\\sqrt{1-49x^2}}\\right)(e^{2x} + x) + \\ln(1 + 3x)(\\arcsin(7x))(2e^{2x} + 1)}{(e^{2x} + x)^2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$g(t) = (\\cos(at))^{\\sqrt{bt+c}}$$ where $a, b$ and $c$ are constant real numbers.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(t) = \\left(\\frac{b \\cdot \\ln(\\cos(at))}{2\\sqrt{bt + c}} - a\\tan(at)\\sqrt{bt + c}\\right) \\cdot (\\cos(at))^{\\sqrt{bt+c}}$"
+      }
+    ],
+    "id": "uw_math_124_wi24_p2",
+    "course": "math_124",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 9,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "local_extrema",
+      "inflection_points",
+      "increasing_decreasing_intervals"
+    ],
+    "stem": "For this problem, you do not need to show your work. The function $f(x)$ is continuous on its domain $-4 < x < 5$.\n\nAnswer the following questions based on the \\textbf{GRAPH OF THE DERIVATIVE} $y = f'(x)$ below. Note that the derivative $f'(x)$ is not defined at $x = -4, -1, 1, 5$. For questions involving limits, if the limit is infinite, write $\\infty$ or $-\\infty$. If the limit does not exist, write DNE. You may have to give an approximate a value as an answer and this will be considered while grading.\n\nThe graph of the derivative below is a line between $-4 \\leq x < -1$; the upper semi circle of radius 1 centered at $(0,3)$ for $-1 < x < 1$; and a parabola between $1 < x < 5$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\lim_{x \\to -1^-}f'(x) =$$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A coordinate plane with $x$-axis ranging from approximately $-4$ to $5$ and $y$-axis ranging from approximately $-3$ to $4$. The graph consists of three pieces: (1) A line segment from approximately $(-4, 4)$ to $(-1, -2)$ for $-4 \\leq x < -1$; (2) An upper semicircle of radius 1 centered at $(0, 3)$ for $-1 < x < 1$, reaching a maximum of approximately $y = 4$ at $x = 0$; (3) A parabola for $1 < x < 5$ with vertex near $(3, -2)$ and reaching approximately $y = 2$ at $x = 5$. The curve is labeled $y = f'(x)$. Key points are marked: $(-4, 4)$, $(-1, -2)$, $(0, 3)$ and $(0, 4)$, $(5, 2)$.",
+        "final_answer": "DNE",
+        "diagram_image_local": "uw_data/math124/math124_Wi24_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi24/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$$f'(0) =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4$"
+      },
+      {
+        "label": "c",
+        "question_text": "$$\\lim_{x \\to 1^-}f''(x) =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\infty$"
+      },
+      {
+        "label": "d",
+        "question_text": "$$\\lim_{h \\to 0}\\frac{f(h)-f(0)}{h} =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4$"
+      },
+      {
+        "label": "e",
+        "question_text": "$$\\lim_{x \\to 3}\\frac{f'(x)+2}{x-3} =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0$"
+      },
+      {
+        "label": "f",
+        "question_text": "Let $g(x) = f(f'(x))$. Then $g'(-2) =$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-8$"
+      },
+      {
+        "label": "g",
+        "question_text": "List the $x$-value(s) for $-4 < x < 5$ corresponding to the inflection point(s) for $y = f(x)$.\n\nYour answer: \\underline{\\hspace{3cm}}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -1, 0, 3$"
+      },
+      {
+        "label": "h",
+        "question_text": "List the $x$-value(s) for $-4 < x < 5$ where $y = f(x)$ attains a local maximum.\n\nYour answer: \\underline{\\hspace{3cm}}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -2, 1.6$"
+      },
+      {
+        "label": "i",
+        "question_text": "List the $x$-value(s) for $-4 < x < 5$ where $y = f(x)$ attains a local minimum.\n\nYour answer: \\underline{\\hspace{3cm}}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -1, 4.4$"
+      }
+    ],
+    "id": "uw_math_124_wi24_p3",
+    "course": "math_124",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line",
+      "implicit_second_derivative"
+    ],
+    "stem": "Given the curve $$x^{2/3} + y^{2/3} = 5$$ answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Verify that the point $(8, 1)$ is on the curve and find the equation of the tangent line to the curve at this point.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y - 1 = -\\frac{1}{2}(x - 8)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Is the graph concave up or concave down at that point?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "concave up"
+      }
+    ],
+    "id": "uw_math_124_wi24_p4",
+    "course": "math_124",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_curve_graphing",
+      "parametric_first_derivative",
+      "parametric_tangent_line"
+    ],
+    "stem": "Given the parametric curve $$x(t) = t^3 - t + 1, \\quad y(t) = t^2 + 1$$ answer the following questions. A graph is given on the right to help you visualize.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the coordinates of the point where the curve crosses itself, where two different $t$ values give the same point $(x, y)$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A coordinate plane showing a parametric curve. The curve has a self-intersection point (where it crosses itself) slightly to the left of the $y$-axis, creating a loop-like structure. The $x$-axis is labeled with an arrow pointing right, and the $y$-axis is labeled with an arrow pointing up.",
+        "final_answer": "$(1, 2)$",
+        "diagram_image_local": "uw_data/math124/math124_Wi24_images/diagrams/p5_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi24/diagrams/p5_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find equations of the 2 tangent lines at the point where the curve crosses itself.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "At $t = 1$: $y - 2 = x - 1$. At $t = -1$: $y - 2 = -(x - 1)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the coordinates of the points where the tangent lines are vertical.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(-\\frac{2\\sqrt{3}}{9} + 1, \\frac{4}{3}\\right)$ and $\\left(\\frac{2\\sqrt{3}}{9} + 1, \\frac{4}{3}\\right)$"
+      }
+    ],
+    "id": "uw_math_124_wi24_p5",
+    "course": "math_124",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "A pool is 10 meters long, 5 meters wide, 1 meter deep at the shallow end and 4 meters deep at the deep end.\n\nA cross section is shown below:",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The water is drained out of the pool for cleaning at a rate of 0.25 cubic meters per minute. How fast is the water level changing when the depth of the water at the deepest point is 2 meters?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A cross-sectional diagram of the pool showing a trapezoidal shape. The left side (shallow end) is labeled 1 m (vertical height), the right side (deep end) is labeled 4 m (vertical height). The bottom of the pool spans 10 m horizontally. A shaded blue region indicates water partially filling the pool. The diagram shows the slanted bottom/water surface of the pool connecting the shallow and deep ends.",
+        "final_answer": "$\\frac{dy}{dt} = -0.0075$ meters per minute",
+        "diagram_image_local": "uw_data/math124/math124_Wi24_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi24/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_124_wi24_p6",
+    "course": "math_124",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 13,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "geometric_optimization"
+    ],
+    "stem": "Jordan has a backyard with an elliptical pond measuring 6 feet wide horizontally and 4 feet vertically. Find the area of the largest rectangular platform that Jordan can place inside the pond whose corners touch the pond's boundary. \\textit{Hint: Start with writing down an equation of the ellipse centered at the origin.}",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the area of the largest rectangular platform that Jordan can place inside the pond whose corners touch the pond's boundary.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "An illustration showing an ellipse with a horizontal width of 6 feet and a vertical height of 4 feet, centered at the origin. A rectangle is inscribed inside the ellipse with its corners touching the ellipse boundary. The rectangle is centered at the origin and symmetric about both axes. The ellipse width and height are labeled with dimension lines.",
+        "final_answer": "$A = 12$ squared feet",
+        "diagram_image_local": "uw_data/math124/math124_Wi24_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi24/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_wi24_p7",
+    "course": "math_124",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 15,
+    "topic": "curve_analysis",
+    "concepts": [
+      "asymptotes",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "local_extrema",
+      "concavity",
+      "inflection_points"
+    ],
+    "stem": "This problem will work with the function $$f(x) = \\frac{x^2 + x + 1}{x^2}$$ on the domain of all non-zero real numbers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Determine any vertical asymptotes for the curve (show your limit computations).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 0$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine any horizontal asymptotes for the curve (show your limit computations).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 1$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all critical numbers for $f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -2$"
+      },
+      {
+        "label": "d",
+        "question_text": "Find the intervals on which $f(x)$ is increasing and the intervals on which $f(x)$ is decreasing. Determine $x$ and $y$ coordinates of all local minimum(s) and local maximum(s).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Decreasing on $(-\\infty, -2)$ and $(0, \\infty)$. Increasing on $(-2, 0)$. Local minimum at $(-2, -\\frac{3}{4})$"
+      },
+      {
+        "label": "e",
+        "question_text": "Find the intervals on which $f(x)$ is concave up and the intervals on which $f(x)$ is concave down. Find the $x$ and $y$ coordinates of all of the inflection points.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Concave up on $(-3, 0)$ and $(0, \\infty)$. Concave down on $(-\\infty, -3)$. Inflection point at $(-3, \\frac{7}{9})$"
+      }
+    ],
+    "id": "uw_math_124_wi24_p8",
+    "course": "math_124",
+    "exam": "wi24_final"
+  }
+]

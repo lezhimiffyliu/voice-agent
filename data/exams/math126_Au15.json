@@ -1,0 +1,351 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "three_dimensional_coordinate_system",
+      "vector_representation",
+      "dot_product",
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "line_plane_intersection",
+      "parametric_equations_of_lines"
+    ],
+    "stem": "Consider the triangle determined by the three points $P(1,2,3)$, $Q(2,3,0)$, and $R(3,5,1)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Show that these three points form a right triangle.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Yes, the three points form a right triangle since $\\overrightarrow{PQ} = \\langle 1, 1, -3 \\rangle$ and $\\overrightarrow{QR} = \\langle 1, 2, 1 \\rangle$ and $\\overrightarrow{PQ} \\cdot \\overrightarrow{QR} = 0$."
+      },
+      {
+        "label": "b",
+        "question_text": "Give an equation for the plane containing these three points. Write your answer in the form $ax + by + cz = d$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$7x - 4y + z = 2$"
+      },
+      {
+        "label": "c",
+        "question_text": "Give a parametric representation for the intersection of the plane you found in part (b) and the cylinder $x^2 + y^2 = 4$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$r(t) = (2 \\cos t, 2 \\sin t, 2 - 14 \\cos t + 8 \\sin t)$"
+      }
+    ],
+    "id": "uw_math_126_au15_p1",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 8,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "line_plane_intersection",
+      "normal_vector_to_plane"
+    ],
+    "stem": "Consider the two planes $3x - 2y + 3z = 5$ and $4y - 3z = -4$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give a parametric representation of the line of intersection of these two planes.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 1 - 2t, y = -1 + 3t, z = 4t$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the equation of the plane that contains the origin and is perpendicular to the line in part (a).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-2x + 3y + 4z = 0$"
+      }
+    ],
+    "id": "uw_math_126_au15_p2",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "vector_projection",
+      "dot_product",
+      "orthogonality"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Consider the line $\\mathbf{r}(t) = \\langle x_0, y_0, z_0 \\rangle + t(a, b, c)$ passing through the point $P_0(x_0, y_0, z_0)$ and let $P_1(x_1, y_1, z_1)$ be a point not on this line. If $Q(\\bar{x}, \\bar{y}, \\bar{z})$ is the closest point on the line to $P_1$, then\n\ni. $\\langle \\bar{x}, \\bar{y}, \\bar{z} \\rangle = \\langle x_0, y_0, z_0 \\rangle + \\text{Proj}_{(a,b,c)}(x_1 - x_0, y_1 - y_0, z_1 - z_0)$\n\nii. $(x_0 - \\bar{x}, y_0 - \\bar{y}, z_0 - \\bar{z}) \\cdot (x_1 - \\bar{x}, y_1 - \\bar{y}, z_1 - \\bar{z}) = 0$\n\niii. Both (i) and (ii) are true.\n\niv. Neither (i) and (ii) is true.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "iii; (b) i; (c) ii and iv"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $P_0(x_0, y_0, z_0)$ be a point in $\\mathbb{R}^3$ and $\\mathbf{n} = \\langle a, b, c \\rangle$ be a vector in $\\mathbb{R}^3$. Consider the plane $a(x - x_0) + b(y - y_0) + c(z - z_0) = 0$. Then the closest point in the plane to the point $P_1(x_1, y_1, z_1)$ must lie on the line $\\mathbf{r}(t) = \\langle x_1 - ta, y_1 - tb, z_1 - tc \\rangle$.\n\ni. True\n\nii. False",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "c",
+        "question_text": "Let $\\mathbf{v}$ and $\\mathbf{w}$ be two non-zero vectors in $\\mathbb{R}^3$ such that $|\\mathbf{v} \\times \\mathbf{w}| = 0$. Which of the following statements must be true? (Give all correct responses.)\n\ni. $\\mathbf{v} \\cdot \\mathbf{w} = 0$\n\nii. $|\\text{Proj}_{\\mathbf{v}}\\mathbf{w}| = |\\mathbf{w}|$\n\niii. $|\\text{Proj}_{\\mathbf{v}}\\mathbf{w}| = |\\mathbf{v}|$\n\niv. $\\mathbf{v} \\cdot \\mathbf{w} = |\\mathbf{v}| |\\mathbf{w}|$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_126_au15_p3",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 4,
+    "points": 8,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "acceleration_vector",
+      "parametric_equations_of_lines",
+      "closest_point_on_surface"
+    ],
+    "stem": "Consider the cone $z = \\sqrt{x^2 + y^2 + 1}$. Suppose a particle travels along the trajectory $\\mathbf{r}(t) = \\langle 1 - t, 1 - t, 1 \\rangle$, where $t \\geq 0$ represents time. Find the point on the cone that is closest to the particle's position at time $t$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(Your answer should be a point $(x, y, z)$ whose coordinates depend on $t$.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left( \\frac{1-t}{2}, \\frac{1-t}{2}, \\frac{|1-t|}{\\sqrt{2}} + 1 \\right)$"
+      }
+    ],
+    "id": "uw_math_126_au15_p4",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "mass_from_density_2d",
+      "moments_2d"
+    ],
+    "stem": "Find the moment about the $y$-axis of a lamina in the shape of the region in the $xy$-plane enclosed by the curves $y = 0$, $y = x^2$, and $x = 1$ if its density at the point $(x, y)$ is $\\rho(x, y) = e^y$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$M_y = \\frac{1}{2}c - 1$"
+      }
+    ],
+    "id": "uw_math_126_au15_p5",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 14,
+    "topic": "motion_in_space",
+    "concepts": [
+      "vector_valued_functions",
+      "derivatives_of_vector_functions",
+      "tangent_vector",
+      "curvature",
+      "tangential_and_normal_components",
+      "binormal_vector",
+      "normal_plane"
+    ],
+    "stem": "Consider the parametric curve $\\mathbf{r}(t) = \\langle 2 \\cos t, -3 \\sin t, t \\rangle$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "For which values of $t$ does the curve intersect the surface $9x^2 + 4y^2 = 36z^2$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = -1, t = 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Are there any values of $t$ for which the binormal vector to the curve at time $t$ is parallel to the $z$-axis? If so, find them. If not, explain why not.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "No. The binormal vector is parallel to $r'(t) \\times r''(t) = \\langle -3 \\sin t, -2 \\cos t, -6 \\rangle$. This is parallel to the z-axis if and only if it is a constant multiple of $\\langle 0, 0, 1 \\rangle$. This would happen only at a value of $t$ such that $\\sin t = \\cos t = 0$ and there is no such $t$."
+      },
+      {
+        "label": "c",
+        "question_text": "Compute the tangential component of the acceleration for this motion as a function of $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a_T = \\frac{-5 \\sin t \\cos t}{\\sqrt{4 \\sin^2 t + 9 \\cos^2 t + 1}}$"
+      },
+      {
+        "label": "d",
+        "question_text": "For how many values of $t$ is the tangential component of the acceleration equal to $0$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "infinitely many (those values of $t$ such that $\\sin t$ or $\\cos t$ is 0)"
+      }
+    ],
+    "id": "uw_math_126_au15_p6",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 14,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_coordinate_conversion",
+      "graphing_in_polar",
+      "area_in_polar_coordinates",
+      "polar_integral_setup"
+    ],
+    "stem": "Consider the polar curve given by $r = 1 + \\sin(\\theta)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Which is the following curves is the graph of $r = 1 + \\sin(\\theta)$? You need not show any work. (Circle the letter corresponding to your answer.)",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "Four polar curves displayed in a 2x2 grid. (A) shows a curve with a cardioid-like shape with two pointed indentations at the left. (B) shows a curve with a circular bulge on the left side and a narrowing on the right. (C) shows a full cardioid shape with the pointed end at the bottom. (D) shows a more circular curve with slight indentations at the top and bottom. Coordinate axes are shown with cross-hairs at the origin for each graph.",
+        "diagram_bbox": null,
+        "final_answer": "(A)",
+        "diagram_image_local": "uw_data/math126/math126_Au15_images/page-07.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au15/diagrams/page-07.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the area between the $x$-axis and the portion of the curve $r = 1 + \\sin(\\theta)$ that lies below the $x$-axis.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{3\\pi}{4} - 2$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all horizontal tangent lines to the curve $r = 1 + \\sin(\\theta)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 2$ and $y = -\\frac{1}{4}$"
+      }
+    ],
+    "id": "uw_math_126_au15_p7",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "first_order_taylor_polynomial",
+      "second_order_taylor_polynomial",
+      "higher_order_taylor_polynomial",
+      "building_new_series_from_known_series",
+      "power_series_representation"
+    ],
+    "stem": "Find the first four non-zero terms of the Taylor series based at $b = 0$ for",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$$f(x) = e^{x^3} - \\frac{1}{1 + x^2}.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x) = x^2 + x^3 - x^4 + \\frac{3}{5}x^6 + \\ldots$"
+      }
+    ],
+    "id": "uw_math_126_au15_p8",
+    "course": "math_126",
+    "exam": "au15_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "first_order_taylor_polynomial",
+      "second_order_taylor_polynomial",
+      "taylor_series_definition",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = e^x \\sin x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $T_2(x)$, the second Taylor polynomial for $f(x)$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = x + x^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an upper bound for $|f(x) - T_2(x)|$ on the interval $\\left[-\\frac{1}{2}, \\frac{1}{2}\\right]$ and use the methods of this course to justify your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(x) - T_2(x)| < \\frac{1}{6}$ (Uses the bound $|f'''(x)| = |2e^x \\cos x - \\sin x| < 2e^x(2) \\leq 4e^{1/2} < 4\\sqrt{4} = 8$ on $[-\\frac{1}{2}, \\frac{1}{2}]$.)"
+      }
+    ],
+    "id": "uw_math_126_au15_p9",
+    "course": "math_126",
+    "exam": "au15_final"
+  }
+]

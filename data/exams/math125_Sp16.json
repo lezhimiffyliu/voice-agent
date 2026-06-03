@@ -1,0 +1,250 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "indefinite_integrals"
+    ],
+    "stem": "Evaluate the following indefinite integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\frac{\\ln(x)}{x^2} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{\\ln x}{x} - \\frac{1}{x} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\tan^3 t \\, dt$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}\\sec^2 t - \\ln|\\sec t| + C$"
+      }
+    ],
+    "id": "uw_math_125_sp16_p1",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "evaluation_by_antiderivatives"
+    ],
+    "stem": "Evaluate the following definite integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_1^4 \\frac{1}{\\sqrt{y}(2y - \\sqrt{y})} dy$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-2\\ln(2) + 2\\ln(3)$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_{-1}^{-2+\\sqrt{2}} \\frac{\\sqrt{x^2+4x+3}}{x+2} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1 - \\frac{\\pi}{4}$"
+      }
+    ],
+    "id": "uw_math_125_sp16_p2",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "The velocity of a particle moving along the number line is $v(t) = 4t(t^2 - 1)^{1/3}$ ft/sec. The particle starts at position $s(0) = 5$ feet.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the function, $s(t)$, for the position of the particle at time $t$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$s(t) = \\frac{3}{2}(t^2 - 1)^{4/3} + \\frac{7}{2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the **total distance** traveled by the particle from $t = 0$ to $t = 3$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$25.5$ feet"
+      }
+    ],
+    "id": "uw_math_125_sp16_p3",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "vertical_asymptote_integrals",
+      "convergence_of_improper_integrals"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Consider the improper integral $$\\int_1^5 \\frac{dx}{x^2\\sqrt{25-x^2}}$$. Evaluate this integral or explain why it does not converge.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The integral is converges to $\\frac{\\sqrt{24}}{25}$"
+      }
+    ],
+    "id": "uw_math_125_sp16_p4",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dy"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $\\mathcal{A}$ be the region in the first quadrant bounded by $y = x^2$, $y = 25$, and the $y$-axis. Find the value of $m$ with the property that the line $y = mx$ divides $\\mathcal{A}$ into two regions with the same area.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$m = \\frac{15}{2}$"
+      }
+    ],
+    "id": "uw_math_125_sp16_p5",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "washer_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $\\mathcal{R}$ denote the region in the $xy$-plane enclosed by $y = \\sin(x)$ and the $x$-axis, between $x = 0$ and $x = \\pi$. Which solid of revolution has a larger volume: the one obtained by rotating this region $\\mathcal{R}$ around the $x$-axis, or the one obtained by rotating $\\mathcal{R}$ around the $y$-axis? Justify your answer by computing **both volumes**. No credit for guessing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Around the x-axis: $\\frac{\\pi^2}{2}$; Around the y-axis: $2\\pi^2$; The solid obtained by rotating around the y-axis has a larger volume"
+      }
+    ],
+    "id": "uw_math_125_sp16_p6",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A cable that weighs 4 lbs/ft is used to lift a sandbag up a mine shaft 50 feet deep. A small tear in the bag causes sand to leak out at a constant rate as the sandbag is lifted. The sandbag weighs 80 pounds initially and 60 pounds when it gets to the top. How much work is done in total to lift the sandbag and the cable to the top? (Hint: Find the weight of the sandbag as a **linear** function of its height above the ground.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$8500$ foot-pounds"
+      }
+    ],
+    "id": "uw_math_125_sp16_p7",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Solve the initial value problem. Find an explicit formula for $y$ as a function of $x$. $$y' = x^2 + x^2y^2, \\quad y(0) = 1$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\tan\\left(\\frac{1}{3}x^3 + \\frac{\\pi}{4}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_sp16_p8",
+    "course": "math_125",
+    "exam": "sp16_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "exponential_growth_and_decay"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "At 10:07 P.M. you find a secret agent murdered. Next to her is a martini that got shaken before the secret agent could stir it. The room temperature is 70°F. The martini warms from 60°F to 61°F in the 2 minutes from 10:07 P.M. to 10:09 P.M. If the secret agent's martinis are always served at 40°F, what was her time of death, to the nearest minute? Recall that Newton's Law of Cooling states that the rate of change of the temperature of the martini is proportional to the temperature difference between the martini and its surroundings.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "At 9:46 pm"
+      }
+    ],
+    "id": "uw_math_125_sp16_p9",
+    "course": "math_125",
+    "exam": "sp16_final"
+  }
+]

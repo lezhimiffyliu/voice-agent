@@ -1,0 +1,403 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 14,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "trig_limits",
+      "limits_at_infinity"
+    ],
+    "stem": "Determine each of the following limits. If there is no finite limit, write $\\infty$, $-\\infty$, or DNE (does not exist), whichever applies.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "lim $\\lim_{x \\to 0} \\frac{\\cos(3x) - 1}{x^2}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{9}{2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "lim $\\lim_{x \\to 0^+} \\frac{e^x + e^{-x}}{e^x - e^{-x}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\infty$"
+      },
+      {
+        "label": "c",
+        "question_text": "lim $\\lim_{x \\to \\infty} (\\ln(2x + 1) - \\ln(x + 1))$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln 2$"
+      }
+    ],
+    "id": "uw_math_124_au22_p1",
+    "course": "math_124",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "derivative_rules",
+    "concepts": [
+      "product_rule",
+      "quotient_rule",
+      "chain_rule",
+      "exponential_derivatives",
+      "logarithmic_derivatives",
+      "trig_derivatives"
+    ],
+    "stem": "Find the derivatives of the following functions. You do not have to simplify.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f(x) = \\frac{\\arctan(2x) + x^2}{e^{3x}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{e^{3x}\\left(\\frac{2}{1+4x^2} + 2x\\right) - 3e^{3x}(\\arctan(2x) + x^2)}{e^{6x}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$g(x) = \\sin(x^4 + e^{x^2+x})$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\cos(x^4 + e^{x^2+x}) \\cdot \\left(4x^3 + e^{x^2+x}(2x+1)\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "$h(x) = \\ln(x) \\cdot \\arctan(4x^2) - \\sqrt{x^2 + x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(x) = \\frac{1}{x} \\cdot \\arctan(4x^2) \\cdot \\sqrt{x^2 + x + \\ln(x)} - \\frac{8x}{1 + 16x^4} \\cdot \\frac{2x+1}{2\\sqrt{x^2+x}} + \\ln(x) \\cdot \\arctan(4x^2) \\cdot \\sqrt{x^2 + x}$"
+      }
+    ],
+    "id": "uw_math_124_au22_p2",
+    "course": "math_124",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "chain_rule",
+      "first_derivative_test",
+      "increasing_decreasing_intervals",
+      "limits_at_infinity"
+    ],
+    "stem": "Answer the questions based on the graph of $f(x)$ given on the right. The domain of $f$ is the set of all numbers.\n\nLet $g(x) = f(f(x))$ and let $h(x) = (f(x))^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $f'(2.5)$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A graph of $y = f(x)$ on a coordinate plane with x-axis ranging from approximately -1 to 7 and y-axis from approximately -2 to 4. The curve starts in the upper left around coordinates (-1, 3), decreases smoothly, reaches a minimum around (3, -1), then increases toward the right. The curve appears piecewise smooth with a corner or cusp visible. Key features: the function passes through or near (0, 2), has a local minimum around (3, -1), and continues upward to the right.",
+        "final_answer": "$f'(2.5) = -1$",
+        "diagram_image_local": "uw_data/math124/math124_Au22_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au22/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute $g'(5)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(5) = -\\frac{1}{2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all critical numbers for $g(x)$. Is $g$ differentiable everywhere?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 3, -1, 11$"
+      },
+      {
+        "label": "d",
+        "question_text": "Compute $\\lim_{x \\to 0} \\frac{g(x)}{x}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1$"
+      },
+      {
+        "label": "e",
+        "question_text": "Find the intervals where $h$ is increasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(2, 3)$ and $(5, \\infty)$"
+      }
+    ],
+    "id": "uw_math_124_au22_p3",
+    "course": "math_124",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "linear_approximation",
+    "concepts": [
+      "linearization",
+      "tangent_line_approximation",
+      "error_estimation"
+    ],
+    "stem": "Consider the curve defined by the equation $y = x^{2y}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Confirm that $(1,1)$ is on the curve.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Through linearization approximate the $y$-coordinate on the curve when $x = 1.05$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y \\approx 1.1$"
+      },
+      {
+        "label": "c",
+        "question_text": "Is this an overestimate or an underestimate? Justify your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "underestimate"
+      }
+    ],
+    "id": "uw_math_124_au22_p4",
+    "course": "math_124",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 11,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_first_derivative",
+      "parametric_tangent_line",
+      "parametric_motion",
+      "parametric_curve_graphing"
+    ],
+    "stem": "Consider the parametric curve defined by the equations\n$$x(t) = t^2$$\n$$y(t) = t^3 + 2t^2 - t$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the slopes of the tangent lines to the curve at $t = -1$ and at $t = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$m_1 = 3, m_{-1} = 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "The curve crosses itself at the point where $t = -1$ and $t = 1$. What is this point?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1, 2)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Suppose we zoom in on the curve at the point from part (b). Which of the following pictures most resembles what the curve looks like near this point? Explain using derivatives why you chose your answer.\n\nPICTURE A\n\nPICTURE B\n\nPICTURE C",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "Three pictures labeled PICTURE A, PICTURE B, and PICTURE C showing different curve configurations at an intersection point. PICTURE A shows two curves crossing at a shallow angle with one line steeper than the other. PICTURE B shows two curves crossing at right angles, forming an X shape with perpendicular-looking tangent lines. PICTURE C shows two curves crossing at a shallow angle, similar to PICTURE A but with different orientation.",
+        "final_answer": "first picture with both slopes positive",
+        "diagram_image_local": "uw_data/math124/math124_Au22_images/diagrams/p5_c.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au22/diagrams/p5_c.png"
+      },
+      {
+        "label": "d",
+        "question_text": "For the picture you chose in part (c), draw arrows on the picture to indicate the direction the curve is traced as $t$ increases. Use the values of $dx/dt$ and $dy/dt$ when $t = -1$ and $t = 1$ to explain your answer.",
+        "depends_on": "c",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "steeper piece: up and right; other piece: down and left"
+      }
+    ],
+    "id": "uw_math_124_au22_p5",
+    "course": "math_124",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "Retta runs at a speed of 4 meters per second around a circular track of radius 50 meters.\n\nAt the center of the track is a lightbulb, and 10 meters away from the track is a wall.\n\nWhen Retta is 35 meters from the wall, how fast is her shadow moving along the wall?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Retta runs at a speed of 4 meters per second around a circular track of radius 50 meters.\n\nAt the center of the track is a lightbulb, and 10 meters away from the track is a wall.\n\nWhen Retta is 35 meters from the wall, how fast is her shadow moving along the wall?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A diagram showing a circular track with radius 50 meters centered at a lightbulb (marked with a sun-like symbol). Retta is shown at a point on the track labeled 'Retta'. A vertical wall is drawn to the right, 10 meters away from the rightmost point of the track (total distance from center to wall is 60 meters). A line labeled 'shadow' extends from the lightbulb through Retta to the wall, indicating the shadow cast by the lightbulb. The diagram shows the geometric configuration: the circular track of radius 50m is on the left, the wall is on the right, and the distance between the track edge and wall is labeled as 10m.",
+        "final_answer": "$\\frac{dx}{dt} = 19.2$",
+        "diagram_image_local": "uw_data/math124/math124_Au22_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au22/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_124_au22_p6",
+    "course": "math_124",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 11,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "related_rates",
+      "geometric_optimization",
+      "optimization_verification"
+    ],
+    "stem": "Copper is standing at the westernmost point of the lake with radius 120 meters when he spots a duck across. To get to the duck, he can swim or run around the lake. He swims at a speed of 6 meters per second and runs at a rate of 12 meters per second. If he swims to point $B$ in a straight line and runs around the lake from $B$ to $C$, find the angle $\\theta$ shown which will minimize his time to reach the duck. Make sure you justify using calculus why the answer you found gives the minimum time.\n\nNote: The picture is not to scale.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Copper is standing at the westernmost point of the lake with radius 120 meters when he spots a duck across. To get to the duck, he can swim or run around the lake. He swims at a speed of 6 meters per second and runs at a rate of 12 meters per second. If he swims to point $B$ in a straight line and runs around the lake from $B$ to $C$, find the angle $\\theta$ shown which will minimize his time to reach the duck. Make sure you justify using calculus why the answer you found gives the minimum time.\n\nNote: The picture is not to scale.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A circular lake with radius 120 meters shown in light blue. Point A is at the westernmost point (left side). Point C is at the easternmost point (right side) where the duck is located. Point B is on the circle between A and C. A chord connects A to B (the swimming path). An arc goes from B to C along the circle (the running path). An angle $\\theta$ is marked at the center of the circle, indicating the angle subtended by the arc BC.",
+        "final_answer": "run and not get wet at all",
+        "diagram_image_local": "uw_data/math124/math124_Au22_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au22/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_au22_p7",
+    "course": "math_124",
+    "exam": "au22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 15,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "local_extrema",
+      "increasing_decreasing_intervals",
+      "concavity",
+      "inflection_points",
+      "asymptotes",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = -\\frac{1}{6}x^2 + x - \\frac{2}{3} \\ln x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the domain of the function $f(x)$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x > 0$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the horizontal and vertical asymptotes of $f(x)$, if any.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "vertical asymptote: $x = 0$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the critical numbers of $f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 1, 2$"
+      },
+      {
+        "label": "d",
+        "question_text": "Find the intervals where $f(x)$ is increasing and the intervals where $f(x)$ is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "increasing on $(1, 2)$; decreasing on $(0, 1)$ and $(2, \\infty)$"
+      },
+      {
+        "label": "e",
+        "question_text": "Find the local maximum and the local minimum values of $f(x)$ (round your answer to 2 decimal places).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "min at $(1, 0.83)$; max at $(2, 0.87)$"
+      },
+      {
+        "label": "f",
+        "question_text": "Find the intervals of concavity and the inflection points of $f(x)$ (for inflection points, round your answer to 2 decimal places).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "concave up on $(0, \\sqrt{2})$; concave down on $(\\sqrt{2}, \\infty)$; inflection point at $(\\sqrt{2}, f(\\sqrt{2})) \\approx (1.41, 0.85)$"
+      },
+      {
+        "label": "g",
+        "question_text": "Sketch the graph of $y = f(x)$ on the axis provided below. Be sure to include asymptotes in your picture as well as to mark the coordinates of critical and inflection points.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A blank coordinate grid with x-axis ranging from 0 to 2.5 and y-axis ranging from 0.8 to 0.9. The grid has light dashed lines for reference. This is where the student should sketch the curve of $f(x) = -\\frac{1}{6}x^2 + x - \\frac{2}{3} \\ln x$.",
+        "final_answer": "graph shown",
+        "diagram_image_local": "uw_data/math124/math124_Au22_images/diagrams/p8_g.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au22/diagrams/p8_g.png"
+      }
+    ],
+    "id": "uw_math_124_au22_p8",
+    "course": "math_124",
+    "exam": "au22_final"
+  }
+]

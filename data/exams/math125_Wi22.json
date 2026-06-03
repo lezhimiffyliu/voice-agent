@@ -1,0 +1,362 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "trigonometric_integrals"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int x \\tan^2 x \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x \\tan x - \\ln |\\sec x| - \\frac{1}{2}x^2 + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_{-2}^{4} |x + 1| \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$13$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p1",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "algebraic_substitution_setup"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\frac{1}{1 + x^{2/3}} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3\\sqrt{x} - 3\\arctan\\sqrt{x} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int x \\sqrt{5 + 4x - x^2} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{3}(5+4x-x^2)^{3/2} + 9\\arcsin\\left(\\frac{x-2}{3}\\right) + (x-2)\\sqrt{5+4x-x^2} + C$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p2",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral",
+      "average_value_of_a_function",
+      "accumulation_functions"
+    ],
+    "stem": "The following graph depicts a function $r(t)$ that gives the rate of flow of water into a tank, measured in gallons per minute. At time $t = 0$ minutes, the tank contains 100 gallons of water.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the maximum amount of water in the tank at any time? Show work/justify.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A piecewise linear graph showing $r$ (gal/min) on the y-axis ranging from approximately -20 to 20, and $t$ (min) on the x-axis ranging from 0 to 8. The graph starts at (0, 10), increases linearly to (2, 20), decreases linearly to (4, -20), remains constant at -20 from (4, 5), then increases linearly to (8, 10).",
+        "final_answer": "$135 \\text{ gal}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi22_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi22/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "At which time(s) is the amount of water in the tank decreasing the fastest?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$t = 4 \\text{ to } t = 5 \\text{ minutes}$"
+      },
+      {
+        "label": "c",
+        "question_text": "At which time(s) does the tank have the least amount of water in it?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\text{at } t = 7 \\text{ minutes}$"
+      },
+      {
+        "label": "d",
+        "question_text": "What is the average rate of flow of water into the tank over the first 4 minutes? Show work.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{25}{4} \\text{ gal/min}$"
+      },
+      {
+        "label": "e",
+        "question_text": "Let $f(x) = \\int_{1}^{x^2} r(t) \\, dt$. Find $f'(2)$, showing your steps.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-80$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p3",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "distance_and_force_setup",
+      "net_change_from_integral"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A high-speed bullet train travels between two consecutive stations that are 30 km apart. Find the time it takes the train to travel between these two stations, if the train starts at rest at the first station, accelerates at 10 km/min² until it reaches its maximum cruising speed of 3 km/min, drives at that speed for as long as possible, then decelerates at 5 km/min² in time to stop at the second station.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$10.45 \\text{ min}$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p4",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "cross_sections",
+      "work"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up (but DO NOT EVALUATE) an integral for the total weight, in pounds, of the limestone needed to build the pyramid.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A square pyramid with a height indicated by a vertical dashed line from the apex to the base center, labeled as 60 ft. The base is a square with sides labeled 100 ft on two adjacent sides.",
+        "final_answer": "$175\\int_0^{60}\\left(\\frac{25}{3}\\right)^2 dy$ or $175\\int_0^{60}\\left(\\frac{25}{9}(60-y)^2\\right) dy$",
+        "diagram_image_local": "uw_data/math125/math125_Wi22_images/diagrams/p5_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi22/diagrams/p5_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up (but DO NOT EVALUATE) an integral for the work, in foot-pounds, needed to raise the limestone to the required height to build the pyramid, assuming all limestone starts in a quarry that is 150 feet below the base of the pyramid.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A pyramid with a vertical dashed line from the apex to the base. The base is a square with sides labeled 100 ft. Below the base, a vertical line segment is labeled 150 ft indicating the distance to the Quarry.",
+        "final_answer": "$W = \\int_0^{60} 175\\left(\\frac{25}{9}y^2\\right)(210-y) dy$ or $W = \\int_0^{60} 175\\left(\\frac{25}{9}(60-y)^2\\right)(150+y) dy$ or $W = \\int_{150}^{210} 175\\left(\\frac{25}{9}(210-y)^2\\right)(y) dy$",
+        "diagram_image_local": "uw_data/math125/math125_Wi22_images/diagrams/p5_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi22/diagrams/p5_b.png"
+      }
+    ],
+    "id": "uw_math_125_wi22_p5",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_x",
+      "area_between_curves_dx"
+    ],
+    "stem": "The region in the first quadrant to the right of the y-axis, above the curve $y = 5x^2$, and below the curve $y = x^2 + 1$ is rotated around the y-axis to form a solid of revolution.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up a definite integral for the volume of this solid using the method of cylindrical shells, and evaluate the integral to compute the volume.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{8}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Using the washers/disks method, write the volume of this solid in terms of definite integrals. DO NOT EVALUATE the integrals.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\pi\\int_0^{5/4}\\left(\\frac{y}{5}\\right)^2 dy + \\pi\\int_1^{5/4}\\left(\\sqrt{y-1}\\right)^2 dy$ or $\\pi\\int_0^{5/4}\\left(\\frac{y}{5}\\right)^2 dy - \\pi\\int_1^{5/4}(y-1) dy$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p6",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup",
+      "numerical_integration_trapezoidal_rule"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up a definite integral for the arclength of the curve $y = \\sin(2x)$ for $0 \\le x \\le \\pi/4$. DO NOT EVALUATE THIS INTEGRAL.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$L = \\int_0^{\\pi/4}\\sqrt{1 + 4\\cos^2(2x)} dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "Approximate the integral in part (a) using the Trapezoid Rule with $n = 3$ subintervals. Simplify your answer, but leave it in exact form, as an expression in terms of $\\pi$ and square roots, evaluating all trig functions.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{24}\\left[\\sqrt{5} + 2\\sqrt{2} + 5\\right]$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p7",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "The region shown below is bounded by the curves $y = \\sec(x) \\tan(x)$ and $y = \\sqrt{2}$, for $0 \\le x \\le \\pi/4$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the y-coordinate, $\\bar{y}$, for the center of mass of a thin lamina of uniform density occupying this region. Show all work and box your answer. Give your answer in decimal form, rounded to 2 decimal digits.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A coordinate plane with x and y axes. A shaded region is shown in the first quadrant, bounded above by the curve $y = \\sqrt{2}$ (a horizontal line) and below by the curve $y = \\sec(x)\\tan(x)$ (a curve that increases from left to right). The region is to the right of the y-axis and the curves intersect at the right boundary.",
+        "final_answer": "$0.89$",
+        "diagram_image_local": "uw_data/math125/math125_Wi22_images/diagrams/p8.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi22/diagrams/p8.png"
+      }
+    ],
+    "id": "uw_math_125_wi22_p8",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Solve the following differential equation, subject to the stated initial value. Show all steps, and give your answer in explicit form, $y = f(x)$.\n\n$(x^2 - 2x)y' = (x - 4)y, \\quad y(1) = -3$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\frac{3x^2}{2-x} = \\frac{3x^2}{x-2}$ for $x < 2$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p9",
+    "course": "math_125",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations"
+    ],
+    "stem": "A large vat contains 10 liters of brine (salt dissolved in water). More brine is pumped into the vat at a rate of 2 liters per hour. The incoming brine solution contains 3 grams of salt per liter. The solution in the vat is kept thoroughly mixed and is drained from the vat at a rate of 2 liters per hour.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up a differential equation for the amount $y = y(t)$ of grams of salt in the vat at $t$ hours. Do not solve yet.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dt} = 6 - \\frac{y}{5}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Denote by $y_0$ the intial amount of salt in the vat, in grams, at time $t = 0$ hours. Solve the differential equation to find $y(t)$. Your answer will include the unknown constant $y_0$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 30 - (30-y_0)e^{-t/5}$ or $y = 30 + (y_0 - 30)e^{-t/5}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Suppose that after 4 hours, the concentration of the salt in the vat is 4 grams per liter. What was the initial concentration of the salt in the vat (in grams per liter)?",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$5.23 \\text{ g/L}$"
+      }
+    ],
+    "id": "uw_math_125_wi22_p10",
+    "course": "math_125",
+    "exam": "wi22_final"
+  }
+]

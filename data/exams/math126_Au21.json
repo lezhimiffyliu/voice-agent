@@ -1,0 +1,314 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 15,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "dot_product",
+      "cross_product",
+      "vector_operations",
+      "magnitude_and_direction"
+    ],
+    "stem": "Suppose a and b are nonzero vectors in $\\mathbb{R}^3$. Decide whether each of the following statements is **always true**, **sometimes true**, or **never true**. (Circle one.)\nIf your answer is **always** or **never**, briefly explain why (one sentence is enough).\nIf your answer is **sometimes**, give an example where it's true and an example where it's false.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\mathbf{a} \\cdot \\mathbf{a} > 0$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Always"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\mathbf{a} \\times \\mathbf{b} = 2\\mathbf{a}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Never"
+      },
+      {
+        "label": "c",
+        "question_text": "$|\\mathbf{a} \\times \\mathbf{b}| = \\mathbf{a} \\cdot \\mathbf{b}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Sometimes"
+      },
+      {
+        "label": "d",
+        "question_text": "$\\text{comp}_{\\mathbf{a}}\\mathbf{b} > |\\mathbf{b}|$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Never"
+      },
+      {
+        "label": "e",
+        "question_text": "$\\text{proj}_{\\mathbf{a}}\\mathbf{b} = \\mathbf{b}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Sometimes"
+      }
+    ],
+    "id": "uw_math_126_au21_p1",
+    "course": "math_126",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "vector_functions_definition",
+      "space_curves",
+      "tangent_vector",
+      "parametrization_of_curves"
+    ],
+    "stem": "Consider the vector function $\\mathbf{r}(t) = (3\\cos(t) + 1, 4\\cos(t) + 2, 5\\sin(t) + 7)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "The space curve for $\\mathbf{r}(t)$ lies in a plane. Find the equation of that plane.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4x + 2 = 3y$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find parametric equations for the line tangent to $\\mathbf{r}(t)$ at $(1, 2, 2)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 1 + 3t$, $y = 2 + 4t$, $z = 2$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $\\mathbf{T}(t)$, the unit tangent vector to $\\mathbf{r}(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\vec{T}(t) = \\langle -\\frac{3}{5}\\sin t, -\\frac{4}{5}\\sin t, \\cos t \\rangle$"
+      }
+    ],
+    "id": "uw_math_126_au21_p2",
+    "course": "math_126",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 14,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Consider the function $f(x, y) = xy - xy^3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find all the critical points of $f$ on $\\mathbb{R}^2$ and classify each critical point.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The critical points $(0,0)$ and $(0,\\pm 1)$ are saddle points."
+      },
+      {
+        "label": "b",
+        "question_text": "Find the absolute maximum and minimum values of $f$ on the triangular region bounded by the lines $y = x$, $y = 1$ and $x = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "the absolute maximum value is $f(\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}) = 1/4$; the absolute minimum value is $f(0,y) = f(x,1) = 0$."
+      }
+    ],
+    "id": "uw_math_126_au21_p3",
+    "course": "math_126",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 8,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "implicit_partial_differentiation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find $\\frac{\\partial z}{\\partial x}$ if $x, y, z$ are related by the implicit equation\n$$x \\sin z + e^{xy} = z.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\partial z}{\\partial x} = \\frac{\\sin z + ye^{xy}}{1 - x\\cos z}$"
+      }
+    ],
+    "id": "uw_math_126_au21_p4",
+    "course": "math_126",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 14,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "changing_order_of_integration"
+    ],
+    "stem": "Compute the following integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\displaystyle \\int_0^1 \\int_0^{\\cos^{-1}(y)} \\sin(\\sin(x)) \\, dx \\, dy$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1 - \\cos(1)$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\displaystyle \\int_0^1 \\int_x^{\\sqrt{2-x^2}} e^{x^2 + y^2} \\, dy \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{8}(e^2 - 1)$"
+      }
+    ],
+    "id": "uw_math_126_au21_p5",
+    "course": "math_126",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "mass_from_density_2d",
+      "center_of_mass_2d",
+      "moments_2d"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A lamina occupies the rectangle $\\mathcal{R} = [0, 4] \\times [0, 2]$. Find its center of mass if the density at each point is given by the function $\\rho(x, y) = x + y^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\bar{x}, \\bar{y}) = (\\frac{12}{5}, \\frac{6}{5})$"
+      }
+    ],
+    "id": "uw_math_126_au21_p6",
+    "course": "math_126",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 15,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "first_order_taylor_polynomial",
+      "second_order_taylor_polynomial",
+      "higher_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "For all parts, consider $f(x) = \\ln(x + 2)$ based at $b = 1$. **(NOT based at zero!)**",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the third Taylor polynomial, $T_3(x)$, for $f(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_3(x) = \\ln 3 + \\frac{1}{3}(x-1) - \\frac{1}{18}(x-1)^2 + \\frac{1}{81}(x-1)^3$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use Taylor's inequality to find an upper bound (as sharp as possible) for the error $|f(x) - T_2(x)|$ on the interval $[-0.5, 2.5]$, where $T_2(x)$ is the second Taylor polynomial of $f(x)$ centered at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the smallest value of $n$ such that Taylor's inequality guarantees that the error $|f(x) - T_n(x)| < 0.02$ for all $x$ in the interval $[-0.5, 2.5]$, where $T_n(x)$ is the $n$th Taylor polynomial of $f(x)$ centered at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$n \\geq 50$"
+      }
+    ],
+    "id": "uw_math_126_au21_p7",
+    "course": "math_126",
+    "exam": "au21_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series",
+      "power_series_representation"
+    ],
+    "stem": "Consider the function $f(x) = x\\sin(x^2)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series of $f(x) = x\\sin(x^2)$ based at $b = 0$. Use the sigma sum notation $\\displaystyle\\sum_{k=...}$ to express the Taylor series.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} (-1)^k \\frac{x^{4k+3}}{(2k+1)!}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the series found in (a) to find $f^{(507)}(0)$ (i.e., the 507th order derivative of $f$ at $0$).",
+        "depends_on": [
+          "a"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f^{(507)}(0) = \\frac{507!}{253!}$"
+      }
+    ],
+    "id": "uw_math_126_au21_p8",
+    "course": "math_126",
+    "exam": "au21_final"
+  }
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "multivariable_functions",
+    "concepts": [
+      "critical_points_multivariable",
+      "tangent_planes_and_differentials",
+      "dot_product",
+      "cross_product",
+      "vector_operations"
+    ],
+    "stem": "Indicate whether each of the following is True or False. You do not need to explain your answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Suppose the linear approximation of a function $z = f(x, y)$ at the point $(2, -3, 5)$ is $L(x, y) = 5$. Then $(2, -3)$ is a critical point of $f(x, y)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "b",
+        "question_text": "The set of points $\\{(x, y, z) : x^2 + y^2 = 4\\}$ is a circle.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "c",
+        "question_text": "The dot product $\\text{proj}_{\\mathbf{v}} \\mathbf{u} \\cdot \\mathbf{u}$ is zero for any two vectors $\\mathbf{u}$ and $\\mathbf{v}$ in $\\mathbb{R}^3$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "d",
+        "question_text": "The line $\\mathbf{r}(t) = \\langle 3-4t, 5-6t, -2+t \\rangle$ is parallel to the plane $-4x-6y+z-10 = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "e",
+        "question_text": "The cross product of any two nonzero vectors is always nonzero.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "f",
+        "question_text": "There is a function $g(x, y)$ such that $g_x(x, y) = x + 4y$ and $g_y(x, y) = 3x - y$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "g",
+        "question_text": "If $D$ is the domain given by $x^2 + y^2 \\leq 1$, then $\\int \\int_D \\sqrt{1 - x^2 - y^2} dA < \\pi$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "h",
+        "question_text": "Let $f(x, y) = x^3 - 3xy - y^3 + 10$. Then $f$ has a saddle point at $(0, 0)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "i",
+        "question_text": "If $z = f(x, y)$ has a minimum value at $(a, b)$, then $f_x(a, b) = f_y(a, b) = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "j",
+        "question_text": "Let $\\mathbf{r}(t)$ be a vector function. Then the unit normal vector $\\mathbf{N}(t)$ is equal to $\\mathbf{T}(t) \\times \\mathbf{B}(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      }
+    ],
+    "id": "uw_math_126_au11_p1",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "angle_between_vectors",
+      "line_plane_intersection"
+    ],
+    "stem": "Let $P_1$ be the plane $x + y + z = 3$ and $P_2$ be the plane $x - 2y + 4z = 0$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the angle between these two planes.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos^{-1}\\left(\\frac{1}{\\sqrt{7}}\\right)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the distance from the point $(1, 2, 3)$ to the plane $P_1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt{3}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Again, $P_1$ is the plane $x + y + z = 3$ and $P_2$ is the plane $x - 2y + 4z = 0$. Find a linear equation for the plane that contains the point $(1, 2, 3)$ and the line of intersection of $P_1$ and $P_2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2x + 5y - z = 9$"
+      }
+    ],
+    "id": "uw_math_126_au11_p2",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "speed",
+      "acceleration_vector",
+      "tangential_and_normal_components",
+      "curvature",
+      "vector_valued_functions"
+    ],
+    "stem": "A particle is moving along a curve $C$ in 3-dimensional space with position vector\n$$\\mathbf{r}(t) = \\langle t, f(t), g(t) \\rangle, \\quad t \\geq 0,$$\nfor some differentiable functions $f(t)$ and $g(t)$.\n\nIt is indicated by some experimental data that\n\n- the initial position of the particle is at the origin $(0, 0, 0)$;\n- the velocity vector of the particle is orthogonal to the vector $(2, 1, 0)$ for any $t \\geq 0$; and\n- the particle is moving on the surface $z = 2x^2 + y^2$ (this surface is an elliptic paraboloid). That is, the entire curve $C$ is on this surface.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the functions $f(t)$ and $g(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(t) = -2t$ and $g(t) = 6t^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the tangential and normal components of the acceleration for any $t \\geq 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a_T = \\frac{144t}{\\sqrt{5 + 144t^2}}$ and $a_N = \\frac{12\\sqrt{5}}{\\sqrt{5 + 144t^2}}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the curvature $\\kappa(t)$ of $\\mathbf{r}(t)$ at any $t \\geq 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(t) = \\frac{12\\sqrt{5}}{(5 + 144t^2)^{3/2}}$"
+      }
+    ],
+    "id": "uw_math_126_au11_p3",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 8,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "heat_equation"
+    ],
+    "stem": "Consider\n$$f(x, t) = \\frac{1}{\\sqrt{2\\pi t}} e^{-x^2/2t}, \\quad \\text{for all } t > 0, \\, -\\infty < x < \\infty.$$",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Show that\n$$f_t(x, t) = \\frac{1}{2} f_{xx}(x, t).$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f_t(x,t) = -\\frac{1}{2\\sqrt{2\\pi t^3}}e^{-x^2/2t} + \\frac{x^2}{2\\sqrt{2\\pi t^5}}e^{-x^2/2t}$ and $f_{xx}(x,t) = -\\frac{1}{\\sqrt{2\\pi t^3}}e^{-x^2/2t} + \\frac{x^2}{\\sqrt{2\\pi t^5}}e^{-x^2/2t} = 2f_t(x,t)$"
+      }
+    ],
+    "id": "uw_math_126_au11_p4",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 9,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "total_differential",
+      "differentials_interpretation"
+    ],
+    "stem": "The dimensions of a closed rectangular box are measured as 80 cm, 60 cm, and 20 cm respectively, with a possible error of 0.2 cm in each dimension. Use differentials to estimate the maximum error in calculating the surface area of the box.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The dimensions of a closed rectangular box are measured as 80 cm, 60 cm, and 20 cm respectively, with a possible error of 0.2 cm in each dimension. Use differentials to estimate the maximum error in calculating the surface area of the box.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$128\\text{ cm}^2$"
+      }
+    ],
+    "id": "uw_math_126_au11_p5",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "global_extrema_multivariable",
+      "optimization_with_constraints"
+    ],
+    "stem": "An aquarium is an open-topped, rectangular box. The base of the aquarium is made of slate while the sides are made of glass. Slate costs five times as much (per unit area) as glass. Find the dimensions of the aquarium with fixed volume $V$ that minimize the cost of the material. (For full credit, you must show some work or write a few sentences that demonstrate that the dimensions you find give the minimum cost.)",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "An aquarium is an open-topped, rectangular box. The base of the aquarium is made of slate while the sides are made of glass. Slate costs five times as much (per unit area) as glass. Find the dimensions of the aquarium with fixed volume $V$ that minimize the cost of the material. (For full credit, you must show some work or write a few sentences that demonstrate that the dimensions you find give the minimum cost.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The dimensions of the base are $x = y = \\left(\\frac{2V}{5}\\right)^{1/3}$ and the height is $z = \\left(\\frac{25V}{4}\\right)^{1/3}$"
+      }
+    ],
+    "id": "uw_math_126_au11_p6",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 14,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "changing_order_of_integration",
+      "applications_of_double_integrals",
+      "mass_from_density_2d"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Sketch the region of integration and change the order of integration:\n$$\\int_1^e \\int_{\\ln x}^{-x+(1+e)} f(x, y) \\, dy \\, dx.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_1^e \\int_{\\ln x}^{x+(1+e)} f(x,y) dy dx = \\int_0^1 \\int_1^{e^y} f(x,y) dx dy + \\int_1^e \\int_1^{-y+(1+e)} f(x,y) dx dy$"
+      },
+      {
+        "label": "b",
+        "question_text": "A lamina occupies the region $D = \\{(x, y) : x^2 + y^2 \\leq 25, y \\geq x\\}$ and has density $\\rho(x, y) = e^{-\\sqrt{x^2+y^2}}$. Find the mass of the lamina.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1 - 6e^{-5})\\pi$"
+      }
+    ],
+    "id": "uw_math_126_au11_p7",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = 4x^2 - 5x + \\ln(3x)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial $T_2(x)$ for $f(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = -1 + \\ln 3 + 4(x-1) + \\frac{7}{2}(x-1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $a$ be a real number such that $0 < a < 1$ and let $J$ be the closed interval $[1-a, 1+a]$. Use the Quadratic Approximation Error Bound to find an upper bound for the error $|f(x) - T_2(x)|$ on the interval $J$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(x) - T_2(x)| \\leq \\frac{a^3}{3(1-a)^3}$ (other answers are possible)"
+      },
+      {
+        "label": "c",
+        "question_text": "Find a value of $a$ such that $|f(x) - T_2(x)| \\leq 0.01$ for all $x$ in $J = [1-a, 1+a]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a = 0.237$ (other answers are possible)"
+      }
+    ],
+    "id": "uw_math_126_au11_p8",
+    "course": "math_126",
+    "exam": "au11_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "Let $g(x) = \\frac{1}{5x-2} + \\frac{1}{3-7x}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $g(x)$ based at 0. Write the series using one $\\Sigma$ sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty}\\left(\\frac{7^k}{3^{k+1}} - \\frac{5^k}{2^{k+1}}\\right)x^k$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the interval on which the series in (a) converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{2}{5} < x < \\frac{2}{5}$"
+      }
+    ],
+    "id": "uw_math_126_au11_p9",
+    "course": "math_126",
+    "exam": "au11_final"
+  }
+]

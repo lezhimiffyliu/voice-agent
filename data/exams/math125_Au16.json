@@ -1,0 +1,318 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "trigonometric_integrals",
+    "concepts": [
+      "powers_of_tangent_and_secant",
+      "trig_identity_rewriting"
+    ],
+    "stem": "(10 total points) Evaluate the following definite integrals. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_0^{\\pi/4} \\tan^2 \\theta \\sec^4 \\theta \\, d\\theta$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{8}{15}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_0^1 x^2 \\arcsin(x) \\, dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{6} - \\frac{2}{9}$"
+      }
+    ],
+    "id": "uw_math_125_au16_p1",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "algebraic_substitution_setup"
+    ],
+    "stem": "(10 points) Evaluate the following indefinite integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\sqrt{10x - x^2} \\, dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{25}{2}\\arcsin\\left(\\frac{x-5}{5}\\right) + \\frac{1}{2}(x-5)\\sqrt{10x-x^2} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\frac{x-1}{x^3 + x} \\, dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\ln|x| + \\frac{1}{2}\\ln(x^2+1) + \\arctan(x) + C$"
+      }
+    ],
+    "id": "uw_math_125_au16_p2",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "infinite_interval_integrals",
+      "convergence_of_improper_integrals",
+      "divergence_of_improper_integrals"
+    ],
+    "stem": "Consider the infinite region in the first quadrant of the xy-plane, above the line $y = 1$, and to the left of the curve $$y = \\frac{1}{\\sqrt{x}}$$",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Rotate this region about the y-axis, and determine whether the volume of the resulting solid is finite or infinite. If it is finite, find the volume. If it is infinite, explain why.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{3}$"
+      }
+    ],
+    "id": "uw_math_125_au16_p3",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "area_between_two_curves_dx"
+    ],
+    "stem": "(10 total points) The figure on the right shows a region bounded to the left by the line $x = t$, to the right by $x = 2t$, on the top by the curve $y = \\ln(x^2 + 1)$, and on the bottom by the x-axis.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up an integral for the area $A(t)$ of this region. DO NOT EVALUATE the integral.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A shaded region in the first quadrant. The x-axis is labeled with points $t$ and $2t$. A curve labeled $y = \\ln(x^2+1)$ forms the top boundary of the region. Vertical lines at $x = t$ and $x = 2t$ form the left and right boundaries. The region between these boundaries and below the curve is shaded.",
+        "final_answer": "$A(t) = \\int_t^{2t} \\ln(x^2+1) dx$",
+        "diagram_image_local": "uw_data/math125/math125_Au16_images/diagrams/p4_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au16/diagrams/p4_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute $A'(1)$",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln\\left(\\frac{25}{2}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Set up an integral for the arc length $L(t)$ of the top boundary of this region (that is, the arc length of the curve $y = \\ln(x^2 + 1)$, $t \\le x \\le 2t$). DO NOT EVALUATE the integral.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$L = \\int_t^{2t} \\sqrt{1 + \\left(\\frac{2x}{x^2+1}\\right)^2} dx$"
+      }
+    ],
+    "id": "uw_math_125_au16_p4",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "finding_intersection_points_for_area"
+    ],
+    "stem": "(10 points) The curves:",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$$y = x^3 \\quad \\text{and} \\quad y = 4x$$ enclose two regions in the plane. Find the total area of these regions.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$8$"
+      }
+    ],
+    "id": "uw_math_125_au16_p5",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "cross_sections",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "(10 points) A wedge is cut out of a right cylinder of radius 2 by two planes. One plane is horizontal, perpendicular to the axis of the cylinder. The other plane intersects the first at an angle of $30°$ along a diameter of the cylinder.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the volume of the wedge.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A 3D illustration showing a right cylinder (in light blue) with radius 2. A shaded region in pink/magenta shows the wedge cut from the cylinder. The wedge is formed by a horizontal plane at the base and an inclined plane that intersects along a diameter. A coordinate system with origin $O$ and axes labeled $x$, $y$, and $z$ is shown at the base of the cylinder. To the right of the cylinder is a 2D cross-sectional view of the wedge from a side perspective, showing a triangular profile.",
+        "final_answer": "$\\frac{16\\sqrt{3}}{9}$",
+        "diagram_image_local": "uw_data/math125/math125_Au16_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au16/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_125_au16_p6",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup"
+    ],
+    "stem": "(10 total points) A calculus student lifts a bag of sand, beginning at time $t = 0$, at a constant rate of 0.20 meters per second, from the ground to a height of 2 meters above ground. The initial mass of the sand in the bag is 10 kilograms (the mass of the bag is negligible) but sand drains from a hole in the bottom of the bag at the variable rate of $$\\frac{1}{1+t}$$ kilograms per second. Recall that the gravitational acceleration is $g = 9.8 \\, m/s^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the mass $m(t)$ of sand in the bag at time $t$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$m(t) = 10 - \\ln(1+t)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up an integral for the work done in lifting the sand. DO NOT EVALUATE the integral.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$W = \\int_0^{10} 9.8(10 - \\ln(1+t)) \\frac{1}{5} dt$"
+      }
+    ],
+    "id": "uw_math_125_au16_p7",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution of the differential equation below that satisfies the given initial condition. Write your solution $y$ as an explicit function of $x$, that is, your answer should be expressed in the form $y = f(x)$. $$y' = xe^x + xy^2e^x \\quad y(0) = 0$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\tan(xe^x - e^x + 1)$"
+      }
+    ],
+    "id": "uw_math_125_au16_p8",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations"
+    ],
+    "stem": "(10 points) A tank contains 100 liters of fresh water. Water containing $s$ grams of salt per liter enters the tank at the rate of 10 liters/minute, and the well-mixed solution leaves at the same rate.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $y(t)$ denote the amount of salt in the tank at time $t$ minutes. Write down a differential equation for $y(t)$. (This equation will contain the constant $s$.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dt} = 10s - \\frac{y}{10}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Suppose that after 20 minutes the concentration of salt in the tank is 3 grams/liter. Compute $s$. Leave your answer in exact form.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$s = \\frac{3e^2}{e^2-1}$"
+      }
+    ],
+    "id": "uw_math_125_au16_p9",
+    "course": "math_125",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 11,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional"
+    ],
+    "stem": "(10 total points) Consider the region bounded by $x = 1$, $x = 10$, $y = \\frac{1}{x}$, and $y = \\frac{1}{2x}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the centroid (center of mass) of this region.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\bar{x}, \\bar{y}) = \\left(\\frac{9}{4\\ln 10}, \\frac{27}{40\\ln 10}\\right) \\approx (3.49, 0.29)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Does the centroid lie inside the region? Justify your answer.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "No"
+      }
+    ],
+    "id": "uw_math_125_au16_p10",
+    "course": "math_125",
+    "exam": "au16_final"
+  }
+]

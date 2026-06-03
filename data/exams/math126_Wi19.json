@@ -1,0 +1,255 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "equations_of_planes",
+      "line_plane_intersection",
+      "normal_vector_to_plane"
+    ],
+    "stem": "[4 points per part] Parts (a)-(c) are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write parametric equations for the line of intersection of the planes\n$$2y + z + 4 = 0 \\text{ and } 5y - z + 17 = 0.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = t, y = -3, z = 2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the equation of the plane that contains the line $\\mathbf{r}(t) = \\langle 4t - 1, 2 - 5t, t \\rangle$ and is perpendicular to the plane $x - y + 8z = 10$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$39x + 31y - z = 23$"
+      },
+      {
+        "label": "c",
+        "question_text": "Give the equation of the plane with $x$-intercept 3, $y$-intercept 5, and $z$-intercept 8.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$40x + 24y + 15z = 120$"
+      }
+    ],
+    "id": "uw_math_126_wi19_p1",
+    "course": "math_126",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "parametrization_of_curves",
+      "space_curves"
+    ],
+    "stem": "Parts (a) and (b) are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "[5 points] Find a vector function $\\mathbf{r}(t)$ that gives the curve of intersection of the surfaces\n$$(x - 2)^2 + z^2 = 9 \\text{ and } y = 10z^2.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{r}(t) = (2 + 3\\cos(t), 90\\sin^2(t), 3\\sin(t))$"
+      },
+      {
+        "label": "b",
+        "question_text": "[7 points] The surface $S$ consists of all points whose distance to the $y$-axis is three times the distance to the $xz$-plane. Find an equation for $S$ and identify the surface.\n\nChoose from the following list (circle one):\n\nelliptic cylinder     parabolic cylinder     hyperbolic cylinder\n\nparaboloid     ellipsoid     hyperbolic paraboloid\n\ncone     hyperboloid of one sheet     hyperboloid of two sheets",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x^2 + z^2 = 9y^2$"
+      }
+    ],
+    "id": "uw_math_126_wi19_p2",
+    "course": "math_126",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "[12 points] Find the equation of the tangent plane to the surface $z = \\sqrt{x^2 + y^2}$ at $(3, 4, 5)$.\nWrite your answer in the form $Ax + By + Cz = D$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3x + 4y - 5z = 0$"
+      }
+    ],
+    "id": "uw_math_126_wi19_p3",
+    "course": "math_126",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 13,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "[13 points] Find and classify all critical points of\n$$f(x, y) = x^4 + y^4 - 6x^2y^2 - 2x^2 + 2y^2.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Saddle points at $(0, 0)$, $(1, 0)$, and $(-1, 0)$"
+      }
+    ],
+    "id": "uw_math_126_wi19_p4",
+    "course": "math_126",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "[12 points] Let $T$ be the right triangle in the first quadrant of the $xy$-plane with legs along the $x$- and $y$-axes, with height 1 and base $k$. Here's a picture:\n\nLet $S$ be the solid above $T$ and below the surface $z = xy$.\n\nIf the volume of $S$ is 6, what's $k$?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A right triangle in the xy-plane with one vertex at the origin. The vertical leg (height) is labeled 1 and extends along the positive y-axis. The horizontal leg (base) is labeled k and extends along the positive x-axis. The hypotenuse connects the points (k, 0) and (0, 1). The region is shaded with a diagonal hatching pattern.",
+        "final_answer": "$k = 12$",
+        "diagram_image_local": "uw_data/math126/math126_Wi19_images/page-5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Wi19/diagrams/page-5.png"
+      }
+    ],
+    "id": "uw_math_126_wi19_p5",
+    "course": "math_126",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 13,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "[13 points] Find the volume of the solid in the first octant below the surface $z = 2 - e^{x^2+y^2}$ and above the $xy$-plane.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{5}{2}(\\ln(2) - \\frac{1}{2})$"
+      }
+    ],
+    "id": "uw_math_126_wi19_p6",
+    "course": "math_126",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 13,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "For this problem, consider the function $f(x) = (1 + x)\\sin(x)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write $T_2(x)$, the second Taylor polynomial for $f$ with base $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = x + x^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find (and justify) an error bound for $|f(x) - T_2(x)|$ on the interval $[-0.01, 0.01]$.",
+        "depends_on": [
+          "a"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{4.01}{6}10^{-6}$"
+      }
+    ],
+    "id": "uw_math_126_wi19_p7",
+    "course": "math_126",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 13,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation"
+    ],
+    "stem": "For this problem, consider the function $f(x) = \\left(\\frac{x}{1 - x}\\right)^2 = \\frac{x^2}{(1 - x)^2}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write the Taylor series expansion for $f(x)$ with base $b = 0$.\n\nGive your final answer in $\\Sigma$-notation using one sigma sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=2}^{\\infty}(k-1)x^k$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find $f^{(100)}(0)$.",
+        "depends_on": [
+          "a"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$99(100!)$"
+      }
+    ],
+    "id": "uw_math_126_wi19_p8",
+    "course": "math_126",
+    "exam": "wi19_final"
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "line_plane_intersection"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find parametric equations of the line of intersection of the planes $-x + y + 4z = 7$ and $x - 3y + 2z = 15$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -18 + 14t, y = -11 + 6t, z = 2t$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p1",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "motion_in_space",
+    "concepts": [
+      "curvature",
+      "derivatives_of_vector_functions"
+    ],
+    "stem": "Let $a$ be a positive real number.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the curvature of the vector function $\\vec{r}(t) = (2 \\cos t, a \\sin t, t)$ at $t = \\pi$. Simplify as much as possible.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(\\pi) = \\frac{2}{1 + a^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the positive value of $a$ for which $\\vec{r}(t)$ has curvature $\\frac{1}{41}$ at $t = \\pi$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a = 9$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p2",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation",
+      "partial_derivatives"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation of the tangent plane to the surface $z = x^2 y + e^y - \\frac{y}{x}$ at the point $(1, 0, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = y + 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find all points $(x_0, y_0, z_0)$ on the surface $z = x^3 y^2$ at which the tangent plane is parallel to the plane $3x + 18y - z = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(3, \\frac{1}{3}, 3)$ and $(-3, -\\frac{1}{3}, -3)$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p3",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "lagrange_multipliers",
+      "optimization_with_constraints"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Suppose $x, y$, and $z$ are positive numbers. What is the minimum possible value of $S = x + 2y + 3z$ if $xyz = 100$? (Include in your solution some verification that your answer is the minimum.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The minimum possible value of $S$ is $\\frac{450}{(75)^{2/3}}$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p4",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $R$ be the region in the first quadrant bounded by $y = 5 - 4x^2$ and $y = x^2$. Evaluate the integral $\\iint_R xy \\, dA$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{5}{2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate the integral: $\\int_0^3 \\int_{y^2}^9 ye^{x^2} \\, dx \\, dy$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{e^{81} - 1}{4}$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p5",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_coordinate_conversion",
+      "area_in_polar_coordinates",
+      "polar_integral_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the area of the region in the first quadrant inside the cardioid $r = 1 + \\cos \\theta$ and outside the circle $r = 2 \\cos \\theta$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A diagram showing the first quadrant with two polar curves plotted. The cardioid $r = 1 + \\cos(\\theta)$ is drawn as the outer curve, and the circle $r = 2\\cos(\\theta)$ is drawn as the inner curve. The region between the two curves in the first quadrant is shown. The horizontal axis is labeled as the positive x-axis, and the vertical axis is labeled as the positive y-axis.",
+        "final_answer": "$1 - \\frac{\\pi}{8}$",
+        "diagram_image_local": "uw_data/math126/math126_Sp11_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Sp11/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_126_sp11_p6",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "higher_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = e^{2x-4}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give the third Taylor polynomial $T_3(x)$ for $f(x)$ based at $b = 2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_3(x) = 1 + 2(x - 2) + 2(x - 2)^2 + \\frac{4}{3}(x - 2)^3$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use Taylor's Inequality to bound the error $|f(x) - T_3(x)|$ on the interval $I = [1, 3]$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(x) - T_3(x)| \\leq \\frac{16c^2}{24}$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p7",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $\\cos(2x^3)$ based at $b = 0$. Write your answer in sigma notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos(2x^3) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k}{(2k)!} 2^{2k} x^{6k}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the first three nonzero terms of the Taylor series in part (a), to approximate the value of the integral $\\int_0^1 \\cos(2x^3) \\, dx$. (Give your final answer to four digits after the decimal point).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0.7656$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p8",
+    "course": "math_126",
+    "exam": "sp11_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series",
+      "power_series_representation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x) = \\frac{1}{1 + 4x} - \\frac{1}{6x - 3}$ based at $b = 0$. Write your final answer using one sigma sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{1 + 4x} - \\frac{1}{6x - 3} = \\sum_{k=0}^{\\infty} \\left[(-1)^k 4^k + \\frac{2^k}{3}\\right] x^k$"
+      },
+      {
+        "label": "b",
+        "question_text": "Give the first three non-zero terms of the Taylor series from part (a).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{4}{3} - \\frac{10}{3}x + \\frac{52}{3}x^2$"
+      },
+      {
+        "label": "c",
+        "question_text": "Give an interval $I$ where the Taylor series from part (a) converges. (Show your work)",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$I = \\left(-\\frac{1}{4}, \\frac{1}{4}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_sp11_p9",
+    "course": "math_126",
+    "exam": "sp11_final"
+  }
+]

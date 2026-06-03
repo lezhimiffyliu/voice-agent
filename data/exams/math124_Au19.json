@@ -1,0 +1,393 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 8,
+    "topic": "derivative_rules",
+    "concepts": [
+      "power_rule",
+      "chain_rule",
+      "trig_derivatives",
+      "exponential_derivatives"
+    ],
+    "stem": "Calculate the derivatives of the following functions. You do not need to simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$g(x) = 2\\ln x + x\\sqrt{5x^3 + \\sin(e^{7x})}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\frac{2}{x} + \\sqrt{5x^3 + \\sin(e^{7x})} + x \\cdot \\frac{15x^2 + \\cos(e^{7x}) \\cdot 7x}{2\\sqrt{5x^3 + \\sin(e^{7x})}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$f(x) = 10^x + \\frac{2\\cos x}{x^2 + 1}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(t) = 10^3 \\ln 10 + \\frac{(-2\\sin x)(x^2 + 1) - (2\\cos x)(2x)}{(x^2 + 1)^2}$"
+      }
+    ],
+    "id": "uw_math_124_au19_p1",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 8,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "derivative_definition"
+    ],
+    "stem": "Solve the following problems. Recall that $\\tan^{-1}(x)$ and $\\arctan(x)$ are the same function.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $y = (1 + x^2)^{\\tan^{-1}(x)}$. Compute $\\frac{dy}{dx}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = [\\ln(1 + x^2) + 2x\\tan^{-1}(x)](1 + x^2)^{\\tan^{-1}(x) - 1}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $f(x) = \\begin{cases} x^2 \\sin \\frac{1}{x^2} & \\text{if } x \\neq 0 \\\\ 0 & \\text{if } x = 0 \\end{cases}$. Calculate $f'(0)$, using the definition of derivative.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(0) = 0$"
+      }
+    ],
+    "id": "uw_math_124_au19_p2",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 8,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "lhopitals_rule"
+    ],
+    "stem": "Evaluate the following limits. Show the algebra work where applicable. If the limit does not exist, explain why not.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to 0} \\frac{2 - \\sqrt{x^2 + 4}}{\\sin^2 x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{4}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\lim_{x \\to \\infty} \\frac{x + 1}{\\sqrt{2x^2 + x + 1}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{\\sqrt{2}}$"
+      }
+    ],
+    "id": "uw_math_124_au19_p3",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "constraint_equation",
+      "objective_function",
+      "geometric_optimization",
+      "optimization_verification"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the height $y$ and length of a side of its base $x$ of a square pyramid with congruent isosceles triangle sides whose volume is $\\frac{1}{6}$ cubic meters and whose lateral surface area is as small as possible. (The lateral surface area includes the sides but excludes the base of the pyramid.)\n\nJustify that the dimensions you found give minimum lateral surface area.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A square pyramid with height labeled $y$ and base side length labeled $x$. The apex is at the top with dashed lines connecting it to the four corners of the square base. The four triangular lateral faces are visible and shaded.",
+        "final_answer": "$x = \\sqrt[6]{\\frac{1}{2}}$, $y = 2^{-2/3}$",
+        "diagram_image_local": "uw_data/math124/math124_Au19_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au19/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_124_au19_p4",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "curve_analysis",
+    "concepts": [
+      "limits_at_infinity",
+      "infinite_limits",
+      "increasing_decreasing_intervals",
+      "critical_points",
+      "derivative_as_slope"
+    ],
+    "stem": "The following is the graph of $y = f(x)$ with domain all real numbers $x \\neq 7$. For limit questions your answer must be one of DNE, $\\infty$, $-\\infty$ or a number.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to 4} f(x) = $",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A Cartesian coordinate graph with $x$-axis ranging from approximately $-15$ to $15$ and $y$-axis ranging from approximately $-20$ to $40$. The curve shows: a smooth curve approaching from the left (lower left) with an increasing trend; a local minimum around $x = -8$ to $-7$; the curve rising to a local maximum around $x = -3$ to $-2$ with $y$ value around $8$; a sharp decrease crossing the $x$-axis around $x = 0$; a local minimum around $x = 2$ to $3$ with $y$ value around $-5$; an asymptotic behavior near $x = 7$ (vertical asymptote); after the asymptote, the curve shows a local minimum around $x = 4$ to $5$ with $y$ value around $15$; then rising to a local maximum around $x = 5$ to $6$ with $y$ value around $18$; the curve continues increasing with decreasing slope toward the right side of the graph. The graph has a vertical dashed line at $x = 7$ indicating the vertical asymptote.",
+        "final_answer": "DNE",
+        "diagram_image_local": "uw_data/math124/math124_Au19_images/diagrams/p5_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au19/diagrams/p5_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\lim_{x \\to 7^+} f(x) = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\infty$"
+      },
+      {
+        "label": "c",
+        "question_text": "List all the intervals where the derivative $f'(x)$ is negative.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-6, -3), (5, 7), (7, 8)$"
+      },
+      {
+        "label": "d",
+        "question_text": "List all critical values of $f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-8, -6, -3, 4, 5, 8$"
+      },
+      {
+        "label": "e",
+        "question_text": "$\\lim_{x \\to 0} \\frac{f(x)}{x} = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(0) = \\frac{5}{3}$"
+      },
+      {
+        "label": "f",
+        "question_text": "$\\lim_{h \\to 0} \\frac{f(3 + h) - 5}{h} = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(3) = \\frac{5}{3}$"
+      }
+    ],
+    "id": "uw_math_124_au19_p5",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_tangent_line",
+      "parametric_first_derivative"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the equations of the tangents to the curve given parametrically by $x = 3t^2 + 2, y = 2t^3 + 3$ that pass through the point $(5, 5)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = x$ and $y = -2x + 15$"
+      }
+    ],
+    "id": "uw_math_124_au19_p6",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 12,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "horizontal_vertical_tangents"
+    ],
+    "stem": "Consider the curve defined by the equation $x^3 + y^4 - 6x^2 - 2x = 0$.\n\nIn this problem, round all your numerical answers to 3 decimal places.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find an expression for $\\frac{dy}{dx}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dx} = \\frac{-3x^2 + 12x + 2}{4y^3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the coordinates of all points on the curve where the tangent line is vertical.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(0, 0), (-3, 633), (0, 6.317), (0)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the coordinates of all points on the curve where the tangent line is horizontal.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(4.16, 2.517), (4.16, -2.517)$"
+      }
+    ],
+    "id": "uw_math_124_au19_p7",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A spherical snowball melts so that its volume decreases at a rate of $\\frac{1}{5}$ cm$^3$/min. How fast is its surface area decreasing when its radius is 5 cm? (The volume of a sphere of radius $r$ is $\\frac{4}{3}\\pi r^3$ and its surface area is $4\\pi r^2$.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{ds}{dt} = -\\frac{2}{25}$ cm²/min"
+      }
+    ],
+    "id": "uw_math_124_au19_p8",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "linear_approximation",
+    "concepts": [
+      "linearization",
+      "tangent_line_approximation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Use linear approximation near $(0, 0)$ to estimate the $y$ value of a point $(0.004, y)$ on the curve $3y = \\tan^{-1}(y - x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y \\approx -0.002$"
+      }
+    ],
+    "id": "uw_math_124_au19_p9",
+    "course": "math_124",
+    "exam": "au19_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 11,
+    "points": 12,
+    "topic": "curve_analysis",
+    "concepts": [
+      "increasing_decreasing_intervals",
+      "concavity",
+      "inflection_points",
+      "critical_points",
+      "local_extrema",
+      "absolute_extrema",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = x - 2\\sin(x)$ on the domain $D = [-\\pi, 3\\pi]$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the intervals in $D$ on which $y = f(x)$ is increasing, and the intervals on which $f$ is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Increasing: $(-\\pi, -\\frac{\\pi}{3}), (\\frac{\\pi}{3}, -\\frac{\\pi}{3} + 2\\pi), (\\frac{\\pi}{3} + 2\\pi, 3\\pi)$; Decreasing: $(-\\frac{\\pi}{3}, \\frac{\\pi}{3}), (-\\frac{\\pi}{3} + 2\\pi, \\frac{\\pi}{3} + 2\\pi)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the intervals in $D$ on which $y = f(x)$ is concave up and concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Concave up: $(0, \\pi), (2\\pi, 3\\pi)$; Concave down: $(-\\pi, 0), (\\pi, 2\\pi)$"
+      },
+      {
+        "label": "c",
+        "question_text": "What are the local minima and maxima? What are the global minimum and maximum?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Local max: $f(-\\frac{\\pi}{3}) = -\\frac{\\pi}{3} + \\sqrt{3}, f(-\\frac{\\pi}{3} + 2\\pi) = \\frac{5\\pi}{3} + \\sqrt{3}$; Local min: $f(\\frac{\\pi}{3}) = \\frac{\\pi}{3} - \\sqrt{3}, f(\\frac{\\pi}{3} + 2\\pi) = \\frac{7\\pi}{3} - \\sqrt{3}$; Global max: $f(3\\pi) = 3\\pi$; Global min: $f(-\\pi) = -\\pi$"
+      },
+      {
+        "label": "d",
+        "question_text": "Use your results in parts (a)-(c) to graph $y = f(x)$. Include both coordinates of all local minima and maxima, inflection points, $x$-intercepts and $y$-intercepts.",
+        "depends_on": [
+          "a",
+          "b",
+          "c"
+        ],
+        "has_diagram": true,
+        "diagram_page": 12,
+        "diagram_description": "A blank Cartesian coordinate grid provided for the student to sketch the curve. The $x$-axis ranges from approximately $-2$ to $8$ with markings at $2, 4, 6, 8$. The $y$-axis ranges from approximately $-2$ to $10$ with markings at $2, 4, 6, 8, 10$.",
+        "diagram_image_local": "uw_data/math124/math124_Au19_images/diagrams/p10_d.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au19/diagrams/p10_d.png"
+      }
+    ],
+    "id": "uw_math_124_au19_p10",
+    "course": "math_124",
+    "exam": "au19_final"
+  }
+]

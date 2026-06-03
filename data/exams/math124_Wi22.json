@@ -1,0 +1,398 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "lhopitals_rule",
+    "concepts": [
+      "indeterminate_zero_over_zero",
+      "lhopitals_rule_application",
+      "indeterminate_infinity_over_infinity",
+      "indeterminate_other_forms"
+    ],
+    "stem": "Answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) Evaluate $$\\lim_{x\\to 0} \\frac{e^{2x} + 4e^x - 5}{e^{2x} - 1}$$ using two different methods, neither of which is guessing the answer from a table of values.\n\nUsing first method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "3"
+      },
+      {
+        "label": null,
+        "question_text": "Using second method:",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "(4 points) Evaluate $$\\lim_{x\\to\\infty} \\sqrt{4x^2 - 6x - 2x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "-1.5"
+      },
+      {
+        "label": "c",
+        "question_text": "(4 points) Evaluate $$\\lim_{x\\to 0^+} (1 + 4x)^{3/x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$e^{12}$"
+      }
+    ],
+    "id": "uw_math_124_wi22_p1",
+    "course": "math_124",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 13,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "product_rule",
+      "quotient_rule",
+      "trig_derivatives",
+      "logarithmic_derivatives",
+      "exponential_derivatives"
+    ],
+    "stem": "Find $\\frac{dy}{dx}$. You do not need to simplify.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) $$y = \\frac{\\sqrt[3]{x} + \\sin(x)}{e^x + 1}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dx} = \\frac{(\\frac{1}{3}x^{-2/3} + \\cos x)(e^x + 1) - (x^{1/3} + \\sin x)e^x}{(e^x + 1)^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "(4 points) $$y = \\ln(\\sin(2^x))$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dx} = \\frac{\\cos(2^x) \\cdot \\ln 2 \\cdot 2^x}{\\sin(2^x)}$"
+      },
+      {
+        "label": "c",
+        "question_text": "(5 points) $$y = \\tan(x^x) + \\arctan(x^2)$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dx} = \\sec^2(x^x) \\cdot (\\ln x + 1) \\cdot x^x + \\frac{2x}{1 + x^4}$"
+      }
+    ],
+    "id": "uw_math_124_wi22_p2",
+    "course": "math_124",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "curve_analysis",
+    "concepts": [
+      "increasing_decreasing_intervals",
+      "local_extrema",
+      "concavity",
+      "inflection_points"
+    ],
+    "stem": "The function $f(x)$ is continuous on its domain of all real numbers. The graph of its derivative is shown below. As you can see the derivative exists everywhere except at $x = 6$. Answer the questions based on the graph below. Give your best approximation if you are not sure about the exact numbers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "List the intervals where the graph of $y = f(x)$ is increasing.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A graph showing the derivative $y = \\frac{d}{dx}f(x)$ plotted on an xy-coordinate system. The x-axis ranges from approximately -4 to 14, and the y-axis ranges from approximately -20 to 30. The curve starts at the lower left, increases steeply, reaches a maximum around x = -2 with value approximately 28, then decreases, crosses the x-axis around x = 0, continues decreasing to a minimum around x = 3 with value approximately -5, then increases again, crosses the x-axis around x = 5, reaches approximately 13 at x = 6 (with an open circle indicating a discontinuity), then drops to approximately 10 at x = 6 (with another open circle), stays relatively flat around y = 10 from x = 6 to x = 7, then decreases slightly, and finally increases again towards the right. Key features marked with circles at approximately (6, 13) and (6, 10).",
+        "final_answer": "$(-3, 2)$ and $(4, \\infty)$",
+        "diagram_image_local": "uw_data/math124/math124_Wi22_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi22/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "List the $x$-values where the graph of $y = f(x)$ has a local minimum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-3.4$"
+      },
+      {
+        "label": "c",
+        "question_text": "List the intervals where the graph of $y = f(x)$ is concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-1.4, 3)$ and $(8, 10)$"
+      },
+      {
+        "label": "d",
+        "question_text": "List the $x$-values where the graph of $y = f(x)$ has an inflection point.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-1.4, 3, 10$"
+      },
+      {
+        "label": "e",
+        "question_text": "If $f(6) = 3$, what is the value of $f(7.5)$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$18$"
+      }
+    ],
+    "id": "uw_math_124_wi22_p3",
+    "course": "math_124",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "trigonometric_related_rates",
+      "geometric_related_rates"
+    ],
+    "stem": "A metal rod is bolted on the $x$ and the $y$-axes at the points $(6, 0)$ and $(0, 6)$. A second rod is hinged at the origin and is free to rotate about the origin as shown. It intersects the first fixed rod at the point $R(x, y)$, which varies as the angle $\\theta$ changes.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find an equation relating the angle $\\theta$ shown with the $x$-coordinate of the point $R$. Hint: Relate $x$, $y$, and $\\theta$ first and then try to eliminate the $y$ from the equation.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate system showing a geometric setup. A fixed rod connects the points (6, 0) on the x-axis and (0, 6) on the y-axis, forming a line segment. A rotating rod is hinged at the origin and makes an angle θ with the positive x-axis. The two rods intersect at point R(x, y). The diagram shows the angle θ marked at the origin, with the rotating rod extending into the first quadrant, and the fixed rod as a line segment connecting the two axes.",
+        "final_answer": "$\\tan \\theta = \\frac{6 - x}{x}$",
+        "diagram_image_local": "uw_data/math124/math124_Wi22_images/diagrams/p4_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi22/diagrams/p4_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use your equation to find the value of $x$ when $\\theta = \\frac{\\pi}{4}$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 3$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use linear approximation to approximate how much $x$ decreases if we increase $\\theta$ from $\\frac{\\pi}{4}$ to $\\frac{17\\pi}{64}$ radians.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x - 3 \\approx -3\\left(\\theta - \\frac{\\pi}{4}\\right)$, $x - 3 \\approx -\\frac{3\\pi}{64}$"
+      }
+    ],
+    "id": "uw_math_124_wi22_p4",
+    "course": "math_124",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_first_derivative",
+      "parametric_second_derivative",
+      "parametric_motion"
+    ],
+    "stem": "The point $(2, 0)$ is on the curve defined by the parametric equations $$x(t) = \\ln(t) + 2 \\quad \\text{and} \\quad y(t) = -\\cos\\left(\\frac{\\pi}{2}t\\right).$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\frac{dy}{dx}$ and determine if $y$ increasing when $x$ is increasing at $(2, 0)$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dx} = \\frac{\\pi}{2} \\sin\\left(\\frac{\\pi t}{2}\\right)$. When $t = 1$, the value is $\\pi/2 > 0$ so $y$ increases when $x$ does."
+      },
+      {
+        "label": "b",
+        "question_text": "Using the second derivative, determine if the curve is concave up or concave down at $(2, 0)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{d^2y}{dp^2} = \\frac{\\pi}{2}\\left(\\sin\\left(\\frac{\\pi t}{2}\\right) + \\frac{\\pi}{2}\\cos\\left(\\frac{\\pi t}{2}\\right)\\right)$. When $t = 1$, the value is $\\pi/2 > 0$ so the graph is concave up."
+      },
+      {
+        "label": "c",
+        "question_text": "Which of the options A, B, C, or D best describes the curve locally at $(2, 0)$? Justify your answer.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "Four sketches labeled A, B, C, and D showing different curve behaviors near the point (2, 0). Option A shows a curve passing through (2, 0) that is concave down and decreasing as it approaches (2, 0) from the left. Option B shows a curve passing through (2, 0) that is concave up and increasing as it leaves (2, 0) to the right. Option C shows a curve passing through (2, 0) that opens upward and to the right, concave up. Option D shows a curve passing through (2, 0) that curves downward to the right, concave down.",
+        "final_answer": "B",
+        "diagram_image_local": "uw_data/math124/math124_Wi22_images/diagrams/p5_c.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi22/diagrams/p5_c.png"
+      }
+    ],
+    "id": "uw_math_124_wi22_p5",
+    "course": "math_124",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "Two carts, Cart A and Cart B, are connected by a rope 39 feet long that passes over a pulley $P$. The point $Q$ is on the floor 12 feet directly beneath $P$ and between the carts. Cart A is being pulled away from $Q$ at a speed of 4 feet per second. At what rate is the distance between Cart B and the point $Q$ changing at the instance when Cart A is 3.5 feet from the point $Q$?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Two carts, Cart A and Cart B, are connected by a rope 39 feet long that passes over a pulley $P$. The point $Q$ is on the floor 12 feet directly beneath $P$ and between the carts. Cart A is being pulled away from $Q$ at a speed of 4 feet per second. At what rate is the distance between Cart B and the point $Q$ changing at the instance when Cart A is 3.5 feet from the point $Q$?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A diagram showing a pulley system. There is a pulley P at the top. A vertical dashed line of length 12 ft extends downward from P to a point Q on a horizontal line (the floor) marked with an arrow. On the floor, Cart A is shown on the left side with an arrow pointing left (indicating motion away from Q), and Cart B is shown on the right side with an arrow pointing right (indicating motion away from Q). Rope connects Cart A to pulley P and then from pulley P to Cart B, passing over the pulley.",
+        "final_answer": "$-\\frac{29.68}{\\sqrt{558.25}} \\approx -1.256$ feet per second",
+        "diagram_image_local": "uw_data/math124/math124_Wi22_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi22/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_124_wi22_p6",
+    "course": "math_124",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 11,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "geometric_optimization",
+      "optimization_verification"
+    ],
+    "stem": "A window has the shape of a half disk of radius $r$ placed on a rectangle as shown on the right. The perimeter of the window is to be 5 meters. What are the dimensions of the window which will maximize its area? Make sure you verify that you have indeed a maximum area.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A window has the shape of a half disk of radius $r$ placed on a rectangle as shown on the right. The perimeter of the window is to be 5 meters. What are the dimensions of the window which will maximize its area? Make sure you verify that you have indeed a maximum area.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A diagram showing a window shape consisting of a half disk (semicircle) on top of a rectangle. The semicircle has radius r and sits on top of the rectangle. The width of the rectangle equals the diameter of the semicircle (2r). The rectangle has a height and width labeled. The entire shape is shaded in light purple with the letter W displayed in the center of the rectangular portion.",
+        "final_answer": "The radius is $\\frac{5}{4+\\pi}$, the width is $\\frac{10}{4+\\pi}$, and the height of the rectangular part is $2.5$ (making the total height $2.5 + \\frac{5}{4+\\pi}$)",
+        "diagram_image_local": "uw_data/math124/math124_Wi22_images/diagrams/p7.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi22/diagrams/p7.png"
+      }
+    ],
+    "id": "uw_math_124_wi22_p7",
+    "course": "math_124",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 18,
+    "topic": "curve_analysis",
+    "concepts": [
+      "intercepts",
+      "asymptotes",
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "first_derivative_test",
+      "local_extrema",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = (1 - x)e^x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What are the $x$- and $y$-intercepts of the graph of $f$?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1,0)$ and $(0,1)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Determine the horizontal asymptotes of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 0$ on the left"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all critical numbers of $f(x)$ and determine the intervals in which $f$ is increasing and in which it is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = -xe^x$ so the only critical number is $x = 0$. Increasing on $(\\infty, 0)$ and decreasing on $(0, \\infty)$."
+      },
+      {
+        "label": "d",
+        "question_text": "Determine the local minima and local maxima of $f$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Local maximum at $(0,1)$"
+      },
+      {
+        "label": "e",
+        "question_text": "Using $f''(x)$, find the intervals where $f$ is concave up and where it is concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f''(x) = -(x+1)e^x$ so concave up on $(\\infty, -1)$, concave down on $(-1, \\infty)$"
+      },
+      {
+        "label": "f",
+        "question_text": "Using all of the above information, sketch the graph of $f$ in the provided coordinate system.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "An empty coordinate system with gridlines. The x-axis is horizontal and the y-axis is vertical. Both axes have tick marks and extend in both directions. The grid appears to be fine-grained with many small squares, suitable for sketching a curve.",
+        "diagram_image_local": "uw_data/math124/math124_Wi22_images/diagrams/p8_f.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi22/diagrams/p8_f.png"
+      }
+    ],
+    "id": "uw_math_124_wi22_p8",
+    "course": "math_124",
+    "exam": "wi22_final"
+  }
+]

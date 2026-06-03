@@ -1,0 +1,324 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "algebraic_substitution_setup"
+    ],
+    "stem": "Evaluate the following integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\frac{2x^4 - 29x^2 + 12x + 1}{x^2 + 4x} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\frac{1}{\\sqrt{x^2 + 6x + 1}} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p1",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integration_by_parts_basic",
+      "choosing_u_and_dv"
+    ],
+    "stem": "Evaluate the following integrals. Show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_0^{\\pi} x^2 \\sin(3x) dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int_0^3 \\frac{\\sqrt{x}}{x + 9} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p2",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "derivative_of_integral_function",
+      "definite_integral_as_area",
+      "average_value_of_a_function"
+    ],
+    "stem": "For this problem, you do not need to show your work. Answer the following questions based on the graph of $y = f(t)$ below, which has the domain $0 \\le t \\le 8$.\n\nThe function $y = f(t)$ consists of a horizontal line segment for $0 \\le t \\le 1$; two line segments between $1 < x \\le 5$; a lower semicircle of radius 1 between $5 < x < 7$; and a line segment between $7 \\le x \\le 8$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int_0^5 f(t) dt = \\underline{\\hspace{1cm}}.$$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A graph on a coordinate plane with t-axis (horizontal) ranging from 0 to 8 and y-axis (vertical) ranging from approximately -2 to 2. The graph consists of: a horizontal line segment at $y=1$ from $t=0$ to $t=1$; a line segment increasing from $(1,1)$ to $(2,2)$; a line segment decreasing from $(2,2)$ to $(5,-1)$; a lower semicircle (inverted) centered at $(6, -1)$ with radius 1, from $t=5$ to $t=7$, reaching a minimum of $y=-2$ at $t=6$; and a line segment increasing from $(7,-1)$ to $(8,1)$. The curve is labeled $y=f(t)$.",
+        "diagram_image_local": "uw_data/math125/math125_Sp24_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp24/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "If $g(x) = \\int_1^{3x} f(t) dt$, then $g'(2) = \\underline{\\hspace{1cm}}.$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "c",
+        "question_text": "The average value of $y = f(t)$ over the interval $[6,8]$ is $\\underline{\\hspace{1cm}}.$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "d",
+        "question_text": "$$\\lim_{n \\to \\infty} \\sum_{i=1}^{n} f\\left(5 + \\frac{2i}{n}\\right) \\cdot \\left(\\frac{2}{n}\\right) = \\underline{\\hspace{1cm}}.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p3",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "You are in a building, at a window. A tomato is thrown downward from the top of the building, passing your window two seconds after being thrown. At the moment when the tomato passes your window, the tomato has a speed of 20 m/sec. The tomato takes five seconds to hit the ground after being thrown. Find the height of your window above the ground.\n\nAssume gravity is the only force acting on the tomato, with the constant of acceleration being $9.8 \\text{ m/sec}^2.$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p4",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "finding_intersection_points_for_area",
+      "top_minus_bottom_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $R$ be the region in the first quadrant of the $xy$-plane under the graph of $y = x^{1/3}$ and between $x = 0$ and $x = 8$.\n\nFind the number $b$ such that line $y = bx$ divides the region $R$ in half.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p5",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "disk_method",
+      "radius_from_geometry",
+      "inner_outer_radius_setup"
+    ],
+    "stem": "Consider the region $\\mathcal{R}$ in the $xy$-plane completely enclosed by the curves $y = 4x - x^2$ and $y = x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up, but do not evaluate, an integral that computes the volume of the solid of revolution generated by revolving $\\mathcal{R}$ about the vertical line $x = -1.$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "Set up, but do not evaluate, an integral that computes the volume of the solid of revolution generated by revolving $\\mathcal{R}$ about the horizontal line $y = 4.$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p6",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $R$ be the region enclosed by $y = \\frac{1}{x^3}$, $y = -\\frac{1}{x^3}$, $x = 1$, and $x = a > 1.$\n\nFind the $x$-coordinate for the centroid (center of mass) of $R$.\n\nYou may assume the $y$-coordinate of the centroid is zero due to the symmetry of the region.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "What happens to the centroid as $a$ goes to infinity?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p7",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "pumping_liquid_work",
+      "work_integral_interpretation"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A tank has the shape of a cylinder on top of an inverted cone.\nThe tank's dimensions, in meters, are shown in the figure.\n\nThe tank is full of water, the density of which is $1000 \\text{ kg/m}^3$.\nAssume the acceleration due to gravity is $9.8 \\text{ m/s}^2$.\n\nDetermine the amount of work done in pumping all of the water to the top of the tank. Give your answer in decimal form, with at least three digits of accuracy.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 10,
+        "diagram_description": "A cross-sectional diagram of a tank showing: a cylinder on top with radius 4.5 meters (diameter 9 meters labeled at the top) and height 8 meters, sitting on top of an inverted cone with the same radius 4.5 meters and height 3 meters. The total height from the bottom of the cone to the top of the cylinder is 11 meters. The cylinder-cone junction is marked, and vertical dimension markers show the 3-meter cone height and 8-meter cylinder height.",
+        "diagram_image_local": "uw_data/math125/math125_Sp24_images/diagrams/p8.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp24/diagrams/p8.png"
+      }
+    ],
+    "id": "uw_math_125_sp24_p8",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Solve the following initial value problem:\n\n$$\\frac{dy}{dx} = \\frac{e^{x+y}}{1 + e^x}, \\quad y(0) = -2.$$\n\nYour answer should give $y$ as a function of $x$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p9",
+    "course": "math_125",
+    "exam": "sp24_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "A tank initially contains 100 liters of water in which 10 grams of salt were dissolved.\nPure water is flowing into the tank at a rate of 2 liters per second.\nThe liquid in the tank is kept thoroughly mixed, and the the mixed liquid is flowing out of the tank at a rate of 3.5 liters per second.\n\nWrite down an expression $V = V(t)$ for the volume of mixed liquid in the tank after $t$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "b",
+        "question_text": "Set up a differential equation for the rate of change $\\frac{dy}{dt}$ of the amount $y$ of salt in the tank.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "c",
+        "question_text": "How much salt, in grams, is in the tank after 30 seconds? Express your answer as a decimal number with at least three digits of accuracy.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_sp24_p10",
+    "course": "math_125",
+    "exam": "sp24_final"
+  }
+]

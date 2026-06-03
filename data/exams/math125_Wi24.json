@@ -1,0 +1,342 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "reverse_chain_rule_recognition"
+    ],
+    "stem": "Evaluate the following integrals. Show your work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$(5 \\text{ points}) \\int \\left( \\frac{1}{x - x^2} - \\frac{2x}{x - x^2} \\right) dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln|x-x^2|+C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$(5 \\text{ points}) \\int \\cos(2x)e^x dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{5}(e^x\\cos(2x)+2e^x\\sin(2x))+C$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p1",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds",
+      "trigonometric_substitution_setup"
+    ],
+    "stem": "Evaluate the following integrals. Show all work. Simplify and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$(5 \\text{ points}) \\int_0^{1/2} \\frac{x^2}{\\sqrt{1 - x^2}} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\pi}{12}-\\frac{\\sqrt{3}}{8}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$(5 \\text{ points}) \\int \\frac{dx}{x\\sqrt{x + 4}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2}\\ln\\left|\\frac{\\sqrt{x+4}-2}{\\sqrt{x+4}+2}\\right|+C$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p2",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral",
+      "distance_and_force_setup"
+    ],
+    "stem": "A particle moves along a straight line with velocity $v(t) = 3\\cos(2t)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$(5 \\text{ points}) \\text{Compute the particle's displacement from } t = 0 \\text{ to } t = 3\\pi/4.$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{3}{2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$(5 \\text{ points}) \\text{Compute the total distance that the particle travels from } t = 0 \\text{ to } t = 3\\pi/4.$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{9}{2}=4.5$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p3",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "$(10 \\text{ points}) \\text{Determine the arc length of the curve:} \\\\ y = \\frac{x^3}{3} + \\frac{1}{4x} - 5 \\\\ \\text{from } x = \\frac{1}{4} \\text{ to } x = 1. \\text{ Give the answer in exact simplified form.}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{69}{64}$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p4",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work",
+      "work_integral_interpretation",
+      "distance_and_force_setup"
+    ],
+    "stem": "The tank shown below (all dimensions are in meters) has parabolic ends and vertical cross-sections. The tank is filled with water to a depth of 3 meters. Suppose $\\rho = 1000 \\text{ kg/m}^3$ is the density of water and $g = 9.8 \\text{ m/s}^2$ is the acceleration due to gravity.\n\nGive an integral expressing the work done in pumping all of the water to the top of the tank.\n\nDo NOT evaluate the integral. Just set it up.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A 3D diagram of a tank with parabolic ends. The tank has a length of 6 meters along the horizontal axis, a top width of 4 meters, and a total height of 5 meters with 3 meters filled with water (shaded region). The diagram shows the tank in an isometric view with dimensions labeled.",
+        "diagram_bbox": null,
+        "final_answer": "$W=\\int_0^3(9800)\\left(12\\frac{4y}{5}\\right)(5-y)dy$ Joules",
+        "diagram_image_local": "uw_data/math125/math125_Wi24_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi24/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_wi24_p5",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "average_value_of_a_function",
+      "numerical_integration_trapezoidal_rule",
+      "fundamental_theorem_of_calculus"
+    ],
+    "stem": "Here's the graph of a function $f(x)$, consisting of a portion of a parabola, two line segments, and a quarter circle. Use it to answer the questions below. You may use well-known formulas for areas of geometric objects.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$(4 \\text{ points}) \\text{Compute } \\lim_{n \\to \\infty} \\sum_{i=0}^{n} f\\left(\\frac{7i}{n}\\right) \\frac{7}{n}.$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A coordinate plane with x-axis ranging from approximately -3 to 8 and y-axis from approximately -2 to 4. The graph shows: (1) a parabolic portion from approximately x=-2 to x=0 with vertex near (-1, 1), (2) a line segment from approximately (0, 1) to (2, -1), (3) a line segment from approximately (2, -1) to (4, 2), and (4) a quarter circle from approximately (4, 2) to (7, 3). Key points are marked with dots.",
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{1}{4}+\\frac{4\\pi}{4}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi24_images/diagrams/p6_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi24/diagrams/p6_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$(4 \\text{ points}) \\text{Let } g(x) = \\int_{\\sin(\\pi x)}^{5} f(t) dt. \\text{ Find } g'\\left(\\frac{1}{6}\\right).$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\pi\\sqrt{3}$"
+      },
+      {
+        "label": "c",
+        "question_text": "$(2 \\text{ points}) \\text{The Trapezoidal Rule approximation } T_3 \\text{ of } \\int_{-2}^{0} f(x) dx \\text{ is (circle one)}: \\\\ \\text{(i) an underestimate} \\quad \\text{or} \\quad \\text{(ii) an overestimate} \\\\ \\text{because the function is (circle one)}: \\\\ \\text{(a) positive} \\quad \\text{(b) negative} \\quad \\text{(c) increasing} \\quad \\text{(d) decreasing} \\quad \\text{(e) concave up} \\quad \\text{(f) concave down}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(ii) an overestimate"
+      }
+    ],
+    "id": "uw_math_125_wi24_p6",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "disk_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "Let $\\mathcal{R}$ be the region in the first quadrant bounded by $y = \\sqrt{\\ln(x)}$, $y = 2$, and the two axes. Let $\\mathcal{S}$ be the solid formed by revolving $\\mathcal{R}$ about the $x$-axis. (Pictures are not to scale.)",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$(3 \\text{ points}) \\text{Set up an integral expression to evaluate the volume of } \\mathcal{S} \\text{ using the washer method.} \\\\ \\text{Do NOT evaluate the integral expression. Just set it up.}",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A shaded region in the first quadrant bounded by a curve (y = sqrt(ln(x))), a horizontal line at y = 2, and the two coordinate axes. The region is shown as a gray shaded area.",
+        "diagram_bbox": null,
+        "final_answer": "$V=\\int_0^1\\pi(2)^2dx+\\int_1^e\\pi(2)^2-\\pi(\\sqrt{4x})^2dx$",
+        "diagram_image_local": "uw_data/math125/math125_Wi24_images/diagrams/p7_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi24/diagrams/p7_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$(3 \\text{ points}) \\text{Set up an integral expression to evaluate the volume of } \\mathcal{S} \\text{ using the shell method.} \\\\ \\text{Do NOT evaluate the integral expression. Just set it up.}",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A shaded region in the first quadrant bounded by a curve (y = sqrt(ln(x))), a horizontal line at y = 2, and the two coordinate axes. The region is shown as a gray shaded area.",
+        "diagram_bbox": null,
+        "final_answer": "$V=\\int_0^2 2\\pi y(e^y)dy$",
+        "diagram_image_local": "uw_data/math125/math125_Wi24_images/diagrams/p7_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi24/diagrams/p7_b.png"
+      },
+      {
+        "label": "c",
+        "question_text": "$(4 \\text{ points}) \\text{Find the volume of } \\mathcal{S}. \\text{ (Use whichever method from parts (a) or (b) you prefer.)}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\pi e^4-\\pi$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p7",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Let $R$ be the region bounded by the curves $y = 4\\sin x$ and $y = 2\\sin x$ and between $x = 0$ and $x = \\pi$. By symmetry, we can tell that the $x$-coordinate of the centroid (center of mass) of $R$ is $\\pi/2$. Find the $y$-coordinate of the centroid of $R$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\bar{y}=\\frac{3\\pi}{4}$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p8",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 11,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "Find the solution to the differential equation\n\n$$\\frac{dy}{dx} = \\frac{y + 3}{x \\ln x}$$\n\nthat satisfies the initial condition:\n\n$$y(e^5) = 27.$$\n\nFor full credit, write your answer in explicit form, $y = f(x)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y=6\\ln x-3$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p9",
+    "course": "math_125",
+    "exam": "wi24_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 12,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "differential_equation_terminology",
+      "separable_differential_equations"
+    ],
+    "stem": "At all $x > 0$, a certain curve $y = f(x)$ has the following property:\n\nThe tangent line to the curve $y = f(x)$ at any point $(a,b)$ on the curve intersects the $y$-axis at $(0, \\sqrt{b})$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$(5 \\text{ points}) \\text{Find a differential equation satisfied by } f(x).$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 12,
+        "diagram_description": "A coordinate plane showing a curve in the first quadrant and a tangent line to the curve at a point. The tangent line intersects the y-axis at a labeled point. This is a sketch diagram illustrating the geometric property described.",
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{dy}{dx}=\\frac{y-\\sqrt{y}}{x}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi24_images/diagrams/p10_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi24/diagrams/p10_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "$(5 \\text{ points}) \\text{Suppose the curve passes through the point } (1, 16). \\text{ Find the function } f(x) \\text{ for } x > 0 \\\\ \\text{by solving the differential equation you found in (a).}$",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y=(3\\sqrt{x}+1)^2$"
+      }
+    ],
+    "id": "uw_math_125_wi24_p10",
+    "course": "math_125",
+    "exam": "wi24_final"
+  }
+]

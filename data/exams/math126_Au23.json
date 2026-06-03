@@ -1,0 +1,266 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "line_plane_intersection"
+    ],
+    "stem": "Let $\\mathcal{P}$ be the plane given by the equation $-x + y + z = 2$. The point $Q(2,1,-1)$ is not on the plane $\\mathcal{P}$. Let $L_1$ be the line through $Q$ and orthogonal to $\\mathcal{P}$, and let $R$ be the point of intersection of $L_1$ and $\\mathcal{P}$. Let $W$ be another point $(-1, 3, 1)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find parametric equations of the line $L_2$ that passes through points $W$ and $R$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -1 - 5t$, $y = 3 + 2t$, $z = 1 + 2t$"
+      }
+    ],
+    "id": "uw_math_126_au23_p1",
+    "course": "math_126",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "multivariable_functions",
+    "concepts": [
+      "functions_of_two_variables",
+      "level_curves"
+    ],
+    "stem": "Parts (a) and (b) of this question are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation for the quadric surface consisting of all points that are equidistant to the plane $y = 3$ and the point $(0, 1, 2)$. Then identify the quadric surface.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Circular paraboloid (or elliptical)"
+      },
+      {
+        "label": "b",
+        "question_text": "Let $P$ be the point where $\\mathbf{r}(t) = \\langle t^2 + t, t^3, -\\frac{3}{2}t^2 - 2t \\rangle$ intersects the plane $y = -8$. Find the curvature of $\\mathbf{r}(t)$ at $P$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{17}{13^3}$"
+      }
+    ],
+    "id": "uw_math_126_au23_p2",
+    "course": "math_126",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 12,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "tangent_plane_equation",
+      "partial_derivatives"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the equation of the plane tangent to the surface $z = x^2 y - \\sqrt{3x - y - \\frac{x}{y}}$ at the point $(6, 2, 65)$. Write your answer in the form $Ax + By + Cz = D$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$185x + 301y - 8z = 1192$"
+      }
+    ],
+    "id": "uw_math_126_au23_p3",
+    "course": "math_126",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the volume of the largest rectangular box in the first octant with three faces in the coordinate planes and the vertex opposite the origin (i.e. the one marked $P$ in the picture below) on the surface $z = 20 - x^2 - y$. In order to receive full credit, you must show that your answer really is the maximum.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A 3D diagram showing a rectangular box in the first octant. The origin is at the lower-left corner. Three faces of the box lie on the coordinate planes (xy-plane, xz-plane, yz-plane). The vertex opposite the origin is labeled $P$ and is positioned on a curved surface above the box. The axes are labeled $x$, $y$, and $z$, with $z$ pointing upward.",
+        "diagram_bbox": null,
+        "final_answer": "$128$",
+        "diagram_image_local": "uw_data/math126/math126_Au23_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au23/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_126_au23_p4",
+    "course": "math_126",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 14,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "changing_order_of_integration"
+    ],
+    "stem": "Part (a) and (b) of this question are not related.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute $\\int_{1}^{5} \\int_{\\sqrt{y-1}}^{2} \\frac{x^2}{1 + x^5} dx \\, dy$ (Hint: reverse the order of integration)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{5}\\ln(33)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up (but do not evaluate) an integral for the volume of the solid enclosed by the cylinder $y = x^2$ and the planes $y + z = 4$ and $z = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_{-2}^{2} \\int_{x^2}^{4} (4-y) \\, dy \\, dx$"
+      }
+    ],
+    "id": "uw_math_126_au23_p5",
+    "course": "math_126",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "mass_from_density_2d",
+      "center_of_mass_2d",
+      "polar_coordinates"
+    ],
+    "stem": "A lamina $D$ occupies the region in the first quadrant that lies inside the circle $x^2 + y^2 = 4$ and outside the circle $x^2 + (y - 2)^2 = 4$. The density at any point is $\\rho(x, y) = \\frac{x}{\\sqrt{x^2 + y^2}}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the mass of $D$. (Hint: Set up and evaluate a double integral in polar coordinates.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find $\\overline{y}$, which is the $y$-coordinate of the center of mass.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\bar{y} = \\frac{3}{10}$"
+      }
+    ],
+    "id": "uw_math_126_au23_p6",
+    "course": "math_126",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $f(x) = \\sin(x - 1) + x^2 + e^x$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial $T_2(x)$ for $f$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = (1+e) + (3+e)(x-1) + \\frac{1}{2}(2+e)(x-1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find an upper bound for $|f(x) - T_2(x)|$ on the interval $\\left[\\frac{1}{2}, \\frac{3}{2}\\right]$. In order to receive credit, you must justify your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{48}(1+e^{3/4})$"
+      }
+    ],
+    "id": "uw_math_126_au23_p7",
+    "course": "math_126",
+    "exam": "au23_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "building_new_series_from_known_series",
+      "power_series_representation",
+      "error_estimation_taylor"
+    ],
+    "stem": "For this problem, you may use the following basic Taylor series: $\\frac{1}{1-x} = \\sum_{k=0}^{\\infty} x^k$, $e^x = \\sum_{k=0}^{\\infty} \\frac{x^k}{k!}$, $\\sin x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k+1}}{(2k+1)!}$, $\\cos x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k}}{(2k)!}$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Use the list of Basic Series to find the Taylor series for $f(x) = x^2 \\arctan(-3x)$ based at $b = 0$. (Use $\\Sigma$ notation.)",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{(-1)^{k+1} 3^{2k+1} x^{2k+3}}{2k+1}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval on which the series in part (a) converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(-\\frac{1}{3}, \\frac{1}{3}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $f^{(2023)}(0)$. (That is, the 2023th derivative of $f$ at $0$.) Give an exact answer.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{-3^{2021} \\cdot 2023!}{2021}$"
+      }
+    ],
+    "id": "uw_math_126_au23_p8",
+    "course": "math_126",
+    "exam": "au23_final"
+  }
+]

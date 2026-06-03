@@ -1,0 +1,322 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "integration_by_parts"
+    ],
+    "stem": "Evaluate the following integrals. Show your work and box your final answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\frac{\\ln x}{x^2} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{\\ln x}{x} - \\frac{1}{x} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\frac{8}{(x-2)(x^2+4)} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln|x-2| - \\frac{1}{2}\\ln(x^2+4) - \\arctan\\left(\\frac{x}{2}\\right) + C$"
+      }
+    ],
+    "id": "uw_math_125_sp25_p1",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_with_bounds",
+      "integrals_involving_inverse_trig"
+    ],
+    "stem": "Answer the following questions. Show your work and box your final answer.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\text{Evaluate } \\int_0^{\\sqrt{3}/2} x^2 \\sin^{-1}(x) dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{3\\sqrt{3}\\pi - 5}{72}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the Comparison Test to determine whether the following improper integral converges or diverges. Show your work. $$\\int_3^{\\infty} \\frac{dx}{x^4 + \\cos^2 x}$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_3^{\\infty} \\frac{dx}{x^4+\\cos^2 x}$ converges"
+      }
+    ],
+    "id": "uw_math_125_sp25_p2",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 10,
+    "topic": "fundamental_theorem_of_calculus",
+    "concepts": [
+      "accumulation_functions",
+      "derivative_of_integral_function"
+    ],
+    "stem": "Let $f(x)$ be the function whose graph, for $0 \\le x \\le 10$, is shown below:\n\nLet $g(x) = \\int_0^x f(t) dt$, and let $h(x) = \\int_0^{x^2} f(t) dt$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate $g(3)$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A piecewise linear graph labeled y=f(x) on a coordinate plane with x-axis from -1 to 10 and y-axis from -3 to 4. The function has the following segments: (0,0) to (1,3) a line with positive slope; (1,3) to (3,3) a horizontal line at y=3; (3,3) to (5,-3) a line with negative slope; (5,-3) to (10,-1) a line with positive slope ending at approximately (10,-1). The point at (10,-1) is marked with a filled dot.",
+        "final_answer": "$g(3) = 7$",
+        "diagram_image_local": "uw_data/math125/math125_Sp25_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp25/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate $g'(3)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(3) = 3$"
+      },
+      {
+        "label": "c",
+        "question_text": "Evaluate $h(3)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h(3) = 2$"
+      },
+      {
+        "label": "d",
+        "question_text": "Evaluate $h'(3)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(3) = -12$"
+      }
+    ],
+    "id": "uw_math_125_sp25_p3",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "variable_force_work",
+      "distance_and_force_setup"
+    ],
+    "stem": "A particle is moving along a straight line with acceleration at $t$ seconds, in m/s², given by: $$a(t) = 2t - 6$$\n\nAt time $t = 0$ seconds, its velocity is $v(0) = 8$ m/s.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the velocity $v(t)$ of the particle as a function of time $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$v(t) = t^2 - 6t + 8$"
+      },
+      {
+        "label": "b",
+        "question_text": "What is the total distance traveled by the particle from time $t = 0$ to time $t = 4$ sec?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$8$ meters"
+      }
+    ],
+    "id": "uw_math_125_sp25_p4",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 10,
+    "topic": "area_between_curves",
+    "concepts": [
+      "area_between_two_curves_dx",
+      "finding_intersection_points_for_area",
+      "top_minus_bottom_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the area between the curve $y = x(1-x)$ and the $x$-axis over the interval $0 \\le x \\le 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{6}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the constant $m$, with $0 < m < 1$, such that the area enclosed between the curve $y = x(1-x)$ and the line $y = mx$ is half of the total area from part (a).",
+        "depends_on": [
+          "a"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$m = 1 - \\frac{1}{\\sqrt{2}}$ or $m = \\frac{\\sqrt{2}-1}{\\sqrt{2}}$"
+      }
+    ],
+    "id": "uw_math_125_sp25_p5",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "radius_from_geometry",
+      "inner_outer_radius_setup"
+    ],
+    "stem": "Let $R$ be the region with $x \\ge 0$ enclosed between the graphs of $$y = \\frac{9}{x^2} \\text{ and } y = 10 - x^2.$$",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Set up an integral equal to the volume of the solid of revolution obtained by rotating this region $R$ about the line $x = -1$. Do not compute or simplify the integral, just set it up.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\int_1^3 2\\pi(x+1)(10-x^2-\\frac{9}{x^2})dx$"
+      }
+    ],
+    "id": "uw_math_125_sp25_p6",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the arc length of the curve $y = e^x$ over the interval $[0,1]$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sqrt{1+e^2} - \\sqrt{2} + \\frac{1}{2}\\ln\\left|\\frac{\\sqrt{1+e^2}-1}{\\sqrt{2}-1}\\right|$"
+      }
+    ],
+    "id": "uw_math_125_sp25_p7",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "variable_force_work",
+      "pumping_liquid_work",
+      "distance_and_force_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A bucket of mass 4 kg is initially filled with water of mass 30 kg. The bucket and water are lifted from the bottom of a well 10 meters deep up to the top of the well at a constant speed with a rope of mass 0.5 kg per meter. The bucket leaks water at a constant rate and only 10 kg of water get to the top of the well. How much work, in Joules, is done? You may use $g = 9.8$ m/s².",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2,597$ Joules"
+      }
+    ],
+    "id": "uw_math_125_sp25_p8",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution of the differential equation that satisfies the given initial condition:\n$$\\frac{dy}{dx} = (y^2 + 1)\\sqrt{4 - x^2}, \\quad y(0) = 1.$$\n\nFor full credit, write your answer in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\tan\\left(2\\arcsin\\frac{x}{2} + \\frac{x\\sqrt{4-x^2}}{2} + \\frac{\\pi}{4}\\right)$"
+      }
+    ],
+    "id": "uw_math_125_sp25_p9",
+    "course": "math_125",
+    "exam": "sp25_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A tank initially contains 90 liters of pure water. A solution of salt in water that contains 0.2 kg of salt per liter enters the tank at a rate of 10 liters/min. In addition, another solution of salt in water that contains 0.1 kg of salt per liter enters the tank at a rate of 5 liters/min. The solution is kept thoroughly mixed in the tank, and it drains from the tank at a rate of 15 liters/min. How much salt will there be in the tank after $t$ minutes?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y(t) = 15 - 15e^{-t/6} = 15(1-e^{-t/6})$"
+      }
+    ],
+    "id": "uw_math_125_sp25_p10",
+    "course": "math_125",
+    "exam": "sp25_final"
+  }
+]

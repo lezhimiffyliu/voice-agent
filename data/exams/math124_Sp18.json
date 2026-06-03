@@ -1,0 +1,283 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 15,
+    "topic": "derivative_rules",
+    "concepts": [
+      "quotient_rule",
+      "chain_rule",
+      "trig_derivatives",
+      "exponential_derivatives",
+      "logarithmic_differentiation"
+    ],
+    "stem": "Find the derivatives of the following functions. Do not simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) $f(x) = \\frac{\\tan x}{\\sqrt{1 + e^x}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{\\sqrt{1+e^{2x}} \\sec^2(x) - \\tan(x) \\left(\\frac{1}{2\\sqrt{1+e^{2x}}}\\right) (2x)e^{x^2}}{1+e^{2x}}$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) $y = (\\tan x)^{x^2} \\cdot (x + 1)^{2/3}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = (\\tan x)^x \\cdot (x+1)^{2/3} \\left(x^2\\frac{\\sec^2(x)}{\\tan(x)} + 2x\\ln(\\tan(x)) + \\frac{2}{3(x+1)}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "(5 points) $g(t) = \\ln\\left(\\left(1 + \\frac{t}{\\ln t}\\right)^4\\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(t) = \\frac{4}{1+\\frac{1}{\\ln t}} \\cdot \\frac{\\ln t - 1}{(\\ln t)^2}$"
+      }
+    ],
+    "id": "uw_math_124_sp18_p1",
+    "course": "math_124",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "lhopitals_rule_application",
+      "trig_limits"
+    ],
+    "stem": "Find the following limits. In each case your answer should be either a number, $+\\infty$, $-\\infty$, or DNE. Please show your work.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) $\\lim_{x \\to 2} \\frac{e^{x^2} - e^4}{x - 2}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4e^4$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) $\\lim_{t \\to 0}\\left(\\frac{1}{t\\sqrt{1 + t}} - \\frac{1}{t}\\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{2}$"
+      },
+      {
+        "label": "c",
+        "question_text": "(5 points) $\\lim_{x \\to 0} \\frac{\\sin(5x) \\sin(3x)}{x\\sin(2x)}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{15}{2}$"
+      }
+    ],
+    "id": "uw_math_124_sp18_p2",
+    "course": "math_124",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 12,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line",
+      "linear_approximation"
+    ],
+    "stem": "The point $(2, 1)$ lies on the curve $x^3 + x^2y + y^3 = 13$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) Find the equation of the tangent line to the curve at this point.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y - 1 = -\\frac{16}{7}(x-2)$"
+      },
+      {
+        "label": "b",
+        "question_text": "(4 points) Use this tangent line to approximate the $y$-coordinate of a point on the curve where $x = 1.92$. Give your answer to three decimal places.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1.183$"
+      },
+      {
+        "label": "c",
+        "question_text": "(4 points) Is your answer in (b) an over-estimate or an under-estimate?",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y'' = -\\frac{1326}{343}$ so over-estimate"
+      }
+    ],
+    "id": "uw_math_124_sp18_p3",
+    "course": "math_124",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 13,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A highway patrol plane flies $0.8$ miles above a straight road at a steady ground speed of $120$ miles per hour. The pilot sees an oncoming car and, with radar, determines that the line of sight distance from plane to car is $1.7$ miles, decreasing at a rate of $160$ miles per hour. Calculate the car's speed along the highway.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$61.3$ mph"
+      }
+    ],
+    "id": "uw_math_124_sp18_p4",
+    "course": "math_124",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 13,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "geometric_optimization",
+      "optimization_verification"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A manufacturer needs to make a cylindrical can that will hold $1.5$ liters of liquid. Determine the dimensions of the can (base radius and the height) that will minimize the amount of material used in its construction. Recall that $1$ liter $= 1000$cm$^3$.\n\nBe sure to verify that your answer is a minimum.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$r = \\sqrt[3]{\\frac{3000}{4\\pi}}$ and $h = \\frac{1500}{\\pi}\\left(\\frac{4\\pi}{3000}\\right)^{\\frac{2}{3}}$"
+      }
+    ],
+    "id": "uw_math_124_sp18_p5",
+    "course": "math_124",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 20,
+    "topic": "curve_analysis",
+    "concepts": [
+      "intercepts",
+      "critical_points",
+      "local_extrema",
+      "first_derivative_test",
+      "inflection_points",
+      "concavity",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = x^5 - 7x^4 + 12x^3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(4 points) Find the $x$ and $y$ intercepts of the graph of $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "y-intercept $y=0$, x-intercepts $x=0, 3, 4$"
+      },
+      {
+        "label": "b",
+        "question_text": "(6 points) Find the critical numbers for $f(x)$ and determine if each gives a local minimum, a local maximum, or neither.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x=2$ gives a local maximum, $x=3.6$ gives a local minimum and $x=0$ is neither"
+      },
+      {
+        "label": "c",
+        "question_text": "(6 points) Find the inflection point(s) of $y = f(x)$. In which interval(s) is the graph concave down?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Inflection points are $(0,0)$, $(1.2, 8.7)$ and $(3,0)$. Concave down if $x < 0$ or $1.2 < x < 3$"
+      },
+      {
+        "label": "d",
+        "question_text": "(4 points) Sketch the graph of $y = f(x)$ on the axes provided below. Mark the coordinates of any local maximum, local minimum or inflection point. Make sure your picture matches the information you provided in parts (a)-(c).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A rectangular coordinate system with horizontal axis labeled from 0 to 4 and vertical axis labeled from -10 to 15, with gridlines at integer intervals. No curves are drawn; this is a blank grid for student to sketch the function.",
+        "diagram_image_local": "uw_data/math124/math124_Sp18_images/diagrams/p6_d.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Sp18/diagrams/p6_d.png"
+      }
+    ],
+    "id": "uw_math_124_sp18_p6",
+    "course": "math_124",
+    "exam": "sp18_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 12,
+    "topic": "continuity",
+    "concepts": [
+      "continuity_at_a_point",
+      "piecewise_continuity",
+      "differentiability"
+    ],
+    "stem": "Consider the function $g(x) = \\begin{cases} 3x^2 + 4x & \\text{if } x \\le 1 \\\\ 2x^3 + cx + d & \\text{if } x > 1 \\end{cases}$ where $c$ and $d$ are constants.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(8 points) Find the values $c$ and $d$ so that $g(x)$ is differentiable at $x = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$c = 4$ and $d = 1$"
+      },
+      {
+        "label": "b",
+        "question_text": "(4 points) Let $c$ and $d$ be your answer from part (a). Is the derivative $g'(x)$ continuous at $x = 1$?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x)$ is continuous at $x = 1$"
+      }
+    ],
+    "id": "uw_math_124_sp18_p7",
+    "course": "math_124",
+    "exam": "sp18_final"
+  }
+]

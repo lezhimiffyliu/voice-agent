@@ -1,0 +1,289 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "parametric_equations_of_lines",
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "line_plane_intersection"
+    ],
+    "stem": "(4 points per part) Parts (a), (b), and (c) are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "The two lines $x = 1 + t, y = t, z = 1 - 2t$ and $x = 1, y = 4t, z = 1 - 3t$ intersect at the point $(1, 0, 1)$. Find the equation for the plane containing these two intersecting lines.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$5x + 3y + 4z = 9$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find parametric equations for the line of intersection of the two planes $x + y + z = 1$ and $2x + y - 3z = -3$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -4t$, $y = 5t$, $z = -t$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find all points of intersection of the line through $(0, 0, 1)$ and $(3, 4, 1)$ and the paraboloid $100z = x^2 + y^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-6, -8, 1)$ & $(6, 8, 1)$"
+      }
+    ],
+    "id": "uw_math_126_sp23_p1",
+    "course": "math_126",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "parametrization_of_curves",
+      "curvature",
+      "derivatives_of_vector_functions"
+    ],
+    "stem": "(6 points per part) Parts (a) and (b) are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find a vector function for the curve of intersection between the surface $5x^2 + y^2 - z^2 = 4$ and the plane $z = x$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\vec{r}(t) = \\langle \\cos t, 2\\sin t, \\cos t \\rangle$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the curvature of $\\mathbf{r}(t) = \\langle t^3, t^2 - 1, 3t + 7 \\rangle$ at the point $(-8, 3, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa = \\frac{6\\sqrt{53}}{13^3}$"
+      }
+    ],
+    "id": "uw_math_126_sp23_p2",
+    "course": "math_126",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "partial_derivatives",
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "local_extrema_multivariable",
+      "tangent_plane_equation",
+      "linear_approximation_multivariable"
+    ],
+    "stem": "(6 points per part) For parts (a) and (b), let $f(x, y) = x^2y^2 - 4x^2 - y^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find all the saddle points of $f(x, y)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1, 2)$, $(1, -2)$, $(-1, 2)$, $(-1, -2)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the equation of the tangent plane to the surface $z = f(x, y)$ at $x = 2, y = 1$ and use it to approximate $f(2.1, 0.8)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$z = -13 - 12(x - 2) + 6(y - 1)$, $f(2.1, 0.8) \\approx -15.4$"
+      }
+    ],
+    "id": "uw_math_126_sp23_p3",
+    "course": "math_126",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "global_extrema_multivariable",
+      "second_derivative_test_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the absolute maximum and absolute minimum values of the function $f(x, y) = x^2 - y^2 + 2y$ on the region enclosed by $x = 0, y = 4$ and $y = x^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "min $-8$, max $\\frac{9}{4}$"
+      }
+    ],
+    "id": "uw_math_126_sp23_p4",
+    "course": "math_126",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_rectangles",
+      "iterated_integrals",
+      "changing_order_of_integration",
+      "integration_bounds_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Reverse the order of integration and evaluate $$\\int_{0}^{2} \\int_{x/2}^{1} \\frac{x}{y^3 + 1} \\, dy\\,dx$$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{3}\\ln(2)$"
+      }
+    ],
+    "id": "uw_math_126_sp23_p5",
+    "course": "math_126",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 12,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "polar_coordinate_conversion",
+      "polar_integral_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Let $R$ be the region inside the circle $x^2 + y^2 = 4y$, outside the circle $x^2 + y^2 = 8$, and in the first quadrant (shown below). Evaluate $$\\iint_R \\frac{x}{x^2 + y^2} \\, dA$$",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A coordinate plane showing two circles. The larger circle $x^2 + y^2 = 8$ is centered at the origin with radius $2\\sqrt{2}$. The smaller circle $x^2 + y^2 = 4y$ (or $(x^2 + (y-2)^2 = 4$) is centered at $(0, 2)$ with radius 2. The region $R$ is shaded in the first quadrant, bounded between the two circles (inside the smaller circle, outside the larger circle, in the first quadrant where $x > 0, y > 0$). Axes are labeled with tick marks, and the shaded region is shown in gray.",
+        "final_answer": "$3 - \\sqrt{8}$",
+        "diagram_image_local": "uw_data/math126/math126_Sp23_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Sp23/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_126_sp23_p6",
+    "course": "math_126",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "first_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "For parts (a)–(c), let $f(x) = \\ln(2x - 1)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the second Taylor polynomial, $T_2(x)$, for $f(x)$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 2(x - 1) - 2(x - 1)^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use your answer to part (a) to approximate $\\ln(1.1)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln(1.1) \\approx 0.095$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find an upper bound (as sharp as possible) on the error for your answer from part (b).",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{3000} = 0.0003$"
+      }
+    ],
+    "id": "uw_math_126_sp23_p7",
+    "course": "math_126",
+    "exam": "sp23_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "power_series_representation",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "For this problem, you may use the following basic Taylor series:\n$$\\frac{1}{1 - x} = \\sum_{k=0}^{\\infty} x^k, \\quad e^x = \\sum_{k=0}^{\\infty} \\frac{x^k}{k!}, \\quad \\sin x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k+1}}{(2k + 1)!}, \\quad \\cos x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k}}{(2k)!}$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x) = \\int_0^x e^{2t^2} \\, dt$ based at $b = 0$. Express your answer using $\\sum$ notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{2^k x^{2k+1}}{(2k+1)k!}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the open interval of convergence for the series you found in (a).",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-\\infty, \\infty)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $f^{(2023)}(0)$, i.e. the 2023rd derivative of $f$ at 0.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f^{(2023)}(0) = \\frac{2023! \\cdot 2^{1011}}{1011!}$"
+      }
+    ],
+    "id": "uw_math_126_sp23_p8",
+    "course": "math_126",
+    "exam": "sp23_final"
+  }
+]

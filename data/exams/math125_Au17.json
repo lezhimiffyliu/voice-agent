@@ -1,0 +1,301 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 14,
+    "topic": "partial_fractions",
+    "concepts": [
+      "linear_factor_decomposition",
+      "integrating_rational_functions"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate the integral $\\int \\frac{1}{x^3 - 4x^2} dx$. Show your work, and box your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{16}\\ln|x| + \\frac{1}{4x} + \\frac{1}{16}\\ln|x-4| + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "Evaluate the following improper integral, if it converges, or show why it diverges. $$\\int_0^{\\infty} \\frac{e^x}{1 + e^{2x}} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Integral converges to $\\frac{\\pi}{4}$"
+      }
+    ],
+    "id": "uw_math_125_au17_p1",
+    "course": "math_125",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 14,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integration_by_parts_basic",
+      "integrals_involving_inverse_trig"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate $\\int_0^{\\sqrt{3}} x \\tan^{-1}(x) dx$. Give your answer in exact form (in terms of square roots and/or multiples of $\\pi$).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2\\pi}{3} - \\frac{\\sqrt{3}}{2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the function $f(x)$ if $f'(x) = \\frac{1}{(r^2 - x^2)^{3/2}}$ and $f(0) = 0$. The constant $r$ should appear in your answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(x) = \\frac{x}{r^2\\sqrt{x^2-r^2}}$"
+      }
+    ],
+    "id": "uw_math_125_au17_p2",
+    "course": "math_125",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 13,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "The velocity of a particle is given by $v(t) = \\sin^3(\\pi t)$ ft/sec where $t$ is in seconds.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Assume the initial position of the particle is $s(0) = 0$ ft. Find the function $s(t)$ for the position of the particle at time $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$s(t) = \\frac{1}{3\\pi}\\cos^3(\\pi t) - \\frac{1}{\\pi}\\cos(\\pi t) + \\frac{2}{3\\pi}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the total distance traveled by the particle from $t = 0$ to $t = \\frac{3}{2}$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2\\pi}{\\pi}$ feet"
+      }
+    ],
+    "id": "uw_math_125_au17_p3",
+    "course": "math_125",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 14,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "washer_method",
+      "volume_with_respect_to_x",
+      "work"
+    ],
+    "stem": "Let $R$ be the region enclosed by: the $x$-axis, the line $y = 5$, the line $x = -2$, and the portion of the curve $y = 5\\tan(x)$ between $x = 0$ and $x = \\pi/4$. The region $R$ is rotated around the line $x = -2$ to form a solid of revolution. The units are meters. In parts (b) and (c) take $g$ to be $9.8$ m/sec$^2$ and take the density of water to be $1000$ kg/m$^3$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Write each of the following in terms of integrals, but do not evaluate the integrals. The volume of the resulting container;",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate plane with x-axis ranging from approximately -2 to 0 and y-axis ranging from 0 to 5. A shaded region is shown bounded by: the x-axis (y=0) at the bottom, a horizontal line at y=5 at the top, a vertical line at x=-2 on the left, and a curved line representing y=5tan(x) for x between 0 and π/4 on the right. The region has a trapezoidal-like shape with a curved right side. The line x=-2 is marked with a small perpendicular arrow indicating the axis of rotation.",
+        "final_answer": "$V = \\pi\\int_0^5(\\arctan(\\frac{y}{2})+2)^2 dy$",
+        "diagram_image_local": "uw_data/math125/math125_Au17_images/diagrams/p4_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au17/diagrams/p4_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "The amount of work (in Joules) required to empty the container of water, if water is filled up to the level of 3 meters, and there's an outtake pipe at height 4 meters;",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate plane similar to part (a), showing the same shaded region. A horizontal dashed line is drawn at y=3 indicating the water level. A horizontal line with an arrow pointing right is drawn at y=4 indicating the outtake pipe location at height 4 meters.",
+        "final_answer": "$W = \\int_0^3 9800\\pi\\left(2+\\tan^{-1}(\\frac{y}{2})\\right)^2(4-y)dy$",
+        "diagram_image_local": "uw_data/math125/math125_Au17_images/diagrams/p4_b.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au17/diagrams/p4_b.png"
+      },
+      {
+        "label": "c",
+        "question_text": "The amount of work (in Joules) required to empty the container of water if the container is filled to the top with water and the outtake pipe is at height 7 meters (above the $x$-axis).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate plane similar to parts (a) and (b). The same shaded region is shown with a horizontal line at the top of the container (at y=5) and a horizontal line with an arrow pointing right at y=7 indicating the outtake pipe location above the container.",
+        "final_answer": "$\\int_0^5 9800\\pi\\left[2+\\tan^{-1}(\\frac{y}{2})\\right]^2(7-y)dy$",
+        "diagram_image_local": "uw_data/math125/math125_Au17_images/diagrams/p4_c.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au17/diagrams/p4_c.png"
+      }
+    ],
+    "id": "uw_math_125_au17_p4",
+    "course": "math_125",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Find the coordinates $(\\bar{x}, \\bar{y})$ for the center of mass of the region shown below.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the coordinates $(\\bar{x}, \\bar{y})$ for the center of mass of the region shown below.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A coordinate plane showing a quadrilateral (trapezoid-like) shaded region with vertices labeled at: (-4, 0), (4, 0), (3, 2), and (-3, 2). The region is bounded below by the x-axis from x=-4 to x=4, bounded above by a horizontal line at y=2 from x=-3 to x=3, and the slanted sides connect (-4, 0) to (-3, 2) on the left and (4, 0) to (3, 2) on the right.",
+        "final_answer": "$(\\bar{x}, \\bar{y}) = (0, \\frac{20}{21})$",
+        "diagram_image_local": "uw_data/math125/math125_Au17_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au17/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_au17_p5",
+    "course": "math_125",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the explicit solution $y = y(x)$ to the initial value problem $$\\frac{dy}{dx} = y^2 e^{\\sqrt{x}}, \\quad y(0) = \\frac{1}{5}.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\frac{-1}{2\\sqrt{x}e^{\\sqrt{x}}-2e^{\\sqrt{x}}-3}$ or $y = \\frac{1}{3+2e^{\\sqrt{x}}-2\\sqrt{x}e^{\\sqrt{x}}}$"
+      }
+    ],
+    "id": "uw_math_125_au17_p6",
+    "course": "math_125",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 13,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "exponential_growth_and_decay"
+    ],
+    "stem": "Suppose you drop a stone of mass $m$ from a great height in the earth's atmosphere, and the only forces acting on the stone are the earth's gravitational attraction and a retarding force due to air resistance, which is proportional to the velocity $v$. Take downward to be the positive direction. Then, since $F = ma$ and $a = dv/dt$, we have the differential equation: $$m\\frac{dv}{dt} = mg - kv,$$ where $k$ is a positive constant. Suppose that the mass is $m = 1$ kg, and take $g = 9.8$ m/sec$^2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Solve the differential equation to find a formula for $v(t)$. Your answer will involve $k$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$v(t) = \\frac{9.8}{k}(1-e^{-kt})$"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the terminal velocity $v_{\\infty}$ (the limiting velocity as $t \\to \\infty$). Your answer will involve the positive constant $k$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$v_{\\infty} = \\frac{9.8}{k}$ m/s"
+      },
+      {
+        "label": "c",
+        "question_text": "If $v_{\\infty} = 70$ m/sec, find the speed of the stone after 3 sec.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$v = 70(1-e^{-0.0434 \\cdot 3}) \\approx 24$ m/s"
+      }
+    ],
+    "id": "uw_math_125_au17_p7",
+    "course": "math_125",
+    "exam": "au17_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "average_value_of_a_function",
+      "accumulation_functions",
+      "derivative_of_integral_function"
+    ],
+    "stem": "Suppose that the graph of $f$ is as shown:",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the average value of this function over the interval $[0, 10]$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A coordinate plane with x-axis labeled from 0 to 10 and y-axis labeled from -3 to 5, with grid lines. A continuous curve labeled $y = f(t)$ is drawn. The curve starts at approximately (0, 1), increases to a local maximum at approximately (3, 3), decreases through (6, -3) which appears to be a local minimum, then increases again to approximately (10, 3). The curve appears to be piecewise linear or consists of connected line segments.",
+        "final_answer": "$f_{ave} = 0.8$",
+        "diagram_image_local": "uw_data/math125/math125_Au17_images/page-8.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Au17/diagrams/page-8.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Define a new function $A(x) = \\int_x^{x^3} f(t) dt$, where $f$ is the same function as above.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "i",
+        "question_text": "Compute $A(2)$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      },
+      {
+        "label": "ii",
+        "question_text": "Compute $A'(2)$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null
+      }
+    ],
+    "id": "uw_math_125_au17_p8",
+    "course": "math_125",
+    "exam": "au17_final"
+  }
+]

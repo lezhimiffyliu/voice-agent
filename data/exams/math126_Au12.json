@@ -1,0 +1,413 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "acceleration_vector",
+      "tangential_and_normal_components",
+      "derivatives_of_vector_functions",
+      "integrals_of_vector_functions"
+    ],
+    "stem": "The acceleration vector of a spaceship is $$\\mathbf{a}(t) = (2t, 0, -\\sin(t))$$ for all $t \\geq 0$ and the specified initial velocity and position are $$\\mathbf{v}(0) = (0, 0, 1) \\text{ and } \\mathbf{r}(0) = (1, 2, 300).$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the velocity function of the spaceship.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{v}(t) = (t^2, 0, \\cos t)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the tangential component of the acceleration.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$a_T = \\frac{2t^3 - \\sin t \\cos t}{\\sqrt{t^4 + \\cos^2 t}}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute the ship's position at $t = \\frac{\\pi}{2}$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\mathbf{r}\\left(\\frac{\\pi}{2}\\right) = \\left\\{\\frac{1}{3}\\left(\\frac{\\pi}{2}\\right)^3 + 1, 2, 301\\right\\}$"
+      }
+    ],
+    "id": "uw_math_126_au12_p1",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "curvature",
+      "space_curves",
+      "derivatives_of_vector_functions"
+    ],
+    "stem": "Suppose a 3-D curve is represented by the vector function $$\\mathbf{r}(t) = (t^2 - 1, \\frac{1}{3}t^3 - 2t, t^2 - 2).$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the curvature at time $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\kappa(t) = \\frac{2\\sqrt{2}}{(t^2 + 2)^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "At what point $(x, y, z)$ does the curve have maximum curvature?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-1, 0, -2)$"
+      }
+    ],
+    "id": "uw_math_126_au12_p2",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 3,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "dot_product",
+      "cross_product",
+      "orthogonality",
+      "vector_projection",
+      "normal_vector_to_plane"
+    ],
+    "stem": "True/False. Answer each question with a T for true or F for false. No justification for your answer is needed.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "If the $\\mathbf{T}$ and $\\mathbf{N}$ vectors of a vector function $\\mathbf{r}(t)$ at $t = 0$ are $\\mathbf{j}$ and $\\mathbf{k}$ respectively, then the $\\mathbf{B}$ vector at $t = 0$ is $\\mathbf{i}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "b",
+        "question_text": "There is a function $g(x, y)$ such that $g_x(x, y) = x + \\sin(xy)$ and $g_y(x, y) = y + \\sin(xy)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "c",
+        "question_text": "For any vectors $\\mathbf{a}$ and $\\mathbf{b}$, $\\text{proj}_{\\mathbf{a}}\\mathbf{b}$ must be orthogonal to $\\mathbf{b}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "d",
+        "question_text": "The level curves of $z = \\sqrt{9 - x^2 - y^2}$ are circles.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "e",
+        "question_text": "If $\\mathbf{u} = \\langle 1, 2, 3 \\rangle$ and $\\mathbf{v} = \\langle 3, 4, 5 \\rangle$, then $\\mathbf{u} \\times \\mathbf{v} = \\langle -2, 1, -2 \\rangle$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "f",
+        "question_text": "Planes $x + y + z = 9$ and $x - 3y + 2z = 4$ are perpendicular.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "g",
+        "question_text": "If $D$ is the domain given by $x^2 + y^2 \\leq 4$, then $\\pi\\sqrt{3} \\leq \\iint_D \\sqrt{4 - x^2 - y^2} dA \\leq 2\\pi$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "h",
+        "question_text": "The curvature of a line is positive.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "F"
+      },
+      {
+        "label": "i",
+        "question_text": "The cross product $(\\text{proj}_{\\mathbf{v}}\\mathbf{u}) \\times \\mathbf{u}$ is zero for any two vectors $\\mathbf{u}$ and $\\mathbf{v}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      },
+      {
+        "label": "j",
+        "question_text": "The scalar projection $\\text{comp}_{\\mathbf{a}}\\mathbf{v}$ can be positive, or zero, or negative.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "T"
+      }
+    ],
+    "id": "uw_math_126_au12_p3",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 4,
+    "points": 10,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "line_plane_intersection",
+      "normal_vector_to_plane"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the equation of the plane that contains the point $(0, 0, 0)$ and the line of intersection of the two planes $x - 2y - z = 5$ and $4x + 4y + 14z = 2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3x + 4y + 12z = 0$"
+      }
+    ],
+    "id": "uw_math_126_au12_p4",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 5,
+    "points": 10,
+    "topic": "tangent_planes_and_differentials",
+    "concepts": [
+      "linear_approximation_multivariable",
+      "first_order_taylor_polynomial"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Use the linear approximation of $f(x, y) = (yx^2 - y^4)^{1/3}$ at $(x, y) = (3, 1)$ to approximate the value of $f(2.9, 1.05)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(2.9, 1.05) \\approx \\frac{226}{15}$"
+      }
+    ],
+    "id": "uw_math_126_au12_p5",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the absolute maximum and minimum values of $f(x, y) = xy^2 - 3x + 1$, on the half disk, $D = \\{(x, y) \\mid y \\geq 0, x^2 + y^2 \\leq 36\\}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\max = 1 + 22\\sqrt{11}$ and $\\min = 1 - 22\\sqrt{11}$"
+      }
+    ],
+    "id": "uw_math_126_au12_p6",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "integration_bounds_setup",
+      "applications_of_double_integrals"
+    ],
+    "stem": "The region $R$ is outside the circle $x^2 + (y - 3)^2 = 9$, inside the circle $x^2 + y^2 = 9$ and in the first quadrant.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Sketch the circles and shade the region $R$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "Two circles are to be drawn: (1) $x^2 + y^2 = 9$, a circle centered at the origin with radius 3; (2) $x^2 + (y - 3)^2 = 9$, a circle centered at $(0, 3)$ with radius 3. The region $R$ is in the first quadrant, inside the first circle and outside the second circle. The axes should be labeled, showing at least $x$ and $y$ from 0 to approximately 3 or 4.",
+        "diagram_image_local": "uw_data/math126/math126_Au12_images/page-07.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au12/diagrams/page-07.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Compute the area of $R$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{9\\sqrt{3}}{4} - \\frac{3\\pi}{4}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the volume of the solid above the region $R$ and below the plane $z = x$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{27}{8}$"
+      }
+    ],
+    "id": "uw_math_126_au12_p7",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "Given $f(x) = x\\ln(1 + 5x)$, answer the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Compute the second degree Taylor polynomial $T_2(x)$ based at 0.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 5x^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use $T_2(x)$ you found above to estimate $f(0.02)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f(0.02) \\approx T_2(0.02) = 0.002$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find an upper bound for your error from part (b) using Taylor's Inequality (the error formula).",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$|f(0.02) - T_2(0.02)| \\leq 0.0001033$"
+      },
+      {
+        "label": "d",
+        "question_text": "Compare your answer in (c) with the difference between the value $f(0.02)$ you get from your calculator and your estimate in (b). Which one is more? Why?",
+        "depends_on": [
+          "b",
+          "c"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "On the calculator, $|f(0.02) - T_2(0.02)| = |0.02\\ln(1.1) - 0.002| \\approx 0.0000938 < 0.0001033$. The bound in (c) is larger precisely because it is an upper bound for the error."
+      }
+    ],
+    "id": "uw_math_126_au12_p8",
+    "course": "math_126",
+    "exam": "au12_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "higher_order_taylor_polynomial",
+      "building_new_series_from_known_series"
+    ],
+    "stem": "For $f(x) = x\\cos\\left(\\frac{1}{2}x^2\\right)$, do the following.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$ based at 0. Write your answer in $\\Sigma$ notation. Also, give the first 4 non-zero terms of the series.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x\\cos\\left(\\frac{1}{2}x^2\\right) = \\sum_{n=0}^{\\infty}\\frac{(-1)^n x^{4n+1}}{4^n(2n)!} = x - \\frac{x^5}{8} + \\frac{x^9}{384} - \\frac{x^{13}}{46080} + \\ldots$"
+      },
+      {
+        "label": "b",
+        "question_text": "What is the tenth Taylor polynomial $T_{10}(x)$ for this function?",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_{10}(x) = x - \\frac{x^5}{8} + \\frac{x^9}{384}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Compute $f^{(17)}(0)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f^{(17)}(0) = \\frac{(-1)^4(17!)}{4^4(8!)} = 34459425$"
+      }
+    ],
+    "id": "uw_math_126_au12_p9",
+    "course": "math_126",
+    "exam": "au12_final"
+  }
+]

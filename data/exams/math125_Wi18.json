@@ -1,0 +1,345 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 10,
+    "topic": "integration_by_parts",
+    "concepts": [
+      "integration_by_parts_basic",
+      "integrals_involving_logs"
+    ],
+    "stem": "Evaluate the following integrals. Show your work, simplify, and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\sqrt{x} \\ln(x) \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{3}x^{3/2}\\ln x - \\frac{4}{9}x^{3/2} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int \\frac{1}{x^2\\sqrt{4+x^2}} dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{1}{4}\\frac{\\sqrt{4+x^2}}{x} + C$"
+      }
+    ],
+    "id": "uw_math_125_wi18_p1",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "partial_fractions"
+    ],
+    "stem": "Evaluate the following integrals. Show your work, simplify, and box your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int \\frac{x^2 - x + 2}{x^3 + 2x} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln|x| - \\frac{1}{\\sqrt{2}}\\arctan\\left(\\frac{x}{\\sqrt{2}}\\right) + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_1^3 \\left( \\frac{x+1}{x} \\right)^2 |x-2| \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{5}{3} + 2\\ln 3$"
+      }
+    ],
+    "id": "uw_math_125_wi18_p2",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "improper_integrals",
+    "concepts": [
+      "infinite_interval_integrals",
+      "vertical_asymptote_integrals",
+      "convergence_of_improper_integrals",
+      "divergence_of_improper_integrals"
+    ],
+    "stem": "For each of the two improper integrals below, if the integral converges, evaluate it and if it diverges, explain why. Show all limit computations.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\int_0^3 \\frac{x}{3-x} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Diverges"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\int_0^{\\infty} xe^{-3x} \\, dx$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{9}$"
+      }
+    ],
+    "id": "uw_math_125_wi18_p3",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "area_between_two_curves_dx"
+    ],
+    "stem": "Consider the region $R$ bounded by $y = 0$, $x = 1$, $x = 8$, and $y = \\frac{16}{x^2}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the area of $R$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate plane with a shaded region bounded by the curve $y = \\frac{16}{x^2}$, the x-axis (y=0), and vertical lines at x=1 and x=8. The region is shown as shaded gray. The x-axis is marked with points at 1 and 8.",
+        "final_answer": "$14$",
+        "diagram_image_local": "uw_data/math125/math125_Wi18_images/diagrams/p4_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi18/diagrams/p4_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the value of $b$ such that the horizontal line $y = b$ (the dotted line in the figure above) bisects $R$ into two regions of equal area. You may give your answer either in exact form, or in decimal form accurate to at least two digits after the decimal point.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$b = (4-\\sqrt{7})^2 = 23 - 8\\sqrt{7} \\approx 1.834$"
+      }
+    ],
+    "id": "uw_math_125_wi18_p4",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "net_change_from_integral"
+    ],
+    "stem": "The acceleration of a particle that moves on a straight line during $0 \\le t \\le 3$ is given by the graph below. Find the velocity and the position of the particle at $t = 3$, if the particle started from rest at position $x = 1$ at time $t = 0$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "The acceleration of a particle that moves on a straight line during $0 \\le t \\le 3$ is given by the graph below. Find the velocity and the position of the particle at $t = 3$, if the particle started from rest at position $x = 1$ at time $t = 0$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A graph of acceleration $a(t)$ versus time $t$ from $t=0$ to $t=3$. The graph shows a piecewise linear function: from $t=0$ to $t=1$, the acceleration increases linearly from 0 to 1. From $t=1$ to $t=3$, the acceleration is constant at 1. The y-axis is labeled and ranges from 0 to 2, with a mark at 1. The x-axis is labeled $t$ and has marks at 0, 1, 2, and 3.",
+        "final_answer": "$v(3) = \\frac{3}{2}$, $x(3) = \\frac{25}{6}$",
+        "diagram_image_local": "uw_data/math125/math125_Wi18_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi18/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_wi18_p5",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 10,
+    "topic": "arc_length",
+    "concepts": [
+      "arc_length_of_y_fx",
+      "arc_length_integrand_setup"
+    ],
+    "stem": "Parts (a) and (b) of this question are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Set up (but DO NOT EVALUATE) a definite integral equal to the arc length of the curve: $$y=e^{-x^2}, \\quad 0 \\le x \\le 3.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$L = \\int_0^3 \\sqrt{1 + 4x^2e^{-2x^2}} dx$"
+      },
+      {
+        "label": "b",
+        "question_text": "A CAT scan shows cross-sections (slices) of a patient's liver, spaced 1.5 cm apart. The patient's liver is 15 cm long and the cross-sectional areas, in square centimeters, are: 0, 19, 57, 79, 95, 106, 116, 127, 62, 38, and 0. Estimate the volume of the liver using the Midpoint Rule with $n = 5$ subintervals.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1107 \\text{ cm}^3$"
+      }
+    ],
+    "id": "uw_math_125_wi18_p6",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 10,
+    "topic": "volumes",
+    "concepts": [
+      "disk_method",
+      "washer_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "Let $R$ be the region bounded by the curves $$y=x^2 - \\frac{1}{2}x^4 \\quad \\text{and} \\quad y=-2x.$$ (Note that these curves intersect at $x = 0$ and $x = 2$.)",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the volume of the solid of revolution obtained by rotating $R$ about the y-axis.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A coordinate plane showing the region R bounded by the parabola $y = x^2 - \\frac{1}{2}x^4$ and the line $y = -2x$. The curves intersect at the origin and at another point. The region R is shaded in gray. The y-axis is vertical and the x-axis is horizontal.",
+        "final_answer": "$8\\pi$",
+        "diagram_image_local": "uw_data/math125/math125_Wi18_images/page-07.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi18/diagrams/page-07.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Set up (but DO NOT EVALUATE or simplify) a definite integral equal to the volume obtained by rotating the same region $R$ about the horizontal line $y = 2$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A coordinate plane showing the region R bounded by the parabola $y = x^2 - \\frac{1}{2}x^4$ and the line $y = -2x$. The region R is shaded in gray. A horizontal line at $y = 2$ is drawn. The y-axis is vertical and the x-axis is horizontal.",
+        "final_answer": "$\\int_0^2 \\pi\\left[(2+2x)^2 - \\pi(2-x^2+\\frac{1}{2}x^4)^2\\right]dx$",
+        "diagram_image_local": "uw_data/math125/math125_Wi18_images/page-07.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi18/diagrams/page-07.png"
+      }
+    ],
+    "id": "uw_math_125_wi18_p7",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work",
+      "distance_and_force_setup"
+    ],
+    "stem": "A water tank is 6 feet long, with two rectangular sides and two trapezoidal ends. Its trapezoidal ends have a height of 3 feet, and bases of 2 feet and 6 feet, as in the picture. The tank is filled with water to a level of 1 foot from the bottom. Water weighs 62.5 lb/ft³. SET UP (but DO NOT EVALUATE or simplify) a definite integral equal to the work (in ft-lb) required to pump all the water to the top of the tank.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A water tank is 6 feet long, with two rectangular sides and two trapezoidal ends. Its trapezoidal ends have a height of 3 feet, and bases of 2 feet and 6 feet, as in the picture. The tank is filled with water to a level of 1 foot from the bottom. Water weighs 62.5 lb/ft³. SET UP (but DO NOT EVALUATE or simplify) a definite integral equal to the work (in ft-lb) required to pump all the water to the top of the tank.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 8,
+        "diagram_description": "A 3D diagram of a trapezoidal prism (water tank). The tank is 6 feet long with a rectangular bottom and top. The trapezoidal cross-sections at the ends have heights of 3 feet, with a bottom base of 2 feet and a top base of 6 feet. The water level is shown at 1 foot from the bottom, indicated by shaded blue region inside the tank. Labels show: 6 ft (length), 3 ft (height of trapezoid), 2 ft (bottom base), 6 ft (top base), and 1 ft (water level height).",
+        "final_answer": "$\\int_0^1 62.5(8y+12)(3-y)dy$",
+        "diagram_image_local": "uw_data/math125/math125_Wi18_images/diagrams/p8.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Wi18/diagrams/p8.png"
+      }
+    ],
+    "id": "uw_math_125_wi18_p8",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the solution to the differential equation $$y'=\\frac{xy^3}{\\sqrt{1+x^2}}$$ that satisfies the initial condition $$y(0) = -1.$$ Give your solution in explicit form, $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = -\\sqrt{\\frac{1}{3-2\\sqrt{1+x^2}}}$"
+      }
+    ],
+    "id": "uw_math_125_wi18_p9",
+    "course": "math_125",
+    "exam": "wi18_final"
+  },
+  {
+    "problem_number": 10,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "A 50-gallon tank initially contains 20 gallons of water in which 10 pounds of salt are dissolved. Pure water enters the tank at a rate of 4 gal/min. Simultaneously, a drain is open at the bottom of the tank, allowing the salt-water solution to leave the tank at a rate of 2 gal/min. The solution is kept thoroughly mixed.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find a formula for the volume $V(t)$ (in gallons) of the salt-water solution in the tank at time $t$ (in minutes).",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$V(t) = 2t + 20$ gallons"
+      },
+      {
+        "label": "b",
+        "question_text": "Write a differential equation for the amount $y(t)$ (in lbs) of salt in the tank at time $t$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dy}{dt} = -\\frac{y}{t+10}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Solve this differential equation and use the initial amount of salt in the tank to find a formula for $y(t)$.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = \\frac{100}{t+10}$"
+      },
+      {
+        "label": "d",
+        "question_text": "What is the amount of salt in the tank at the moment that the tank becomes full?",
+        "depends_on": "c",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4$ lbs"
+      }
+    ],
+    "id": "uw_math_125_wi18_p10",
+    "course": "math_125",
+    "exam": "wi18_final"
+  }
+]

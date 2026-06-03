@@ -1,0 +1,303 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 15,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "logarithmic_derivatives",
+      "trig_derivatives",
+      "product_rule"
+    ],
+    "stem": "(15 total points) Calculate the derivatives of the following functions. You do not need to simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) $f(x) = \\ln\\left[\\tan^2 x + \\ln\\left(2 + \\sin^2 x\\right)\\right]$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f'(x) = \\frac{2\\tan x \\cdot \\sec^2 x + \\frac{2\\sin x \\cos x}{2+\\sin^2 x}}{\\tan^2 x + \\ln(2+\\sin^2 x)}$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) $g(x) = x \\cdot \\cos\\left(\\frac{7x^3 + 5}{x^2}\\right)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(x) = \\cos\\left(\\frac{7x^3+5}{x^2}\\right) + x \\cdot \\sin\\left(\\frac{7x^3+5}{x^2}\\right) \\cdot \\left(7-\\frac{10}{x^3}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "(5 points) $h(t) = (t+1)^{\\sqrt{t}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$h'(t) = (t+1)^{\\sqrt{t}} \\cdot \\left(\\frac{\\sqrt{t}}{t+1} + \\frac{\\ln(t+1)}{2\\sqrt{t}}\\right)$"
+      }
+    ],
+    "id": "uw_math_124_au18_p1",
+    "course": "math_124",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 15,
+    "topic": "limits",
+    "concepts": [
+      "limits_at_infinity",
+      "algebraic_limit_evaluation",
+      "lhopitals_rule"
+    ],
+    "stem": "(15 total points) Evaluate the following limits. Your answer should be a number, $\\infty$, $-\\infty$ or DNE.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(5 points) $\\lim_{x \\to 0^+} \\frac{1}{\\sqrt{x}} - \\frac{1}{\\sin x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\infty$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) $\\lim_{x \\to \\infty} 3x - \\sqrt{9x^2 + 5x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{5}{6}$"
+      },
+      {
+        "label": "c",
+        "question_text": "(5 points) $\\lim_{x \\to 2} \\frac{x^2 + x - 6}{x^3 - 4x^2 + 4x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "DNE"
+      }
+    ],
+    "id": "uw_math_124_au18_p2",
+    "course": "math_124",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 13,
+    "topic": "related_rates",
+    "concepts": [
+      "geometric_related_rates",
+      "rate_interpretation",
+      "related_rates_setup",
+      "time_differentiation"
+    ],
+    "stem": "(13 points) A water trough is 12 meters long with a semi-circular cross section of radius 0.8 meters. The trough and its cross section are shown below. The pictures are not to scale. The trough is being filled at a rate of 0.3 cubic meters per minute. At what rate is the angle $\\theta$ shown changing when it is $\\frac{2\\pi}{3}$ radians? Give an exact answer with units.\n(Hint: Start by calculating the shaded area in the cross section.)",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A water trough is 12 meters long with a semi-circular cross section of radius 0.8 meters. The trough and its cross section are shown below. The pictures are not to scale. The trough is being filled at a rate of 0.3 cubic meters per minute. At what rate is the angle $\\theta$ shown changing when it is $\\frac{2\\pi}{3}$ radians? Give an exact answer with units.\n(Hint: Start by calculating the shaded area in the cross section.)",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "Two diagrams: (1) A 3D perspective view of a trough with length labeled as 12, showing a semi-circular cross-section with shaded water. (2) A cross-section diagram (circular view from above) showing a semi-circle with radius 0.8, angle $\\theta$ marked from the center to the edge of the water surface, and the shaded region representing the water-filled portion.",
+        "final_answer": "$\\frac{d\\theta}{dt} = \\frac{5}{96}$ radians/minute",
+        "diagram_image_local": "uw_data/math124/math124_Au18_images/diagrams/p3.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au18/diagrams/p3.png"
+      }
+    ],
+    "id": "uw_math_124_au18_p3",
+    "course": "math_124",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 13,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "distance_optimization",
+      "applied_optimization"
+    ],
+    "stem": "Suppose you are at the beach, standing at the edge of the water with your dog. As you look westward into the ocean, you throw a tennis ball out into the water. The ball lands in the water 20 meters North and 13 meters West of where you are standing. The dog swims at 5 m/s but runs at 13 m/s. How far North does the dog run before jumping in the water to minimize his time to get to the ball?\nAssume the coastline is straight and ignore both water currents and wind drag.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Suppose you are at the beach, standing at the edge of the water with your dog. As you look westward into the ocean, you throw a tennis ball out into the water. The ball lands in the water 20 meters North and 13 meters West of where you are standing. The dog swims at 5 m/s but runs at 13 m/s. How far North does the dog run before jumping in the water to minimize his time to get to the ball?\nAssume the coastline is straight and ignore both water currents and wind drag.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A coordinate-system diagram showing: A compass rose with cardinal directions (N, S, E, W). A gray rectangular region representing the beach/land on the right side. A dog figure shown in the water (upper right area marked with coordinates 20 meters North and 13 meters West from the origin point where the person stands at the water's edge).",
+        "final_answer": "The dog should run 14.583333 meters and swim the rest.",
+        "diagram_image_local": "uw_data/math124/math124_Au18_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au18/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_124_au18_p4",
+    "course": "math_124",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line",
+      "horizontal_vertical_tangents"
+    ],
+    "stem": "Consider the curve defined by the equation $x^4 - 2x^2y^2 = -56$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(6 points) Find all points on the curve with a horizontal tangent line.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\pm\\sqrt[4]{56}, \\pm\\sqrt[4]{56})$ or $(\\pm 2.736, \\pm 2.736)$"
+      },
+      {
+        "label": "b",
+        "question_text": "(3 points) Find the equation of the tangent line at the point $(2,3)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y - 3 = -\\frac{5}{6}(x-2)$"
+      },
+      {
+        "label": "c",
+        "question_text": "(3 points) Let $P$ be the point on the curve near $(2,3)$ with $x$-coordinate 2.1. Find an approximate value of the $y$-coordinate of $P$. Round your answer to three digits after the decimal.",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "2.917"
+      }
+    ],
+    "id": "uw_math_124_au18_p5",
+    "course": "math_124",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 14,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_tangent_line",
+      "parametric_first_derivative",
+      "parametric_second_derivative"
+    ],
+    "stem": "Consider the curve given by the following parametric equations: $x(t) = t^3 - 4t$, $y(t) = t^2$; $-\\infty < t < \\infty$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(7 points) Find the equations of the two tangent lines to the curve at the point $(0,4)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y - 4 = -\\frac{1}{3}x$ and $y - 4 = \\frac{1}{3}x$"
+      },
+      {
+        "label": "b",
+        "question_text": "(7 points) Let $g(t)$ be the slope of the curve at time $t$. Compute the instantaneous rate of change of $g(t)$ at time $t = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$g'(1) = -14$"
+      }
+    ],
+    "id": "uw_math_124_au18_p6",
+    "course": "math_124",
+    "exam": "au18_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 18,
+    "topic": "curve_analysis",
+    "concepts": [
+      "asymptotes",
+      "critical_points",
+      "local_extrema",
+      "increasing_decreasing_intervals",
+      "concavity",
+      "inflection_points",
+      "curve_sketching"
+    ],
+    "stem": "Consider the function $f(x) = \\frac{x^2}{x^2 - 4}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(3 points) Find the vertical asymptotes of $y = f(x)$, if there are any.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = -2$ and $x = 2$"
+      },
+      {
+        "label": "b",
+        "question_text": "(3 points) Find the horizontal asymptotes of $y = f(x)$, if there are any.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = 1$"
+      },
+      {
+        "label": "c",
+        "question_text": "(3 points) Find the intervals where the function is increasing and the intervals where the function is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "increasing on $(-\\infty, 0)$ and decreasing on $(0, \\infty)$"
+      },
+      {
+        "label": "d",
+        "question_text": "(3 points) Find the intervals where the function is concave up and the intervals where the function is concave down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "concave up on $(-\\infty, -2)$ and $(2, \\infty)$. concave down on $(-2, 2)$."
+      },
+      {
+        "label": "e",
+        "question_text": "(3 points) Find all critical numbers of the function and characterize them as the $x$-coordinates of local minima, local maxima, or neither.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 0$ is the only critical value. it is a local maximizer"
+      },
+      {
+        "label": "f",
+        "question_text": "(3 points) Sketch the graph of $y = f(x)$ on the axis provides below. Be sure to include asymptotes in your picture. Also mark the coordinates of all local maxima, local minima, and inflection points (if any exist).",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 9,
+        "diagram_description": "A blank Cartesian coordinate system with x-axis ranging from approximately -6 to 6 and y-axis ranging from approximately -4 to 4. Grid lines are present. The origin is marked at (0,0).",
+        "diagram_image_local": "uw_data/math124/math124_Au18_images/diagrams/p7_f.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Au18/diagrams/p7_f.png"
+      }
+    ],
+    "id": "uw_math_124_au18_p7",
+    "course": "math_124",
+    "exam": "au18_final"
+  }
+]

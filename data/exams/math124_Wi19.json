@@ -1,0 +1,368 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 13,
+    "topic": "derivative_rules",
+    "concepts": [
+      "chain_rule",
+      "quotient_rule",
+      "trig_derivatives",
+      "exponential_derivatives",
+      "logarithmic_derivatives"
+    ],
+    "stem": "Calculate the derivatives of the following functions. You do not need to simplify your answers.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$f(x) = \\frac{\\cos^{-1}(x)}{\\sqrt{1 + x^4}}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{-\\frac{1}{\\sqrt{1-x^2}} \\cdot \\sqrt{1+x^4} - \\cos^{-1}(x) - \\frac{4x^3}{2\\sqrt{1+x^4}}}{1+x^4}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$g(t) = \\sin\\left[2 + \\sin(2 + \\sin(2 + t))\\right]$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\cos(2 + \\sin(2 + \\sin(2+t))) \\cdot \\cos(2 + \\sin(2+t)) \\cdot \\cos(2+t)$"
+      },
+      {
+        "label": "c",
+        "question_text": "$y = \\left(x^2 + e^{-x}\\right)^{10x}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y' = (x^2 + e^{-x})^{10x}\\left(10\\ln(x^2 + e^{-x}) + 10x \\cdot \\frac{2x - e^{-x}}{x^2 + e^{-x}}\\right)$"
+      }
+    ],
+    "id": "uw_math_124_wi19_p1",
+    "course": "math_124",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "limits",
+    "concepts": [
+      "algebraic_limit_evaluation",
+      "trig_limits",
+      "one_sided_limits"
+    ],
+    "stem": "Evaluate the following limits. Show the algebra work where applicable. If the limit does not exist, explain why not.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$\\lim_{x \\to 1} \\frac{3 - \\sqrt{4 + 5x}}{x^2 + 2x - 3}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\frac{5}{24}$"
+      },
+      {
+        "label": "b",
+        "question_text": "$\\lim_{x \\to 3} \\frac{\\frac{1}{|x-3|} - \\frac{1}{x-3}}{x - 3}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\infty$"
+      },
+      {
+        "label": "c",
+        "question_text": "$\\lim_{x \\to 0} \\frac{\\sin^2(2x)}{3x \\sin(5x)}$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{4}{15}$"
+      }
+    ],
+    "id": "uw_math_124_wi19_p2",
+    "course": "math_124",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 13,
+    "topic": "related_rates",
+    "concepts": [
+      "related_rates_setup",
+      "time_differentiation",
+      "geometric_related_rates",
+      "rate_interpretation"
+    ],
+    "stem": "A spherical soap bubble has radius $r$ and thickness $h$. The volume of soap fluid that forms the bubble is related to the radius and thickness by the formula:\n\n$$V = \\frac{4}{3}\\pi\\left[\\left(r + \\frac{h}{2}\\right)^3 - \\left(r - \\frac{h}{2}\\right)^3\\right]$$\n\nSuppose that the bubble is expanding but the total volume of soap fluid remains constant. At a certain moment, the radius is 20 cm and increasing at 0.5 cm/sec. At the same time, the thickness is 2 cm$^1$. How fast is the thickness decreasing at this moment?",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A spherical soap bubble has radius $r$ and thickness $h$. The volume of soap fluid that forms the bubble is related to the radius and thickness by the formula:\n\n$$V = \\frac{4}{3}\\pi\\left[\\left(r + \\frac{h}{2}\\right)^3 - \\left(r - \\frac{h}{2}\\right)^3\\right]$$\n\nSuppose that the bubble is expanding but the total volume of soap fluid remains constant. At a certain moment, the radius is 20 cm and increasing at 0.5 cm/sec. At the same time, the thickness is 2 cm$^1$. How fast is the thickness decreasing at this moment?",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{dh}{dt} \\approx -0.0998 \\text{ cm/sec}$"
+      }
+    ],
+    "id": "uw_math_124_wi19_p3",
+    "course": "math_124",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 13,
+    "topic": "optimization",
+    "concepts": [
+      "optimization_setup",
+      "objective_function",
+      "constraint_equation",
+      "geometric_optimization",
+      "optimization_verification"
+    ],
+    "stem": "A cylindrical can of volume 250 cubic centimeters is to be made from aluminum. The side is made from a thin sheet which costs 0.2 cents per square centimeter. The top and bottom of the can is made from a thicker sheet which costs 0.4 cents per square centimeter. Moreover, since the top and the bottom are circles, they have to be cut from square pieces. The wasted area between the circle and the square can be sold back to the aluminum supplier at a price of 0.1 cent per square centimeter to be recycled.\n\nWhat are the radius $r$ and height $h$ of the minimal cost can? Verify that your answer is really a minimum.\n\nGive your answer in exact form and as a decimal approximation. Note: Given a cylinder of radius $r$ and height $h$, the volume is $V = \\pi r^2 h$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "A cylindrical can of volume 250 cubic centimeters is to be made from aluminum. The side is made from a thin sheet which costs 0.2 cents per square centimeter. The top and bottom of the can is made from a thicker sheet which costs 0.4 cents per square centimeter. Moreover, since the top and the bottom are circles, they have to be cut from square pieces. The wasted area between the circle and the square can be sold back to the aluminum supplier at a price of 0.1 cent per square centimeter to be recycled.\n\nWhat are the radius $r$ and height $h$ of the minimal cost can? Verify that your answer is really a minimum.\n\nGive your answer in exact form and as a decimal approximation. Note: Given a cylinder of radius $r$ and height $h$, the volume is $V = \\pi r^2 h$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 5,
+        "diagram_description": "A diagram showing a cylindrical can with two labeled parts: the SIDE (a rectangular sheet with width labeled as $2\\pi r$ and height labeled as $h$), and the TOP AND BOTTOM (a square with a circle inscribed inside it, showing the wasted area between the circle and square).",
+        "diagram_bbox": null,
+        "final_answer": "$h \\approx 12.273 \\text{ cm and } r \\approx 2.546 \\text{ cm}$",
+        "diagram_image_local": "uw_data/math124/math124_Wi19_images/diagrams/p4.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi19/diagrams/p4.png"
+      }
+    ],
+    "id": "uw_math_124_wi19_p4",
+    "course": "math_124",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "implicit_differentiation",
+    "concepts": [
+      "implicit_differentiation_basic",
+      "implicit_tangent_line",
+      "linear_approximation"
+    ],
+    "stem": "Find the equation of the tangent line to the curve defined by\n\n$$x^2 y + xe^y = 2$$\n\nat the point $(2, 0)$. Use it to approximate the value of $y$ when $x = 2.2$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the equation of the tangent line to the curve defined by\n\n$$x^2 y + xe^y = 2$$\n\nat the point $(2, 0)$. Use it to approximate the value of $y$ when $x = 2.2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y \\approx -\\frac{1}{30}$"
+      }
+    ],
+    "id": "uw_math_124_wi19_p5",
+    "course": "math_124",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 14,
+    "topic": "curve_analysis",
+    "concepts": [
+      "critical_points",
+      "increasing_decreasing_intervals",
+      "first_derivative_test",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test",
+      "asymptotes",
+      "curve_sketching"
+    ],
+    "stem": "Answer the following questions about the function $f(x)$ whose graph on the interval $[-5, 5]$ is shown.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "List the value(s) of $x$ where the function is not differentiable.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A graph showing a function $y = f(x)$ on the interval $[-5, 5]$ on the x-axis. The function has several features: it decreases from the left, reaches a local minimum around $x = -3$, increases to a local maximum around $x = 0.5$, decreases to a local minimum around $x = 4$, then increases toward the right. There is a vertical asymptote visible around $x = 6$ (at the right edge of the displayed interval), where the function appears to go to negative infinity on the left side of the asymptote and positive infinity on the right side. The y-axis ranges approximately from $-5$ to $5$.",
+        "diagram_bbox": null,
+        "final_answer": "$x = -1, 1, 4, 7$",
+        "diagram_image_local": "uw_data/math124/math124_Wi19_images/page-6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi19/diagrams/page-6.png"
+      },
+      {
+        "label": "b",
+        "question_text": "List the value(s) of $x$ where the function is not continuous.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x = 1, 7$"
+      },
+      {
+        "label": "c",
+        "question_text": "List the interval(s) where $f'(x)$ is positive.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(-3, -1), (1, 2), (4, 7), (7, 15)$"
+      },
+      {
+        "label": "d",
+        "question_text": "List the interval(s) where $f'(x)$ is decreasing.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(1, 4), (7, 15)$"
+      },
+      {
+        "label": "e",
+        "question_text": "$\\lim_{x \\to 7^+} f(x) = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-\\infty$"
+      },
+      {
+        "label": "f",
+        "question_text": "List the following from the least to the greatest: $f'(13), f(6), f'(2), f''(2)$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f''(2) < f'(2) < f'(13) < f(6)$"
+      },
+      {
+        "label": "g",
+        "question_text": "$\\lim_{h \\to 0} \\frac{f(2 + h) - 3}{h} = $",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0$"
+      }
+    ],
+    "id": "uw_math_124_wi19_p6",
+    "course": "math_124",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 12,
+    "topic": "parametric_equations",
+    "concepts": [
+      "parametric_motion",
+      "parametric_first_derivative",
+      "parametric_second_derivative"
+    ],
+    "stem": "The motion of a point on a bicycle wheel is described by the parametric equations below. $A$ and $B$ are positive constants. Time is measured in seconds and distance in meters (its a big wheel).\n\n$$x(t) = At + \\cos(2t)$$ and \n\n $$y(t) = B - \\sin(2t)$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "How long does it take for the wheel to make one revolution?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A diagram showing a bicycle wheel (circle) that is rolling along a horizontal ground line (represented as a dashed line at the bottom). The wheel is shown from a side view, with the center at a height above the ground. A point on the wheel is marked, representing the point whose motion is described by the parametric equations. A dashed line shows the path of this point, which traces a cycloid curve above and below the wheel's center.",
+        "diagram_bbox": null,
+        "final_answer": "$\\pi \\text{ seconds}$",
+        "diagram_image_local": "uw_data/math124/math124_Wi19_images/diagrams/p7_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math124/Wi19/diagrams/p7_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Use the fact that the $y$ coordinate of the point is zero when it is at the bottom of the wheel to find the constant $B$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$B = 1$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use the fact that the horizontal velocity of the point is zero when it is at the bottom of the wheel to find the constant $A$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$A = 2$"
+      },
+      {
+        "label": "d",
+        "question_text": "Find the speed of the point when it is at the top of the wheel. \\textit{Hint: If you couldn't do parts (b) or (c) you may include the letters $A$ and/or $B$ in your answer.}",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$4 \\text{ m/sec}$"
+      }
+    ],
+    "id": "uw_math_124_wi19_p7",
+    "course": "math_124",
+    "exam": "wi19_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 13,
+    "topic": "curve_analysis",
+    "concepts": [
+      "asymptotes",
+      "critical_points",
+      "first_derivative_test",
+      "local_extrema",
+      "concavity",
+      "inflection_points",
+      "second_derivative_test"
+    ],
+    "stem": "Let $f(x) = \\frac{2x}{\\sqrt{1 + x^2}}$. Answer the following questions, showing your reasoning.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "List all horizontal and vertical asymptotes of $y = f(x)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "There are no vertical asymptotes. The horizontal asymptotes are $y = 2$ and $y = -2$."
+      },
+      {
+        "label": "b",
+        "question_text": "Find any critical numbers for $f(x)$ and specify if they correspond to a local minimum, a local maximum, or neither.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "There are no local maxima and no local minima."
+      },
+      {
+        "label": "c",
+        "question_text": "Find the inflection points of $f(x)$ and specify the intervals on which the function is concave up, respectively down.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "The function is concave up on $(-\\infty, 0)$. $(0, 0)$ is an inflection point. The function is concave down on $(0, \\infty)$."
+      }
+    ],
+    "id": "uw_math_124_wi19_p8",
+    "course": "math_124",
+    "exam": "wi19_final"
+  }
+]

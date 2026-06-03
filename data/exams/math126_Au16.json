@@ -1,0 +1,387 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 14,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "three_dimensional_coordinate_system",
+      "vector_operations",
+      "vector_projection"
+    ],
+    "stem": "A parallelogram, which is not a rectangle, has three of its consecutive vertices given by $A(1,2,4)$, $B(2,0,5)$ and $C(4,6,0)$. The line through the points $A$ and $E$ intersects the line through $B$ and $C$ at a right angle. Depending on whether point $E$ falls between $B$ and $C$ or not, there are two pictures possible, as shown below.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the coordinates of the fourth vertex $D$ of the parallelogram.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 2,
+        "diagram_description": "Two parallelogram diagrams side by side. Left diagram: vertices labeled D, A, C, B, E from left to right and top to bottom. A vertical dashed line from A extends downward. Right diagram: vertices labeled D, A, C, E, B from left to right and top to bottom. A small square symbol indicates a right angle at E.",
+        "diagram_bbox": null,
+        "final_answer": "$D(3, 8, -1)$",
+        "diagram_image_local": "uw_data/math126/math126_Au16_images/diagrams/p1_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au16/diagrams/p1_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the area of the parallelogram.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\text{area}=\\sqrt{165}$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the coordinates of the point $E$ and decide which of the two pictures is a correct representation: the picture on the LEFT or the picture on the RIGHT?",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 3,
+        "diagram_description": "Two parallelogram diagrams side by side. Left diagram: vertices labeled D, A, C, B, E from left to right and top to bottom. A horizontal dashed line extends to the right of E with an ellipsis. A small square symbol indicates a right angle at E. Right diagram: vertices labeled D, A, C, E, B from left to right and top to bottom. A small square symbol indicates a right angle at E.",
+        "diagram_bbox": null,
+        "final_answer": "$E = \\left(\\frac{32}{13}, \\frac{18}{13}, \\frac{50}{13}\\right)$, the picture on the RIGHT is correct",
+        "diagram_image_local": "uw_data/math126/math126_Au16_images/diagrams/p1_c.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math126/Au16/diagrams/p1_c.png"
+      }
+    ],
+    "id": "uw_math_126_au16_p1",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 10,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "normal_vector_to_plane",
+      "parametric_equations_of_lines",
+      "line_plane_intersection"
+    ],
+    "stem": "Given the points $P(2,0,5)$, $Q(-3,2,0)$, $R(2,1,4)$ and $S(0.5,0);$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the equation of the plane containing the three points $P$, $Q$, and $R$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$3x - 5y - 5z = -19$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the parametric equations of the line through $S$ that is perpendicular to the plane you found above.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$x = 3t, y = 5 - 5t, z = -5t$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the coordinates of the point where the line in part (b) intersects the plane in part (a).",
+        "depends_on": [
+          "a",
+          "b"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\left(\\frac{18}{59}, \\frac{265}{59}, \\frac{30}{59}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_au16_p2",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "motion_in_space",
+    "concepts": [
+      "velocity_vector",
+      "acceleration_vector",
+      "tangential_and_normal_components"
+    ],
+    "stem": "The acceleration vector of a particle at time $t$ is given by the formula $$\\mathbf{a}(t) = \\cos(2t)\\mathbf{i} + \\sin(2t)\\mathbf{j} + \\mathbf{k}.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Let $\\mathbf{v}(t) = v_1(t)\\mathbf{i} + v_2(t)\\mathbf{j} + v_3(t)\\mathbf{k}$ denote the velocity of the particle at time $t$, and suppose that the velocity is zero at time $t = 0$. Find $v_1(t)$, $v_2(t)$, and $v_3(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\mathbf{v}(t) = \\frac{1}{2}\\sin(2t)\\mathbf{i} + \\frac{1}{2}(1 - \\cos(2t))\\mathbf{j} + tk$"
+      },
+      {
+        "label": "b",
+        "question_text": "Now let $\\mathbf{r}(t) = x(t)\\mathbf{i} + y(t)\\mathbf{j} + z(t)\\mathbf{k}$ denote the position of the particle at time $t$ and suppose that the particle is at the origin at time $t = 0$. Using the result of part (a), find $x(t)$, $y(t)$, and $z(t)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$x(t) = \\frac{1}{4}(1 - \\cos(2t)), y(t) = \\frac{t}{2} - \\frac{1}{4}\\sin(2t), z(t) = \\frac{1}{2}t^2$"
+      }
+    ],
+    "id": "uw_math_126_au16_p3",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "vector_functions_definition",
+      "space_curves",
+      "tangent_vector",
+      "parametrization_of_curves"
+    ],
+    "stem": "Consider the curve given by $\\mathbf{r}(t) = (e^{-2t}, \\tan(t), t^3 + t)$, $-\\pi/2 < t < \\pi/2$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $\\mathbf{r}'(t)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\mathbf{r}'(t) = \\langle -2e^{-2t}, \\sec^2 t, 3t^2 + 1\\rangle$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the unit tangent vector to the curve at the point given by $\\mathbf{r}(0)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\mathbf{T} = \\left(-\\frac{2}{\\sqrt{6}}, \\frac{1}{\\sqrt{6}}, \\frac{1}{\\sqrt{6}}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find parametric equations for the tangent line to the curve at the point given by $\\mathbf{r}(0)$.",
+        "depends_on": [
+          "a",
+          "b"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$x = 1 - 2t, y = t, z = t$"
+      },
+      {
+        "label": "d",
+        "question_text": "Is the point $(1, 1, 1)$ on the tangent line you found in part (c)? Justify your answer.",
+        "depends_on": "c",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "No. The system of equations $1 - 2t = 1, t = 1, t = 1$ has no solution."
+      }
+    ],
+    "id": "uw_math_126_au16_p4",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 10,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_coordinate_conversion",
+      "graphing_in_polar"
+    ],
+    "stem": "Consider the curve given in polar form by $r = e^{(3\\theta)}$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "What is the slope of the tangent line to the curve when $\\theta = \\pi/2$. Be sure to simplify your answer!",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$\\text{slope}=-3$"
+      },
+      {
+        "label": "b",
+        "question_text": "Where does the tangent line in part (a) intersect the $x$-axis? Give your answer in exact form (no decimals). Simplify your answer as much as possible.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$x = \\frac{1}{3}e^{3x/2}$"
+      }
+    ],
+    "id": "uw_math_126_au16_p5",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 12,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Find the absolute maximum and absolute minimum values of the function $$f(x, y) = x^2 + y^2 - x^2y + 7$$ on the set $D = \\{(x, y) : |x| \\leq 1, |y| \\leq 1\\}$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the absolute maximum and absolute minimum values of the function $$f(x, y) = x^2 + y^2 - x^2y + 7$$ on the set $D = \\{(x, y) : |x| \\leq 1, |y| \\leq 1\\}$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "absolute max=10; absolute min = 7"
+      }
+    ],
+    "id": "uw_math_126_au16_p6",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 10,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions"
+    ],
+    "stem": "Find the positive constant $K$ such that the solid bounded by the $xy$-plane and the paraboloid $z = K - x^2 - y^2$ has volume 4000. Give an exact answer.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the positive constant $K$ such that the solid bounded by the $xy$-plane and the paraboloid $z = K - x^2 - y^2$ has volume 4000. Give an exact answer.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$K = \\sqrt{\\frac{8000}{\\pi}}$"
+      }
+    ],
+    "id": "uw_math_126_au16_p7",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series",
+      "error_estimation_taylor"
+    ],
+    "stem": "Consider the function $f(x) = x^2 \\sin(x^4)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $f(x)$, based at $b = 0$. Write your answer using $\\sum$ notation.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$f(x) = \\sum_{k=0}^{\\infty}(-1)^k\\frac{x^{8k+6}}{(2k+1)!}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find $T_3(x)$, the third Taylor polynomial for $f(x)$ based at $b = 0$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$T_3(x) = 0$ for all $x$"
+      },
+      {
+        "label": "c",
+        "question_text": "What is the smallest value of $|f(x) - T_3(x)|$ on the interval from $-1$ to $\\pi/2016$?",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$|f(x) - T_3(x)| \\geq 0$ for all values of $x$ and $|f(0) - T_3(0)| = |0 - 0| = 0$. So the smallest value of $|f(x) - T_3(x)|$ on the interval from -1 to $\\pi/2016$ is 0."
+      }
+    ],
+    "id": "uw_math_126_au16_p8",
+    "course": "math_126",
+    "exam": "au16_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 12,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series",
+      "error_estimation_taylor"
+    ],
+    "stem": "Let $F(x)$ be the function $\\int_0^x e^{t^2}dt$. Let $G(x)$ be the function $\\int_0^x F(t)dt$. Let $H(x)$ be the function $\\int_0^x G(t)dt$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the Taylor series for $F(x)$, based at $b = 0$. Write your answer using $\\sum$ notation",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$F(x) = \\sum_{k=0}^{\\infty}\\frac{x^{2k+1}}{(2k+1) \\cdot k!}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find $T_3(x)$, the third Taylor polynomial of the function $G(x)$ based at $b = 0$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "$T_3(x) = \\frac{1}{2}x^2$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use Taylor's Inequality to find an upper bound for the error $|H(x) - T_2(x)|$ on the interval $[0, 4]$, where $T_2(x)$ is the second Taylor polynomial of $H(x)$, based at $b = 0$.",
+        "depends_on": [
+          "a",
+          "b"
+        ],
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "diagram_bbox": null,
+        "final_answer": "One possible answer: $|H(x) - T_2(x)| \\leq \\frac{e^{16} \\cdot 4^3}{6}$"
+      }
+    ],
+    "id": "uw_math_126_au16_p9",
+    "course": "math_126",
+    "exam": "au16_final"
+  }
+]

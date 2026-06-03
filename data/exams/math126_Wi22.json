@@ -1,0 +1,309 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "dot_product",
+      "angle_between_vectors",
+      "vector_projection",
+      "vector_operations"
+    ],
+    "stem": "(2 points per part) Each of the following multiple choice problems has one correct answer. Circle it. You do not need to show any reasoning.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Suppose $|\\mathbf{a} \\times \\mathbf{b}| > -\\mathbf{a} \\cdot \\mathbf{b} > 0$. Then the angle between $\\mathbf{a}$ and $\\mathbf{b}$ is between...\n\n(i) $0°$ and $45°$.\n(ii) $45°$ and $90°$.\n(iii) $90°$ and $135°$.\n(iv) $135°$ and $180°$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iii) $90°$ and $135°$"
+      },
+      {
+        "label": "b",
+        "question_text": "Suppose $\\text{proj}_{\\mathbf{a}}\\mathbf{b} = \\langle 1, -1, 1 \\rangle$. Then $\\mathbf{b}$ could be...\n\n(i) $\\langle 2, -2, 2 \\rangle$.\n(ii) $\\langle -1, 1, -1 \\rangle$.\n(iii) $\\langle 2, 2, 2 \\rangle$.\n(iv) $\\langle 2, 3, 4 \\rangle$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iv) $(2,3,4)$"
+      },
+      {
+        "label": "c",
+        "question_text": "The intersection of the hyperboloid $x^2 + y^2 - z^2 = 1$ and the $xy$-plane is...\n\n(i) a line.\n(ii) a circle.\n(iii) a hyperbola.\n(iv) the empty set.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(ii) a circle"
+      },
+      {
+        "label": "d",
+        "question_text": "The surface $z = f(x, y) = x^3 + y^3 - 3x - 3y$ has a local maximum of...\n\n(i) $f(1, 1)$.\n(ii) $f(1, -1)$.\n(iii) $f(-1, 1)$.\n(iv) $f(-1, -1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iv) $f(-1,-1)$"
+      },
+      {
+        "label": "e",
+        "question_text": "A lamina occupies the disc $x^2 + y^2 \\le 1$, and the density at $(x, y)$ is $\\rho(x, y) = x^3 + y^2 + 2$. The center of mass of the lamina is...\n\n(i) at the origin.\n(ii) on the $x$-axis.\n(iii) on the $y$-axis.\n(iv) none of these.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(ii) on the $x$-axis"
+      }
+    ],
+    "id": "uw_math_126_wi22_p1",
+    "course": "math_126",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "vector_valued_functions",
+    "concepts": [
+      "space_curves",
+      "tangent_vector",
+      "parametrization_of_curves",
+      "curvature"
+    ],
+    "stem": "(4 points per part) For each part, consider the space curve of the vector function $$\\mathbf{r}(t) = \\langle t^2 + 1, \\cos(t) + 4t, 3t \\rangle.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find parametric equations for the line tangent to the space curve at $t = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$x=1$, $y=1+4t$, $z=3t$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the unit tangent vector to the space curve at $t = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\langle 0, \\frac{4}{5}, \\frac{3}{5} \\rangle$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find the curvature of the space curve at $t = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\sqrt{109}}{5^3}$"
+      }
+    ],
+    "id": "uw_math_126_wi22_p2",
+    "course": "math_126",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 12,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "implicit_partial_differentiation"
+    ],
+    "stem": "(6 points per part) For parts (a) and (b), let $S$ be the implicitly defined surface $$x \\cos(z) + y^2 z - x^2 e^y + 20 = z.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find $\\frac{\\partial z}{\\partial x}$ for points on $S$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{\\partial z}{\\partial x} = \\frac{\\cos(z) - 2xe^y}{4x\\sin(z) - y^2}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find all intersections of $S$ with the $x$-axis.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(5,0,0)$ and $(-4,0,0)$"
+      }
+    ],
+    "id": "uw_math_126_wi22_p3",
+    "course": "math_126",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 14,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "second_derivative_test_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(14 points) Let $D$ be the triangular region with vertices $(0, 0)$, $(0, 6)$, and $(3, 0)$. Find the absolute maximum and minimum values of $f(x, y) = x^2 + xy - 2x$ on $D$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Absolute maximum: $f(2,2) = 4$; Absolute minimum: $f(1,0) = -1$"
+      }
+    ],
+    "id": "uw_math_126_wi22_p4",
+    "course": "math_126",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "iterated_integrals",
+      "integration_bounds_setup",
+      "changing_order_of_integration"
+    ],
+    "stem": "(6 points per part) The two parts of this problem are unrelated.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate the iterated integral $$\\int_0^2 \\int_y^1 y \\cos(x^3 - 1) \\, dx \\, dy.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{2}{3}\\sin(1) - \\frac{2}{3}\\sin(-1)$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the volume of the solid under the plane $3x + 2y - z = 0$ and above the region enclosed by the parabolas $y = x^2$ and $x = y^2$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{3}{4}$"
+      }
+    ],
+    "id": "uw_math_126_wi22_p5",
+    "course": "math_126",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 6,
+    "points": 12,
+    "topic": "polar_coordinates",
+    "concepts": [
+      "polar_coordinate_conversion",
+      "area_in_polar_coordinates",
+      "polar_integral_setup"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": null,
+        "question_text": "(12 points) Set up and evaluate a double integral in polar coordinates to calculate the area of the region between the two polar curves $r = 6 + 2\\sin(3\\theta)$ and $r = 3 + 2\\sin(3\\theta)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$27\\pi$"
+      }
+    ],
+    "id": "uw_math_126_wi22_p6",
+    "course": "math_126",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 7,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "second_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(7 points) Let $f(x) = e^{2x} + \\ln(1 - x) - x^2$. Find the second Taylor polynomial, $T_2(x)$, for $f(x)$ based at $b = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_2(x) = 1 + x + \\frac{1}{2}x^2$"
+      },
+      {
+        "label": "b",
+        "question_text": "(7 points) Find (and justify) an error bound for $|f(x) - T_2(x)|$ on the interval $[-0.5, 0.5]$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{e+2}{6}$"
+      }
+    ],
+    "id": "uw_math_126_wi22_p7",
+    "course": "math_126",
+    "exam": "wi22_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 8,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "taylor_series_definition",
+      "building_new_series_from_known_series",
+      "power_series_representation"
+    ],
+    "stem": "For this problem, you may use the following basic Taylor series:\n\n$$\\sin(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k+1}}{(2k+1)!} \\quad \\cos(x) = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k}}{(2k)!} \\quad e^x = \\sum_{k=0}^{\\infty} \\frac{x^k}{k!} \\quad \\frac{1}{1-x} = \\sum_{k=0}^{\\infty} x^k.$$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "(6 points) Find the Taylor series for $g(x) = \\frac{1}{4 + 9x^2}$ based at $b = 0$.\n\nGive your answer using $\\Sigma$-notation and list the first three nonzero terms.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{(-1)^k 9^k x^{2k}}{4^{k+1}} = \\frac{1}{4} - \\frac{9}{16}x^2 + \\frac{81}{64}x^4 + \\ldots$"
+      },
+      {
+        "label": "b",
+        "question_text": "(5 points) Find the Taylor series for $h(x) = \\arctan\\left(\\frac{3x}{2}\\right)$ based at $b = 0$.\n\nGive your answer using $\\Sigma$-notation and list the first three nonzero terms.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{6(-1)^k 9^k x^{2k+1}}{4^{k+1}(2k+1)} = \\frac{6}{4}x - \\frac{54}{48}x^3 + \\frac{486}{320}x^5 + \\ldots$"
+      },
+      {
+        "label": "c",
+        "question_text": "(3 points) Find the open interval of convergence for the series you found in part (b).",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(-\\frac{2}{3}, \\frac{2}{3}\\right)$"
+      }
+    ],
+    "id": "uw_math_126_wi22_p8",
+    "course": "math_126",
+    "exam": "wi22_final"
+  }
+]

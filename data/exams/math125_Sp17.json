@@ -1,0 +1,274 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 2,
+    "points": 12,
+    "topic": "substitution",
+    "concepts": [
+      "u_substitution_basic",
+      "partial_fractions"
+    ],
+    "stem": "Evaluate the following integrals.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "$$\\int \\frac{11x - 12}{x^3 - 4x^2 + 4x} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$3 \\ln \\left| \\frac{x-2}{x} \\right| - \\frac{5}{x-2} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "$$\\int \\frac{\\tan^2(t) \\sec^2(t)}{1 + \\tan(t)} dt$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{2} \\tan^2 t - \\tan t + \\ln|\\tan t + 1| + C$"
+      }
+    ],
+    "id": "uw_math_125_sp17_p1",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 3,
+    "points": 12,
+    "topic": "improper_integrals",
+    "concepts": [
+      "indefinite_integrals",
+      "vertical_asymptote_integrals",
+      "convergence_of_improper_integrals"
+    ],
+    "stem": null,
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Evaluate the indefinite integral: $$\\int \\frac{1}{(x^2 + 2x + 2)^{3/2}} dx$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{x+1}{\\sqrt{x^2+2x+2}} + C$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use your answer from part (a) to determine if the following improper integral is convergent or divergent. If convergent, evaluate it. Show all limit computations. $$\\int_0^{\\infty} \\frac{1}{(x^2 + 2x + 2)^{3/2}} dx$$",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$1 - \\frac{1}{\\sqrt{2}}$"
+      }
+    ],
+    "id": "uw_math_125_sp17_p2",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 4,
+    "points": 10,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "numerical_integration_simpsons_rule",
+      "center_of_mass_two_dimensional"
+    ],
+    "stem": "Consider the region between the curve $y = f(x)$, the line $x = 1$, and the line $y = 4$. A formula for $f(x)$ is not known; however, we do have the following picture of the region and a table of values:",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Use Simpson's Rule with $n = 6$ subintervals to estimate the volume of the solid of revolution obtained by rotating this region around the \\textbf{horizontal line} $y = 4$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 4,
+        "diagram_description": "A graph showing a shaded region bounded by a curve y = f(x), the vertical line x = 1, and the horizontal line y = 4. The curve starts near the origin and increases. The x-axis ranges from 1 to 4, and the y-axis ranges from 1 to 4. A table is provided with x values: 1, 1.5, 2, 2.5, 3, 3.5, 4 and corresponding f(x) values: 0, 0.3, 0.7, 1.2, 1.9, 2.8, 4.",
+        "diagram_bbox": null,
+        "final_answer": "$72.50796$ cubic units",
+        "diagram_image_local": "uw_data/math125/math125_Sp17_images/diagrams/p3_a.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp17/diagrams/p3_a.png"
+      },
+      {
+        "label": "b",
+        "question_text": "Define $A(x) = \\int_1^{1+1/x} f(t) dt$, where $f$ is the same function as in the table above. Compute $A'(2)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-0.0975$"
+      }
+    ],
+    "id": "uw_math_125_sp17_p3",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 5,
+    "points": 12,
+    "topic": "differential_equations",
+    "concepts": [
+      "initial_value_problems_for_separable_equations",
+      "net_change_from_integral"
+    ],
+    "stem": "The velocity of a particle moving along the number line is given at all times $t \\geq 1$ by $$v(t) = \\frac{8}{t^3} - \\frac{4}{t^2} \\text{ ft/sec.}$$ At time $t = 2$ seconds, the particle's position is $s(2) = 10$ feet.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the function, $s(t)$, for the position of the particle at time $t$ seconds, $t \\geq 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$s(t) = -\\frac{4}{t^2} + \\frac{4}{t} + 9$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the \\textbf{total distance} traveled by the particle from $t = 1$ to $t = 4$ seconds.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{5}{4}$ ft"
+      }
+    ],
+    "id": "uw_math_125_sp17_p4",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 6,
+    "points": 12,
+    "topic": "volumes",
+    "concepts": [
+      "washer_method",
+      "volume_with_respect_to_x"
+    ],
+    "stem": "Find the volume of the body of revolution obtained by rotating the region below $y = \\frac{e^{\\sqrt{x}}}{\\sqrt{x}}$ and above the x-axis, between $x = 4$ and $x = 9$, about the \\textbf{vertical line} $x = -1$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the volume of the body of revolution obtained by rotating the region below $y = \\frac{e^{\\sqrt{x}}}{\\sqrt{x}}$ and above the x-axis, between $x = 4$ and $x = 9$, about the \\textbf{vertical line} $x = -1$.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 6,
+        "diagram_description": "A coordinate plane with a curve plotted. The curve appears to be exponential, starting from the bottom left and increasing toward the top right. The x-axis ranges from approximately -1 to 10, and the y-axis ranges from approximately 1 to 7. A shaded region is shown between the curve and the x-axis from x = 4 to x = 9. The region is bounded below by the x-axis and above by the curve y = e^(sqrt(x))/sqrt(x).",
+        "diagram_bbox": null,
+        "final_answer": "$12\\pi e^2 [2e-1]$",
+        "diagram_image_local": "uw_data/math125/math125_Sp17_images/diagrams/p5.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp17/diagrams/p5.png"
+      }
+    ],
+    "id": "uw_math_125_sp17_p5",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 7,
+    "points": 10,
+    "topic": "work",
+    "concepts": [
+      "pumping_liquid_work",
+      "variable_force_work",
+      "distance_and_force_setup"
+    ],
+    "stem": "A water tower has a tank that has a hemispheric al shape. Its dimensions are shown in the figure. The bottom of the tank is 40 meters above the ground. Water is pumped into the tower from a well 10 meters under ground. Compute the work required to completely fill the empty tank with water. Assume that water weighs $1000 \\text{ kg/m}^3$, the gravitational acceleration is $g = 9.8 \\text{ m/s}^2$, and that the amount of water in the pipe between the water table and the tank is negligibly small.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Compute the work required to completely fill the empty tank with water. Assume that water weighs $1000 \\text{ kg/m}^3$, the gravitational acceleration is $g = 9.8 \\text{ m/s}^2$, and that the amount of water in the pipe between the water table and the tank is negligibly small.",
+        "depends_on": null,
+        "has_diagram": true,
+        "diagram_page": 7,
+        "diagram_description": "A diagram showing a water tower setup. At the top is a hemispheric tank with a diameter of 4 meters and height of 2 meters. Below it is a vertical cylindrical pipe extending downward. The tank bottom is labeled as 40 meters above ground level. Ground level is marked with a horizontal line labeled 'ground level'. Below ground level, a well extends 10 meters down to the water level, labeled 'water level'.",
+        "diagram_bbox": null,
+        "final_answer": "$\\frac{8,036,000\\pi}{3}$ Joules $\\approx 8,415,279.52$ J",
+        "diagram_image_local": "uw_data/math125/math125_Sp17_images/diagrams/p6.png",
+        "diagram_image_url": "https://jesfegjblkddopcyqyfc.supabase.co/storage/v1/object/public/materials/math125/Sp17/diagrams/p6.png"
+      }
+    ],
+    "id": "uw_math_125_sp17_p6",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 8,
+    "points": 12,
+    "topic": "applications_of_integration",
+    "concepts": [
+      "center_of_mass_two_dimensional",
+      "moments"
+    ],
+    "stem": "Find the center of mass of the region under the graph of $y = \\sin(x)$, above the x-axis, between $x = 0$ and $x = 2\\pi/3$ radians.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the center of mass of the region under the graph of $y = \\sin(x)$, above the x-axis, between $x = 0$ and $x = 2\\pi/3$ radians. You may give your answer in exact, simplified form, or in decimal form, rounded to the nearest 4 decimal digits.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$(\\bar{x}, \\bar{y}) = \\left(\\frac{2\\pi}{9} + \\frac{\\sqrt{3}}{3}, \\frac{\\pi}{9} + \\frac{\\sqrt{3}}{24}\\right) \\approx (1.27548, 0.421235)$"
+      }
+    ],
+    "id": "uw_math_125_sp17_p7",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 9,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "separable_differential_equations",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "Find the explicit solution $y = y(x)$ for the differential equation:",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the explicit solution $y = y(x)$ for the differential equation: $$\\frac{dy}{dx} = (\\tan(x) \\sec^2(x) - 4) e^{2y}$$ subject to the initial condition: $$y(0) = 1.$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$y = -\\frac{1}{2} \\ln(-\\tan^2 x + 8x + e^{-2})$"
+      }
+    ],
+    "id": "uw_math_125_sp17_p8",
+    "course": "math_125",
+    "exam": "sp17_final"
+  },
+  {
+    "problem_number": 9,
+    "page_number": 10,
+    "points": 10,
+    "topic": "differential_equations",
+    "concepts": [
+      "mixing_or_application_modeling",
+      "initial_value_problems_for_separable_equations"
+    ],
+    "stem": "At time $t = 0$, a tank contains 100 gallons of pure gasoline. A mixture whose volume is 30% ethanol and 70% gasoline is pumped into the tank at a rate of 2 gallons per minute. The solution is kept thoroughly mixed and drains from the tank at the same rate.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "How many gallons of ethanol will there be in the tank after 50 minutes? Give your answer as a decimal number, rounded to the nearest 4 decimal digits.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$18.9636$ gallons of ethanol"
+      }
+    ],
+    "id": "uw_math_125_sp17_p9",
+    "course": "math_125",
+    "exam": "sp17_final"
+  }
+]

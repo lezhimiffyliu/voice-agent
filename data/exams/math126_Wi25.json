@@ -1,0 +1,281 @@
+[
+  {
+    "problem_number": 1,
+    "page_number": 3,
+    "points": 10,
+    "topic": "vectors_and_geometry",
+    "concepts": [
+      "dot_product",
+      "angle_between_vectors"
+    ],
+    "stem": "(2 points each) Each of the following multiple choice problems has one correct answer. Circle it. You do not need to show any reasoning.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "If $|\\mathbf{b}| = -2 \\text{comp}_{\\mathbf{a}}\\mathbf{b}$, then what's the angle between $\\mathbf{a}$ and $\\mathbf{b}$?\n\n(i) $30°$ (ii) $60°$ (iii) $120°$ (iv) $150°$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iii) 120°"
+      },
+      {
+        "label": "b",
+        "question_text": "Suppose $\\overrightarrow{AB} \\times \\overrightarrow{AC} = \\langle 2, -1, 2 \\rangle$. What's the area of $\\triangle ABC$?\n\n(i) $1$ (ii) $1.5$ (iii) $2$ (iv) $3$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(ii) 1.5"
+      },
+      {
+        "label": "c",
+        "question_text": "Which of the following points is on the line $\\mathbf{r}(t) = \\langle 2 - t, t, -1 + 2t \\rangle$?\n\n(i) $(1, 1, 1)$. (ii) $(1, 1, 0)$. (iii) $(-1, 1, 2)$. (iv) $(2, 1, 1)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(i) (1, 1, 1)"
+      },
+      {
+        "label": "d",
+        "question_text": "What's the intersection between the planes $2x - y + 3z = 3$ and $4x - 2y + 6z = 5$?\n\n(i) a point (ii) a line (iii) a plane (iv) nothing",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iv) nothing"
+      },
+      {
+        "label": "e",
+        "question_text": "What is the trace (cross section) of the surface $x^2 - 2x - y^2 + z^2 = 0$ in the plane $z = 1$?\n\n(i) a parabola (ii) a circle (iii) a hyperbola (iv) two lines",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "(iv) two lines"
+      }
+    ],
+    "id": "uw_math_126_wi25_p1",
+    "course": "math_126",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 2,
+    "page_number": 4,
+    "points": 12,
+    "topic": "lines_and_planes",
+    "concepts": [
+      "equations_of_planes",
+      "parametric_equations_of_lines",
+      "tangent_vector",
+      "normal_vector_to_plane"
+    ],
+    "stem": "Consider the space curve $\\mathbf{r}(t) = \\langle t, 1 + \\sin t, 2t - \\cos t \\rangle$.\n\nFind the equation of the plane that passes through the point $P(1, 3, -4)$ and contains the tangent line to the curve $\\mathbf{r}(t)$ at $t = 0$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the equation of the plane that passes through the point $P(1, 3, -4)$ and contains the tangent line to the curve $\\mathbf{r}(t)$ at $t = 0$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$-7x + 5y + z = 4$"
+      }
+    ],
+    "id": "uw_math_126_wi25_p2",
+    "course": "math_126",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 3,
+    "page_number": 5,
+    "points": 12,
+    "topic": "partial_derivatives",
+    "concepts": [
+      "partial_derivative_definition",
+      "higher_order_partial_derivatives",
+      "mixed_partials"
+    ],
+    "stem": "Let $f(x, y) = \\ln(x+1) + \\tan^{-1}(y) - \\cos(xy)$. Find all of the first and second partial derivatives of $f$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find $f_x(x, y)$, $f_y(x, y)$, $f_{xx}(x, y)$, $f_{xy}(x, y)$, and $f_{yy}(x, y)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$f_x(x,y) = \\frac{1}{x+1} + y\\sin(xy)$, $f_y(x,y) = \\frac{1}{1+y^2} + x\\sin(xy)$, $f_{xx}(x,y) = \\frac{-1}{(x+1)^2} + y^2\\cos(xy)$, $f_{xy}(x,y) = \\sin(xy) + xy\\cos(xy)$, $f_{yy}(x,y) = \\frac{-2y}{(1+y^2)^2} + x^2\\cos(xy)$"
+      }
+    ],
+    "id": "uw_math_126_wi25_p3",
+    "course": "math_126",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 4,
+    "page_number": 6,
+    "points": 13,
+    "topic": "multivariable_optimization",
+    "concepts": [
+      "critical_points_multivariable",
+      "global_extrema_multivariable"
+    ],
+    "stem": "Find the absolute minimum and maximum values of the function $f(x, y) = x^3 + 2xy - y^2 - x$ over the triangle with vertices $(0, 0)$, $(1, 0)$, and $(1, 2)$.",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the absolute minimum and maximum values of the function $f(x, y) = x^3 + 2xy - y^2 - x$ over the triangle with vertices $(0, 0)$, $(1, 0)$, and $(1, 2)$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "Absolute minimum: $\\frac{-2}{3\\sqrt{3}}$, Absolute maximum: $1$"
+      }
+    ],
+    "id": "uw_math_126_wi25_p4",
+    "course": "math_126",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 5,
+    "page_number": 7,
+    "points": 12,
+    "topic": "double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "iterated_integrals",
+      "changing_order_of_integration"
+    ],
+    "stem": "Reverse the order of integration and evaluate the integral:",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Reverse the order of integration and evaluate the integral: $$\\int_{e}^{e^2} \\int_{\\ln y}^{2} (e^x - ex)^5 \\, dx \\, dy$$",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\frac{1}{6}(e^2-2e)^4$"
+      }
+    ],
+    "id": "uw_math_126_wi25_p5",
+    "course": "math_126",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 6,
+    "page_number": 8,
+    "points": 13,
+    "topic": "applications_of_double_integrals",
+    "concepts": [
+      "double_integrals_over_general_regions",
+      "integration_bounds_setup",
+      "polar_coordinates"
+    ],
+    "stem": "Find the volume of the solid that lies below the cone $z = 2 + \\sqrt{x^2 + y^2}$, above the $xy$-plane, and is enclosed by the cylinder $x^2 + (y - 1)^2 = 1$.\n\nYou may find the following the trig identities helpful:\n$$\\cos^2(t) = \\frac{1 + \\cos(2t)}{2} \\quad \\text{and} \\quad \\sin^2(t) = \\frac{1 - \\cos(2t)}{2}$$",
+    "parts": [
+      {
+        "label": null,
+        "question_text": "Find the volume of the solid that lies below the cone $z = 2 + \\sqrt{x^2 + y^2}$, above the $xy$-plane, and is enclosed by the cylinder $x^2 + (y - 1)^2 = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$2\\pi + \\frac{32}{9}$"
+      }
+    ],
+    "id": "uw_math_126_wi25_p6",
+    "course": "math_126",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 7,
+    "page_number": 9,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "first_order_taylor_polynomial",
+      "higher_order_taylor_polynomial",
+      "error_estimation_taylor"
+    ],
+    "stem": "For this problem, let $f(x) = \\ln(2x - 1)$.",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Find the third Taylor polynomial, $T_3(x)$, for the function $f$ based at $b = 1$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_3(x) = 2(x-1) - 2(x-1)^2 + \\frac{8}{3}(x-1)^3$"
+      },
+      {
+        "label": "b",
+        "question_text": "Use $T_3(x)$ to approximate the value of $\\ln(1.04)$.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\ln(1.04) \\approx 0.039321$"
+      },
+      {
+        "label": "c",
+        "question_text": "Use Taylor's inequality to find an upper bound (as sharp as possible) for the error in your approximation in part (b).",
+        "depends_on": "b",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$0.0000006$"
+      }
+    ],
+    "id": "uw_math_126_wi25_p7",
+    "course": "math_126",
+    "exam": "wi25_final"
+  },
+  {
+    "problem_number": 8,
+    "page_number": 10,
+    "points": 14,
+    "topic": "taylor_polynomials_and_series",
+    "concepts": [
+      "building_new_series_from_known_series",
+      "power_series_representation",
+      "taylor_series_definition"
+    ],
+    "stem": "For this problem, you may use the following basic Taylor series:\n$$\\frac{1}{1 - x} = \\sum_{k=0}^{\\infty} x^k, \\quad e^x = \\sum_{k=0}^{\\infty} \\frac{x^k}{k!}, \\quad \\sin x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k+1}}{(2k + 1)!}, \\quad \\cos x = \\sum_{k=0}^{\\infty} \\frac{(-1)^k x^{2k}}{(2k)!}$$\n\nFor parts (a)–(c), let $f(x) = x \\arctan(2x^2)$",
+    "parts": [
+      {
+        "label": "a",
+        "question_text": "Give the Taylor series for $f$ based at $b = 0$ using one sigma sign.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\sum_{k=0}^{\\infty} \\frac{(-1)^k 2^{2k}}{2k+1} x^{4k+3}$"
+      },
+      {
+        "label": "b",
+        "question_text": "Find the largest open interval on which this Taylor series converges.",
+        "depends_on": "a",
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$\\left(-\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right)$"
+      },
+      {
+        "label": "c",
+        "question_text": "Find $T_8(x)$, the 8th Taylor polynomial for $f$ based at $b = 0$, and use it to approximate $\\int_0^1 f(x) \\, dx$.",
+        "depends_on": null,
+        "has_diagram": false,
+        "diagram_page": null,
+        "diagram_description": null,
+        "final_answer": "$T_8(x) = 2x^3 - \\frac{8}{3}x^7$, $\\int_0^1 f(x)dx \\approx \\frac{1}{6}$"
+      }
+    ],
+    "id": "uw_math_126_wi25_p8",
+    "course": "math_126",
+    "exam": "wi25_final"
+  }
+]
