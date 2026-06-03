@@ -1,6 +1,14 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "rewrites": [
-    { "source": "/token", "destination": "/api/token" }
+  "version": 2,
+  "builds": [
+    { "src": "api/token.js", "use": "@vercel/node" },
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "src/**", "use": "@vercel/static" },
+    { "src": "data/problems.json", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/token", "dest": "/api/token" },
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
